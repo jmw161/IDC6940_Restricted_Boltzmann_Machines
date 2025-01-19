@@ -1,12 +1,13 @@
 ---
-title: "Writing a great story for data science projects - spring 2025"
-subtitle: "This is a Report Template Quarto"
-author: "Students names (Advisor: Dr. Cohen)"
+title: "Restricted Boltzmann Machines"
+subtitle: "Theory of RBMs and Applications"
+author: "Jessica Wells and Jason Gerstenberger (Advisor: Dr. Cohen)"
 date: '`r Sys.Date()`'
 format:
   html:
     code-fold: true
-course: Capstone Projects in Data Science
+course: Capstone Projects in Data Science IDC 6940
+university: University of West Florida, Pensacola, FL
 bibliography: references.bib # file contains bibtex for references
 #always_allow_html: true # this allows to get PDF with HTML features
 self-contained: true
@@ -21,6 +22,7 @@ editor:
 Slides: [slides.html](slides.html){target="_blank"} ( Go to `slides.qmd`
 to edit)
 
+<!--
 ::: callout-important
 **Remember:** Your goal is to make your audience understand and care
 about your findings. By crafting a compelling story, you can effectively
@@ -29,8 +31,10 @@ communicate the value of your data science project.
 Carefully read this template since it has instructions and tips to
 writing!
 :::
+!--> 
 
 ## Introduction
+<!-- 
 
 The introduction should:
 
@@ -39,8 +43,6 @@ The introduction should:
 -   Your audience is your peers
 
 -   Clearly state the problem or question you're addressing.
-
-<!-- -->
 
 -   Introduce why it is relevant needs.
 
@@ -59,6 +61,12 @@ kernel estimator, weight function is known as kernel function
 The PCA [@daffertshofer2004pca]*. Topology can be used in machine learning [@adams2021topology]
 
 *This is my work and I want to add more work...*
+
+
+
+!--> 
+
+The first article read is an overview of RBMs and their applications [@fischer2012introduction]
 
 ## Methods
 
@@ -87,6 +95,8 @@ Weights are positive numbers and small if* $X_i$ *is far from* $x$*.*
 $$
 y_i = \beta_0 + \beta_1 X_1 +\varepsilon_i
 $$
+
+
 
 ## Analysis and Results
 
