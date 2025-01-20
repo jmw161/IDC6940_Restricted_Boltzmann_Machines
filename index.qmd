@@ -86,10 +86,10 @@ There was no real probelm solved here. They simply explain the theory behind the
 No real results; the article was a combination of the authors research. The biggest takeaway I had personally was my experience in training classifiers (supervised learning) is large datasets can cause them to train super slow. Like the article mentions, the RBM might be a great first step for a large dataset before feeding data to a classifier.
 
 ### Research Article 2: 
-Restricted Boltzmann machines in quantum physics
+Restricted Boltzmann machines in quantum physics [@melko2019restricted]
 
 1) Goal of Paper:
-The goal of the paper was to describe the mathematics and theory behind RBMs [@melko2019restricted]
+The goal of the paper... 
 
 2) Why is the Article Important:
 
