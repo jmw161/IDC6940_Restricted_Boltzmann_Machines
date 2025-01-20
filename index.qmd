@@ -34,6 +34,7 @@ writing!
 !--> 
 
 ## Introduction
+Restricted Boltzmann Machines are a type of neural network that has been around since the 1980s. They are used for dimensionality reduction/feature extraction which is great for preparing a dataset for unsupervised learning. They also have other applications which will be discussed further later. As a reminder to the reader, machine learning is generally divided into 3 categories: supervised learning (examples: classification tasks, regression), unsupervised learning (examples: clustering, dimensionality reduction, generative modeling), and reinforcement learning (examples: gaming/robotics). So, like most neural networks, RBMs can kinda dip into all 3 categories.
 <!-- 
 
 The introduction should:
@@ -65,8 +66,36 @@ The PCA [@daffertshofer2004pca]*. Topology can be used in machine learning [@ada
 
 
 !--> 
+The following research articles will be summarized with the following formatting:
 
-The first article read is an overview of RBMs and their applications [@fischer2012introduction]
+1) goal of paper 2) why important 3) how solved/methods 4) results/limitations
+
+### Research Article 1: 
+An Introduction to Restricted Boltzmann Machines [@fischer2012introduction]
+
+1) Goal of Paper:
+The goal of the paper was to describe the mathematics and theory behind RBMs. First, the authors go into detail about how Boltzmann Machines are undirected graphical models (Markov Random Fields) and explain the theory behind them. The important point being that the probability distribution is a complex Gibbs distribution and sampling from it can be difficult to solve without some restrictions applied. The restriction applied here is that the RBM is an MRF where the graph's connections are only between the hidden and visible layers but NOT between any nodes/variables in the same layer (this is the restricted bit) which means hidden and visible variables are independent. The authors describe how this simplifies the Gibbs sampling: all variables in a layer can be sampled in a block instead of sampling new variables one by one.
+
+2) Why is the Article Important:
+The article was very dense with a lot of probability theory probably not familiar to the average graduate student. This foundational overview though is necessary to understand how RBMs work for further analysis and application. 
+
+3) How was the Problem Solved/Methods Used:
+There was no real probelm solved here. They simply explain the theory behind them. 
+
+4) Results/Limitations:
+No real results; the article was a combination of the authors research. The biggest takeaway I had personally was my experience in training classifiers (supervised learning) is large datasets can cause them to train super slow. Like the article mentions, the RBM might be a great first step for a large dataset before feeding data to a classifier.
+
+### Research Article 2: 
+Restricted Boltzmann machines in quantum physics
+
+1) Goal of Paper:
+The goal of the paper was to describe the mathematics and theory behind RBMs [@melko2019restricted]
+
+2) Why is the Article Important:
+
+3) How was the Problem Solved/Methods Used:
+
+4) Results/Limitations:
 
 ## Methods
 
