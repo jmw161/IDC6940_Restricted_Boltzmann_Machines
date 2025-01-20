@@ -70,32 +70,36 @@ The following research articles will be summarized with the following formatting
 
 1) goal of paper 2) why important 3) how solved/methods 4) results/limitations
 
-### Research Article 1: 
+<h4 style="font-weight: bold;">Research Article 1:</h4> 
 An Introduction to Restricted Boltzmann Machines [@fischer2012introduction]
 
 1) Goal of Paper:
-The goal of the paper was to describe the mathematics and theory behind RBMs. First, the authors go into detail about how Boltzmann Machines are undirected graphical models (Markov Random Fields) and explain the theory behind them. The important point being that the probability distribution is a complex Gibbs distribution and sampling from it can be difficult to solve without some restrictions applied. The restriction applied here is that the RBM is an MRF where the graph's connections are only between the hidden and visible layers but NOT between any nodes/variables in the same layer (this is the restricted bit) which means hidden and visible variables are independent. The authors describe how this simplifies the Gibbs sampling: all variables in a layer can be sampled in a block instead of sampling new variables one by one.
+The goal of the paper was to describe the mathematics and theory behind RBMs. First, the authors go into detail about how Boltzmann Machines are undirected graphical models (Markov Random Fields--MRFs) and explain the theory behind them. The important point being that the probability distribution is a complex Gibbs distribution and sampling from it can be difficult to solve without some restrictions applied. The restriction applied here is that the RBM is an MRF where the graph's connections are only between the hidden and visible layers but NOT between any nodes/variables in the same layer (this is the restricted bit) which means hidden and visible variables are independent. The authors describe how this simplifies the Gibbs sampling: all variables in a layer can be sampled in a block instead of sampling new variables one by one. This increase in efficiency can allow scientists to apply RBMs to their dataset, getting optimal weights and biases for the RBM and use this information to later feed into a classifier. More specifically, the researchers discuss how a trained RBM or deep belief network (DBN) is a neural network where the units in the output layer represent labels that correspond to observations and then you can use this network for further training by standard supervised learning algorithms (page 15 of the article).
 
 2) Why is the Article Important:
-The article was very dense with a lot of probability theory probably not familiar to the average graduate student. This foundational overview though is necessary to understand how RBMs work for further analysis and application. 
+The article was very dense with a lot of probability theory probably not familiar to the average graduate student. This foundational overview though is necessary to understand how RBMs work for further analysis and application.  
 
 3) How was the Problem Solved/Methods Used:
-There was no real probelm solved here. They simply explain the theory behind them. 
+There was no real probelm solved here. They simply explain the theory behind the RBMs and some possible applications. 
 
 4) Results/Limitations:
-No real results; the article was a combination of the authors research. The biggest takeaway I had personally was my experience in training classifiers (supervised learning) is large datasets can cause them to train super slow. Like the article mentions, the RBM might be a great first step for a large dataset before feeding data to a classifier.
+No real results; the article was a combination of the authors' research. The biggest takeaway I had personally was my experience in training classifiers (supervised learning) is large datasets can cause them to train super slow. It's almost like GPU is needed to run these classifiers. Like the article mentions, the RBM might be a great first step for a large dataset before feeding data to a classifier since the units in the output layer are basically like labels.
 
-### Research Article 2: 
+<h4 style="font-weight: bold;">Research Article 2:</h4> 
 Restricted Boltzmann machines in quantum physics [@melko2019restricted]
 
 1) Goal of Paper:
-The goal of the paper... 
+The goal of the paper was to introduce RBMs as a tool used in solving complex wave functions (wave functions are used in quantum physics to explain features--postion, momentum, etc.--of a particle or group of particles). The authors describe how RBMs can learn an unknown probability distribution from a set of data pulled from that distribution (this was discussed in Research Article 1 as well). The goal in this training of RBMs is to find the optimal parameters (weights and biases) that minimize the energy functional. Traditionally, complex wave functions in many body complex quantum problems have been solved with tensor networks (TNs) but these can't really work to solve systems that are subject to volume law entanglement vice area law. Entanglement here means particles in a system do not act independently; they're movements are correlated. So area law entanglement means entropy of the system scales with area (etc. for volume). I was able to read more about area law on page 2 here [@eisert2008area]
 
 2) Why is the Article Important:
+This article is important for anyone working in the field of physics interested in the possibility of applying RBMs to their problems. For graduate students, this article would likely interest chemistry and physics students more than data science students. I personally struggled way less with this article as my undergraduate degree in Biochemistry and Molecular Biology required a lot of physics and understanding of particle interactions and energy states. This article delved into some probability theory of course since the Markov Random Field/undirected graphical model makes up the Restricted Boltzmann Machine, but familiarity with the Research Article 1 will allow the graduate student to understand this Research Article 2 as well.
 
 3) How was the Problem Solved/Methods Used:
+The authors reference another article [@chen2018equivalence] reference 27, to explain how RBMs can be translated into tensor network states (TNS) which can allow for solving many-body quantum systems (which is where instead of assessing an individual particle, all particles in the system are assessed especially with regard to their correlations with each other). Wave functions are the answer to this and there are many many possible wave functions depending on the quantum state. The ability of the RBM to handle volume law entanglement problems makes them useful in quantum physics.
 
 4) Results/Limitations:
+The authors discuss on page 889 how although RBMs take advantage of the excellence of neural networks and machine learning algorithms; they also inherit the drawbacks. The authors discuss optimization problems: basically, how many layers should the network have and other network-architecture questions that properly explain the physics problem at hand. An inefficient network architecture means a less-than-optimal algorithm for solving a cost function/minimizing energy states.
+
 
 ## Methods
 
