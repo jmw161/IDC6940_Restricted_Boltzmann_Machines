@@ -22,6 +22,7 @@ editor:
 Slides: [slides.html](slides.html){target="_blank"} ( Go to `slides.qmd`
 to edit)
 
+<!--  
 
 ::: callout-important
 **Remember:** Your goal is to make your audience understand and care
@@ -32,10 +33,11 @@ Carefully read this template since it has instructions and tips to
 writing!
 :::
 
+-->
 
 ## Introduction
 Restricted Boltzmann Machines are a type of neural network that has been around since the 1980s. They are used for dimensionality reduction/feature extraction which is great for preparing a dataset for unsupervised learning. They also have other applications which will be discussed further later. As a reminder to the reader, machine learning is generally divided into 3 categories: supervised learning (examples: classification tasks, regression), unsupervised learning (examples: clustering, dimensionality reduction, generative modeling), and reinforcement learning (examples: gaming/robotics). So, like most neural networks, RBMs can kinda dip into all 3 categories.
-
+<!-- 
 The introduction should:
 
 -   Develop a storyline that captures attention and maintains interest.
@@ -61,7 +63,7 @@ kernel estimator, weight function is known as kernel function
 The PCA [@daffertshofer2004pca]*. Topology can be used in machine learning [@adams2021topology]
 
 *This is my work and I want to add more work...*
-
+-->
 
 
 The following research articles will be summarized with the following formatting:
