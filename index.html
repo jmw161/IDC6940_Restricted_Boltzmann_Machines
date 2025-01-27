@@ -3188,9 +3188,10 @@ Research Article 4:
 <li><p>How was the Problem Solved/Methods Used: The authors describe semi-supervised anomaly detection as useful because the classifier can be trained on the normal class so that anomalous events can be detected without having to know what they look like. However, this can cause a lot of misclassification where normal events are incorrectly classified as anomalous. Their experiment involves two datasets: a real network traffic dataset with two hosts (one with normal traffic and one with traffic infected by a bot) and the KDD ’99 training dataset which was tested against the real data. They used 28 features related to network traffic in the training and used accuracy, speed, comprehensibility, and time to learn as evaluation parameters. The free energy patterns seen in the diagrams of normal and anomalous activity show the RBM was able to distinguish between the two.</p></li>
 <li><p>Results/Limitations: The authors discuss that when a classifier is tested in a network vastly different from the one it was trained on, performance declines. For the DRBM which can learn directly from data without relying on a distribution, it can decipher new network traffic traffic; however, the downfall of not having a distribution means the model depends heavily on the training data and can overfit (explaining why performance declines on different network traffic). They noticed a significant drop in performance when training with the KDD vice the real dataset.</p></li>
 </ol>
-<!--  
-
-## Methods
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<!-- 
 
 -   Detail the models or algorithms used.
 
@@ -3218,11 +3219,13 @@ $$
 y_i = \beta_0 + \beta_1 X_1 +\varepsilon_i
 $$
 
-
-
-## Analysis and Results
-
-### Data Exploration and Visualization
+-->
+</section>
+<section id="analysis-and-results" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-and-results">Analysis and Results</h2>
+<section id="data-exploration-and-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="data-exploration-and-visualization">Data Exploration and Visualization</h3>
+<!-- 
 
 -   Describe your data sources and collection process.
 
@@ -3289,9 +3292,11 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
 :::
 
 
-
-### Modeling and Results
-
+-->
+</section>
+<section id="modeling-and-results" class="level3">
+<h3 class="anchored" data-anchor-id="modeling-and-results">Modeling and Results</h3>
+<!--
 -   Explain your data preprocessing and cleaning steps.
 
 -   Present your key findings in a clear and concise manner.
@@ -3307,16 +3312,18 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
 :::
 
 
-
-### Conclusion
-
--   Summarize your key findings.
-
--   Discuss the implications of your results.
-
-## References
-
 -->
+</section>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
+<ul>
+<li><p>Summarize your key findings.</p></li>
+<li><p>Discuss the implications of your results.</p></li>
+</ul>
+</section>
+</section>
+<section id="references" class="level2 unnumbered">
+
 
 </section>
 

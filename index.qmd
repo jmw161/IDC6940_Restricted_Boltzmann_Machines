@@ -132,9 +132,10 @@ The authors describe semi-supervised anomaly detection as useful because the cla
 4) Results/Limitations:
 The authors discuss that when a classifier is tested in a network vastly different from the one it was trained on, performance declines. For the DRBM which can learn directly from data without relying on a distribution, it can decipher new network traffic traffic; however, the downfall of not having a distribution means the model depends heavily on the training data and can overfit (explaining why performance declines on different network traffic). They noticed a significant drop in performance when training with the KDD vice the real dataset.
 
-<!--  
+ 
 
 ## Methods
+<!-- 
 
 -   Detail the models or algorithms used.
 
@@ -162,11 +163,13 @@ $$
 y_i = \beta_0 + \beta_1 X_1 +\varepsilon_i
 $$
 
-
+-->
 
 ## Analysis and Results
 
 ### Data Exploration and Visualization
+
+<!-- 
 
 -   Describe your data sources and collection process.
 
@@ -204,9 +207,11 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
   
 
 ```
+-->
+
 
 ### Modeling and Results
-
+<!--
 -   Explain your data preprocessing and cleaning steps.
 
 -   Present your key findings in a clear and concise manner.
@@ -218,7 +223,7 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
 ```{r}
 
 ```
-
+-->
 ### Conclusion
 
 -   Summarize your key findings.
@@ -227,4 +232,4 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
 
 ## References
 
--->
+
