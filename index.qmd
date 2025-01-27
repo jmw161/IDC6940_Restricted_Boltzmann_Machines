@@ -101,6 +101,39 @@ The authors reference another article [@chen2018equivalence] reference 27, to ex
 The authors discuss on page 889 how although RBMs take advantage of the excellence of neural networks and machine learning algorithms; they also inherit the drawbacks. The authors discuss optimization problems: basically, how many layers should the network have and other network-architecture questions that properly explain the physics problem at hand. An inefficient network architecture means a less-than-optimal algorithm for solving a cost function/minimizing energy states.
 
 
+<h4 style="font-weight: bold;">Research Article 3:</h4> 
+A novel broad learning system integrated with restricted Boltzmann machine and echo state network for time series forecasting [@zhang2024novel]
+
+1) Goal of Paper:
+The goal of the paper was to share their model (they refer to as R-E-BLS) and it's superiority in predictive analysis tasks. The authors first explain the drawbacks of deep neural networks, explaining that building them deeply seriously increases computation time. Random vector function linked neural networks--and their successor, broad learning systems(BLS)--help by building the network wider instead of deeper. The Echo State Netowrk (ESN) contains a sparse reservoir (this contrasts a dense reservoir ex: fully connected network where every neuron in the reservoir is connected to every other neuron by having non zero weights). The authors introduce Broad Echo State Networks (BESNs) which combines broad learning system and echo state networks. Finally, they extend the thought further for time series forecasting problems by suggesting use of RBM in mapping layer, ESN in enhancement layer (R-E-BLS). They show the model and run experiments on it on 3 separate datasets. They explain issues with current time series forecasting like Moving 
+Average (MA) and Autoregressive Moving Average (ARMA) where there is high dependence on linearity. They describe how the data input into the RBM mapping layer where RBM generates mapping nodes. The number of feature mapping nodes can be adjusted by adjusting network parameters of the RBM (connection weights between visible and hidden units, bias of visible unit, bias of hidden unit). Final output combines mapping and enhancement layers. The authors then discuss a huge advantage of R-E-BLS is the ability to incrementally learn (train only feature nodes or input data that needs to be added to the model without rebuilding the entire network (like standard deep learning networks)).
+
+2) Why is the Article Important:
+The article explains how deep learning networks have such profound prediction capability, but often experience high computational load. The authors explain how using RBM prior to ESN in a broad learning system can increase predication accuracy while reducing computational workload. This is important to anyone seeking a strong predictive model with high performance without debilitating computational load.
+
+3) How was the Problem Solved/Methods Used:
+The authors used 3 datasets (air quality index, pm2.5, and electric power load) and tested various models (their R-E-BLS, LSTM, GRU, ESN, etc.) for predictive analysis (predictive boxplots, prediction error of model, and error scatter plots). They showed consistently that R-E-BLS outperforms with all 3 measures for all 3 datasets. In addition, they found the R-E-BLS fits the true data more closely even with datasets with serious fluctuations in data like the pm2.5 and power load datasets.
+
+4) Results/Limitations:
+None mentioned or alluded to in the article. However, future ideas were mentioned. The authors said they would like to apply the model to multi-column data prediction tasks in the future.
+
+<h4 style="font-weight: bold;">Research Article 4:</h4> 
+Network anomaly detection with the restricted Boltzmann machine[@fiore2013network]
+
+1) Goal of Paper:
+Overall, their goal was to test the Discriminative Restricted Boltzmann Machine (DRBM) on it's capability to distinguish normal from anomalous network traffic. The authors discuss the difficulty in network anomaly detection where anomaly is "unusual" meaning non-normal traffic patterns that could be indicative of an attack. They describe the difficulty of obtaining datasets for supervised classification as many clients are reluctant to divulge information that could expose the internal structure of their networks and how this has basically led to slow progress in the industry of predicting anomalous network activity in general. The authors are testing whether or not there's enough similarity in normal network behaviors for a model to learn all nuisances of normal traffic when faced with unseen anomalous network traffic. This led them to to the DRBM because of it's classification ability with all the power of a generative model.
+
+2) Why is the Article Important:
+Network security is a very big deal. Administrators need to be able to prepare for zero day attacks by understanding what traffic patterns are normal and which are anomalous. By having a model that correctly predicts this, clients can protect their networks.
+
+3) How was the Problem Solved/Methods Used:
+The authors describe semi-supervised anomaly detection as useful because the classifier can be trained on the normal class so that anomalous events can be detected without having to know what they look like. However, this can cause a lot of misclassification where normal events are incorrectly classified as anomalous. Their experiment involves two datasets: a real network traffic dataset with two hosts (one with normal traffic and one with traffic infected by a bot) and the KDD '99 training dataset which was tested against the real data. They used 28 features related to network traffic in the training and used accuracy, speed, comprehensibility, and time to learn as evaluation parameters. The free energy patterns seen in the diagrams of normal and anomalous activity show the RBM was able to distinguish between the two.
+
+4) Results/Limitations:
+The authors discuss that when a classifier is tested in a network vastly different from the one it was trained on, performance declines. For the DRBM which can learn directly from data without relying on a distribution, it can decipher new network traffic traffic; however, the downfall of not having a distribution means the model depends heavily on the training data and can overfit (explaining why performance declines on different network traffic). They noticed a significant drop in performance when training with the KDD vice the real dataset.
+
+<!--  
+
 ## Methods
 
 -   Detail the models or algorithms used.
@@ -193,3 +226,5 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
 -   Discuss the implications of your results.
 
 ## References
+
+-->
