@@ -40,7 +40,7 @@ Restricted Boltzmann Machines are a type of neural network that has been around 
 
 ![](/markov_net.png){width=60%}
 <br>
-It can be seen the graphical model is undirected. Goodfellow, et al. discuss the expense in drawling samples for most undirected graphical models; however, the RBM allows for block Gibbs sampling (p. 578) where sampling of hidden units simultaneously (etc. for visible). Derivatives are also simplified by the fact that the energy function of the RBM is a linear function of it's parameters.  
+It can be seen the graphical model is undirected. Goodfellow, et al. discuss the expense in drawing samples for most undirected graphical models; however, the RBM allows for block Gibbs sampling (p. 578) where the network alternates between sampling all hidden units simultaneously (etc. for visible). Derivatives are also simplified by the fact that the energy function of the RBM is a linear function of it's parameters.  
 
 $$
 E(v,h) = - \sum_{i} a_i v_i - \sum_{j} b_j h_j - \sum_{i} \sum_{j} v_i w_{i,j} h_j
