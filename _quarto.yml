@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "Restricted Boltzmann Machines"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Paper
+      - litreview.qmd
+      - href: slides.qmd
+        text: Slides
+
+format:
+  html:
+    theme: cosmo
+    toc: true
