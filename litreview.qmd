@@ -12,106 +12,96 @@ editor:
     wrap: 72
 ---
 
-The following research articles will be summarized with the following formatting:
+# An Introduction to Restricted Boltzmann Machines [@fischer2012introduction]
 
-1) goal of paper 2) why important 3) how solved/methods 4) results/limitations
-
-<h4 style="font-weight: bold;">Research Article 1:</h4> 
-An Introduction to Restricted Boltzmann Machines [@fischer2012introduction]
-
-1) Goal of Paper:
+## Goal of Paper:
 The goal of the paper was to describe the mathematics and theory behind RBMs. First, the authors go into detail about how Boltzmann Machines are undirected graphical models (Markov Random Fields--MRFs) and explain the theory behind them. The important point being that the probability distribution is a complex Gibbs distribution and sampling from it can be difficult to solve without some restrictions applied. The restriction applied here is that the RBM is an MRF where the graph's connections are only between the hidden and visible layers but NOT between any nodes/variables in the same layer (this is the restricted bit) which means hidden and visible variables are independent. The authors describe how this simplifies the Gibbs sampling: all variables in a layer can be sampled in a block instead of sampling new variables one by one. This increase in efficiency can allow scientists to apply RBMs to their dataset, getting optimal weights and biases for the RBM and use this information to later feed into a classifier. More specifically, the researchers discuss how a trained RBM or deep belief network (DBN) is a neural network where the units in the output layer represent labels that correspond to observations and then you can use this network for further training by standard supervised learning algorithms (page 15 of the article).
 
-2) Why is the Article Important:
+## Why is the Article Important:
 The article was very dense with a lot of probability theory probably not familiar to the average graduate student. This foundational overview though is necessary to understand how RBMs work for further analysis and application.  
 
-3) How was the Problem Solved/Methods Used:
+## How was the Problem Solved/Methods Used:
 There was no real probelm solved here. They simply explain the theory behind the RBMs and some possible applications. 
 
-4) Results/Limitations:
+## Results/Limitations:
 No real results; the article was a combination of the authors' research. The biggest takeaway I had personally was my experience in training classifiers (supervised learning) is large datasets can cause them to train super slow. It's almost like GPU is needed to run these classifiers. Like the article mentions, the RBM might be a great first step for a large dataset before feeding data to a classifier since the units in the output layer are basically like labels.
 
-<h4 style="font-weight: bold;">Research Article 2:</h4> 
-Restricted Boltzmann machines in quantum physics [@melko2019restricted]
+# Restricted Boltzmann machines in quantum physics [@melko2019restricted]
 
-1) Goal of Paper:
+## Goal of Paper:
 The goal of the paper was to introduce RBMs as a tool used in solving complex wave functions (wave functions are used in quantum physics to explain features--postion, momentum, etc.--of a particle or group of particles). The authors describe how RBMs can learn an unknown probability distribution from a set of data pulled from that distribution (this was discussed in Research Article 1 as well). The goal in this training of RBMs is to find the optimal parameters (weights and biases) that minimize the energy functional. Traditionally, complex wave functions in many body complex quantum problems have been solved with tensor networks (TNs) but these can't really work to solve systems that are subject to volume law entanglement vice area law. Entanglement here means particles in a system do not act independently; they're movements are correlated. So area law entanglement means entropy of the system scales with area (etc. for volume). I was able to read more about area law on page 2 here [@eisert2008area]
 
-2) Why is the Article Important:
+## Why is the Article Important:
 This article is important for anyone working in the field of physics interested in the possibility of applying RBMs to their problems. For graduate students, this article would likely interest chemistry and physics students more than data science students. I personally struggled way less with this article as my undergraduate degree in Biochemistry and Molecular Biology required a lot of physics and understanding of particle interactions and energy states. This article delved into some probability theory of course since the Markov Random Field/undirected graphical model makes up the Restricted Boltzmann Machine, but familiarity with the Research Article 1 will allow the graduate student to understand this Research Article 2 as well.
 
-3) How was the Problem Solved/Methods Used:
+## How was the Problem Solved/Methods Used:
 The authors reference another article [@chen2018equivalence] reference 27, to explain how RBMs can be translated into tensor network states (TNS) which can allow for solving many-body quantum systems (which is where instead of assessing an individual particle, all particles in the system are assessed especially with regard to their correlations with each other). Wave functions are the answer to this and there are many many possible wave functions depending on the quantum state. The ability of the RBM to handle volume law entanglement problems makes them useful in quantum physics.
 
-4) Results/Limitations:
+## Results/Limitations:
 The authors discuss on page 889 how although RBMs take advantage of the excellence of neural networks and machine learning algorithms; they also inherit the drawbacks. The authors discuss optimization problems: basically, how many layers should the network have and other network-architecture questions that properly explain the physics problem at hand. An inefficient network architecture means a less-than-optimal algorithm for solving a cost function/minimizing energy states.
 
 
-<h4 style="font-weight: bold;">Research Article 3:</h4> 
-A novel broad learning system integrated with restricted Boltzmann machine and echo state network for time series forecasting [@zhang2024novel]
+# A novel broad learning system integrated with restricted Boltzmann machine and echo state network for time series forecasting [@zhang2024novel]
 
-1) Goal of Paper:
+## Goal of Paper:
 The goal of the paper was to share their model (they refer to as R-E-BLS) and it's superiority in predictive analysis tasks. The authors first explain the drawbacks of deep neural networks, explaining that building them deeply seriously increases computation time. Random vector function linked neural networks--and their successor, broad learning systems(BLS)--help by building the network wider instead of deeper. The Echo State Netowrk (ESN) contains a sparse reservoir (this contrasts a dense reservoir ex: fully connected network where every neuron in the reservoir is connected to every other neuron by having non zero weights). The authors introduce Broad Echo State Networks (BESNs) which combines broad learning system and echo state networks. Finally, they extend the thought further for time series forecasting problems by suggesting use of RBM in mapping layer, ESN in enhancement layer (R-E-BLS). They show the model and run experiments on it on 3 separate datasets. They explain issues with current time series forecasting like Moving 
 Average (MA) and Autoregressive Moving Average (ARMA) where there is high dependence on linearity. They describe how the data input into the RBM mapping layer where RBM generates mapping nodes. The number of feature mapping nodes can be adjusted by adjusting network parameters of the RBM (connection weights between visible and hidden units, bias of visible unit, bias of hidden unit). Final output combines mapping and enhancement layers. The authors then discuss a huge advantage of R-E-BLS is the ability to incrementally learn (train only feature nodes or input data that needs to be added to the model without rebuilding the entire network (like standard deep learning networks)).
 
-2) Why is the Article Important:
+## Why is the Article Important:
 The article explains how deep learning networks have such profound prediction capability, but often experience high computational load. The authors explain how using RBM prior to ESN in a broad learning system can increase predication accuracy while reducing computational workload. This is important to anyone seeking a strong predictive model with high performance without debilitating computational load.
 
-3) How was the Problem Solved/Methods Used:
+## How was the Problem Solved/Methods Used:
 The authors used 3 datasets (air quality index, pm2.5, and electric power load) and tested various models (their R-E-BLS, LSTM, GRU, ESN, etc.) for predictive analysis (predictive boxplots, prediction error of model, and error scatter plots). They showed consistently that R-E-BLS outperforms with all 3 measures for all 3 datasets. In addition, they found the R-E-BLS fits the true data more closely even with datasets with serious fluctuations in data like the pm2.5 and power load datasets.
 
-4) Results/Limitations:
+## Results/Limitations:
 None mentioned or alluded to in the article. However, future ideas were mentioned. The authors said they would like to apply the model to multi-column data prediction tasks in the future.
 
-<h4 style="font-weight: bold;">Research Article 4:</h4> 
-Network anomaly detection with the restricted Boltzmann machine[@fiore2013network]
+# Network anomaly detection with the restricted Boltzmann machine[@fiore2013network]
 
-1) Goal of Paper:
+## Goal of Paper:
 Overall, their goal was to test the Discriminative Restricted Boltzmann Machine (DRBM) on it's capability to distinguish normal from anomalous network traffic. The authors discuss the difficulty in network anomaly detection where anomaly is "unusual" meaning non-normal traffic patterns that could be indicative of an attack. They describe the difficulty of obtaining datasets for supervised classification as many clients are reluctant to divulge information that could expose the internal structure of their networks and how this has basically led to slow progress in the industry of predicting anomalous network activity in general. The authors are testing whether or not there's enough similarity in normal network behaviors for a model to learn all nuisances of normal traffic when faced with unseen anomalous network traffic. This led them to to the DRBM because of it's classification ability with all the power of a generative model.
 
-2) Why is the Article Important:
+## Why is the Article Important:
 Network security is a very big deal. Administrators need to be able to prepare for zero day attacks by understanding what traffic patterns are normal and which are anomalous. By having a model that correctly predicts this, clients can protect their networks.
 
-3) How was the Problem Solved/Methods Used:
+## How was the Problem Solved/Methods Used:
 The authors describe semi-supervised anomaly detection as useful because the classifier can be trained on the normal class so that anomalous events can be detected without having to know what they look like. However, this can cause a lot of misclassification where normal events are incorrectly classified as anomalous. Their experiment involves two datasets: a real network traffic dataset with two hosts (one with normal traffic and one with traffic infected by a bot) and the KDD '99 training dataset which was tested against the real data. They used 28 features related to network traffic in the training and used accuracy, speed, comprehensibility, and time to learn as evaluation parameters. The free energy patterns seen in the diagrams of normal and anomalous activity show the RBM was able to distinguish between the two.
 
-4) Results/Limitations:
+## Results/Limitations:
 The authors discuss that when a classifier is tested in a network vastly different from the one it was trained on, performance declines. For the DRBM which can learn directly from data without relying on a distribution, it can decipher new network traffic traffic; however, the downfall of not having a distribution means the model depends heavily on the training data and can overfit (explaining why performance declines on different network traffic). They noticed a significant drop in performance when training with the KDD vice the real dataset.
 
  
-<h4 style="font-weight: bold;">Research Article 5:</h4> 
-Automated classification of brain diseases using the Restricted Boltzmann Machine and the Generative Adversarial Network [@aslan2023automated]
+# Automated classification of brain diseases using the Restricted Boltzmann Machine and the Generative Adversarial Network [@aslan2023automated]
 
-1) Goal of Paper:
+## Goal of Paper:
 The overall goal was to show how RBM-GAN (Restricted Boltzmann Machine Generative Adversarial Network) can significantly improve classification performance of MRI images, especially of the brain. The authors first discuss all the various applications of GAN to MRI imaging studies and the use of RBMs with deep learning to classify brain diseases. The diseases of the brain studied here are: brain atrophy, ischemia, and white matter density with a control group of a normal brain. The first step is data augmentation and resizing of the brain MR images, then normalization. Then, the RBM extracts features of only the brain region and feeds this input to the GAN generator and the pre-processed real image data are fed to the GAN discriminator where the generator tries to generate fake data similar to the real data it's learned and the discriminator chooses what data is real and fake (these two parts of the GAN are trained simultaneously). After training with GAN, several classifiers were tested (tree, linear discriminant, naiive bayes, SVM, KNN, ensemble, neural network and K-mean). 
 
-2) Why is the Article Important:
+## Why is the Article Important:
 It shows future physicians and/or individuals studying MRI images that applying RBM before GAN can significantly improve overall classification performance. They may additionally learn that SVM worked best for final classification.
 
-3) How was the Problem Solved/Methods Used:
+## How was the Problem Solved/Methods Used:
 There wasn't much of a problem to be solved as the Kaggle dataset they used was pre-labeled, but it allowed the researchers to test the hypothesis of RBM improving the overall classification process by selecting the most important features.
 
-4) Results/Limitations:
+## Results/Limitations:
 They found native GAN significantly under-performed RBM-GAN and that SVM was the best classifier. The limitations discussed are that the data is from a single medical center and a small database. They also discussed hyperparameters were set to default and there's perhaps room for optimization by adjusting hyperparameters.
 
 
-<h4 style="font-weight: bold;">Research Article 6:</h4> 
-LCD: A fast contrastive divergence based algorithm for restricted Boltzmann machine [@ning2018lcd]
+# LCD: A fast contrastive divergence based algorithm for restricted Boltzmann machine [@ning2018lcd]
 
-1) Goal of Paper:
+## Goal of Paper:
 Even with GPU, RBMs are still pretty slow during calculation of vector dot products which is done to compute the activation probability. Lean Contrastive Divergence (LCD) adds two optimization techniques which speed up the progress significantly, as discussed in results. The two optimization techniques are as follows. 1. Bounds-based filtering: uses lower and upper bounds of P(hj = 1, given v) to select a range of dot products to perform, avoiding any unnecessary dot products. The conservative bounds are found with triangle inequality. 2. Delta product: uses only the necessary operations in calculating dot products. The authors discuss how during RBM training, the network updates states/neurons across the Gibbs sampling steps/epochs. Toward the beginning, some neurons switch states (flip between 0 and 1) but later in training, less units flip states. They took advantage of the fact that many don't flip states by realizing the non-flipped units are repeating computations unnecessarily. So, they only re-calculate the changed parts of the dot product. In Gaussian-Bernoulli RBM, visible units are real values while hidden units are binary. The authors used bounds based filtered on the hidden units and delta product to sample visible units.  
 
-2) Why is the Article Important:
+## Why is the Article Important:
 RBMs are widely used in training deep belief networks which are becoming increasingly popular. The downside of RBMs is the computational expense during the process of calculating vector dot products during contrastive divergence. The authors propose the LCD with it's two optimizing techniques (bounds-based filtering and delta product) to speed up this process.
 
-3) How was the Problem Solved/Methods Used:
-They use seven public datasets to test their theory that LCD can significantly speed up RBM training since it allows skipping of some calculations of vector dot products. They also solved an issue where although GPUs are good at handling regular calculations, LCD doesn't work great with GPU. Because of this, the authors implemented two things. 1) Aggregated warp filterings. The RBM has to keep track of which nodes flipped states during iterations. Each thread checks if a difference was detected (neuron flipped states between iterations). Warps are groups of threads (ex: NVIDIA GPU a warp is 32 threads). Aggregated warp filterings means only the warp leader (first active thread in the warp) chooses where the writing is done in the array. Then the other threads write their differences in the locations the warp leader chose. This is all done in parallel, avoiding thread conflicts. 2) Storing extra copies of W transpose. GPUs are bandwidth sensitive and in RBMs, the W matrix is used in sample the visible layer and it's transpose is used in sampling the hidden layer so the authors store a copy of W transpose in it's own array so it doesn't need to be recomputed.
+## How was the Problem Solved/Methods Used:
+They use seven public datasets to test their theory that LCD can significantly speed up RBM training since it allows skipping of some calculations of vector dot products. They also solved an issue where although GPUs are good at handling regular calculations, LCD doesn't work great with GPU. Because of this, the authors implemented two things. 1) Aggregated warp filterings. The RBM has to keep track of which nodes flipped states during iterations. Each thread checks if a difference was detected (neuron flipped states between iterations). Warps are groups of threads (ex: NVIDIA GPU a warp is 32 threads). Aggregated warp filterings means only the warp leader (first active thread in the warp) chooses where the writing is done in the array. Then the other threads write their differences in the locations the warp leader chose. This is all done in parallel, avoiding thread conflicts. ## Storing extra copies of W transpose. GPUs are bandwidth sensitive and in RBMs, the W matrix is used in sample the visible layer and it's transpose is used in sampling the hidden layer so the authors store a copy of W transpose in it's own array so it doesn't need to be recomputed.
 
-4) Results/Limitations:
+## Results/Limitations:
 The results show that LCD speeds up the training of RBM on GPU by 2–3X. No limitations were discussed or alluded to.
 
 
-# Restricted Boltzmann machines for collaborative filtering (Salakhutdinov, 2007)
+# Restricted Boltzmann machines for collaborative filtering [@salakhutdinov2007restricted]
 
 ## Goal of the paper
 
@@ -130,7 +120,7 @@ Restricted Boltzmann Machines are used, which are a type of neural network with 
 The RBM model is only slightly better than SVD on the Netflix dataset, but since its errors are different from SVD, it can be combined with SVD to improve predictions.
 
 
-# Training Products of Experts by Minimizing Contrastive Divergence (Hinton, 2002)
+# Training Products of Experts by Minimizing Contrastive Divergence [@hinton2002training]
 
 ## Goal of the paper
 
@@ -149,7 +139,7 @@ To train with contrastive divergence, one starts by setting the visible units to
 The CD algorithm is significantly faster than other training algorithms for RBMs. PoEs can effective model complex data distributions. However, CD is an approximation and may not always converge to the best possible model.
 
 
-# A fast learning algorithm for deep belief nets (Hinton, 2006)
+# A fast learning algorithm for deep belief nets [@hinton2006fast]
 
 ## Goal of the paper
 
@@ -168,7 +158,7 @@ The algorithm trains deep belief networks by training each layer of the network 
 The DBN model trained in the paper achieves a lower error rate on the MNIST dataset than other models. However, the model does not learn to attend to the most informative parts of the image. The DBN shows how a generative model can learn low-level features with requiring labeled data.
 
 
-# Training Restricted Boltzmann Machines using Approximations to the Likelihood Gradient (Tieleman, 2008)
+# Training Restricted Boltzmann Machines using Approximations to the Likelihood Gradient [@tieleman2008training]
 
 ## Goal of the paper
 
@@ -187,7 +177,7 @@ The PCD algorithm is similar to CD, but instead of starting from a random state 
 For the models trained in the paper, PCD was able to train the models faster than CD and typically achieved better results. However, PCD is still an approximation and may not always converge to the best possible model. PCD also requires a low learning rate.
 
 
-# Information processing in dynamical systems: Foundations of harmony theory (Smolensky, 1986)
+# Information processing in dynamical systems: Foundations of harmony theory [@smolensky1986information]
 
 ## Goal of the paper
 
@@ -207,7 +197,7 @@ The harmonium model is a bipartite graph with visible and hidden units, called r
 The harmonium model is applied to some relatively trivial examples in the paper. Only later with the creation of the contrastive divergence algorithm was it possible to train RBMs on more complex data.
 
 
-# A practical guide to training restricted Boltzmann machines (Hinton, 2010)
+# A practical guide to training restricted Boltzmann machines [@hinton2010practical]
 
 ## Goal of the paper
 
