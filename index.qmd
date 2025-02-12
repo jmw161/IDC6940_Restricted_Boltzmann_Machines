@@ -29,16 +29,36 @@ In the "Restricted" Boltzmann Machine, there are no interactions between neurons
 ![](markov_net.png){width=60%}
 <br>
 
-Goodfellow, et al. discuss the expense in drawing samples for most undirected graphical models; however, the RBM allows for block Gibbs sampling (p. 578) where the network alternates between sampling all hidden units simultaneously (etc. for visible). Derivatives are also simplified by the fact that the energy function of the RBM is a linear function of it's parameters.  
+Goodfellow, et al. discuss the expense in drawing samples for most undirected graphical models; however, the RBM allows for block Gibbs sampling (p. 578) where the network alternates between sampling all hidden units simultaneously (etc. for visible). Derivatives are also simplified by the fact that the energy function of the RBM is a linear function of it's parameters, which will be seen further in Methods.  
 
+RBMs are trained using a process called Contrastive Divergence (CD) [@hinton2002training] where the weights are updated to minimize the difference between samples from the data and samples from the model. Learning rate, batch size, and number of hidden units are all hyperparameters that can affect the ability of the training to converge successfully and learn the underlying structure of the data.
+
+
+<h1>Selected Papers for Literature Review</h1>
+<h5>For full literature review, please see the tab "Literature Review."</h5>
+
+<h4>Network anomaly detection with the restricted Boltzmann machine[@fiore2013network]</h4>
+There is slow progress in the industry of network anomaly detection due to the difficulty of obtaining datasets for training and testing networks. Clients are often reluctant to divulge information that could potentially harm their networks. The authors obtained a real-life dataset where one host had normal traffic and one was infected by a bot. The discriminative RBM (DRBM) was able to successfully distinguish the normal from anomalous traffic. A limitation is that the DRBM doesn't rely on knowing the data distribution ahead of time, which is great, except that it also causes the DRBM to overfit. They witnessed this when trying to use their same trained RBM on the KDD '99 training dataset and performance declined.
+
+<h4>Automated classification of brain diseases using the Restricted Boltzmann Machine and the Generative Adversarial Network [@aslan2023automated]</h4>
+Doctors and scientists have vested interest in leveraging networks to classify brain diseases, removing the human component of diagnosis. The authors successfully implemented the Restricted Boltzmann Machine Generative Adversarial Network(RBM-GAN) with great classification accuracy. The method is MRI images are fed into the RBM, which selects only those features that belong to the brain region. These features are fed to the GAN for training. The GAN has two parts. The generator takes the real image data it's learned and attempts to generate fake data similar to the real data. The discriminator decides what data is real and what is fake. These two parts work simultaneously. After the GAN is trained, the authors tested several classifiers. The article also briefly touches on Support Vector Machine (SVM) performing the best. There is room here to explore SVM use in other MRI image classification tasks.
+
+<h4>LCD: A fast contrastive divergence based algorithm for restricted Boltzmann machine [@ning2018lcd]</h4>
+RBMs are notoriously slow to train. The process of computing the activation probability requires the calculation of vector dot products. The authors pose a Lean Constrastive Divergence (LCD) method which adds two techniques to speed up the process of training RBMs. The first is bounds-based filtering where they use upper and lower bounds of the probability to select only a range of dot products to perform (vice performing all of them). Second is the delta product. During RBM training, neurons flip states from 0/1 but the non-flipped ones repeat calculations of the dot product unnecessarily. Therefore, the delta product involves only recalculating the changed portions of the vector dot product. In addition, they also solved a problem with LCD not working well with GPU. This is not the main point in the article, but further discussion can be seen in the "Literature Review" tab.
+
+
+
+## Methods
 $$
 E(v,h) = - \sum_{i} a_i v_i - \sum_{j} b_j h_j - \sum_{i} \sum_{j} v_i w_{i,j} h_j
 $$
 where v_i and h_j represent visible and hidden units; a_i and b_j are the bia terms of the visible and hidden units; and each w_{i,j} (weight) element represents the interaction between the visible and hidden units.
 
-RBMs are trained using a process called Contrastive Divergence (CD) [@hinton2002training] where the weights are updated to minimize the difference between samples from the data and samples from the model. Learning rate, batch size, and number of hidden units are all hyperparameters that can affect the ability of the training to converge successfully and learn the underlying structure of the data.
 
-## Methods
+
+
+
+
 <!-- 
 
 -   Detail the models or algorithms used.
