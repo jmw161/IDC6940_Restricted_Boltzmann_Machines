@@ -36,6 +36,8 @@ Goodfellow, et al. discuss the expense in drawing samples for most undirected gr
 
 RBMs are trained using a process called Contrastive Divergence (CD) [@hinton2002training] where the weights are updated to minimize the difference between samples from the data and samples from the model. Learning rate, batch size, and number of hidden units are all hyperparameters that can affect the ability of the training to converge successfully and learn the underlying structure of the data.
 
+
+
 ### Applications
 
 RBMs are probably best known for their success in collaborative filtering. The RBM model was used in the Netflix Prize competition to predict user ratings for movies, with the result that it outperformed the Singular Value Decomposition (SVD) method that was state-of-the-art at the time [@salakhutdinov2007restricted]. They have also been trained to recognize handwritten digits, such as the MNIST dataset [@hinton2002training].
@@ -49,12 +51,17 @@ RBMs are notoriously slow to train. The process of computing the activation prob
 
 
 ## Methods
+
+
+Below is the energy function of the RBM. 
+
 $$
 E(v,h) = - \sum_{i} a_i v_i - \sum_{j} b_j h_j - \sum_{i} \sum_{j} v_i w_{i,j} h_j
 $$
-where v<sub>i</sub> and h<sub>j</sub> represent visible and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bia terms of the visible and hidden units; and each w<sub>{i,j}</sub> (weight) element represents the interaction between the visible and hidden units.
+where v<sub>i</sub> and h<sub>j</sub> represent visible and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bias terms of the visible and hidden units; and each w<sub>{i,j}</sub> (weight) element represents the interaction between the visible and hidden units.
 
 
+It is well known neural networks are prone to overfitting and often techniques such as early stopping are employed to prevent it. Some methods to prevent overfitting in RBMs are weight decay (L2 regularization), dropout, dropconnect, and weight uncertainty [@zhang2018overview]. Dropout is a fairly well known concept in deep learning. For example, a dropout value of 0.3 added to a layer means 30% of neurons are dropped during training. This prevents the network from learning certain features too well. L2 regularization is also a commonly employed technique in deep learning. It assigns a penalty to large weights to allow for more generalization. Dropconnect is a method where a subset of weights within the network are randomly set to zero during training. Weight uncertainty is where each weight in the network has it's own probability distribution vice a fixed value. This addition allows the network to learn more useful features. 
 
 
 
@@ -117,8 +124,8 @@ Below we display the first five rows of the dataset.
 ```{python}
 import pandas as pd
 
-train_df = pd.read_csv("/Users/jessicawells/Downloads/archive/fashion-mnist_train.csv")
-#test_df = pd.read_csv("/Users/jessicawells/Downloads/archive/fashion-mnist_test.csv")
+train_df = pd.read_csv("/Users/jessicawells/Desktop/jason_jess_project/archive/fashion-mnist_train.csv")
+#test_df = pd.read_csv("/Users/jessicawells/Desktop/jason_jess_project/archive/fashion-mnist_test.csv")
 
 train_df.head()
 ```
@@ -131,23 +138,19 @@ There are no missing values in the data.
 print(train_df.isna().any().any())
 ```
 
+<b>There appears to be no class imbalance</b>
+
 ```{python}
-import matplotlib.pyplot as plt
+
 
 labels = train_df.iloc[:,0]
 
-# Initiative the histogram
-plt.hist(labels, bins=10, edgecolor='blue')
+counts = labels.value_counts()
 
-# Show frequency of labels
-plt.xlabel("Class Labels")
-plt.ylabel("Frequency")
-plt.title("Frequency of Class Labels in X Train")
+print(counts.sort_index())
 
-# Show plot
-plt.show()
 ```
-There appears to be no class imbalance.
+
 
 
 
