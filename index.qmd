@@ -25,7 +25,7 @@ editor:
 
 Restricted Boltzmann Machines (RBM) are a type of neural network that has been around since the 1980s. As a reminder to the reader, machine learning is generally divided into 3 categories: supervised learning (examples: classification tasks, regression), unsupervised learning (examples: clustering, dimensionality reduction, generative modeling), and reinforcement learning (examples: gaming/robotics). RBMs are primarily used for unsupervised learning tasks like dimensionality reduction and feature extraction, which help prepare datasets for machine learning models that may later be trained using supervised learning. They also have other applications which will be discussed further later.
 
-Like Hopfield networks, Boltzmann machines are undirected graphical models, but they are different in that they are stochastic and can have hidden units. Both models are energy-based, meaning they learn by minimizing an energy function for each model. Boltzmann machines use a sigmoid activation function, which allows for the model to be probabilistic.
+Like Hopfield networks, Boltzmann machines are undirected graphical models, but they are different in that they are stochastic and can have hidden units. Both models are energy-based, meaning they learn by minimizing an energy function for each model [@smolensky1986information]. Boltzmann machines use a sigmoid activation function, which allows for the model to be probabilistic.
 
 In the "Restricted" Boltzmann Machine, there are no interactions between neurons in the visible layer or between neurons in the hidden layer, creating a bipartite graph of neurons. Below is a diagram taken from Goodfellow, et al. [@Goodfellow-et-al-2016] (p. 577) for visualization of the connections.
 
@@ -63,7 +63,7 @@ where v<sub>i</sub> and h<sub>j</sub> represent visible and hidden units; a<sub>
 
 It is well known neural networks are prone to overfitting and often techniques such as early stopping are employed to prevent it. Some methods to prevent overfitting in RBMs are weight decay (L2 regularization), dropout, dropconnect, and weight uncertainty [@zhang2018overview]. Dropout is a fairly well known concept in deep learning. For example, a dropout value of 0.3 added to a layer means 30% of neurons are dropped during training. This prevents the network from learning certain features too well. L2 regularization is also a commonly employed technique in deep learning. It assigns a penalty to large weights to allow for more generalization. Dropconnect is a method where a subset of weights within the network are randomly set to zero during training. Weight uncertainty is where each weight in the network has it's own probability distribution vice a fixed value. This addition allows the network to learn more useful features. 
 
-
+If the learning rate is tool high, training of the model may not converge. If it is too low, training may take a long time. To fully maximize the training of the model it is helpful to reduce the learning rate over time. This is known as learning rate decay. [@hinton2010practical]
 
 
 <!-- 
@@ -100,7 +100,7 @@ $$
 
 ### Data Exploration and Visualization
 
-We use the Fashion MNIST dataset from Zalando Research.. The set includes 70,000 grayscale images of clothing items, 60,000 for training and 10,000 for testing. Each image is 28x28 pixels (784 pixels total). Each pixel has a value associated with it ranging from 0 (white) to 255 (very dark) -- whole numbers only. There are 785 columns in total as one column is dedicated to the label. 
+We use the Fashion MNIST dataset from Zalando Research [@xiao2017/online]. The set includes 70,000 grayscale images of clothing items, 60,000 for training and 10,000 for testing. Each image is 28x28 pixels (784 pixels total). Each pixel has a value associated with it ranging from 0 (white) to 255 (very dark) -- whole numbers only. There are 785 columns in total as one column is dedicated to the label. 
 
 ![](fmnist.png){width=60%}
 <br>
@@ -124,7 +124,7 @@ Below we display the first five rows of the dataset.
 ```{python}
 import pandas as pd
 
-train_df = pd.read_csv("/Users/jessicawells/Desktop/jason_jess_project/archive/fashion-mnist_train.csv")
+train_df = pd.read_csv("fashion-mnist_train.csv")
 #test_df = pd.read_csv("/Users/jessicawells/Desktop/jason_jess_project/archive/fashion-mnist_test.csv")
 
 train_df.head()
