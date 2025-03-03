@@ -127,19 +127,70 @@ Below we display the first five rows of the dataset.
 
 ```{python}
 import pandas as pd
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+import torch
+import torchvision.datasets
+import torchvision.models
+import torchvision.transforms as transforms
 
-train_df = pd.read_csv("fashion-mnist_train.csv")
+########## CONFIGURATION ##########
+BATCH_SIZE = 64
+VISIBLE_UNITS = 784  # 28 x 28 images
+HIDDEN_UNITS = 256 #256 best acc so far around 50/60 percent #512 is much worse around 10 percetn acc #128 got wrose again 4489/10000
+CD_K = 2 #5 didn't do better...
+EPOCHS = 10
+
+
+
+CUDA = torch.cuda.is_available()
+CUDA_DEVICE = 0
+
+if CUDA:
+    torch.cuda.set_device(CUDA_DEVICE)
+
+#train_df = pd.read_csv("fashion-mnist_train.csv")
 #test_df = pd.read_csv("/Users/jessicawells/Desktop/jason_jess_project/archive/fashion-mnist_test.csv")
 
-train_df.head()
+#train_df.head()
+
+train_data = torchvision.datasets.FashionMNIST(
+    root="./data", 
+    train=True, 
+    download=True, 
+    transform=transforms.ToTensor()  # Converts to tensor but does NOT normalize
+)
+
+test_data = torchvision.datasets.FashionMNIST(
+    root="./data", 
+    train=False, 
+    download=True, 
+    transform=transforms.ToTensor()  
+)
+
 ```
+
+
 ```{python}
-train_df.info() #datatypes are integers
+train_images = train_data.data.numpy()  # Raw pixel values (0-255)
+train_labels = train_data.targets.numpy()
+X = train_images.reshape(-1, 784)  # Flatten 28x28 images into 1D (60000, 784)
+
+```
+
+```{python}
+#print(train_images[:5])
+flattened = train_images[:5].reshape(5, -1) 
+
+# Create a DataFrame
+df_flat = pd.DataFrame(flattened)
+print(df_flat.head())
+#train_df.info() #datatypes are integers
 ```
 There are no missing values in the data.
 
 ```{python}
-print(train_df.isna().any().any())
+print(np.isnan(train_images).any()) 
 ```
 
 <b>There appears to be no class imbalance</b>
@@ -147,12 +198,11 @@ print(train_df.isna().any().any())
 ```{python}
 
 
-labels = train_df.iloc[:,0]
+unique_labels, counts = np.unique(train_labels, return_counts=True)
 
-counts = labels.value_counts()
-
-print(counts.sort_index())
-
+# Print the counts sorted by label
+for label, count in zip(unique_labels, counts):
+    print(f"Label {label}: {count}")
 ```
 
 
