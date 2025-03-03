@@ -63,10 +63,16 @@ where v<sub>i</sub> and h<sub>j</sub> represent visible and hidden units; a<sub>
 
 It is well known neural networks are prone to overfitting and often techniques such as early stopping are employed to prevent it. Some methods to prevent overfitting in RBMs are weight decay (L2 regularization), dropout, dropconnect, and weight uncertainty [@zhang2018overview]. Dropout is a fairly well known concept in deep learning. For example, a dropout value of 0.3 added to a layer means 30% of neurons are dropped during training. This prevents the network from learning certain features too well. L2 regularization is also a commonly employed technique in deep learning. It assigns a penalty to large weights to allow for more generalization. Dropconnect is a method where a subset of weights within the network are randomly set to zero during training. Weight uncertainty is where each weight in the network has it's own probability distribution vice a fixed value. This addition allows the network to learn more useful features. 
 
-If the learning rate is tool high, training of the model may not converge. If it is too low, training may take a long time. To fully maximize the training of the model it is helpful to reduce the learning rate over time. This is known as learning rate decay. [@hinton2010practical]
+If the learning rate is too high, training of the model may not converge. If it is too low, training may take a long time. To fully maximize the training of the model it is helpful to reduce the learning rate over time. This is known as learning rate decay. [@hinton2010practical]
 
-<b>Logistic Regression</b>
-One technique we explore is standardizing Fashion MNIST features/pixels, then training a RBM (unsupervised learning) to extract hidden features from the visible layer and then feed these features into the Logistic Regression Model (vice feeding the raw pixels). The hidden features from the RBM are standardized again before being used as input features for the logistic regression classifier. Then we use the trained logistic regression model to predict labels for test data, evaluating how well the RBM-derived features perform in a supervised classification task. It is helpful to remind the reader about the methodology behind Logistic Regression. Mathematically, the concept behind binary logistic regression is the logit (the natural logarithm of an odds ratio)[@peng2002introduction]. However, since we have 10 labels, our classification task falls into "Multinomial Logistic Regression." 
+### Logistic Regression
+One technique we explore is standardizing Fashion MNIST features/pixels, then training a RBM (unsupervised learning) to extract hidden features from the visible layer and then feed these features into the Logistic Regression Model (vice feeding the raw pixels). The hidden features from the RBM are standardized again before being used as input features for the logistic regression classifier. Then we use the trained logistic regression model to predict labels for test data, evaluating how well the RBM-derived features perform in a supervised classification task. It is helpful to remind the reader about the methodology behind Logistic Regression.
+
+$$
+P(Y = k | X) = \frac{e^{\beta_{0k} + \beta_k^T X}}{\sum_{l=1}^{K} e^{\beta_{0l} + \beta_l^T X}}
+$$
+
+Mathematically, the concept behind binary logistic regression is the logit (the natural logarithm of an odds ratio)[@peng2002introduction]. However, since we have 10 labels, our classification task falls into "Multinomial Logistic Regression." 
 
 
 
