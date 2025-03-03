@@ -65,6 +65,10 @@ It is well known neural networks are prone to overfitting and often techniques s
 
 If the learning rate is tool high, training of the model may not converge. If it is too low, training may take a long time. To fully maximize the training of the model it is helpful to reduce the learning rate over time. This is known as learning rate decay. [@hinton2010practical]
 
+<b>Logistic Regression</b>
+One technique we explore is standardizing Fashion MNIST features/pixels, then training a RBM (unsupervised learning) to extract hidden features from the visible layer and then feed these features into the Logistic Regression Model (vice feeding the raw pixels). The hidden features from the RBM are standardized again before being used as input features for the logistic regression classifier. Then we use the trained logistic regression model to predict labels for test data, evaluating how well the RBM-derived features perform in a supervised classification task. It is helpful to remind the reader about the methodology behind Logistic Regression. Mathematically, the concept behind binary logistic regression is the logit (the natural logarithm of an odds ratio)[@peng2002introduction]. However, since we have 10 labels, our classification task falls into "Multinomial Logistic Regression." 
+
+
 
 <!-- 
 
