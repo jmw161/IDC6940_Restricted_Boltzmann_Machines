@@ -210,7 +210,32 @@ unique_labels, counts = np.unique(train_labels, return_counts=True)
 for label, count in zip(unique_labels, counts):
     print(f"Label {label}: {count}")
 ```
+```{python}
+print(f"X shape: {X.shape}")
+```
 
+
+t-SNE Visualization
+```{python, cache = TRUE}
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+
+# Run t-SNE to reduce dimensionality
+#embeddings = TSNE(n_jobs=2).fit_transform(X)
+
+tsne = TSNE(n_jobs=-1, random_state=42)  # Use -1 to use all available cores
+embeddings = tsne.fit_transform(X) #use scikitlearn instead
+
+
+# Create scatter plot
+figure = plt.figure(figsize=(15,7))
+plt.scatter(embeddings[:, 0], embeddings[:, 1], c=train_labels,
+            cmap=plt.cm.get_cmap("jet", 10), marker='.')
+plt.colorbar(ticks=range(10))
+plt.clim(-0.5, 9.5)
+plt.title("t-SNE Visualization of Fashion MNIST")
+plt.show()
+```
 
 
 
