@@ -67,7 +67,7 @@ It is well known neural networks are prone to overfitting and often techniques s
 
 If the learning rate is too high, training of the model may not converge. If it is too low, training may take a long time. To fully maximize the training of the model it is helpful to reduce the learning rate over time. This is known as learning rate decay. [@hinton2010practical]
 
-### Logistic Regression
+##### Logistic Regression
 One technique we explore is standardizing Fashion MNIST features/pixels, then training a RBM (unsupervised learning) to extract hidden features from the visible layer and then feed these features into the Logistic Regression Model (vice feeding the raw pixels). The hidden features from the RBM are standardized again before being used as input features for the logistic regression classifier. Then we use the trained logistic regression model to predict labels for test data, evaluating how well the RBM-derived features perform in a supervised classification task. It is helpful to remind the reader about the methodology behind Logistic Regression.
 
 $$
@@ -77,6 +77,31 @@ $$
 Mathematically, the concept behind binary logistic regression is the logit (the natural logarithm of an odds ratio)[@peng2002introduction]. However, since we have 10 labels, our classification task falls into "Multinomial Logistic Regression." 
 
 
+
+##### Below is our Process for creating the RBM:
+Step 1: We first initialize the RBM with random weights and biases and set visible units to 784 and hidden units to 256. We also set the number of contrastive divergence steps (k) to 1. </br>
+Step 2: Sample hidden units from visible. The math behind computing the hidden unit activations from the given input can be seen in equation 23 [@fischer2012introduction] where the probability is used to sample from the Bernoulli distribution. </br>
+$$
+p(H_i = 1 | \mathbf{v}) = \sigma \left( \sum_{j=1}^{m} w_{ij} v_j + c_i \right)
+$$
+Step 3: Sample visible units from hidden. The math behind computing visible unit activations from the hidden layer can be seen in equation 24 [@fischer2012introduction] Visible states are sampled using the Bernoulli distribution. This way we can see how well the RBM learned from the inputs. </br>
+$$
+p(V_j = 1 | \mathbf{h}) = \sigma \left( \sum_{i=1}^{n} w_{ij} h_i + b_j \right)
+$$
+
+Step 4: K=1 steps of Contrastive Divergence (Feed Forward, Feed Backward) which executes steps 2 and 3. Contrastive Divergence updates the RBM’s weights by minimizing the difference between the original input and the reconstructed input created by the RBM. </br>
+Step 5: Free energy is computed. The free energy F is given by the logarithm of the partition function Z [@oh2020entropy] where the partition function is  <br>
+$$
+Z(\theta) \equiv \sum_{v,h} e^{-E(v,h; \theta)}
+$$
+and the free energy function is <br>
+$$
+F(\theta) = -\ln Z(\theta)
+$$
+where lower free energy means the RBM learned the visible state well.
+
+Step 6: Train the RBM. Model weights updated via gradient descent.<br>
+Step 7: Feature extraction for classification with LR. The hidden layer activations of the RBM are used as features for LR.
 
 <!-- 
 
@@ -131,7 +156,7 @@ There are 10 labels in total:<br>
 9 Ankle boot<br>
 
 
-Below we display the first five rows of the dataset.
+Below we load the dataset.
 
 ```{python}
 import pandas as pd
@@ -141,6 +166,7 @@ import torch
 import torchvision.datasets
 import torchvision.models
 import torchvision.transforms as transforms
+import matplotlib.pyplot as plt
 
 ########## CONFIGURATION ##########
 BATCH_SIZE = 64
@@ -179,6 +205,23 @@ test_data = torchvision.datasets.FashionMNIST(
 ```
 
 
+Get the seventh image to show a sample 
+```{python}
+# Extract the first image (or choose any index)
+image_tensor, label = train_data[6]  # shape: [1, 28, 28]
+
+# Convert tensor to NumPy array
+image_array = image_tensor.numpy().squeeze()  
+
+# Plot the image
+plt.figure(figsize=(5,5))
+plt.imshow(image_array, cmap="gray")
+plt.title(f"FashionMNIST Image (Label: {label})")
+plt.axis("off")  # Hide axes
+plt.show()
+```
+
+
 ```{python}
 train_images = train_data.data.numpy()  # Raw pixel values (0-255)
 train_labels = train_data.targets.numpy()
@@ -204,7 +247,6 @@ print(np.isnan(train_images).any())
 <b>There appears to be no class imbalance</b>
 
 ```{python}
-
 
 unique_labels, counts = np.unique(train_labels, return_counts=True)
 
