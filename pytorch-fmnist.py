@@ -54,13 +54,6 @@ train_dataset = datasets.FashionMNIST(root='./data', train=True, transform=trans
 test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=transform, download=True)
 
 def objective(trial):
-    # num_epochs = 20
-    # batch_size = 128
-    # rbm_lr = 0.1
-    # rbm_hidden = 512
-    # fnn_hidden = 128
-    # fnn_lr = 0.001
-    # num_classifier_epochs = 20
     num_rbm_epochs = trial.suggest_int("num_rbm_epochs", 24, 33)
     batch_size = trial.suggest_int("batch_size", 192, 1024)
     rbm_lr = trial.suggest_float("rbm_lr", 0.05, 0.1)

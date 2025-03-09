@@ -46,6 +46,8 @@ RBMs have been successfully used to distinguish normal and anomalous network tra
 
 RBMs can provide greatly improved classification of brain disorders in MRI images. Generative Adversarial Networks (GANs) use two neural networks: a generator which generates fake data, and a discriminator which tries to distinguish between real and fake data. Loss from the discriminator is backpropagated through the generator so that both part are trained simultaneously. The RBM-GAN uses RBM features from real MRI images as inputs to the generator. Features from the discriminator are then used as inputs to a classifier. [@aslan2023automated]
 
+The many-body quantum wavefunction, which describes the quantum state of a system of particles is difficult to compute with classical computers. RBMs have been used to approximate it using variational Monte Carlo methods. [@melko2019restricted]
+
 RBMs are notoriously slow to train. The process of computing the activation probability requires the calculation of vector dot products. Lean Constrastive Divergence (LCD) is a method which adds two techniques to speed up the process of training RBMs. The first is bounds-based filtering where upper and lower bounds of the probability select only a range of dot products to perform. Second, the delta product involves only recalculating the changed portions of the vector dot product. [@ning2018lcd]
 
 
@@ -58,7 +60,7 @@ Below is the energy function of the RBM.
 $$
 E(v,h) = - \sum_{i} a_i v_i - \sum_{j} b_j h_j - \sum_{i} \sum_{j} v_i w_{i,j} h_j
 $$
-where v<sub>i</sub> and h<sub>j</sub> represent visible and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bias terms of the visible and hidden units; and each w<sub>{i,j}</sub> (weight) element represents the interaction between the visible and hidden units.
+where v<sub>i</sub> and h<sub>j</sub> represent visible and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bias terms of the visible and hidden units; and each w<sub>{i,j}</sub> (weight) element represents the interaction between the visible and hidden units. [@fischer2012introduction]
 
 
 It is well known neural networks are prone to overfitting and often techniques such as early stopping are employed to prevent it. Some methods to prevent overfitting in RBMs are weight decay (L2 regularization), dropout, dropconnect, and weight uncertainty [@zhang2018overview]. Dropout is a fairly well known concept in deep learning. For example, a dropout value of 0.3 added to a layer means 30% of neurons are dropped during training. This prevents the network from learning certain features too well. L2 regularization is also a commonly employed technique in deep learning. It assigns a penalty to large weights to allow for more generalization. Dropconnect is a method where a subset of weights within the network are randomly set to zero during training. Weight uncertainty is where each weight in the network has it's own probability distribution vice a fixed value. This addition allows the network to learn more useful features. 
