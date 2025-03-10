@@ -59,7 +59,7 @@ Below is the energy function of the RBM.
 
 $$
 E(v,h) = - \sum_{i} a_i v_i - \sum_{j} b_j h_j - \sum_{i} \sum_{j} v_i w_{i,j} h_j
-$$
+$$ {#eq-energy}
 where v<sub>i</sub> and h<sub>j</sub> represent visible and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bias terms of the visible and hidden units; and each w<sub>{i,j}</sub> (weight) element represents the interaction between the visible and hidden units. [@fischer2012introduction]
 
 
@@ -72,7 +72,7 @@ One technique we explore is standardizing Fashion MNIST features/pixels, then tr
 
 $$
 P(Y = k | X) = \frac{e^{\beta_{0k} + \beta_k^T X}}{\sum_{l=1}^{K} e^{\beta_{0l} + \beta_l^T X}}
-$$
+$$ {#eq-probability-lr}
 
 Mathematically, the concept behind binary logistic regression is the logit (the natural logarithm of an odds ratio)[@peng2002introduction]. However, since we have 10 labels, our classification task falls into "Multinomial Logistic Regression." 
 
@@ -80,28 +80,32 @@ Mathematically, the concept behind binary logistic regression is the logit (the 
 
 ##### Below is our Process for creating the RBM:
 Step 1: We first initialize the RBM with random weights and biases and set visible units to 784 and hidden units to 256. We also set the number of contrastive divergence steps (k) to 1. </br>
-Step 2: Sample hidden units from visible. The math behind computing the hidden unit activations from the given input can be seen in equation 23 [@fischer2012introduction] where the probability is used to sample from the Bernoulli distribution. </br>
+Step 2: Sample hidden units from visible. The math behind computing the hidden unit activations from the given input can be seen in [@eq-probability-rbm1] [@fischer2012introduction] where the probability is used to sample from the Bernoulli distribution. </br>
 $$
 p(H_i = 1 | \mathbf{v}) = \sigma \left( \sum_{j=1}^{m} w_{ij} v_j + c_i \right)
-$$
-Step 3: Sample visible units from hidden. The math behind computing visible unit activations from the hidden layer can be seen in equation 24 [@fischer2012introduction] Visible states are sampled using the Bernoulli distribution. This way we can see how well the RBM learned from the inputs. </br>
+$$ {#eq-probability-rbm1}
+Step 3: Sample visible units from hidden. The math behind computing visible unit activations from the hidden layer can be seen in [@eq-probability-rbm2] [@fischer2012introduction] Visible states are sampled using the Bernoulli distribution. This way we can see how well the RBM learned from the inputs. </br>
 $$
 p(V_j = 1 | \mathbf{h}) = \sigma \left( \sum_{i=1}^{n} w_{ij} h_i + b_j \right)
-$$
+$$ {#eq-probability-rbm2}
 
 Step 4: K=1 steps of Contrastive Divergence (Feed Forward, Feed Backward) which executes steps 2 and 3. Contrastive Divergence updates the RBM’s weights by minimizing the difference between the original input and the reconstructed input created by the RBM. </br>
 Step 5: Free energy is computed. The free energy F is given by the logarithm of the partition function Z [@oh2020entropy] where the partition function is  <br>
 $$
 Z(\theta) \equiv \sum_{v,h} e^{-E(v,h; \theta)}
-$$
+$$ {#eq-partition}
 and the free energy function is <br>
 $$
 F(\theta) = -\ln Z(\theta)
-$$
+$$ {#eq-free-energy}
 where lower free energy means the RBM learned the visible state well.
 
 Step 6: Train the RBM. Model weights updated via gradient descent.<br>
 Step 7: Feature extraction for classification with LR. The hidden layer activations of the RBM are used as features for LR.
+
+##### Hyperparameter Tuning
+
+We use the Tree-structured Parzen Estimator algorithm from Optuna [@akiba2019optuna] to tune the hyperparameters of the RBM and the classifier models, and we use MLFlow [@zaharia2018accelerating] to record and visualize the results of the hyperparameter tuning process. The hyperparameters we tune include the learning rate, batch size, number of hidden units, and number of epochs.
 
 <!-- 
 
