@@ -5,8 +5,15 @@ from torchvision import datasets, transforms
 import numpy as np
 import mlflow
 import optuna
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
 
-experiment = mlflow.set_experiment("pytorch-fmnist")
+CLASSIFIER = 'LogisticRegression'
+
+if CLASSIFIER == 'LogisticRegression':
+    experiment = mlflow.set_experiment("pytorch-fmnist-lr")
+else:
+    experiment = mlflow.set_experiment("pytorch-fmnist")
 
 class RBM(nn.Module):
     def __init__(self, n_visible=784, n_hidden=256, k=1):
@@ -58,8 +65,13 @@ def objective(trial):
     batch_size = trial.suggest_int("batch_size", 192, 1024)
     rbm_lr = trial.suggest_float("rbm_lr", 0.05, 0.1)
     rbm_hidden = trial.suggest_int("rbm_hidden", 384, 8192)
-    fnn_hidden = trial.suggest_int("fnn_hidden", 192, 384)
-    fnn_lr = trial.suggest_float("fnn_lr", 0.0001, 0.0025)
+
+    if CLASSIFIER != 'LogisticRegression':
+        fnn_hidden = trial.suggest_int("fnn_hidden", 192, 384)
+        fnn_lr = trial.suggest_float("fnn_lr", 0.0001, 0.0025)
+        mlflow.log_param("fnn_hidden", fnn_hidden)
+        mlflow.log_param("fnn_lr", fnn_lr)
+
     num_classifier_epochs = trial.suggest_int("num_classifier_epochs", 40, 60)
 
     mlflow.start_run(experiment_id=experiment.experiment_id)
@@ -67,8 +79,6 @@ def objective(trial):
     mlflow.log_param("batch_size", batch_size)
     mlflow.log_param("rbm_lr", rbm_lr)
     mlflow.log_param("rbm_hidden", rbm_hidden)
-    mlflow.log_param("fnn_hidden", fnn_hidden)
-    mlflow.log_param("fnn_lr", fnn_lr)
     mlflow.log_param("num_classifier_epochs", num_classifier_epochs)
 
     # Instantiate RBM and optimizer
@@ -120,53 +130,72 @@ def objective(trial):
         train_feature_dataset = torch.utils.data.TensorDataset(train_features_tensor, train_labels_tensor)
         train_feature_loader = torch.utils.data.DataLoader(train_feature_dataset, batch_size=batch_size, shuffle=True)
 
-        classifier = nn.Sequential(
-            nn.Linear(rbm.n_hidden, fnn_hidden),
-            nn.ReLU(),
-            nn.Linear(fnn_hidden, 10)
-        )
+        if CLASSIFIER == 'LogisticRegression':
+            classifier = LogisticRegression(max_iter=num_classifier_epochs)
+            classifier.fit(train_features, train_labels)
+        else:
+            classifier = nn.Sequential(
+                nn.Linear(rbm.n_hidden, fnn_hidden),
+                nn.ReLU(),
+                nn.Linear(fnn_hidden, 10)
+            )
 
-        # Move classifier to the same device as the RBM
-        classifier = classifier.to(device)
-        criterion = nn.CrossEntropyLoss()
-        classifier_optimizer = torch.optim.Adam(classifier.parameters(), lr=fnn_lr)
+            # Move classifier to the same device as the RBM
+            classifier = classifier.to(device)
+            criterion = nn.CrossEntropyLoss()
+            classifier_optimizer = torch.optim.Adam(classifier.parameters(), lr=fnn_lr)
 
-        classifier.train()
-        for epoch in range(num_classifier_epochs):
-            running_loss = 0.0
-            for features, labels in train_feature_loader:
-                features = features.to(device)
-                labels = labels.to(device)
-                
-                # Forward pass through classifier
-                outputs = classifier(features)
-                loss = criterion(outputs, labels)
-                
-                # Backpropagation and optimization
-                classifier_optimizer.zero_grad()
-                loss.backward()
-                classifier_optimizer.step()
-                
-                running_loss += loss.item()
-            avg_loss = running_loss / len(train_feature_loader)
-            print(f"Classifier Epoch {epoch+1}: loss = {avg_loss:.4f}")
+            classifier.train()
+            for epoch in range(num_classifier_epochs):
+                running_loss = 0.0
+                for features, labels in train_feature_loader:
+                    features = features.to(device)
+                    labels = labels.to(device)
+                    
+                    # Forward pass through classifier
+                    outputs = classifier(features)
+                    loss = criterion(outputs, labels)
+                    
+                    # Backpropagation and optimization
+                    classifier_optimizer.zero_grad()
+                    loss.backward()
+                    classifier_optimizer.step()
+                    
+                    running_loss += loss.item()
+                avg_loss = running_loss / len(train_feature_loader)
+                print(f"Classifier Epoch {epoch+1}: loss = {avg_loss:.4f}")
 
         # Evaluate the classifier on test data.
         # Here we extract features from the RBM for each test image.
-        classifier.eval()
-        correct = 0
-        total = 0
+        if CLASSIFIER != 'LogisticRegression':
+            classifier.eval()
+        features_list = []
+        labels_list = []
         with torch.no_grad():
             for images, labels in test_loader:
                 v = images.view(-1, 784).to(device)
                 # Extract hidden activations; you can use either h_prob or h_sample.
                 h_prob, _ = rbm.sample_h(v)
-                outputs = classifier(h_prob)
+                features_list.append(h_prob.cpu().detach().numpy())
+                labels_list.append(labels.numpy())
+        test_features = np.concatenate(features_list)
+        test_labels = np.concatenate(labels_list)
+
+        if CLASSIFIER == 'LogisticRegression':
+            predictions = classifier.predict(test_features)
+            accuracy = accuracy_score(test_labels, predictions) * 100
+        else:
+            correct = 0
+            total = 0
+            for features, labels in zip(test_features, test_labels):
+                features = torch.tensor(features, dtype=torch.float32).to(device)
+                labels = torch.tensor(labels, dtype=torch.long).to(device)
+                outputs = classifier(features)
                 _, predicted = torch.max(outputs.data, 1)
                 total += labels.size(0)
                 correct += (predicted.cpu() == labels).sum().item()
+            accuracy = 100 * correct / total
 
-        accuracy = 100 * correct / total
         print(f"Test Accuracy: {accuracy:.2f}%")
 
     mlflow.log_metric("test_accuracy", accuracy)
