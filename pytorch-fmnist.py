@@ -61,20 +61,20 @@ train_dataset = datasets.FashionMNIST(root='./data', train=True, transform=trans
 test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=transform, download=True)
 
 def objective(trial):
-    num_rbm_epochs = trial.suggest_int("num_rbm_epochs", 24, 33)
+    num_rbm_epochs = trial.suggest_int("num_rbm_epochs", 5, 5)# 24, 33)
     batch_size = trial.suggest_int("batch_size", 192, 1024)
     rbm_lr = trial.suggest_float("rbm_lr", 0.05, 0.1)
     rbm_hidden = trial.suggest_int("rbm_hidden", 384, 8192)
 
+    mlflow.start_run(experiment_id=experiment.experiment_id)
     if CLASSIFIER != 'LogisticRegression':
         fnn_hidden = trial.suggest_int("fnn_hidden", 192, 384)
         fnn_lr = trial.suggest_float("fnn_lr", 0.0001, 0.0025)
         mlflow.log_param("fnn_hidden", fnn_hidden)
         mlflow.log_param("fnn_lr", fnn_lr)
 
-    num_classifier_epochs = trial.suggest_int("num_classifier_epochs", 40, 60)
+    num_classifier_epochs = trial.suggest_int("num_classifier_epochs", 5, 5)# 40, 60)
 
-    mlflow.start_run(experiment_id=experiment.experiment_id)
     mlflow.log_param("num_rbm_epochs", num_rbm_epochs)
     mlflow.log_param("batch_size", batch_size)
     mlflow.log_param("rbm_lr", rbm_lr)
@@ -169,6 +169,8 @@ def objective(trial):
         # Here we extract features from the RBM for each test image.
         if CLASSIFIER != 'LogisticRegression':
             classifier.eval()
+            correct = 0
+            total = 0
         features_list = []
         labels_list = []
         with torch.no_grad():
@@ -176,24 +178,21 @@ def objective(trial):
                 v = images.view(-1, 784).to(device)
                 # Extract hidden activations; you can use either h_prob or h_sample.
                 h_prob, _ = rbm.sample_h(v)
-                features_list.append(h_prob.cpu().detach().numpy())
-                labels_list.append(labels.numpy())
-        test_features = np.concatenate(features_list)
-        test_labels = np.concatenate(labels_list)
+                if CLASSIFIER == 'LogisticRegression':
+                    features_list.append(h_prob.cpu().detach().numpy())
+                    labels_list.append(labels.numpy())
+                else:
+                    outputs = classifier(h_prob)
+                    _, predicted = torch.max(outputs.data, 1)
+                    total += labels.size(0)
+                    correct += (predicted.cpu() == labels).sum().item()
 
         if CLASSIFIER == 'LogisticRegression':
+            test_features = np.concatenate(features_list)
+            test_labels = np.concatenate(labels_list)
             predictions = classifier.predict(test_features)
             accuracy = accuracy_score(test_labels, predictions) * 100
         else:
-            correct = 0
-            total = 0
-            for features, labels in zip(test_features, test_labels):
-                features = torch.tensor(features, dtype=torch.float32).to(device)
-                labels = torch.tensor(labels, dtype=torch.long).to(device)
-                outputs = classifier(features)
-                _, predicted = torch.max(outputs.data, 1)
-                total += labels.size(0)
-                correct += (predicted.cpu() == labels).sum().item()
             accuracy = 100 * correct / total
 
         print(f"Test Accuracy: {accuracy:.2f}%")
