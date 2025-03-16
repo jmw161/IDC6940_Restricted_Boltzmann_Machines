@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/3c33371f777c41dcaad66a86698ab353/artifacts
+end_time: 1742095317200
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 3c33371f777c41dcaad66a86698ab353
+run_name: smiling-ant-129
+run_uuid: 3c33371f777c41dcaad66a86698ab353
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742095275815
+status: 3
+tags: []
+user_id: jessicawells

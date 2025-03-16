@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/5407348592fd4aba86377b85f7f89651/artifacts
+end_time: 1742115931492
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 5407348592fd4aba86377b85f7f89651
+run_name: traveling-kit-6
+run_uuid: 5407348592fd4aba86377b85f7f89651
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115924755
+status: 3
+tags: []
+user_id: jessicawells

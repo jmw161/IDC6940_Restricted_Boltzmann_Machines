@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/9af32dcf46164a7ebc6d8a0da92298da/artifacts
+deleted_time: 1742091577593
+end_time: 1742088732795
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 9af32dcf46164a7ebc6d8a0da92298da
+run_name: judicious-dove-756
+run_uuid: 9af32dcf46164a7ebc6d8a0da92298da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088724872
+status: 3
+tags: []
+user_id: jessicawells

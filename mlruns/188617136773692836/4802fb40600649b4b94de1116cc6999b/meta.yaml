@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/4802fb40600649b4b94de1116cc6999b/artifacts
+end_time: 1742103860210
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 4802fb40600649b4b94de1116cc6999b
+run_name: bedecked-duck-279
+run_uuid: 4802fb40600649b4b94de1116cc6999b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103847032
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/bade9c296efa4c2e8e4443d795cef2fd/artifacts
+end_time: 1742103910120
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: bade9c296efa4c2e8e4443d795cef2fd
+run_name: resilient-snipe-741
+run_uuid: bade9c296efa4c2e8e4443d795cef2fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103896922
+status: 3
+tags: []
+user_id: jessicawells

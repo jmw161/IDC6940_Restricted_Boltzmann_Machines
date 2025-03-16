@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/95fc02927d1f42baab52b9dfb3c4a7fc/artifacts
+end_time: 1742109476038
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 95fc02927d1f42baab52b9dfb3c4a7fc
+run_name: traveling-tern-420
+run_uuid: 95fc02927d1f42baab52b9dfb3c4a7fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109433444
+status: 3
+tags: []
+user_id: jessicawells

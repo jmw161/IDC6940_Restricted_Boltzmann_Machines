@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/d209db7b9dc14bbdacccf6d98b3496a4/artifacts
+end_time: 1742104003112
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: d209db7b9dc14bbdacccf6d98b3496a4
+run_name: polite-roo-490
+run_uuid: d209db7b9dc14bbdacccf6d98b3496a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103959701
+status: 3
+tags: []
+user_id: jessicawells

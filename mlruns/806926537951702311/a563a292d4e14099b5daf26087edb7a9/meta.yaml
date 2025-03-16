@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/a563a292d4e14099b5daf26087edb7a9/artifacts
+end_time: 1742095770983
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: a563a292d4e14099b5daf26087edb7a9
+run_name: rebellious-stag-347
+run_uuid: a563a292d4e14099b5daf26087edb7a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742095735159
+status: 3
+tags: []
+user_id: jessicawells

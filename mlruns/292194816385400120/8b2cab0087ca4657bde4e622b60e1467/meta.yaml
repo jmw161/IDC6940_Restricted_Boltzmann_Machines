@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/8b2cab0087ca4657bde4e622b60e1467/artifacts
+end_time: 1742095516883
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 8b2cab0087ca4657bde4e622b60e1467
+run_name: wistful-croc-206
+run_uuid: 8b2cab0087ca4657bde4e622b60e1467
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742095475208
+status: 3
+tags: []
+user_id: jessicawells

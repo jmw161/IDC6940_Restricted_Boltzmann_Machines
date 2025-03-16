@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/cbb003d5934a44a88e3c5493dd018961/artifacts
+end_time: 1742096429869
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: cbb003d5934a44a88e3c5493dd018961
+run_name: rumbling-fawn-441
+run_uuid: cbb003d5934a44a88e3c5493dd018961
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742096363339
+status: 3
+tags: []
+user_id: jessicawells

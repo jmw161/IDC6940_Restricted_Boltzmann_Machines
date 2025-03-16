@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/e6c99b32417e4120af2c1b71cf38cb02/artifacts
+deleted_time: 1742091577590
+end_time: 1742088777714
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: e6c99b32417e4120af2c1b71cf38cb02
+run_name: shivering-robin-487
+run_uuid: e6c99b32417e4120af2c1b71cf38cb02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088770350
+status: 3
+tags: []
+user_id: jessicawells

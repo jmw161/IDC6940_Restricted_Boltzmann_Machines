@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/0904b60a4fda44cfbfb975e997b942cc/artifacts
+end_time: 1742119449408
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 0904b60a4fda44cfbfb975e997b942cc
+run_name: calm-bug-326
+run_uuid: 0904b60a4fda44cfbfb975e997b942cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119411542
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/a9d8afd9a5b74c47ae70ab98dba5989f/artifacts
+end_time: 1742134980304
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: a9d8afd9a5b74c47ae70ab98dba5989f
+run_name: fearless-horse-687
+run_uuid: a9d8afd9a5b74c47ae70ab98dba5989f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742134929370
+status: 3
+tags: []
+user_id: jessicawells

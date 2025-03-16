@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/b2b259c70a7d4c3a921d49d8c97ee72f/artifacts
+end_time: 1742093101935
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: b2b259c70a7d4c3a921d49d8c97ee72f
+run_name: monumental-lynx-708
+run_uuid: b2b259c70a7d4c3a921d49d8c97ee72f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742093087343
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/0b3c98562c8948048ab882ed6f2976a1/artifacts
+end_time: 1742115705341
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 0b3c98562c8948048ab882ed6f2976a1
+run_name: selective-shrew-482
+run_uuid: 0b3c98562c8948048ab882ed6f2976a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115698623
+status: 3
+tags: []
+user_id: jessicawells

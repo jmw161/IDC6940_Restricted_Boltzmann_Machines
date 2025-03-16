@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/dd340e77848c41dcb3ce58d26507837f/artifacts
+end_time: 1742119776934
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: dd340e77848c41dcb3ce58d26507837f
+run_name: big-loon-744
+run_uuid: dd340e77848c41dcb3ce58d26507837f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119729631
+status: 3
+tags: []
+user_id: jessicawells

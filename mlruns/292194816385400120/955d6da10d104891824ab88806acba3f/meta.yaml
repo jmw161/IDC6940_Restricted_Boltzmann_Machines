@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/955d6da10d104891824ab88806acba3f/artifacts
+end_time: 1742105580184
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 955d6da10d104891824ab88806acba3f
+run_name: dashing-snail-29
+run_uuid: 955d6da10d104891824ab88806acba3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742105548334
+status: 3
+tags: []
+user_id: jessicawells

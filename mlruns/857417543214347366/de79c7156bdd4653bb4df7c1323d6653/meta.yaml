@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/de79c7156bdd4653bb4df7c1323d6653/artifacts
+deleted_time: 1742091577621
+end_time: 1742086753844
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: de79c7156bdd4653bb4df7c1323d6653
+run_name: stylish-rook-169
+run_uuid: de79c7156bdd4653bb4df7c1323d6653
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086747064
+status: 3
+tags: []
+user_id: jessicawells

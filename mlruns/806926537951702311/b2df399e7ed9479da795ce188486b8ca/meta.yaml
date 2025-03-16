@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/b2df399e7ed9479da795ce188486b8ca/artifacts
+end_time: 1742123483542
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: b2df399e7ed9479da795ce188486b8ca
+run_name: illustrious-dog-380
+run_uuid: b2df399e7ed9479da795ce188486b8ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742123414142
+status: 3
+tags: []
+user_id: jessicawells

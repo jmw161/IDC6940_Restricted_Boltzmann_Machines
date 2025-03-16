@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/0cbbefe9dba84e078e8f545b4ad83dea/artifacts
+end_time: 1742135003372
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 0cbbefe9dba84e078e8f545b4ad83dea
+run_name: shivering-hog-269
+run_uuid: 0cbbefe9dba84e078e8f545b4ad83dea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742134980355
+status: 3
+tags: []
+user_id: jessicawells

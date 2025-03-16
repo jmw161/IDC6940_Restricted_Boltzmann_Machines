@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c3ede06f5fd045c4b7a41155ee8835ba/artifacts
+end_time: 1742114779321
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c3ede06f5fd045c4b7a41155ee8835ba
+run_name: sedate-pug-788
+run_uuid: c3ede06f5fd045c4b7a41155ee8835ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114772784
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/f0bd1b78c29f4d4f8171b70ec80c103d/artifacts
+end_time: 1742106435847
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: f0bd1b78c29f4d4f8171b70ec80c103d
+run_name: kindly-boar-261
+run_uuid: f0bd1b78c29f4d4f8171b70ec80c103d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742106342505
+status: 3
+tags: []
+user_id: jessicawells

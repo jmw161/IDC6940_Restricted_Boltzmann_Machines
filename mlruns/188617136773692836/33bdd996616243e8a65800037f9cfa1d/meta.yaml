@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/33bdd996616243e8a65800037f9cfa1d/artifacts
+end_time: 1742118384170
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 33bdd996616243e8a65800037f9cfa1d
+run_name: auspicious-fish-496
+run_uuid: 33bdd996616243e8a65800037f9cfa1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118369122
+status: 3
+tags: []
+user_id: jessicawells

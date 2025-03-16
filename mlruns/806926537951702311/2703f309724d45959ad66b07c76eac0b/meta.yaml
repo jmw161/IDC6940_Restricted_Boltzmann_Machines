@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/2703f309724d45959ad66b07c76eac0b/artifacts
+end_time: 1742122948076
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 2703f309724d45959ad66b07c76eac0b
+run_name: grandiose-steed-637
+run_uuid: 2703f309724d45959ad66b07c76eac0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122900549
+status: 3
+tags: []
+user_id: jessicawells

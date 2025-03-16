@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/11bad7403ab143ad84edcc9d2a49ab5e/artifacts
+deleted_time: 1742091577621
+end_time: 1742086767513
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 11bad7403ab143ad84edcc9d2a49ab5e
+run_name: masked-frog-215
+run_uuid: 11bad7403ab143ad84edcc9d2a49ab5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086760764
+status: 3
+tags: []
+user_id: jessicawells

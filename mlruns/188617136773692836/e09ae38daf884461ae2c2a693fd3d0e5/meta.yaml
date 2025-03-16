@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/e09ae38daf884461ae2c2a693fd3d0e5/artifacts
+end_time: 1742092396617
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: e09ae38daf884461ae2c2a693fd3d0e5
+run_name: fun-kite-46
+run_uuid: e09ae38daf884461ae2c2a693fd3d0e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092383609
+status: 3
+tags: []
+user_id: jessicawells

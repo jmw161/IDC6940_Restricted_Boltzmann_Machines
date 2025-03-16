@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/cd85855c63f7448490d4cd06027e0458/artifacts
+end_time: 1742107258570
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: cd85855c63f7448490d4cd06027e0458
+run_name: enthused-zebra-288
+run_uuid: cd85855c63f7448490d4cd06027e0458
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742107226872
+status: 3
+tags: []
+user_id: jessicawells

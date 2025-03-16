@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/ec040475439d404391140479a9ec969f/artifacts
+end_time: 1742107891464
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: ec040475439d404391140479a9ec969f
+run_name: charming-shoat-441
+run_uuid: ec040475439d404391140479a9ec969f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742107828953
+status: 3
+tags: []
+user_id: jessicawells

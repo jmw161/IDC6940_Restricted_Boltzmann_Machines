@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/174fc9893e8346d48ccbd11cb8c8e64e/artifacts
+end_time: 1742095056214
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 174fc9893e8346d48ccbd11cb8c8e64e
+run_name: placid-hare-350
+run_uuid: 174fc9893e8346d48ccbd11cb8c8e64e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742095009319
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/589ff76bc9dc436a8d2654dfe3337d4b/artifacts
+end_time: 1742126855304
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 589ff76bc9dc436a8d2654dfe3337d4b
+run_name: legendary-mink-314
+run_uuid: 589ff76bc9dc436a8d2654dfe3337d4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126849876
+status: 3
+tags: []
+user_id: jessicawells

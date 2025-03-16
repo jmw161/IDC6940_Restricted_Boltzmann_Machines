@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/3d227e1589e849359dd376ecaf576de7/artifacts
+end_time: 1742131758353
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 3d227e1589e849359dd376ecaf576de7
+run_name: victorious-bug-21
+run_uuid: 3d227e1589e849359dd376ecaf576de7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131718285
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/4fbf48f50ec74fa881a702150a81146f/artifacts
+deleted_time: 1742091577568
+end_time: null
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 4fbf48f50ec74fa881a702150a81146f
+run_name: auspicious-cow-189
+run_uuid: 4fbf48f50ec74fa881a702150a81146f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742089955308
+status: 1
+tags: []
+user_id: jessicawells

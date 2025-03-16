@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/77bd5e4c632e499d926a7d88ab96b59f/artifacts
+end_time: 1742105089032
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 77bd5e4c632e499d926a7d88ab96b59f
+run_name: learned-gull-424
+run_uuid: 77bd5e4c632e499d926a7d88ab96b59f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742105049648
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/1df9484c390c4cbdb8a42840f92b5d45/artifacts
+end_time: 1742129376423
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 1df9484c390c4cbdb8a42840f92b5d45
+run_name: gregarious-trout-816
+run_uuid: 1df9484c390c4cbdb8a42840f92b5d45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129361559
+status: 3
+tags: []
+user_id: jessicawells

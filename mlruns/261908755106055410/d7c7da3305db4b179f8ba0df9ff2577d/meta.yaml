@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/d7c7da3305db4b179f8ba0df9ff2577d/artifacts
+end_time: 1742124057589
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: d7c7da3305db4b179f8ba0df9ff2577d
+run_name: clumsy-colt-116
+run_uuid: d7c7da3305db4b179f8ba0df9ff2577d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124026714
+status: 3
+tags: []
+user_id: jessicawells

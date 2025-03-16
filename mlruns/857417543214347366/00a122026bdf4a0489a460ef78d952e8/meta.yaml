@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/00a122026bdf4a0489a460ef78d952e8/artifacts
+end_time: 1742115698613
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 00a122026bdf4a0489a460ef78d952e8
+run_name: skillful-steed-51
+run_uuid: 00a122026bdf4a0489a460ef78d952e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115691906
+status: 3
+tags: []
+user_id: jessicawells

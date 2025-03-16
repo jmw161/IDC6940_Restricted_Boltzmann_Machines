@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/93836fa1458a4d4c8b7d1d0f62b75395/artifacts
+end_time: 1742098106939
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 93836fa1458a4d4c8b7d1d0f62b75395
+run_name: marvelous-midge-60
+run_uuid: 93836fa1458a4d4c8b7d1d0f62b75395
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742098058729
+status: 3
+tags: []
+user_id: jessicawells

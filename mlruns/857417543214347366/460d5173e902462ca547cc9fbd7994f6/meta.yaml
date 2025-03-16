@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/460d5173e902462ca547cc9fbd7994f6/artifacts
+end_time: 1742126636106
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 460d5173e902462ca547cc9fbd7994f6
+run_name: casual-goat-279
+run_uuid: 460d5173e902462ca547cc9fbd7994f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126630628
+status: 3
+tags: []
+user_id: jessicawells

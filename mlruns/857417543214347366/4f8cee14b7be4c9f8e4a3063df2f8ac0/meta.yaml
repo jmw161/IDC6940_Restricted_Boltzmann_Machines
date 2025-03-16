@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/4f8cee14b7be4c9f8e4a3063df2f8ac0/artifacts
+end_time: 1742126614003
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 4f8cee14b7be4c9f8e4a3063df2f8ac0
+run_name: skittish-horse-311
+run_uuid: 4f8cee14b7be4c9f8e4a3063df2f8ac0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126608471
+status: 3
+tags: []
+user_id: jessicawells

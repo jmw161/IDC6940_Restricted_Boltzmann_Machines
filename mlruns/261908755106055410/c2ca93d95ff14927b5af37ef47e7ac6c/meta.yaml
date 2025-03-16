@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/c2ca93d95ff14927b5af37ef47e7ac6c/artifacts
+end_time: 1742100384867
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: c2ca93d95ff14927b5af37ef47e7ac6c
+run_name: flawless-stork-583
+run_uuid: c2ca93d95ff14927b5af37ef47e7ac6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742100343092
+status: 3
+tags: []
+user_id: jessicawells

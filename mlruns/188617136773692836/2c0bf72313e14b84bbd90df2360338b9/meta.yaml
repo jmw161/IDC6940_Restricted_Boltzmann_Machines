@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/2c0bf72313e14b84bbd90df2360338b9/artifacts
+end_time: 1742116489935
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 2c0bf72313e14b84bbd90df2360338b9
+run_name: dapper-smelt-506
+run_uuid: 2c0bf72313e14b84bbd90df2360338b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116470242
+status: 3
+tags: []
+user_id: jessicawells

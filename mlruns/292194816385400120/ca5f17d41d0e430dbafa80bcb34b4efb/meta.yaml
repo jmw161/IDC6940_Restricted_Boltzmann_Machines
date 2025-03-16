@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/ca5f17d41d0e430dbafa80bcb34b4efb/artifacts
+end_time: 1742104249008
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: ca5f17d41d0e430dbafa80bcb34b4efb
+run_name: bright-rat-346
+run_uuid: ca5f17d41d0e430dbafa80bcb34b4efb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104205896
+status: 3
+tags: []
+user_id: jessicawells

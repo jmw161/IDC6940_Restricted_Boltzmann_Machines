@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/a37e50a871aa47ba9a02730b0b983d58/artifacts
+end_time: 1742134063676
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: a37e50a871aa47ba9a02730b0b983d58
+run_name: painted-crane-117
+run_uuid: a37e50a871aa47ba9a02730b0b983d58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742134014346
+status: 3
+tags: []
+user_id: jessicawells

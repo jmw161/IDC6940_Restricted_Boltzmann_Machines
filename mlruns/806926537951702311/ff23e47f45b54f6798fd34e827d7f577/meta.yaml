@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/ff23e47f45b54f6798fd34e827d7f577/artifacts
+end_time: 1742121581671
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: ff23e47f45b54f6798fd34e827d7f577
+run_name: beautiful-pug-581
+run_uuid: ff23e47f45b54f6798fd34e827d7f577
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121512925
+status: 3
+tags: []
+user_id: jessicawells

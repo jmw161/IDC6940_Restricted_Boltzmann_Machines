@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/a7de853448fa405fba8347acae676add/artifacts
+end_time: 1742118720365
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: a7de853448fa405fba8347acae676add
+run_name: handsome-duck-98
+run_uuid: a7de853448fa405fba8347acae676add
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118703323
+status: 3
+tags: []
+user_id: jessicawells

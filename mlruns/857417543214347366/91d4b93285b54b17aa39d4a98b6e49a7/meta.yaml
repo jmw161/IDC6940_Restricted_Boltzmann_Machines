@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/91d4b93285b54b17aa39d4a98b6e49a7/artifacts
+end_time: 1742125833384
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 91d4b93285b54b17aa39d4a98b6e49a7
+run_name: sincere-swan-793
+run_uuid: 91d4b93285b54b17aa39d4a98b6e49a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125826849
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/01522407e5c74a4681fe8604ade41193/artifacts
+end_time: 1742109116811
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 01522407e5c74a4681fe8604ade41193
+run_name: upbeat-squid-278
+run_uuid: 01522407e5c74a4681fe8604ade41193
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109076667
+status: 3
+tags: []
+user_id: jessicawells

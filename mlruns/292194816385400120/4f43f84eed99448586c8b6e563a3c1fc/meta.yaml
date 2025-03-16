@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/4f43f84eed99448586c8b6e563a3c1fc/artifacts
+end_time: 1742120098386
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 4f43f84eed99448586c8b6e563a3c1fc
+run_name: glamorous-pig-846
+run_uuid: 4f43f84eed99448586c8b6e563a3c1fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742120032314
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/6199fe58fa054b52b6c608cfd27a1389/artifacts
+end_time: 1742121426482
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 6199fe58fa054b52b6c608cfd27a1389
+run_name: luminous-frog-436
+run_uuid: 6199fe58fa054b52b6c608cfd27a1389
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121394307
+status: 3
+tags: []
+user_id: jessicawells

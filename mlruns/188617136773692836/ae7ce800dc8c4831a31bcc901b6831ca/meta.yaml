@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/ae7ce800dc8c4831a31bcc901b6831ca/artifacts
+end_time: 1742103541138
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: ae7ce800dc8c4831a31bcc901b6831ca
+run_name: amusing-snipe-308
+run_uuid: ae7ce800dc8c4831a31bcc901b6831ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103526072
+status: 3
+tags: []
+user_id: jessicawells

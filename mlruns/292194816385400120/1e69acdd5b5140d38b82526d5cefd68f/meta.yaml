@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/1e69acdd5b5140d38b82526d5cefd68f/artifacts
+end_time: 1742130273799
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 1e69acdd5b5140d38b82526d5cefd68f
+run_name: nervous-fish-584
+run_uuid: 1e69acdd5b5140d38b82526d5cefd68f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130223175
+status: 3
+tags: []
+user_id: jessicawells

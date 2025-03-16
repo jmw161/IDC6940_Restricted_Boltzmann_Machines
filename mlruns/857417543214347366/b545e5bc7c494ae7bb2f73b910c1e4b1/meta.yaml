@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/b545e5bc7c494ae7bb2f73b910c1e4b1/artifacts
+deleted_time: 1742091577580
+end_time: 1742088905466
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: b545e5bc7c494ae7bb2f73b910c1e4b1
+run_name: charming-loon-510
+run_uuid: b545e5bc7c494ae7bb2f73b910c1e4b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088897954
+status: 3
+tags: []
+user_id: jessicawells

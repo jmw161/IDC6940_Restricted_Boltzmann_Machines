@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/3aa18a6c076e432b9c24072565440e51/artifacts
+end_time: 1742134439730
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 3aa18a6c076e432b9c24072565440e51
+run_name: suave-deer-776
+run_uuid: 3aa18a6c076e432b9c24072565440e51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742134382765
+status: 3
+tags: []
+user_id: jessicawells

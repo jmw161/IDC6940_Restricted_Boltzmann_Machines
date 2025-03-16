@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/16c9b2c8e0474a9fb38bb16c0a6bdbb1/artifacts
+end_time: 1742132989737
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 16c9b2c8e0474a9fb38bb16c0a6bdbb1
+run_name: abrasive-wolf-168
+run_uuid: 16c9b2c8e0474a9fb38bb16c0a6bdbb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742132928805
+status: 3
+tags: []
+user_id: jessicawells

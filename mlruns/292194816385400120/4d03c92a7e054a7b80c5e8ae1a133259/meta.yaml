@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/4d03c92a7e054a7b80c5e8ae1a133259/artifacts
+end_time: 1742094926046
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 4d03c92a7e054a7b80c5e8ae1a133259
+run_name: bouncy-robin-473
+run_uuid: 4d03c92a7e054a7b80c5e8ae1a133259
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094882835
+status: 3
+tags: []
+user_id: jessicawells

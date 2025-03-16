@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/963a54c238f346959bc7c21a17b8c642/artifacts
+end_time: 1742129782795
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 963a54c238f346959bc7c21a17b8c642
+run_name: glamorous-crane-995
+run_uuid: 963a54c238f346959bc7c21a17b8c642
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129769035
+status: 3
+tags: []
+user_id: jessicawells

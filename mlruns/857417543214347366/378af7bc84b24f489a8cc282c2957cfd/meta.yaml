@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/378af7bc84b24f489a8cc282c2957cfd/artifacts
+deleted_time: 1742091577610
+end_time: 1742086904097
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 378af7bc84b24f489a8cc282c2957cfd
+run_name: able-bug-454
+run_uuid: 378af7bc84b24f489a8cc282c2957cfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086897391
+status: 3
+tags: []
+user_id: jessicawells

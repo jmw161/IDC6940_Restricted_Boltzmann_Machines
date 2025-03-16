@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/46cd0532ce004d7daa60fc0f4042b734/artifacts
+end_time: 1742115778432
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 46cd0532ce004d7daa60fc0f4042b734
+run_name: likeable-mole-51
+run_uuid: 46cd0532ce004d7daa60fc0f4042b734
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115771711
+status: 3
+tags: []
+user_id: jessicawells

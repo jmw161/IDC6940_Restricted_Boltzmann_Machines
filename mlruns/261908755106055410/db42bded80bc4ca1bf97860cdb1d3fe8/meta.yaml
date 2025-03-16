@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/db42bded80bc4ca1bf97860cdb1d3fe8/artifacts
+end_time: 1742099716289
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: db42bded80bc4ca1bf97860cdb1d3fe8
+run_name: shivering-croc-740
+run_uuid: db42bded80bc4ca1bf97860cdb1d3fe8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099682451
+status: 3
+tags: []
+user_id: jessicawells

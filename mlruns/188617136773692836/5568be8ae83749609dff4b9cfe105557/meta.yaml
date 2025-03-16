@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/5568be8ae83749609dff4b9cfe105557/artifacts
+end_time: 1742129233030
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 5568be8ae83749609dff4b9cfe105557
+run_name: adaptable-mouse-977
+run_uuid: 5568be8ae83749609dff4b9cfe105557
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129220374
+status: 3
+tags: []
+user_id: jessicawells

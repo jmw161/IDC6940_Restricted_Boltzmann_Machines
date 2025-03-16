@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/8f1b16cac66e4eb3a17951023eead26f/artifacts
+deleted_time: 1742091577615
+end_time: 1742086828276
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 8f1b16cac66e4eb3a17951023eead26f
+run_name: upset-fly-272
+run_uuid: 8f1b16cac66e4eb3a17951023eead26f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086821525
+status: 3
+tags: []
+user_id: jessicawells

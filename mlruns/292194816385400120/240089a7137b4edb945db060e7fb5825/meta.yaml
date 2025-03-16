@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/240089a7137b4edb945db060e7fb5825/artifacts
+end_time: 1742095009313
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 240089a7137b4edb945db060e7fb5825
+run_name: amazing-squirrel-691
+run_uuid: 240089a7137b4edb945db060e7fb5825
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094974411
+status: 3
+tags: []
+user_id: jessicawells

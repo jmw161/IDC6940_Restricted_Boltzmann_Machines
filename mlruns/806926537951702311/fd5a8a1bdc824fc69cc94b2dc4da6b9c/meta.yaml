@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/fd5a8a1bdc824fc69cc94b2dc4da6b9c/artifacts
+end_time: 1742107988212
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: fd5a8a1bdc824fc69cc94b2dc4da6b9c
+run_name: gaudy-lark-250
+run_uuid: fd5a8a1bdc824fc69cc94b2dc4da6b9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742107891503
+status: 3
+tags: []
+user_id: jessicawells

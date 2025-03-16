@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/f2b1b828ad254dac99956aa46d08ab91/artifacts
+end_time: 1742109433408
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: f2b1b828ad254dac99956aa46d08ab91
+run_name: loud-snake-68
+run_uuid: f2b1b828ad254dac99956aa46d08ab91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109392851
+status: 3
+tags: []
+user_id: jessicawells

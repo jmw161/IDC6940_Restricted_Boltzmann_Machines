@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/fe0914325fb2474ab7854c179cdfe632/artifacts
+end_time: 1742115725334
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: fe0914325fb2474ab7854c179cdfe632
+run_name: trusting-rat-780
+run_uuid: fe0914325fb2474ab7854c179cdfe632
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115718642
+status: 3
+tags: []
+user_id: jessicawells

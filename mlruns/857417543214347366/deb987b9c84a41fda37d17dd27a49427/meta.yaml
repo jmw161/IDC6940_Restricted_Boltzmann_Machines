@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/deb987b9c84a41fda37d17dd27a49427/artifacts
+end_time: 1742118096383
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: deb987b9c84a41fda37d17dd27a49427
+run_name: luminous-chimp-320
+run_uuid: deb987b9c84a41fda37d17dd27a49427
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118089773
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/6f1ce3e7ba104b28b7799b4c7c8d14af/artifacts
+deleted_time: 1742091577584
+end_time: 1742088853257
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 6f1ce3e7ba104b28b7799b4c7c8d14af
+run_name: omniscient-ape-53
+run_uuid: 6f1ce3e7ba104b28b7799b4c7c8d14af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088845728
+status: 3
+tags: []
+user_id: jessicawells

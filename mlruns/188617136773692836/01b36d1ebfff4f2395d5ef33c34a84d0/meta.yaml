@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/01b36d1ebfff4f2395d5ef33c34a84d0/artifacts
+end_time: 1742116062293
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 01b36d1ebfff4f2395d5ef33c34a84d0
+run_name: sassy-snipe-434
+run_uuid: 01b36d1ebfff4f2395d5ef33c34a84d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116048944
+status: 3
+tags: []
+user_id: jessicawells

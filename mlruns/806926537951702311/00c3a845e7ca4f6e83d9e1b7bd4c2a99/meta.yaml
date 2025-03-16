@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/00c3a845e7ca4f6e83d9e1b7bd4c2a99/artifacts
+end_time: 1742097589419
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 00c3a845e7ca4f6e83d9e1b7bd4c2a99
+run_name: bouncy-sow-730
+run_uuid: 00c3a845e7ca4f6e83d9e1b7bd4c2a99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742097550269
+status: 3
+tags: []
+user_id: jessicawells

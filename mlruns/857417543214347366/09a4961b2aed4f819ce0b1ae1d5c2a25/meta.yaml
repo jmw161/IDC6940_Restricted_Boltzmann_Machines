@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/09a4961b2aed4f819ce0b1ae1d5c2a25/artifacts
+end_time: 1742103010445
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 09a4961b2aed4f819ce0b1ae1d5c2a25
+run_name: unequaled-wolf-462
+run_uuid: 09a4961b2aed4f819ce0b1ae1d5c2a25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103003861
+status: 3
+tags: []
+user_id: jessicawells

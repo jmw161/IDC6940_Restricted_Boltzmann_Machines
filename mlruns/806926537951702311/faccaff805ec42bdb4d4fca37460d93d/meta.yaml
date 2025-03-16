@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/faccaff805ec42bdb4d4fca37460d93d/artifacts
+end_time: 1742108487067
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: faccaff805ec42bdb4d4fca37460d93d
+run_name: silent-shark-763
+run_uuid: faccaff805ec42bdb4d4fca37460d93d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742108424521
+status: 3
+tags: []
+user_id: jessicawells

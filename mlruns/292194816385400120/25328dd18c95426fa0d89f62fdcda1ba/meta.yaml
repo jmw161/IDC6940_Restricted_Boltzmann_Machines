@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/25328dd18c95426fa0d89f62fdcda1ba/artifacts
+end_time: 1742131865521
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 25328dd18c95426fa0d89f62fdcda1ba
+run_name: judicious-loon-75
+run_uuid: 25328dd18c95426fa0d89f62fdcda1ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131832599
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/d7259c3a613c467c80ae70e6e8c2fdc3/artifacts
+end_time: 1742135112652
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: d7259c3a613c467c80ae70e6e8c2fdc3
+run_name: glamorous-bug-469
+run_uuid: d7259c3a613c467c80ae70e6e8c2fdc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135078931
+status: 3
+tags: []
+user_id: jessicawells

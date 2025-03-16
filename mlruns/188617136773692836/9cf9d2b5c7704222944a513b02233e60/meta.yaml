@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/9cf9d2b5c7704222944a513b02233e60/artifacts
+end_time: 1742129956088
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 9cf9d2b5c7704222944a513b02233e60
+run_name: righteous-bug-904
+run_uuid: 9cf9d2b5c7704222944a513b02233e60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129939155
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/c691256e62ab4774a377179d36344424/artifacts
+end_time: 1742098652488
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: c691256e62ab4774a377179d36344424
+run_name: charming-worm-176
+run_uuid: c691256e62ab4774a377179d36344424
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742098625006
+status: 3
+tags: []
+user_id: jessicawells

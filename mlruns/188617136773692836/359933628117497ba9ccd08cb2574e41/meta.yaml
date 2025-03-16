@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/359933628117497ba9ccd08cb2574e41/artifacts
+end_time: 1742092538502
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 359933628117497ba9ccd08cb2574e41
+run_name: worried-fly-16
+run_uuid: 359933628117497ba9ccd08cb2574e41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092516034
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/c6a8359097524e86ac7b11cc430bc1af/artifacts
+end_time: 1742124735327
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: c6a8359097524e86ac7b11cc430bc1af
+run_name: aged-robin-741
+run_uuid: c6a8359097524e86ac7b11cc430bc1af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124712598
+status: 3
+tags: []
+user_id: jessicawells

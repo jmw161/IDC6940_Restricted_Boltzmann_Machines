@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/227b27a998a747bfaab7c5396eae53a2/artifacts
+end_time: 1742122854068
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 227b27a998a747bfaab7c5396eae53a2
+run_name: thoughtful-pig-15
+run_uuid: 227b27a998a747bfaab7c5396eae53a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122830512
+status: 3
+tags: []
+user_id: jessicawells

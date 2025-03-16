@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/08c840c7183941499aabcade8c6a7248/artifacts
+end_time: 1742115897961
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 08c840c7183941499aabcade8c6a7248
+run_name: polite-sloth-145
+run_uuid: 08c840c7183941499aabcade8c6a7248
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115891384
+status: 3
+tags: []
+user_id: jessicawells

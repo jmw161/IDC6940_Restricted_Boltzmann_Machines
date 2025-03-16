@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/c47eecc0a1574e30a5de9970f3acf817/artifacts
+end_time: 1742118437505
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: c47eecc0a1574e30a5de9970f3acf817
+run_name: polite-grub-297
+run_uuid: c47eecc0a1574e30a5de9970f3acf817
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118416956
+status: 3
+tags: []
+user_id: jessicawells

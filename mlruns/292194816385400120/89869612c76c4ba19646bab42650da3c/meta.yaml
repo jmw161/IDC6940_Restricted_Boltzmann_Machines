@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/89869612c76c4ba19646bab42650da3c/artifacts
+end_time: 1742120417978
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 89869612c76c4ba19646bab42650da3c
+run_name: salty-skink-795
+run_uuid: 89869612c76c4ba19646bab42650da3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742120363291
+status: 3
+tags: []
+user_id: jessicawells

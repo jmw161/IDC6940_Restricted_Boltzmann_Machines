@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/607fffc5c6d1456682f8eea005d3d77f/artifacts
+deleted_time: 1742091577596
+end_time: 1742088693638
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 607fffc5c6d1456682f8eea005d3d77f
+run_name: popular-doe-396
+run_uuid: 607fffc5c6d1456682f8eea005d3d77f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088686060
+status: 3
+tags: []
+user_id: jessicawells

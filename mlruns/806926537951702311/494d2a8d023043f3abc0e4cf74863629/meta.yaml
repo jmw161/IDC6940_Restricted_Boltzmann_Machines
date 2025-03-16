@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/494d2a8d023043f3abc0e4cf74863629/artifacts
+end_time: 1742134296130
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 494d2a8d023043f3abc0e4cf74863629
+run_name: clumsy-rat-972
+run_uuid: 494d2a8d023043f3abc0e4cf74863629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742134216395
+status: 3
+tags: []
+user_id: jessicawells

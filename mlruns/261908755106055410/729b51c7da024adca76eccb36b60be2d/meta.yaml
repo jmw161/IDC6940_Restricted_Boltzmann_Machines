@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/729b51c7da024adca76eccb36b60be2d/artifacts
+end_time: 1742124690584
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 729b51c7da024adca76eccb36b60be2d
+run_name: resilient-ape-458
+run_uuid: 729b51c7da024adca76eccb36b60be2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124665429
+status: 3
+tags: []
+user_id: jessicawells

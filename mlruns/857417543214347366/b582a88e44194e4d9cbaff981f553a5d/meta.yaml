@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/b582a88e44194e4d9cbaff981f553a5d/artifacts
+end_time: 1742091994028
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: b582a88e44194e4d9cbaff981f553a5d
+run_name: worried-cat-445
+run_uuid: b582a88e44194e4d9cbaff981f553a5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742091986703
+status: 3
+tags: []
+user_id: jessicawells

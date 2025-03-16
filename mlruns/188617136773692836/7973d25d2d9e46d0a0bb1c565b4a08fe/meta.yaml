@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/7973d25d2d9e46d0a0bb1c565b4a08fe/artifacts
+end_time: 1742129861153
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 7973d25d2d9e46d0a0bb1c565b4a08fe
+run_name: adaptable-whale-663
+run_uuid: 7973d25d2d9e46d0a0bb1c565b4a08fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129844154
+status: 3
+tags: []
+user_id: jessicawells

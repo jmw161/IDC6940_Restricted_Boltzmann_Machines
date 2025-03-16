@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/d1281ae36ff54a41a9fcd2caeaf23564/artifacts
+end_time: 1742129824107
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: d1281ae36ff54a41a9fcd2caeaf23564
+run_name: rebellious-ram-930
+run_uuid: d1281ae36ff54a41a9fcd2caeaf23564
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129803323
+status: 3
+tags: []
+user_id: jessicawells

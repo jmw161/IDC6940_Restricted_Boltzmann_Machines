@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/be2d1a8c1a304e1d830b42a6c452e894/artifacts
+end_time: 1742131396181
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: be2d1a8c1a304e1d830b42a6c452e894
+run_name: charming-rat-140
+run_uuid: be2d1a8c1a304e1d830b42a6c452e894
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131363829
+status: 3
+tags: []
+user_id: jessicawells

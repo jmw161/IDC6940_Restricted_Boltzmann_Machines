@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/00d7bb7ca5fa420baa13aaf58189354e/artifacts
+end_time: 1742100239873
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 00d7bb7ca5fa420baa13aaf58189354e
+run_name: worried-sow-633
+run_uuid: 00d7bb7ca5fa420baa13aaf58189354e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742100200498
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/8462c21775324701b85b1b2d23ba0be5/artifacts
+end_time: 1742107515238
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 8462c21775324701b85b1b2d23ba0be5
+run_name: righteous-bear-766
+run_uuid: 8462c21775324701b85b1b2d23ba0be5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742107482107
+status: 3
+tags: []
+user_id: jessicawells

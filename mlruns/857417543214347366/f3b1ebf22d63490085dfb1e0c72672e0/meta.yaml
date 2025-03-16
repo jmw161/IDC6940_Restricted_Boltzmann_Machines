@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/f3b1ebf22d63490085dfb1e0c72672e0/artifacts
+end_time: 1742103242182
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: f3b1ebf22d63490085dfb1e0c72672e0
+run_name: abrasive-hen-751
+run_uuid: f3b1ebf22d63490085dfb1e0c72672e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103235645
+status: 3
+tags: []
+user_id: jessicawells

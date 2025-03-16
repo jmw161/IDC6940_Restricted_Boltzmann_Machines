@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/7ad3d8d358dd4750b738db48e2721e7e/artifacts
+end_time: 1742135332394
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 7ad3d8d358dd4750b738db48e2721e7e
+run_name: likeable-gnat-743
+run_uuid: 7ad3d8d358dd4750b738db48e2721e7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135304872
+status: 3
+tags: []
+user_id: jessicawells

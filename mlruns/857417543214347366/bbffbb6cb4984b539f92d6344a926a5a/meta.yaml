@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/bbffbb6cb4984b539f92d6344a926a5a/artifacts
+end_time: 1742114496413
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: bbffbb6cb4984b539f92d6344a926a5a
+run_name: whimsical-crane-6
+run_uuid: bbffbb6cb4984b539f92d6344a926a5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114489796
+status: 3
+tags: []
+user_id: jessicawells

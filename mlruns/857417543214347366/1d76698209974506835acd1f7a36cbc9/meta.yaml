@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/1d76698209974506835acd1f7a36cbc9/artifacts
+end_time: 1742114375827
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 1d76698209974506835acd1f7a36cbc9
+run_name: unique-trout-549
+run_uuid: 1d76698209974506835acd1f7a36cbc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114368310
+status: 3
+tags: []
+user_id: jessicawells

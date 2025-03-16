@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/ed5850fa04584c04bf3d71d8b422af5b/artifacts
+end_time: 1742132086701
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: ed5850fa04584c04bf3d71d8b422af5b
+run_name: rogue-snipe-465
+run_uuid: ed5850fa04584c04bf3d71d8b422af5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742132060238
+status: 3
+tags: []
+user_id: jessicawells

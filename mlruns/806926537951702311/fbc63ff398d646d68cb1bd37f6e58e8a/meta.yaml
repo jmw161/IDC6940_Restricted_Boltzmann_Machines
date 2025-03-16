@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/fbc63ff398d646d68cb1bd37f6e58e8a/artifacts
+end_time: 1742121863578
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: fbc63ff398d646d68cb1bd37f6e58e8a
+run_name: bouncy-steed-67
+run_uuid: fbc63ff398d646d68cb1bd37f6e58e8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121816767
+status: 3
+tags: []
+user_id: jessicawells

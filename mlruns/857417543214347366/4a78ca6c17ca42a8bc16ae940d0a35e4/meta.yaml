@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/4a78ca6c17ca42a8bc16ae940d0a35e4/artifacts
+end_time: 1742115731943
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 4a78ca6c17ca42a8bc16ae940d0a35e4
+run_name: salty-pig-911
+run_uuid: 4a78ca6c17ca42a8bc16ae940d0a35e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115725344
+status: 3
+tags: []
+user_id: jessicawells

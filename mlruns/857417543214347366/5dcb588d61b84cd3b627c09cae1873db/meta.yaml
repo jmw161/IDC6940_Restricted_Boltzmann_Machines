@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/5dcb588d61b84cd3b627c09cae1873db/artifacts
+end_time: 1742117851258
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 5dcb588d61b84cd3b627c09cae1873db
+run_name: incongruous-vole-525
+run_uuid: 5dcb588d61b84cd3b627c09cae1873db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742117844642
+status: 3
+tags: []
+user_id: jessicawells

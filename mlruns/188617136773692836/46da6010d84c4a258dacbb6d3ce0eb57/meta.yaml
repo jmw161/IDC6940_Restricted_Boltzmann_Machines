@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/46da6010d84c4a258dacbb6d3ce0eb57/artifacts
+end_time: 1742093057572
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 46da6010d84c4a258dacbb6d3ce0eb57
+run_name: polite-trout-575
+run_uuid: 46da6010d84c4a258dacbb6d3ce0eb57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742093043816
+status: 3
+tags: []
+user_id: jessicawells

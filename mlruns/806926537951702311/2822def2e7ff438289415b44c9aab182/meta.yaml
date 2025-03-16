@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/2822def2e7ff438289415b44c9aab182/artifacts
+end_time: 1742106777265
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 2822def2e7ff438289415b44c9aab182
+run_name: skittish-robin-869
+run_uuid: 2822def2e7ff438289415b44c9aab182
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742106741420
+status: 3
+tags: []
+user_id: jessicawells

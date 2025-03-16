@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/93f4fd98017847eab35f932eb0be0272/artifacts
+end_time: 1742120308405
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 93f4fd98017847eab35f932eb0be0272
+run_name: funny-hare-652
+run_uuid: 93f4fd98017847eab35f932eb0be0272
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742120257549
+status: 3
+tags: []
+user_id: jessicawells

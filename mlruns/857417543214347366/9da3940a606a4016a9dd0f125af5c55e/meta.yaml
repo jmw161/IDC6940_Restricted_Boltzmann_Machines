@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/9da3940a606a4016a9dd0f125af5c55e/artifacts
+end_time: 1742125958681
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 9da3940a606a4016a9dd0f125af5c55e
+run_name: gregarious-bass-772
+run_uuid: 9da3940a606a4016a9dd0f125af5c55e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125952104
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/a65a89a7b17c42ef86f416c2f1e32777/artifacts
+deleted_time: 1742091577581
+end_time: 1742088897944
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: a65a89a7b17c42ef86f416c2f1e32777
+run_name: redolent-hound-626
+run_uuid: a65a89a7b17c42ef86f416c2f1e32777
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088890765
+status: 3
+tags: []
+user_id: jessicawells

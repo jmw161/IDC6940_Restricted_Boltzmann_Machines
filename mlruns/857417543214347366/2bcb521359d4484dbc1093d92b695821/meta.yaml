@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/2bcb521359d4484dbc1093d92b695821/artifacts
+end_time: 1742126762357
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 2bcb521359d4484dbc1093d92b695821
+run_name: unequaled-goose-207
+run_uuid: 2bcb521359d4484dbc1093d92b695821
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126756858
+status: 3
+tags: []
+user_id: jessicawells

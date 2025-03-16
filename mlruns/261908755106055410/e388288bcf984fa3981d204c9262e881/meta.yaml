@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/e388288bcf984fa3981d204c9262e881/artifacts
+end_time: 1742108750975
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: e388288bcf984fa3981d204c9262e881
+run_name: melodic-moth-413
+run_uuid: e388288bcf984fa3981d204c9262e881
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742108721750
+status: 3
+tags: []
+user_id: jessicawells

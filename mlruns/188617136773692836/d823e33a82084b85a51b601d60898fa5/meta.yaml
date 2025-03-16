@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/d823e33a82084b85a51b601d60898fa5/artifacts
+end_time: 1742129429199
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: d823e33a82084b85a51b601d60898fa5
+run_name: kindly-goose-7
+run_uuid: d823e33a82084b85a51b601d60898fa5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129412265
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/af47fb76314e4480b204df8b0f4918af/artifacts
+end_time: 1742129105883
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: af47fb76314e4480b204df8b0f4918af
+run_name: likeable-hen-465
+run_uuid: af47fb76314e4480b204df8b0f4918af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129099362
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/487e5e4c14da469290eed5c6cfd7e596/artifacts
+end_time: 1742126734860
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 487e5e4c14da469290eed5c6cfd7e596
+run_name: indecisive-stoat-950
+run_uuid: 487e5e4c14da469290eed5c6cfd7e596
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126729396
+status: 3
+tags: []
+user_id: jessicawells

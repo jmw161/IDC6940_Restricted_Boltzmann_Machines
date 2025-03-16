@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/e698852a38c04ebf99bc304ad6114d8a/artifacts
+end_time: 1742104205894
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: e698852a38c04ebf99bc304ad6114d8a
+run_name: gifted-dove-594
+run_uuid: e698852a38c04ebf99bc304ad6114d8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104173599
+status: 3
+tags: []
+user_id: jessicawells

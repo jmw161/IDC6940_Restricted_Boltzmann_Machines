@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/9004c06299eb4ba7aa2c7ce862f5750e/artifacts
+end_time: 1742114712316
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 9004c06299eb4ba7aa2c7ce862f5750e
+run_name: tasteful-squid-144
+run_uuid: 9004c06299eb4ba7aa2c7ce862f5750e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114705715
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/f7f4b7ed986145a3b439b41cc6644cad/artifacts
+end_time: 1742106204962
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: f7f4b7ed986145a3b439b41cc6644cad
+run_name: gaudy-slug-522
+run_uuid: f7f4b7ed986145a3b439b41cc6644cad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742106124042
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/d3336e1e6dd4458f8f1d35260546e18b/artifacts
+end_time: 1742130725183
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: d3336e1e6dd4458f8f1d35260546e18b
+run_name: luxuriant-mouse-848
+run_uuid: d3336e1e6dd4458f8f1d35260546e18b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130685035
+status: 3
+tags: []
+user_id: jessicawells

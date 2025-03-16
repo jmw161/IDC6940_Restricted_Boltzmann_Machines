@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/989521eb6081470a9ca812213a8cb5c8/artifacts
+end_time: 1742129462951
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 989521eb6081470a9ca812213a8cb5c8
+run_name: bustling-skink-752
+run_uuid: 989521eb6081470a9ca812213a8cb5c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129441643
+status: 3
+tags: []
+user_id: jessicawells

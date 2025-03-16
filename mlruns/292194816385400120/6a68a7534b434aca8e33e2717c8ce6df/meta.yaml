@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/6a68a7534b434aca8e33e2717c8ce6df/artifacts
+end_time: 1742104774414
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 6a68a7534b434aca8e33e2717c8ce6df
+run_name: spiffy-hare-988
+run_uuid: 6a68a7534b434aca8e33e2717c8ce6df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104736851
+status: 3
+tags: []
+user_id: jessicawells

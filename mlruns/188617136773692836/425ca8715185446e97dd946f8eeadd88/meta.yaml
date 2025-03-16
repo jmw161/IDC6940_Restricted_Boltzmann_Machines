@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/425ca8715185446e97dd946f8eeadd88/artifacts
+end_time: 1742103287549
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 425ca8715185446e97dd946f8eeadd88
+run_name: masked-shad-598
+run_uuid: 425ca8715185446e97dd946f8eeadd88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103274922
+status: 3
+tags: []
+user_id: jessicawells

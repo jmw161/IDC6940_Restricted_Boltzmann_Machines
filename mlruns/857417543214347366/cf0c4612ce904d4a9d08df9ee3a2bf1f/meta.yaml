@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/cf0c4612ce904d4a9d08df9ee3a2bf1f/artifacts
+end_time: 1742127048613
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: cf0c4612ce904d4a9d08df9ee3a2bf1f
+run_name: sincere-crab-599
+run_uuid: cf0c4612ce904d4a9d08df9ee3a2bf1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742127042098
+status: 3
+tags: []
+user_id: jessicawells

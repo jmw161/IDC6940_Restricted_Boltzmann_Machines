@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/36a18ca5664a4155b3268a774b9a2b78/artifacts
+end_time: 1742120845727
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 36a18ca5664a4155b3268a774b9a2b78
+run_name: indecisive-lynx-602
+run_uuid: 36a18ca5664a4155b3268a774b9a2b78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742120794144
+status: 3
+tags: []
+user_id: jessicawells

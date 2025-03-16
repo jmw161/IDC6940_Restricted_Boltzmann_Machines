@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/2fb14ac485b04c138dc83ef3ec52f671/artifacts
+end_time: 1742091726805
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 2fb14ac485b04c138dc83ef3ec52f671
+run_name: suave-bear-989
+run_uuid: 2fb14ac485b04c138dc83ef3ec52f671
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742091719252
+status: 3
+tags: []
+user_id: jessicawells

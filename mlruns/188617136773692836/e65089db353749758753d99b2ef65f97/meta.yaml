@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/e65089db353749758753d99b2ef65f97/artifacts
+end_time: 1742092594792
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: e65089db353749758753d99b2ef65f97
+run_name: stylish-deer-930
+run_uuid: e65089db353749758753d99b2ef65f97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092576374
+status: 3
+tags: []
+user_id: jessicawells

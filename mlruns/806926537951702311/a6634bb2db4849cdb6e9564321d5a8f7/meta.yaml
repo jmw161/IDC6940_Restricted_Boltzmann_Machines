@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/a6634bb2db4849cdb6e9564321d5a8f7/artifacts
+end_time: 1742106795156
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: a6634bb2db4849cdb6e9564321d5a8f7
+run_name: capricious-eel-22
+run_uuid: a6634bb2db4849cdb6e9564321d5a8f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742106777292
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/fe9f9d764a894cfabef849fe27d17174/artifacts
+end_time: 1742121292749
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: fe9f9d764a894cfabef849fe27d17174
+run_name: smiling-bird-777
+run_uuid: fe9f9d764a894cfabef849fe27d17174
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121247310
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/789cc440d6ca4a61a26536ea44fd1e42/artifacts
+end_time: 1742119486469
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 789cc440d6ca4a61a26536ea44fd1e42
+run_name: shivering-ram-722
+run_uuid: 789cc440d6ca4a61a26536ea44fd1e42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119449412
+status: 3
+tags: []
+user_id: jessicawells

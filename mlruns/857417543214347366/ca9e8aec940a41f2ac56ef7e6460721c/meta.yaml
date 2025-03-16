@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ca9e8aec940a41f2ac56ef7e6460721c/artifacts
+end_time: 1742126004967
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ca9e8aec940a41f2ac56ef7e6460721c
+run_name: wistful-lark-494
+run_uuid: ca9e8aec940a41f2ac56ef7e6460721c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125998403
+status: 3
+tags: []
+user_id: jessicawells

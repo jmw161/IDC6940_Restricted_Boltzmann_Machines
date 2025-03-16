@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/b3fd06fd5ac2476881549379bae373a7/artifacts
+deleted_time: 1742091577601
+end_time: 1742087046097
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: b3fd06fd5ac2476881549379bae373a7
+run_name: zealous-robin-841
+run_uuid: b3fd06fd5ac2476881549379bae373a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742087039314
+status: 3
+tags: []
+user_id: jessicawells

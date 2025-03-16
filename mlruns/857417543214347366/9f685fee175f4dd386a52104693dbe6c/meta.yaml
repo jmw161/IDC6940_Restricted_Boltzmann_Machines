@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/9f685fee175f4dd386a52104693dbe6c/artifacts
+end_time: 1742118063143
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 9f685fee175f4dd386a52104693dbe6c
+run_name: flawless-pug-871
+run_uuid: 9f685fee175f4dd386a52104693dbe6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118056417
+status: 3
+tags: []
+user_id: jessicawells

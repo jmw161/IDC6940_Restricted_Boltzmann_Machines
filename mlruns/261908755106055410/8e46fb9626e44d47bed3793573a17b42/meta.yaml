@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/8e46fb9626e44d47bed3793573a17b42/artifacts
+end_time: 1742110118543
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 8e46fb9626e44d47bed3793573a17b42
+run_name: industrious-seal-795
+run_uuid: 8e46fb9626e44d47bed3793573a17b42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742110082659
+status: 3
+tags: []
+user_id: jessicawells

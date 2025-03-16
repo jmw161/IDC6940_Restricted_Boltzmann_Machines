@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/33373a57223c448d82f49109a2b0d4ab/artifacts
+end_time: 1742136295685
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 33373a57223c448d82f49109a2b0d4ab
+run_name: lyrical-flea-689
+run_uuid: 33373a57223c448d82f49109a2b0d4ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742136258412
+status: 3
+tags: []
+user_id: jessicawells

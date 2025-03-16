@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/435eb552c2ac451397ad850c6a3093af/artifacts
+end_time: 1742118103069
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 435eb552c2ac451397ad850c6a3093af
+run_name: nimble-squirrel-81
+run_uuid: 435eb552c2ac451397ad850c6a3093af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118096393
+status: 3
+tags: []
+user_id: jessicawells

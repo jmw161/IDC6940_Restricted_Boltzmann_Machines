@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/43b6e17a47674a9fbb436c6abe03e9ce/artifacts
+deleted_time: 1742091577607
+end_time: 1742086944602
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 43b6e17a47674a9fbb436c6abe03e9ce
+run_name: nimble-goat-960
+run_uuid: 43b6e17a47674a9fbb436c6abe03e9ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086937901
+status: 3
+tags: []
+user_id: jessicawells

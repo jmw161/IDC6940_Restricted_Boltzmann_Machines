@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/41b48345d38a42f68691bee14bf06fd2/artifacts
+end_time: 1742118236628
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 41b48345d38a42f68691bee14bf06fd2
+run_name: mysterious-dog-228
+run_uuid: 41b48345d38a42f68691bee14bf06fd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118224152
+status: 3
+tags: []
+user_id: jessicawells

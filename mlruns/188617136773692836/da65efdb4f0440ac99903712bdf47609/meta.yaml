@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/da65efdb4f0440ac99903712bdf47609/artifacts
+end_time: 1742129573542
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: da65efdb4f0440ac99903712bdf47609
+run_name: gentle-calf-707
+run_uuid: da65efdb4f0440ac99903712bdf47609
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129553146
+status: 3
+tags: []
+user_id: jessicawells

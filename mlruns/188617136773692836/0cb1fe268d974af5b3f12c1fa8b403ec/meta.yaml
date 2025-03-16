@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/0cb1fe268d974af5b3f12c1fa8b403ec/artifacts
+end_time: 1742103472727
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 0cb1fe268d974af5b3f12c1fa8b403ec
+run_name: omniscient-snake-308
+run_uuid: 0cb1fe268d974af5b3f12c1fa8b403ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103460751
+status: 3
+tags: []
+user_id: jessicawells

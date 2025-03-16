@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/a6c8625b96d84d3597aff5e3a396591e/artifacts
+end_time: 1742129391230
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: a6c8625b96d84d3597aff5e3a396591e
+run_name: caring-gnat-864
+run_uuid: a6c8625b96d84d3597aff5e3a396591e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129376428
+status: 3
+tags: []
+user_id: jessicawells

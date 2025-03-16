@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/732b4dfb81b844c0a2f4f15a9ef45afb/artifacts
+end_time: 1742132883038
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 732b4dfb81b844c0a2f4f15a9ef45afb
+run_name: bright-dog-6
+run_uuid: 732b4dfb81b844c0a2f4f15a9ef45afb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742132829107
+status: 3
+tags: []
+user_id: jessicawells

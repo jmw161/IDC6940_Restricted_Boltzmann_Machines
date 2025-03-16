@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/21068f589e334008820d7275a773c2b8/artifacts
+deleted_time: 1742091577609
+end_time: 1742086917565
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 21068f589e334008820d7275a773c2b8
+run_name: powerful-finch-385
+run_uuid: 21068f589e334008820d7275a773c2b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086910836
+status: 3
+tags: []
+user_id: jessicawells

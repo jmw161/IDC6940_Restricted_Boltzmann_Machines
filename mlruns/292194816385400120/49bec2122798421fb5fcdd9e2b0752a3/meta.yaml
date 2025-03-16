@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/49bec2122798421fb5fcdd9e2b0752a3/artifacts
+end_time: 1742119586348
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 49bec2122798421fb5fcdd9e2b0752a3
+run_name: flawless-ape-24
+run_uuid: 49bec2122798421fb5fcdd9e2b0752a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119548952
+status: 3
+tags: []
+user_id: jessicawells

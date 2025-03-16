@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/9cad15d76ffd4774a70481802b784d7f/artifacts
+end_time: 1742131983020
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 9cad15d76ffd4774a70481802b784d7f
+run_name: blushing-gnu-535
+run_uuid: 9cad15d76ffd4774a70481802b784d7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131952168
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/98f6a752bb70476695cb346ccf719832/artifacts
+deleted_time: 1742091577623
+end_time: 1742086747056
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 98f6a752bb70476695cb346ccf719832
+run_name: redolent-turtle-522
+run_uuid: 98f6a752bb70476695cb346ccf719832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086740358
+status: 3
+tags: []
+user_id: jessicawells

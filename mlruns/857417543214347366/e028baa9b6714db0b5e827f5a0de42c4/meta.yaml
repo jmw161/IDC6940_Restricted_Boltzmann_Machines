@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/e028baa9b6714db0b5e827f5a0de42c4/artifacts
+end_time: 1742103209323
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: e028baa9b6714db0b5e827f5a0de42c4
+run_name: abrasive-fish-18
+run_uuid: e028baa9b6714db0b5e827f5a0de42c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103202776
+status: 3
+tags: []
+user_id: jessicawells

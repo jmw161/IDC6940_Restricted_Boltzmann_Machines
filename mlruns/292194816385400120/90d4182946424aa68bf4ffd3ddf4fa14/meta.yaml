@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/90d4182946424aa68bf4ffd3ddf4fa14/artifacts
+end_time: 1742131363825
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 90d4182946424aa68bf4ffd3ddf4fa14
+run_name: caring-ox-891
+run_uuid: 90d4182946424aa68bf4ffd3ddf4fa14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131323888
+status: 3
+tags: []
+user_id: jessicawells

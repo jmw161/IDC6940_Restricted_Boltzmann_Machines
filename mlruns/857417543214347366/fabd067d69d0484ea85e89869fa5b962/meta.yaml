@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/fabd067d69d0484ea85e89869fa5b962/artifacts
+deleted_time: 1742091577603
+end_time: 1742087012397
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: fabd067d69d0484ea85e89869fa5b962
+run_name: rogue-crane-18
+run_uuid: fabd067d69d0484ea85e89869fa5b962
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742087005668
+status: 3
+tags: []
+user_id: jessicawells

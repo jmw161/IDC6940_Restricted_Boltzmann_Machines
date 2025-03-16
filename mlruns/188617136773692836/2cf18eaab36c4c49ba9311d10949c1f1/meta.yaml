@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/2cf18eaab36c4c49ba9311d10949c1f1/artifacts
+end_time: 1742092557525
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 2cf18eaab36c4c49ba9311d10949c1f1
+run_name: burly-lamb-233
+run_uuid: 2cf18eaab36c4c49ba9311d10949c1f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092538507
+status: 3
+tags: []
+user_id: jessicawells

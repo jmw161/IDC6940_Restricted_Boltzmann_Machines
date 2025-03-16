@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/7057273c907e4d7a8fc3f6d392c581f6/artifacts
+end_time: 1742118521386
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 7057273c907e4d7a8fc3f6d392c581f6
+run_name: placid-hog-249
+run_uuid: 7057273c907e4d7a8fc3f6d392c581f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118504504
+status: 3
+tags: []
+user_id: jessicawells

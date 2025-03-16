@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/9267f63c2c4742dc8654c3a98938d471/artifacts
+end_time: 1742125846650
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 9267f63c2c4742dc8654c3a98938d471
+run_name: clean-shrimp-877
+run_uuid: 9267f63c2c4742dc8654c3a98938d471
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125840068
+status: 3
+tags: []
+user_id: jessicawells

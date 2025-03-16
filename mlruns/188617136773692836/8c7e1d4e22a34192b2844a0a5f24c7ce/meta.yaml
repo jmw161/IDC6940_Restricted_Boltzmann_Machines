@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/8c7e1d4e22a34192b2844a0a5f24c7ce/artifacts
+end_time: 1742118661440
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 8c7e1d4e22a34192b2844a0a5f24c7ce
+run_name: polite-flea-661
+run_uuid: 8c7e1d4e22a34192b2844a0a5f24c7ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118640700
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/2b82404e6c8c40f5ac197f39d94d7063/artifacts
+end_time: 1742126018073
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 2b82404e6c8c40f5ac197f39d94d7063
+run_name: painted-elk-181
+run_uuid: 2b82404e6c8c40f5ac197f39d94d7063
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126011504
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/2b0a0f51ba73472ca273ab0a36429b72/artifacts
+end_time: 1742119334470
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 2b0a0f51ba73472ca273ab0a36429b72
+run_name: indecisive-trout-165
+run_uuid: 2b0a0f51ba73472ca273ab0a36429b72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119306145
+status: 3
+tags: []
+user_id: jessicawells

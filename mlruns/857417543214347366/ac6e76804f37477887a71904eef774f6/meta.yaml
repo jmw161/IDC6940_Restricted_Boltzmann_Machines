@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ac6e76804f37477887a71904eef774f6/artifacts
+end_time: 1742118123379
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ac6e76804f37477887a71904eef774f6
+run_name: bald-mare-721
+run_uuid: ac6e76804f37477887a71904eef774f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118116429
+status: 3
+tags: []
+user_id: jessicawells

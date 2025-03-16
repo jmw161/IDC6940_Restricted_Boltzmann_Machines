@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/194583ed957647578c6c0780697e55d0/artifacts
+deleted_time: 1742091577607
+end_time: 1742086937891
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 194583ed957647578c6c0780697e55d0
+run_name: resilient-swan-342
+run_uuid: 194583ed957647578c6c0780697e55d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086931110
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/fc648ecf9a3343d3bda57d88b3b590ab/artifacts
+end_time: 1742129324324
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: fc648ecf9a3343d3bda57d88b3b590ab
+run_name: masked-duck-393
+run_uuid: fc648ecf9a3343d3bda57d88b3b590ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129307410
+status: 3
+tags: []
+user_id: jessicawells

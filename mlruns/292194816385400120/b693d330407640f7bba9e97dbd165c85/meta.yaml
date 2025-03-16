@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/b693d330407640f7bba9e97dbd165c85/artifacts
+end_time: 1742130599612
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: b693d330407640f7bba9e97dbd165c85
+run_name: wise-roo-922
+run_uuid: b693d330407640f7bba9e97dbd165c85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130559530
+status: 3
+tags: []
+user_id: jessicawells

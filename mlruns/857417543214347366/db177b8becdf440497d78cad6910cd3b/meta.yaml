@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/db177b8becdf440497d78cad6910cd3b/artifacts
+deleted_time: 1742091577601
+end_time: 1742087032536
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: db177b8becdf440497d78cad6910cd3b
+run_name: clumsy-fox-460
+run_uuid: db177b8becdf440497d78cad6910cd3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742087025875
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/41097d0862c441e9b171c84b87970a98/artifacts
+end_time: 1742095096527
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 41097d0862c441e9b171c84b87970a98
+run_name: dazzling-eel-641
+run_uuid: 41097d0862c441e9b171c84b87970a98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742095056220
+status: 3
+tags: []
+user_id: jessicawells

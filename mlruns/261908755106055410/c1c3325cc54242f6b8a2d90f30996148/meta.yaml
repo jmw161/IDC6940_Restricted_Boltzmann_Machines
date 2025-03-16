@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/c1c3325cc54242f6b8a2d90f30996148/artifacts
+end_time: 1742135381018
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: c1c3325cc54242f6b8a2d90f30996148
+run_name: exultant-zebra-91
+run_uuid: c1c3325cc54242f6b8a2d90f30996148
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135360149
+status: 3
+tags: []
+user_id: jessicawells

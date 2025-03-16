@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/0afcafc064284d649664fd6e912ea3b1/artifacts
+end_time: 1742091771077
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 0afcafc064284d649664fd6e912ea3b1
+run_name: rare-horse-525
+run_uuid: 0afcafc064284d649664fd6e912ea3b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742091763741
+status: 3
+tags: []
+user_id: jessicawells

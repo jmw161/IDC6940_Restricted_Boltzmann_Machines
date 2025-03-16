@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c182777e8f4f415f823e77372b94ca5b/artifacts
+end_time: 1742114590233
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c182777e8f4f415f823e77372b94ca5b
+run_name: clean-stoat-666
+run_uuid: c182777e8f4f415f823e77372b94ca5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114583628
+status: 3
+tags: []
+user_id: jessicawells

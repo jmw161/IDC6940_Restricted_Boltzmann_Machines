@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/d78b7cd8e97c4127ae49f6cd17cc7dfd/artifacts
+end_time: 1742135660250
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: d78b7cd8e97c4127ae49f6cd17cc7dfd
+run_name: receptive-ram-430
+run_uuid: d78b7cd8e97c4127ae49f6cd17cc7dfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135637726
+status: 3
+tags: []
+user_id: jessicawells

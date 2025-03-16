@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/7fbdb6c9d46841b681d00d07aa71e955/artifacts
+end_time: 1742118056407
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 7fbdb6c9d46841b681d00d07aa71e955
+run_name: adaptable-ram-240
+run_uuid: 7fbdb6c9d46841b681d00d07aa71e955
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118049810
+status: 3
+tags: []
+user_id: jessicawells

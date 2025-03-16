@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c9305c023455490e91bee6e23080a29b/artifacts
+end_time: 1742114354817
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c9305c023455490e91bee6e23080a29b
+run_name: rumbling-duck-45
+run_uuid: c9305c023455490e91bee6e23080a29b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114348153
+status: 3
+tags: []
+user_id: jessicawells

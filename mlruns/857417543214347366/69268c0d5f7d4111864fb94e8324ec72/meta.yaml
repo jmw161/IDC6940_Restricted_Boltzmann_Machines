@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/69268c0d5f7d4111864fb94e8324ec72/artifacts
+end_time: 1742114340518
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 69268c0d5f7d4111864fb94e8324ec72
+run_name: awesome-bird-471
+run_uuid: 69268c0d5f7d4111864fb94e8324ec72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114333808
+status: 3
+tags: []
+user_id: jessicawells

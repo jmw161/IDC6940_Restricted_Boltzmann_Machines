@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/6d58cc444156499ba619ee7c6a0fa654/artifacts
+deleted_time: 1742091577604
+end_time: 1742086992153
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 6d58cc444156499ba619ee7c6a0fa654
+run_name: amazing-hog-31
+run_uuid: 6d58cc444156499ba619ee7c6a0fa654
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086985361
+status: 3
+tags: []
+user_id: jessicawells

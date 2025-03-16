@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/6da752920e4c4ea2ae56393e6aa824d6/artifacts
+deleted_time: 1742091577611
+end_time: 1742086883571
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 6da752920e4c4ea2ae56393e6aa824d6
+run_name: bold-carp-1
+run_uuid: 6da752920e4c4ea2ae56393e6aa824d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086876630
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/a6e1d67c80614cb0867db13cf2d2a98f/artifacts
+end_time: 1742106264949
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: a6e1d67c80614cb0867db13cf2d2a98f
+run_name: overjoyed-elk-982
+run_uuid: a6e1d67c80614cb0867db13cf2d2a98f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742106205057
+status: 3
+tags: []
+user_id: jessicawells

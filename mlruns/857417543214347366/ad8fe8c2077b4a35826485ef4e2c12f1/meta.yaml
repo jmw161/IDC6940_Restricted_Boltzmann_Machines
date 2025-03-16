@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ad8fe8c2077b4a35826485ef4e2c12f1/artifacts
+deleted_time: 1742091577605
+end_time: 1742086985348
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: ad8fe8c2077b4a35826485ef4e2c12f1
+run_name: salty-moth-626
+run_uuid: ad8fe8c2077b4a35826485ef4e2c12f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086978629
+status: 3
+tags: []
+user_id: jessicawells

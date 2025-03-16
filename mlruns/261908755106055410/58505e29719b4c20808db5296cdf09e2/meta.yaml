@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/58505e29719b4c20808db5296cdf09e2/artifacts
+end_time: 1742099181155
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 58505e29719b4c20808db5296cdf09e2
+run_name: learned-mole-257
+run_uuid: 58505e29719b4c20808db5296cdf09e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099155951
+status: 3
+tags: []
+user_id: jessicawells

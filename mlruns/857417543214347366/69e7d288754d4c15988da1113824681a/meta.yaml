@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/69e7d288754d4c15988da1113824681a/artifacts
+end_time: 1742114577013
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 69e7d288754d4c15988da1113824681a
+run_name: bemused-grouse-575
+run_uuid: 69e7d288754d4c15988da1113824681a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114570169
+status: 3
+tags: []
+user_id: jessicawells

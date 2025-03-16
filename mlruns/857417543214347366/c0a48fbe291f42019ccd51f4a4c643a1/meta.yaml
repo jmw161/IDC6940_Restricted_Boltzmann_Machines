@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c0a48fbe291f42019ccd51f4a4c643a1/artifacts
+end_time: 1742114583617
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c0a48fbe291f42019ccd51f4a4c643a1
+run_name: chill-trout-804
+run_uuid: c0a48fbe291f42019ccd51f4a4c643a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114577023
+status: 3
+tags: []
+user_id: jessicawells

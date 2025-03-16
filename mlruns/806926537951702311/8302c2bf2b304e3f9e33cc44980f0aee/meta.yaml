@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/8302c2bf2b304e3f9e33cc44980f0aee/artifacts
+end_time: 1742122796777
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 8302c2bf2b304e3f9e33cc44980f0aee
+run_name: enthused-grouse-455
+run_uuid: 8302c2bf2b304e3f9e33cc44980f0aee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122764353
+status: 3
+tags: []
+user_id: jessicawells

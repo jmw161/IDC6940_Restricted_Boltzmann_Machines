@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/e71ea9bb50ec497789c691febdf9fed3/artifacts
+end_time: 1742124601596
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: e71ea9bb50ec497789c691febdf9fed3
+run_name: polite-pig-498
+run_uuid: e71ea9bb50ec497789c691febdf9fed3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124577498
+status: 3
+tags: []
+user_id: jessicawells

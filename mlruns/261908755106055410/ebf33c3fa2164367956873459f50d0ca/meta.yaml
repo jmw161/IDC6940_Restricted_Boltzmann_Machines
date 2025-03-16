@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/ebf33c3fa2164367956873459f50d0ca/artifacts
+end_time: 1742099444247
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: ebf33c3fa2164367956873459f50d0ca
+run_name: nervous-fly-213
+run_uuid: ebf33c3fa2164367956873459f50d0ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099405335
+status: 3
+tags: []
+user_id: jessicawells

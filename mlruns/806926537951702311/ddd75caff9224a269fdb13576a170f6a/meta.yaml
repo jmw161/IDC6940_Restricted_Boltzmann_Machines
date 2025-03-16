@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/ddd75caff9224a269fdb13576a170f6a/artifacts
+end_time: 1742096582511
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: ddd75caff9224a269fdb13576a170f6a
+run_name: zealous-skink-484
+run_uuid: ddd75caff9224a269fdb13576a170f6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742096505184
+status: 3
+tags: []
+user_id: jessicawells

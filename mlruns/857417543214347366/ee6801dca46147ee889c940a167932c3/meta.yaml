@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ee6801dca46147ee889c940a167932c3/artifacts
+end_time: 1742125985092
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ee6801dca46147ee889c940a167932c3
+run_name: delightful-crab-366
+run_uuid: ee6801dca46147ee889c940a167932c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125978471
+status: 3
+tags: []
+user_id: jessicawells

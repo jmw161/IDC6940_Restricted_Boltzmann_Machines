@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/56decd4e412d489cad8c7c084ee17f06/artifacts
+end_time: 1742123752578
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 56decd4e412d489cad8c7c084ee17f06
+run_name: kindly-shad-675
+run_uuid: 56decd4e412d489cad8c7c084ee17f06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742123668794
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/0b2b4d7881d84d10860b823d0327aa9c/artifacts
+end_time: 1742135637706
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 0b2b4d7881d84d10860b823d0327aa9c
+run_name: entertaining-rat-216
+run_uuid: 0b2b4d7881d84d10860b823d0327aa9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135609234
+status: 3
+tags: []
+user_id: jessicawells

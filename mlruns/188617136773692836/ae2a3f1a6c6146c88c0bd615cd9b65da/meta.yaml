@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/ae2a3f1a6c6146c88c0bd615cd9b65da/artifacts
+end_time: 1742116126284
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: ae2a3f1a6c6146c88c0bd615cd9b65da
+run_name: adorable-duck-136
+run_uuid: ae2a3f1a6c6146c88c0bd615cd9b65da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116106522
+status: 3
+tags: []
+user_id: jessicawells

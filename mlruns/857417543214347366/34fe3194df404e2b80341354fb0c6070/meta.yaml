@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/34fe3194df404e2b80341354fb0c6070/artifacts
+end_time: 1742115858078
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 34fe3194df404e2b80341354fb0c6070
+run_name: capable-elk-243
+run_uuid: 34fe3194df404e2b80341354fb0c6070
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115851429
+status: 3
+tags: []
+user_id: jessicawells

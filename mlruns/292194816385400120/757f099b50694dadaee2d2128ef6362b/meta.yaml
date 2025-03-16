@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/757f099b50694dadaee2d2128ef6362b/artifacts
+end_time: 1742104601817
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 757f099b50694dadaee2d2128ef6362b
+run_name: bold-gnat-71
+run_uuid: 757f099b50694dadaee2d2128ef6362b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104563915
+status: 3
+tags: []
+user_id: jessicawells

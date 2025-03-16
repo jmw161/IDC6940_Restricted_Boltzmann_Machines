@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/bea5228b21154e548a9d2da785d61592/artifacts
+end_time: 1742108773873
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: bea5228b21154e548a9d2da785d61592
+run_name: amazing-stork-383
+run_uuid: bea5228b21154e548a9d2da785d61592
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742108751001
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/598076a57f2c4fdca5490ddfb9a2884a/artifacts
+end_time: 1742094217713
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 598076a57f2c4fdca5490ddfb9a2884a
+run_name: delicate-quail-977
+run_uuid: 598076a57f2c4fdca5490ddfb9a2884a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094177435
+status: 3
+tags: []
+user_id: jessicawells

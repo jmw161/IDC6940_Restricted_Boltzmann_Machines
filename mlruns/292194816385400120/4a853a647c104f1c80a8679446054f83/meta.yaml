@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/4a853a647c104f1c80a8679446054f83/artifacts
+end_time: 1742105393566
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 4a853a647c104f1c80a8679446054f83
+run_name: vaunted-shrimp-518
+run_uuid: 4a853a647c104f1c80a8679446054f83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742105352012
+status: 3
+tags: []
+user_id: jessicawells

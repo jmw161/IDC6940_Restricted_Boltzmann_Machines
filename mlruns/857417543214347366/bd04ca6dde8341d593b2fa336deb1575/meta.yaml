@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/bd04ca6dde8341d593b2fa336deb1575/artifacts
+deleted_time: 1742091577579
+end_time: 1742088919987
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: bd04ca6dde8341d593b2fa336deb1575
+run_name: marvelous-asp-958
+run_uuid: bd04ca6dde8341d593b2fa336deb1575
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088912815
+status: 3
+tags: []
+user_id: jessicawells

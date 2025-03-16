@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/8a9949052fea4de4a79c8a5491990f88/artifacts
+end_time: 1742098683799
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 8a9949052fea4de4a79c8a5491990f88
+run_name: colorful-vole-284
+run_uuid: 8a9949052fea4de4a79c8a5491990f88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742098652504
+status: 3
+tags: []
+user_id: jessicawells

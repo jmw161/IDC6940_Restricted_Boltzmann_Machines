@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/5d54671bad5e4dbf8b6eea86a219ece2/artifacts
+end_time: 1742119517993
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 5d54671bad5e4dbf8b6eea86a219ece2
+run_name: bustling-crab-407
+run_uuid: 5d54671bad5e4dbf8b6eea86a219ece2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119486473
+status: 3
+tags: []
+user_id: jessicawells

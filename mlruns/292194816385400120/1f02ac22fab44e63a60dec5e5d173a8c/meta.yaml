@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/1f02ac22fab44e63a60dec5e5d173a8c/artifacts
+end_time: 1742105112690
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 1f02ac22fab44e63a60dec5e5d173a8c
+run_name: clean-vole-472
+run_uuid: 1f02ac22fab44e63a60dec5e5d173a8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742105089036
+status: 3
+tags: []
+user_id: jessicawells

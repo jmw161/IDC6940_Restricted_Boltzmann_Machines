@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/0e7d644f8ea74fd7b311241d12726220/artifacts
+end_time: 1742109203202
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 0e7d644f8ea74fd7b311241d12726220
+run_name: skillful-chimp-404
+run_uuid: 0e7d644f8ea74fd7b311241d12726220
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109156873
+status: 3
+tags: []
+user_id: jessicawells

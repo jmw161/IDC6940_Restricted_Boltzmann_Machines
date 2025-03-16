@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c2ba218769cb4a6f8f1a6e72fba28198/artifacts
+end_time: 1742115691898
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c2ba218769cb4a6f8f1a6e72fba28198
+run_name: legendary-crab-680
+run_uuid: c2ba218769cb4a6f8f1a6e72fba28198
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115685286
+status: 3
+tags: []
+user_id: jessicawells

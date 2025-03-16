@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ba9641ec14664cda9e5410b6c0b3fbfd/artifacts
+deleted_time: 1742091577617
+end_time: 1742086814803
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: ba9641ec14664cda9e5410b6c0b3fbfd
+run_name: gifted-quail-882
+run_uuid: ba9641ec14664cda9e5410b6c0b3fbfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086808056
+status: 3
+tags: []
+user_id: jessicawells

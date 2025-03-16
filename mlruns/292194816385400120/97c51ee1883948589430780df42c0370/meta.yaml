@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/97c51ee1883948589430780df42c0370/artifacts
+end_time: 1742105155606
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 97c51ee1883948589430780df42c0370
+run_name: shivering-lynx-577
+run_uuid: 97c51ee1883948589430780df42c0370
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742105112694
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/6412a2d4ef85410998ba6819b7618a0b/artifacts
+deleted_time: 1742091577618
+end_time: 1742086794568
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 6412a2d4ef85410998ba6819b7618a0b
+run_name: efficient-goat-894
+run_uuid: 6412a2d4ef85410998ba6819b7618a0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086787854
+status: 3
+tags: []
+user_id: jessicawells

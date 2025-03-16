@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/58202948d74a483aa99550b235c0fa72/artifacts
+end_time: 1742097908057
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 58202948d74a483aa99550b235c0fa72
+run_name: brawny-lark-143
+run_uuid: 58202948d74a483aa99550b235c0fa72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742097858294
+status: 3
+tags: []
+user_id: jessicawells

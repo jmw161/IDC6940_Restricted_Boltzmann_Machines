@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/18d89a1df20f43e09ddc5474c29f12ca/artifacts
+end_time: 1742129307405
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 18d89a1df20f43e09ddc5474c29f12ca
+run_name: dashing-grub-789
+run_uuid: 18d89a1df20f43e09ddc5474c29f12ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129287247
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ba40efb1b936476386638d662bf5443f/artifacts
+end_time: 1742117904626
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ba40efb1b936476386638d662bf5443f
+run_name: magnificent-foal-729
+run_uuid: ba40efb1b936476386638d662bf5443f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742117898077
+status: 3
+tags: []
+user_id: jessicawells

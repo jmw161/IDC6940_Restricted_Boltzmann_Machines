@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/2227aa9699fb4aa1aab6c6af25a13c6d/artifacts
+end_time: 1742104364427
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 2227aa9699fb4aa1aab6c6af25a13c6d
+run_name: dashing-rook-181
+run_uuid: 2227aa9699fb4aa1aab6c6af25a13c6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104326408
+status: 3
+tags: []
+user_id: jessicawells

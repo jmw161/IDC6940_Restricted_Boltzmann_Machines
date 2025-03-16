@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/0a6c81f04aac4e2aa6d5ce76100b135a/artifacts
+end_time: 1742130429465
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 0a6c81f04aac4e2aa6d5ce76100b135a
+run_name: indecisive-sheep-945
+run_uuid: 0a6c81f04aac4e2aa6d5ce76100b135a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130379254
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/688dd37600da49e6ac9355ce220414aa/artifacts
+end_time: 1742119270022
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 688dd37600da49e6ac9355ce220414aa
+run_name: welcoming-fox-494
+run_uuid: 688dd37600da49e6ac9355ce220414aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119219547
+status: 3
+tags: []
+user_id: jessicawells

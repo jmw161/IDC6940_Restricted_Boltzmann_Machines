@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/60c5d88a3bfc4df7ad8ed2c1bee1e33c/artifacts
+end_time: 1742136147828
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 60c5d88a3bfc4df7ad8ed2c1bee1e33c
+run_name: dashing-snake-901
+run_uuid: 60c5d88a3bfc4df7ad8ed2c1bee1e33c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742136108228
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/66a004e5e2054d11887d62952d148755/artifacts
+end_time: 1742109269808
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 66a004e5e2054d11887d62952d148755
+run_name: stately-tern-105
+run_uuid: 66a004e5e2054d11887d62952d148755
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109232294
+status: 3
+tags: []
+user_id: jessicawells

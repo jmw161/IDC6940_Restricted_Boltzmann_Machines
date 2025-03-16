@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/e19f48b52c53413ebe66853c21b40f57/artifacts
+end_time: 1742098871798
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: e19f48b52c53413ebe66853c21b40f57
+run_name: orderly-gull-767
+run_uuid: e19f48b52c53413ebe66853c21b40f57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742098838941
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/1ea962d2a9db4e5fba4dd87d53c80bd4/artifacts
+end_time: 1742103162903
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 1ea962d2a9db4e5fba4dd87d53c80bd4
+run_name: upset-foal-507
+run_uuid: 1ea962d2a9db4e5fba4dd87d53c80bd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103156272
+status: 3
+tags: []
+user_id: jessicawells

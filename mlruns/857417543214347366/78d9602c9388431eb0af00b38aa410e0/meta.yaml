@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/78d9602c9388431eb0af00b38aa410e0/artifacts
+end_time: 1742114348143
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 78d9602c9388431eb0af00b38aa410e0
+run_name: redolent-seal-872
+run_uuid: 78d9602c9388431eb0af00b38aa410e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114340527
+status: 3
+tags: []
+user_id: jessicawells

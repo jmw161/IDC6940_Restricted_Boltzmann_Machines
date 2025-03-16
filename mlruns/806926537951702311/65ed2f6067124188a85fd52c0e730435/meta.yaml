@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/65ed2f6067124188a85fd52c0e730435/artifacts
+end_time: 1742097799635
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 65ed2f6067124188a85fd52c0e730435
+run_name: beautiful-bird-866
+run_uuid: 65ed2f6067124188a85fd52c0e730435
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742097749147
+status: 3
+tags: []
+user_id: jessicawells

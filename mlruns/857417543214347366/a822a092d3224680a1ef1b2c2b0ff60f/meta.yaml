@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/a822a092d3224680a1ef1b2c2b0ff60f/artifacts
+end_time: 1742092023634
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: a822a092d3224680a1ef1b2c2b0ff60f
+run_name: upset-perch-328
+run_uuid: a822a092d3224680a1ef1b2c2b0ff60f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092016305
+status: 3
+tags: []
+user_id: jessicawells

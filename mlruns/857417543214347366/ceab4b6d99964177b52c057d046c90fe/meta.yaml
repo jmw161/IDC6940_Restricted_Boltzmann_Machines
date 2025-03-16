@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ceab4b6d99964177b52c057d046c90fe/artifacts
+end_time: 1742115851419
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ceab4b6d99964177b52c057d046c90fe
+run_name: dashing-hog-958
+run_uuid: ceab4b6d99964177b52c057d046c90fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115844695
+status: 3
+tags: []
+user_id: jessicawells

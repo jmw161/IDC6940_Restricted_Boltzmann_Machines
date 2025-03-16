@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/68b4070bb0d245aa9f7bca0c15605bba/artifacts
+end_time: 1742114672616
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 68b4070bb0d245aa9f7bca0c15605bba
+run_name: adorable-gnu-215
+run_uuid: 68b4070bb0d245aa9f7bca0c15605bba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114665956
+status: 3
+tags: []
+user_id: jessicawells

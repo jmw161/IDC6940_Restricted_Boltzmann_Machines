@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/a2c1e336d6f345a6a26d14e38769e909/artifacts
+end_time: 1742129881653
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: a2c1e336d6f345a6a26d14e38769e909
+run_name: clumsy-pug-448
+run_uuid: a2c1e336d6f345a6a26d14e38769e909
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129861158
+status: 3
+tags: []
+user_id: jessicawells

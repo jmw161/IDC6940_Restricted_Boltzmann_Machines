@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/162a4533bbc645c7aa087cc41a00aeda/artifacts
+end_time: 1742130463061
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 162a4533bbc645c7aa087cc41a00aeda
+run_name: rogue-hog-760
+run_uuid: 162a4533bbc645c7aa087cc41a00aeda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130429469
+status: 3
+tags: []
+user_id: jessicawells

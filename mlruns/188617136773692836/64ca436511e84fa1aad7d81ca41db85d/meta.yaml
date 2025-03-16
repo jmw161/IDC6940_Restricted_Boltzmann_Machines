@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/64ca436511e84fa1aad7d81ca41db85d/artifacts
+end_time: 1742118968249
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 64ca436511e84fa1aad7d81ca41db85d
+run_name: nervous-ram-304
+run_uuid: 64ca436511e84fa1aad7d81ca41db85d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118955264
+status: 3
+tags: []
+user_id: jessicawells

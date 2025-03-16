@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ed514f8e6a4149208f6e80ab2dbe4c75/artifacts
+end_time: 1742114733303
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ed514f8e6a4149208f6e80ab2dbe4c75
+run_name: serious-grub-874
+run_uuid: ed514f8e6a4149208f6e80ab2dbe4c75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114725718
+status: 3
+tags: []
+user_id: jessicawells

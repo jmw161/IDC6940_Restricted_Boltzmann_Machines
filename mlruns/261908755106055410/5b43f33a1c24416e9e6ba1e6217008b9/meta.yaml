@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/5b43f33a1c24416e9e6ba1e6217008b9/artifacts
+end_time: 1742124627848
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 5b43f33a1c24416e9e6ba1e6217008b9
+run_name: ambitious-zebra-910
+run_uuid: 5b43f33a1c24416e9e6ba1e6217008b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124601617
+status: 3
+tags: []
+user_id: jessicawells

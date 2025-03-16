@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/d979a9b0a6d84dd483873807f75026f7/artifacts
+end_time: 1742103123138
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: d979a9b0a6d84dd483873807f75026f7
+run_name: vaunted-deer-992
+run_uuid: d979a9b0a6d84dd483873807f75026f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103116527
+status: 3
+tags: []
+user_id: jessicawells

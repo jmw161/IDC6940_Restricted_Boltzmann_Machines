@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/b9aeb746ef5d41dea32e29057842d9f2/artifacts
+end_time: 1742132060194
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: b9aeb746ef5d41dea32e29057842d9f2
+run_name: carefree-moth-867
+run_uuid: b9aeb746ef5d41dea32e29057842d9f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131983034
+status: 3
+tags: []
+user_id: jessicawells

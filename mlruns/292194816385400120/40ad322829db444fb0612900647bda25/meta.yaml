@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/40ad322829db444fb0612900647bda25/artifacts
+end_time: 1742131246431
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 40ad322829db444fb0612900647bda25
+run_name: receptive-mare-442
+run_uuid: 40ad322829db444fb0612900647bda25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131211068
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/0c19c18d5ebd443a9d87b82af688f1d5/artifacts
+end_time: 1742091882173
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 0c19c18d5ebd443a9d87b82af688f1d5
+run_name: funny-mule-953
+run_uuid: 0c19c18d5ebd443a9d87b82af688f1d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742091874422
+status: 3
+tags: []
+user_id: jessicawells

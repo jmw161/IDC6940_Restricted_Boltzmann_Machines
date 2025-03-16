@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/cab82eef4fe5450c8522c3a47760a26f/artifacts
+end_time: 1742121394244
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: cab82eef4fe5450c8522c3a47760a26f
+run_name: merciful-shrimp-996
+run_uuid: cab82eef4fe5450c8522c3a47760a26f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121317235
+status: 3
+tags: []
+user_id: jessicawells

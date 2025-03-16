@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/68070973c89c4ad2bdf25468c4bafb62/artifacts
+end_time: 1742100117675
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 68070973c89c4ad2bdf25468c4bafb62
+run_name: redolent-kite-415
+run_uuid: 68070973c89c4ad2bdf25468c4bafb62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742100086590
+status: 3
+tags: []
+user_id: jessicawells

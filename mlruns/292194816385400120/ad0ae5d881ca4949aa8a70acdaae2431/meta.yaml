@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/ad0ae5d881ca4949aa8a70acdaae2431/artifacts
+end_time: 1742130302380
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: ad0ae5d881ca4949aa8a70acdaae2431
+run_name: honorable-crow-191
+run_uuid: ad0ae5d881ca4949aa8a70acdaae2431
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130273801
+status: 3
+tags: []
+user_id: jessicawells

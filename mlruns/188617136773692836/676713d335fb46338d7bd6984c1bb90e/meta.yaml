@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/676713d335fb46338d7bd6984c1bb90e/artifacts
+end_time: 1742129969733
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 676713d335fb46338d7bd6984c1bb90e
+run_name: fearless-cub-300
+run_uuid: 676713d335fb46338d7bd6984c1bb90e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129956093
+status: 3
+tags: []
+user_id: jessicawells

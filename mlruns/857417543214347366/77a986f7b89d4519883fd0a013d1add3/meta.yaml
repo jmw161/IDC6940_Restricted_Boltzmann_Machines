@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/77a986f7b89d4519883fd0a013d1add3/artifacts
+end_time: 1742125859885
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 77a986f7b89d4519883fd0a013d1add3
+run_name: traveling-donkey-765
+run_uuid: 77a986f7b89d4519883fd0a013d1add3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125853335
+status: 3
+tags: []
+user_id: jessicawells

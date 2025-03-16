@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/cf0c58ef42c24e45b53f96890472e06e/artifacts
+end_time: 1742094799206
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: cf0c58ef42c24e45b53f96890472e06e
+run_name: adventurous-newt-222
+run_uuid: cf0c58ef42c24e45b53f96890472e06e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094759229
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/f05426f01a7c4724977f87115c0267d6/artifacts
+deleted_time: 1742091577619
+end_time: 1742086787843
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: f05426f01a7c4724977f87115c0267d6
+run_name: glamorous-dove-754
+run_uuid: f05426f01a7c4724977f87115c0267d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086781107
+status: 3
+tags: []
+user_id: jessicawells

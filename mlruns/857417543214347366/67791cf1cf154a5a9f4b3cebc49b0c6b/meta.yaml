@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/67791cf1cf154a5a9f4b3cebc49b0c6b/artifacts
+deleted_time: 1742091577608
+end_time: 1742086924308
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 67791cf1cf154a5a9f4b3cebc49b0c6b
+run_name: gentle-worm-164
+run_uuid: 67791cf1cf154a5a9f4b3cebc49b0c6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086917575
+status: 3
+tags: []
+user_id: jessicawells

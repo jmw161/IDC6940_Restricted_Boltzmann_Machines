@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/8eb71a5c94d5411883e190795e71c317/artifacts
+end_time: 1742135038763
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 8eb71a5c94d5411883e190795e71c317
+run_name: calm-duck-410
+run_uuid: 8eb71a5c94d5411883e190795e71c317
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135003387
+status: 3
+tags: []
+user_id: jessicawells

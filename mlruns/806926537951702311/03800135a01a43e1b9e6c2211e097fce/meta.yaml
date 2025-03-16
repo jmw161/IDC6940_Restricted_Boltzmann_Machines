@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/03800135a01a43e1b9e6c2211e097fce/artifacts
+end_time: 1742107389666
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 03800135a01a43e1b9e6c2211e097fce
+run_name: righteous-vole-966
+run_uuid: 03800135a01a43e1b9e6c2211e097fce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742107323367
+status: 3
+tags: []
+user_id: jessicawells

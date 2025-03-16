@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/0d2b91285d814b0092b2cd3b8eeb7aec/artifacts
+end_time: 1742110203473
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 0d2b91285d814b0092b2cd3b8eeb7aec
+run_name: sedate-snipe-468
+run_uuid: 0d2b91285d814b0092b2cd3b8eeb7aec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742110153047
+status: 3
+tags: []
+user_id: jessicawells

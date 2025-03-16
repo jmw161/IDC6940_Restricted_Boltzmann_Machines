@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/532eee57d9cf4ea5872abcf55d134b3b/artifacts
+end_time: 1742118487552
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 532eee57d9cf4ea5872abcf55d134b3b
+run_name: rumbling-toad-760
+run_uuid: 532eee57d9cf4ea5872abcf55d134b3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118472598
+status: 3
+tags: []
+user_id: jessicawells

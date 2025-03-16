@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/168c5a792d9a449d88f07f1fdcaae70a/artifacts
+end_time: 1742122350361
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 168c5a792d9a449d88f07f1fdcaae70a
+run_name: overjoyed-stag-231
+run_uuid: 168c5a792d9a449d88f07f1fdcaae70a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122318114
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/66c84c8d5dd3480e9a41e735b69b0f62/artifacts
+end_time: 1742095353666
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 66c84c8d5dd3480e9a41e735b69b0f62
+run_name: upset-mare-619
+run_uuid: 66c84c8d5dd3480e9a41e735b69b0f62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742095317206
+status: 3
+tags: []
+user_id: jessicawells

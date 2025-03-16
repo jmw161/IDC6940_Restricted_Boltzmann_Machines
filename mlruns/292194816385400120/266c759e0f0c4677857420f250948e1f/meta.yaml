@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/266c759e0f0c4677857420f250948e1f/artifacts
+end_time: 1742094259517
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 266c759e0f0c4677857420f250948e1f
+run_name: rogue-steed-168
+run_uuid: 266c759e0f0c4677857420f250948e1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094217719
+status: 3
+tags: []
+user_id: jessicawells

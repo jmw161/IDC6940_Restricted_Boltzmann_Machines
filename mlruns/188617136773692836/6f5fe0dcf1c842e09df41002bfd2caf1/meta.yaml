@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/6f5fe0dcf1c842e09df41002bfd2caf1/artifacts
+end_time: 1742118988705
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 6f5fe0dcf1c842e09df41002bfd2caf1
+run_name: luminous-turtle-965
+run_uuid: 6f5fe0dcf1c842e09df41002bfd2caf1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118968254
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/d475fef4cd964300be60157ecfb8e832/artifacts
+end_time: 1742131683168
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: d475fef4cd964300be60157ecfb8e832
+run_name: enchanting-conch-207
+run_uuid: d475fef4cd964300be60157ecfb8e832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131647993
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/bf08f0ed777a4fbc914efac341fb3a8e/artifacts
+deleted_time: 1742091577583
+end_time: 1742088868215
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: bf08f0ed777a4fbc914efac341fb3a8e
+run_name: bemused-goat-992
+run_uuid: bf08f0ed777a4fbc914efac341fb3a8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088860817
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/2652e48daf2e4fb39ee4adb88d682cd4/artifacts
+end_time: 1742129220371
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 2652e48daf2e4fb39ee4adb88d682cd4
+run_name: efficient-rat-455
+run_uuid: 2652e48daf2e4fb39ee4adb88d682cd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129200173
+status: 3
+tags: []
+user_id: jessicawells

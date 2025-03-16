@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/b038208909224b2db7a152d380f25c13/artifacts
+end_time: 1742099529136
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: b038208909224b2db7a152d380f25c13
+run_name: learned-hen-70
+run_uuid: b038208909224b2db7a152d380f25c13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099491054
+status: 3
+tags: []
+user_id: jessicawells

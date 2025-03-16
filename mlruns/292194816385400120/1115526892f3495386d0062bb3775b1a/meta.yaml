@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/1115526892f3495386d0062bb3775b1a/artifacts
+end_time: 1742130996090
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 1115526892f3495386d0062bb3775b1a
+run_name: unleashed-grub-421
+run_uuid: 1115526892f3495386d0062bb3775b1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130959962
+status: 3
+tags: []
+user_id: jessicawells

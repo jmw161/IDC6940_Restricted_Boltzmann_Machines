@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/4bbfdd6d80d24db0a98363f6e78f3377/artifacts
+end_time: 1742109625105
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 4bbfdd6d80d24db0a98363f6e78f3377
+run_name: unleashed-gnat-156
+run_uuid: 4bbfdd6d80d24db0a98363f6e78f3377
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109588829
+status: 3
+tags: []
+user_id: jessicawells

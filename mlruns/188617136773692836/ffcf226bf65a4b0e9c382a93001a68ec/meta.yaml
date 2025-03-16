@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/ffcf226bf65a4b0e9c382a93001a68ec/artifacts
+end_time: 1742116371812
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: ffcf226bf65a4b0e9c382a93001a68ec
+run_name: useful-frog-928
+run_uuid: ffcf226bf65a4b0e9c382a93001a68ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116351553
+status: 3
+tags: []
+user_id: jessicawells

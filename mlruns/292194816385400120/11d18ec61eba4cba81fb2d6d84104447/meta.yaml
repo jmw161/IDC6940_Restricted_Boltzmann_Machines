@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/11d18ec61eba4cba81fb2d6d84104447/artifacts
+end_time: 1742119837997
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 11d18ec61eba4cba81fb2d6d84104447
+run_name: bald-worm-18
+run_uuid: 11d18ec61eba4cba81fb2d6d84104447
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119776939
+status: 3
+tags: []
+user_id: jessicawells

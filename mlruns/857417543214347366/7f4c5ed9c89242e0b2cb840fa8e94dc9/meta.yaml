@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/7f4c5ed9c89242e0b2cb840fa8e94dc9/artifacts
+end_time: 1742125965248
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 7f4c5ed9c89242e0b2cb840fa8e94dc9
+run_name: blushing-shad-472
+run_uuid: 7f4c5ed9c89242e0b2cb840fa8e94dc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125958691
+status: 3
+tags: []
+user_id: jessicawells

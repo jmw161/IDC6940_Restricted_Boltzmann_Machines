@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/570c18dde4994da886a0576a2b33ebf2/artifacts
+end_time: 1742129200170
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 570c18dde4994da886a0576a2b33ebf2
+run_name: wistful-bug-833
+run_uuid: 570c18dde4994da886a0576a2b33ebf2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129183623
+status: 3
+tags: []
+user_id: jessicawells

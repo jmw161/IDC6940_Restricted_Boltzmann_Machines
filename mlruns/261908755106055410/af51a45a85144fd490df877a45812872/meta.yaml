@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/af51a45a85144fd490df877a45812872/artifacts
+end_time: 1742110405672
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: af51a45a85144fd490df877a45812872
+run_name: clumsy-doe-152
+run_uuid: af51a45a85144fd490df877a45812872
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742110379764
+status: 3
+tags: []
+user_id: jessicawells

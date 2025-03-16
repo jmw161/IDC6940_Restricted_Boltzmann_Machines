@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/31bdf2a329654514baf8433c50624575/artifacts
+end_time: 1742114436473
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 31bdf2a329654514baf8433c50624575
+run_name: gentle-panda-866
+run_uuid: 31bdf2a329654514baf8433c50624575
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114429845
+status: 3
+tags: []
+user_id: jessicawells

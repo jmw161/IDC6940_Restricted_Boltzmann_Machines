@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/36ca972b97d448a3ac49aabed6c09f39/artifacts
+end_time: 1742094974405
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 36ca972b97d448a3ac49aabed6c09f39
+run_name: burly-snipe-520
+run_uuid: 36ca972b97d448a3ac49aabed6c09f39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094926052
+status: 3
+tags: []
+user_id: jessicawells

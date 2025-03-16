@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/03241e9a49374e51a88150c70d7e623e/artifacts
+end_time: 1742125971811
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 03241e9a49374e51a88150c70d7e623e
+run_name: funny-dog-831
+run_uuid: 03241e9a49374e51a88150c70d7e623e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125965258
+status: 3
+tags: []
+user_id: jessicawells

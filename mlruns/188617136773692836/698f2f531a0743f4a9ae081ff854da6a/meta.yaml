@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/698f2f531a0743f4a9ae081ff854da6a/artifacts
+end_time: 1742103807431
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 698f2f531a0743f4a9ae081ff854da6a
+run_name: resilient-turtle-645
+run_uuid: 698f2f531a0743f4a9ae081ff854da6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103795833
+status: 3
+tags: []
+user_id: jessicawells

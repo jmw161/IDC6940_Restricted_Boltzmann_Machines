@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/ab33b7ce985d469ca2f68a3e79601899/artifacts
+end_time: 1742108983982
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: ab33b7ce985d469ca2f68a3e79601899
+run_name: ambitious-roo-545
+run_uuid: ab33b7ce985d469ca2f68a3e79601899
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742108966031
+status: 3
+tags: []
+user_id: jessicawells

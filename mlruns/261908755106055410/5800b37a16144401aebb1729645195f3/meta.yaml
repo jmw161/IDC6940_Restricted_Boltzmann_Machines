@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/5800b37a16144401aebb1729645195f3/artifacts
+end_time: 1742099604990
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 5800b37a16144401aebb1729645195f3
+run_name: bright-boar-66
+run_uuid: 5800b37a16144401aebb1729645195f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099568327
+status: 3
+tags: []
+user_id: jessicawells

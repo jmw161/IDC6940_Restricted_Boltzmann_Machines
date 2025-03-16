@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/d29334fdacda40de8c8e66f80e83e4ec/artifacts
+end_time: 1742128909682
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: d29334fdacda40de8c8e66f80e83e4ec
+run_name: carefree-mink-486
+run_uuid: d29334fdacda40de8c8e66f80e83e4ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742128903225
+status: 3
+tags: []
+user_id: jessicawells

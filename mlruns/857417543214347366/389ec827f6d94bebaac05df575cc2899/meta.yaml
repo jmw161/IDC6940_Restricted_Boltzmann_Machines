@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/389ec827f6d94bebaac05df575cc2899/artifacts
+end_time: 1742126827938
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 389ec827f6d94bebaac05df575cc2899
+run_name: dashing-hound-308
+run_uuid: 389ec827f6d94bebaac05df575cc2899
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126822511
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/7129bbac152247a38bf947883f0ae0f3/artifacts
+end_time: 1742092888923
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 7129bbac152247a38bf947883f0ae0f3
+run_name: bedecked-ox-366
+run_uuid: 7129bbac152247a38bf947883f0ae0f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092875045
+status: 3
+tags: []
+user_id: jessicawells

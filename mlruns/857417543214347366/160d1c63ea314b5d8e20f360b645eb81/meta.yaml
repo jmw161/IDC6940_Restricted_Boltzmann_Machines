@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/160d1c63ea314b5d8e20f360b645eb81/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 160d1c63ea314b5d8e20f360b645eb81
+run_name: upbeat-hog-519
+run_uuid: 160d1c63ea314b5d8e20f360b645eb81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114230727
+status: 1
+tags: []
+user_id: jessicawells

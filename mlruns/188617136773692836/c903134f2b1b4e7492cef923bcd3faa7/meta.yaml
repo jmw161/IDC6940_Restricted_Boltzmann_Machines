@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/c903134f2b1b4e7492cef923bcd3faa7/artifacts
+end_time: 1742103626396
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: c903134f2b1b4e7492cef923bcd3faa7
+run_name: nervous-worm-849
+run_uuid: c903134f2b1b4e7492cef923bcd3faa7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103611647
+status: 3
+tags: []
+user_id: jessicawells

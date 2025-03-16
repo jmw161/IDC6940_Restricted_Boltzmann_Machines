@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/0d99268a9afa4126a75957403a6ff961/artifacts
+end_time: 1742128877162
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 0d99268a9afa4126a75957403a6ff961
+run_name: trusting-fawn-562
+run_uuid: 0d99268a9afa4126a75957403a6ff961
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742128870621
+status: 3
+tags: []
+user_id: jessicawells

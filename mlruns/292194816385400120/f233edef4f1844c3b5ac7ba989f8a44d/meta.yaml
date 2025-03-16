@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/f233edef4f1844c3b5ac7ba989f8a44d/artifacts
+end_time: 1742093586144
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: f233edef4f1844c3b5ac7ba989f8a44d
+run_name: whimsical-hen-959
+run_uuid: f233edef4f1844c3b5ac7ba989f8a44d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742093545765
+status: 3
+tags: []
+user_id: jessicawells

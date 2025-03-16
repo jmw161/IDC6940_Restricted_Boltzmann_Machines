@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/68f7467547cd4141a534c143bc72a265/artifacts
+end_time: 1742116664835
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 68f7467547cd4141a534c143bc72a265
+run_name: blushing-grouse-703
+run_uuid: 68f7467547cd4141a534c143bc72a265
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116644822
+status: 3
+tags: []
+user_id: jessicawells

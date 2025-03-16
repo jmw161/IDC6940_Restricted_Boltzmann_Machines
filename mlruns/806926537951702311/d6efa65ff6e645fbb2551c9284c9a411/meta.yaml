@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/d6efa65ff6e645fbb2551c9284c9a411/artifacts
+end_time: 1742096363243
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: d6efa65ff6e645fbb2551c9284c9a411
+run_name: adventurous-shad-189
+run_uuid: d6efa65ff6e645fbb2551c9284c9a411
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742096259977
+status: 3
+tags: []
+user_id: jessicawells

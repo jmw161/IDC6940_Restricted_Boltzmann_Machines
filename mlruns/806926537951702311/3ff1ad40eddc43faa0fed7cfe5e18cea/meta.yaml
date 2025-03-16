@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/3ff1ad40eddc43faa0fed7cfe5e18cea/artifacts
+end_time: 1742098397811
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 3ff1ad40eddc43faa0fed7cfe5e18cea
+run_name: likeable-turtle-269
+run_uuid: 3ff1ad40eddc43faa0fed7cfe5e18cea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742098373975
+status: 3
+tags: []
+user_id: jessicawells

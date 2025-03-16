@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/5d0cc09d87e946c38a1a2fcc9fe816de/artifacts
+end_time: 1742108860389
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 5d0cc09d87e946c38a1a2fcc9fe816de
+run_name: resilient-chimp-963
+run_uuid: 5d0cc09d87e946c38a1a2fcc9fe816de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742108839153
+status: 3
+tags: []
+user_id: jessicawells

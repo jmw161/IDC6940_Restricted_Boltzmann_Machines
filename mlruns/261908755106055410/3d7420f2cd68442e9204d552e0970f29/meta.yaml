@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/3d7420f2cd68442e9204d552e0970f29/artifacts
+end_time: 1742135981515
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 3d7420f2cd68442e9204d552e0970f29
+run_name: skittish-wasp-884
+run_uuid: 3d7420f2cd68442e9204d552e0970f29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135937390
+status: 3
+tags: []
+user_id: jessicawells

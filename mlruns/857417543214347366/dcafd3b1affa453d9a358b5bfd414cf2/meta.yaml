@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/dcafd3b1affa453d9a358b5bfd414cf2/artifacts
+end_time: 1742091889733
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: dcafd3b1affa453d9a358b5bfd414cf2
+run_name: sassy-penguin-942
+run_uuid: dcafd3b1affa453d9a358b5bfd414cf2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742091882183
+status: 3
+tags: []
+user_id: jessicawells

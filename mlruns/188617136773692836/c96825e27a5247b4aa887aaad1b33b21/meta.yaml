@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/c96825e27a5247b4aa887aaad1b33b21/artifacts
+end_time: 1742092427194
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: c96825e27a5247b4aa887aaad1b33b21
+run_name: abundant-finch-627
+run_uuid: c96825e27a5247b4aa887aaad1b33b21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092413179
+status: 3
+tags: []
+user_id: jessicawells

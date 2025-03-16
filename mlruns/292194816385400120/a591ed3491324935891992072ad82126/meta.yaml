@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/a591ed3491324935891992072ad82126/artifacts
+end_time: 1742119548947
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: a591ed3491324935891992072ad82126
+run_name: nimble-deer-705
+run_uuid: a591ed3491324935891992072ad82126
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119517997
+status: 3
+tags: []
+user_id: jessicawells

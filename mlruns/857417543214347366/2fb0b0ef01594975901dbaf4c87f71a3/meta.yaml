@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/2fb0b0ef01594975901dbaf4c87f71a3/artifacts
+deleted_time: 1742091577590
+end_time: 1742088785511
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 2fb0b0ef01594975901dbaf4c87f71a3
+run_name: unequaled-wolf-829
+run_uuid: 2fb0b0ef01594975901dbaf4c87f71a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088777724
+status: 3
+tags: []
+user_id: jessicawells

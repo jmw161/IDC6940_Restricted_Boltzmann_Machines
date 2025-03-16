@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/bd8c577df4564e7b809f41b9e83ff157/artifacts
+end_time: 1742092775083
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: bd8c577df4564e7b809f41b9e83ff157
+run_name: lyrical-wren-697
+run_uuid: bd8c577df4564e7b809f41b9e83ff157
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092758537
+status: 3
+tags: []
+user_id: jessicawells

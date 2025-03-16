@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/801a8fcdaa634627b58e3ac66a2a4c03/artifacts
+end_time: 1742103116517
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 801a8fcdaa634627b58e3ac66a2a4c03
+run_name: monumental-snake-700
+run_uuid: 801a8fcdaa634627b58e3ac66a2a4c03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103109924
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/cff1a0075ca34b33a664ec4028af9a21/artifacts
+end_time: 1742116506100
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: cff1a0075ca34b33a664ec4028af9a21
+run_name: adaptable-wren-747
+run_uuid: cff1a0075ca34b33a664ec4028af9a21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116489939
+status: 3
+tags: []
+user_id: jessicawells

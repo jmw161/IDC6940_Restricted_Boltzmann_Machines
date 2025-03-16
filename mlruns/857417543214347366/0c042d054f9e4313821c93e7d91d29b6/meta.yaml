@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/0c042d054f9e4313821c93e7d91d29b6/artifacts
+deleted_time: 1742091577578
+end_time: 1742088935247
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 0c042d054f9e4313821c93e7d91d29b6
+run_name: indecisive-gnu-55
+run_uuid: 0c042d054f9e4313821c93e7d91d29b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088927930
+status: 3
+tags: []
+user_id: jessicawells

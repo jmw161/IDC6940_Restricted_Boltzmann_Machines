@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/d8fdf0faf47f4c41bad33a352a92198b/artifacts
+end_time: 1742100200464
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: d8fdf0faf47f4c41bad33a352a92198b
+run_name: enchanting-swan-547
+run_uuid: d8fdf0faf47f4c41bad33a352a92198b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742100161436
+status: 3
+tags: []
+user_id: jessicawells

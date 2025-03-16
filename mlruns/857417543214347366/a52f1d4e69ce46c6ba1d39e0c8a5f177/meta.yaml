@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/a52f1d4e69ce46c6ba1d39e0c8a5f177/artifacts
+end_time: 1742126011493
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: a52f1d4e69ce46c6ba1d39e0c8a5f177
+run_name: youthful-hog-722
+run_uuid: a52f1d4e69ce46c6ba1d39e0c8a5f177
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126004977
+status: 3
+tags: []
+user_id: jessicawells

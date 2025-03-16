@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/bbab6d745e8841f8a6583095c8085bfc/artifacts
+end_time: 1742123543938
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: bbab6d745e8841f8a6583095c8085bfc
+run_name: resilient-rat-3
+run_uuid: bbab6d745e8841f8a6583095c8085bfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742123483584
+status: 3
+tags: []
+user_id: jessicawells

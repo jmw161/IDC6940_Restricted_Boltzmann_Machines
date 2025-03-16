@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/e822537be4ce417e97aa58f5b479a3f4/artifacts
+end_time: 1742129134034
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: e822537be4ce417e97aa58f5b479a3f4
+run_name: awesome-hawk-45
+run_uuid: e822537be4ce417e97aa58f5b479a3f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129119286
+status: 3
+tags: []
+user_id: jessicawells

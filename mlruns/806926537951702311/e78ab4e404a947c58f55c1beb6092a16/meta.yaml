@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/e78ab4e404a947c58f55c1beb6092a16/artifacts
+end_time: 1742133243631
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: e78ab4e404a947c58f55c1beb6092a16
+run_name: invincible-toad-219
+run_uuid: e78ab4e404a947c58f55c1beb6092a16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742133183208
+status: 3
+tags: []
+user_id: jessicawells

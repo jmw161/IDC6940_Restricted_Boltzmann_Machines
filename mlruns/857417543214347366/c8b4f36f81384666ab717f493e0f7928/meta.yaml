@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c8b4f36f81384666ab717f493e0f7928/artifacts
+end_time: 1742127028911
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c8b4f36f81384666ab717f493e0f7928
+run_name: stylish-frog-157
+run_uuid: c8b4f36f81384666ab717f493e0f7928
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742127022340
+status: 3
+tags: []
+user_id: jessicawells

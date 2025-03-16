@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/33d2176cc1ce4d2fab127ac1b8142eb0/artifacts
+end_time: 1742128883664
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 33d2176cc1ce4d2fab127ac1b8142eb0
+run_name: overjoyed-duck-99
+run_uuid: 33d2176cc1ce4d2fab127ac1b8142eb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742128877172
+status: 3
+tags: []
+user_id: jessicawells

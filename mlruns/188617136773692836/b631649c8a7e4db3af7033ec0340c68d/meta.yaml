@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/b631649c8a7e4db3af7033ec0340c68d/artifacts
+end_time: 1742092815765
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: b631649c8a7e4db3af7033ec0340c68d
+run_name: righteous-mink-316
+run_uuid: b631649c8a7e4db3af7033ec0340c68d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092793406
+status: 3
+tags: []
+user_id: jessicawells

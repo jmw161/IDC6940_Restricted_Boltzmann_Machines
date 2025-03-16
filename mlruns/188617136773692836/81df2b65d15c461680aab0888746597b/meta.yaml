@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/81df2b65d15c461680aab0888746597b/artifacts
+end_time: 1742092717743
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 81df2b65d15c461680aab0888746597b
+run_name: skillful-tern-273
+run_uuid: 81df2b65d15c461680aab0888746597b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092701190
+status: 3
+tags: []
+user_id: jessicawells

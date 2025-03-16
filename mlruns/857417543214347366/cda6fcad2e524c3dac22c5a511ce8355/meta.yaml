@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/cda6fcad2e524c3dac22c5a511ce8355/artifacts
+end_time: 1742103103352
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: cda6fcad2e524c3dac22c5a511ce8355
+run_name: capable-horse-735
+run_uuid: cda6fcad2e524c3dac22c5a511ce8355
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103096658
+status: 3
+tags: []
+user_id: jessicawells

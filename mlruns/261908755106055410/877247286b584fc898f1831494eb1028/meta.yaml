@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/877247286b584fc898f1831494eb1028/artifacts
+end_time: 1742099405276
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 877247286b584fc898f1831494eb1028
+run_name: shivering-gnat-923
+run_uuid: 877247286b584fc898f1831494eb1028
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099364391
+status: 3
+tags: []
+user_id: jessicawells

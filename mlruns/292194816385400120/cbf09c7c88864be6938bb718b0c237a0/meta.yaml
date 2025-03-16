@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/cbf09c7c88864be6938bb718b0c237a0/artifacts
+end_time: 1742094038842
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: cbf09c7c88864be6938bb718b0c237a0
+run_name: adaptable-smelt-73
+run_uuid: cbf09c7c88864be6938bb718b0c237a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094001992
+status: 3
+tags: []
+user_id: jessicawells

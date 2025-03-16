@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/6d61190e64fe4bab9d998ef5d983c895/artifacts
+end_time: 1742118003409
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 6d61190e64fe4bab9d998ef5d983c895
+run_name: crawling-hog-264
+run_uuid: 6d61190e64fe4bab9d998ef5d983c895
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742117996821
+status: 3
+tags: []
+user_id: jessicawells

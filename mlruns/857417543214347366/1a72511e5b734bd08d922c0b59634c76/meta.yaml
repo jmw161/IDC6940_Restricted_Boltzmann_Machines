@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/1a72511e5b734bd08d922c0b59634c76/artifacts
+end_time: 1742114679200
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 1a72511e5b734bd08d922c0b59634c76
+run_name: victorious-croc-651
+run_uuid: 1a72511e5b734bd08d922c0b59634c76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114672624
+status: 3
+tags: []
+user_id: jessicawells

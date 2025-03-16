@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/732f3a97e4b64f78915194932143af8d/artifacts
+end_time: 1742116403762
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 732f3a97e4b64f78915194932143af8d
+run_name: casual-dove-440
+run_uuid: 732f3a97e4b64f78915194932143af8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116388768
+status: 3
+tags: []
+user_id: jessicawells

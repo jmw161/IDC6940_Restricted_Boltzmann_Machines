@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/aa52cdb74e6c47d0850e631ad1e3b1fb/artifacts
+end_time: 1742114280143
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: aa52cdb74e6c47d0850e631ad1e3b1fb
+run_name: rumbling-gnu-520
+run_uuid: aa52cdb74e6c47d0850e631ad1e3b1fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114273493
+status: 3
+tags: []
+user_id: jessicawells

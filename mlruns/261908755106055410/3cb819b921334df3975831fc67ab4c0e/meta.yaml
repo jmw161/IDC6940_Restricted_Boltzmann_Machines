@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/3cb819b921334df3975831fc67ab4c0e/artifacts
+end_time: 1742123926355
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 3cb819b921334df3975831fc67ab4c0e
+run_name: gaudy-ray-396
+run_uuid: 3cb819b921334df3975831fc67ab4c0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742123907257
+status: 3
+tags: []
+user_id: jessicawells

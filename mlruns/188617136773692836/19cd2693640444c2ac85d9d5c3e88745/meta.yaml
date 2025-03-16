@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/19cd2693640444c2ac85d9d5c3e88745/artifacts
+end_time: 1742118903194
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 19cd2693640444c2ac85d9d5c3e88745
+run_name: bemused-dolphin-145
+run_uuid: 19cd2693640444c2ac85d9d5c3e88745
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118886203
+status: 3
+tags: []
+user_id: jessicawells

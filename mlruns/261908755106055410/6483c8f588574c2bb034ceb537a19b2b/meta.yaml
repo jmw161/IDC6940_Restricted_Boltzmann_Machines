@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/6483c8f588574c2bb034ceb537a19b2b/artifacts
+end_time: 1742109351415
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 6483c8f588574c2bb034ceb537a19b2b
+run_name: dapper-doe-123
+run_uuid: 6483c8f588574c2bb034ceb537a19b2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109311588
+status: 3
+tags: []
+user_id: jessicawells

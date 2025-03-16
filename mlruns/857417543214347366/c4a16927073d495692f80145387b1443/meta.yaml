@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c4a16927073d495692f80145387b1443/artifacts
+end_time: 1742115685278
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c4a16927073d495692f80145387b1443
+run_name: unleashed-sloth-331
+run_uuid: c4a16927073d495692f80145387b1443
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115678585
+status: 3
+tags: []
+user_id: jessicawells

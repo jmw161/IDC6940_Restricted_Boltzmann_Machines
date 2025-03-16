@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/997eb2dc3c3d483c9442be26056190f4/artifacts
+end_time: 1742127074843
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 997eb2dc3c3d483c9442be26056190f4
+run_name: angry-fish-718
+run_uuid: 997eb2dc3c3d483c9442be26056190f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742127068248
+status: 3
+tags: []
+user_id: jessicawells

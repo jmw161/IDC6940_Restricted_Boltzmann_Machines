@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/6a09ad7a76294f5b98819ff6561a2446/artifacts
+end_time: 1742099914481
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 6a09ad7a76294f5b98819ff6561a2446
+run_name: enchanting-finch-367
+run_uuid: 6a09ad7a76294f5b98819ff6561a2446
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099877685
+status: 3
+tags: []
+user_id: jessicawells

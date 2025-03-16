@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ec2130289a594cd8bbb18f99df72d8f7/artifacts
+end_time: 1742114845580
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ec2130289a594cd8bbb18f99df72d8f7
+run_name: selective-shad-74
+run_uuid: ec2130289a594cd8bbb18f99df72d8f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114838992
+status: 3
+tags: []
+user_id: jessicawells

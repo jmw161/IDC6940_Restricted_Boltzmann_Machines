@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/320e3f52e7c849a29c2e405bba77fbdc/artifacts
+deleted_time: 1742091577582
+end_time: 1742088883243
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 320e3f52e7c849a29c2e405bba77fbdc
+run_name: rogue-snake-216
+run_uuid: 320e3f52e7c849a29c2e405bba77fbdc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088875756
+status: 3
+tags: []
+user_id: jessicawells

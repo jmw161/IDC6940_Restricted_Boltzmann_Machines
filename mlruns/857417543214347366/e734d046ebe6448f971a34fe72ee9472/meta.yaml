@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/e734d046ebe6448f971a34fe72ee9472/artifacts
+end_time: 1742127094561
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: e734d046ebe6448f971a34fe72ee9472
+run_name: bouncy-hen-381
+run_uuid: e734d046ebe6448f971a34fe72ee9472
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742127088027
+status: 3
+tags: []
+user_id: jessicawells

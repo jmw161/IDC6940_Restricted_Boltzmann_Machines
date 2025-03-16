@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/37538e90d7b6479f84b9ac8017941266/artifacts
+end_time: 1742106969810
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 37538e90d7b6479f84b9ac8017941266
+run_name: stately-owl-426
+run_uuid: 37538e90d7b6479f84b9ac8017941266
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742106890553
+status: 3
+tags: []
+user_id: jessicawells

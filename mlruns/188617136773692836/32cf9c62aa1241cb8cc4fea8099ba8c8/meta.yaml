@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/32cf9c62aa1241cb8cc4fea8099ba8c8/artifacts
+end_time: 1742129898183
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 32cf9c62aa1241cb8cc4fea8099ba8c8
+run_name: marvelous-gnat-536
+run_uuid: 32cf9c62aa1241cb8cc4fea8099ba8c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129881658
+status: 3
+tags: []
+user_id: jessicawells

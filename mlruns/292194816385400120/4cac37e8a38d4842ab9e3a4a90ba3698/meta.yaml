@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/4cac37e8a38d4842ab9e3a4a90ba3698/artifacts
+end_time: 1742093652968
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 4cac37e8a38d4842ab9e3a4a90ba3698
+run_name: placid-snail-65
+run_uuid: 4cac37e8a38d4842ab9e3a4a90ba3698
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742093619122
+status: 3
+tags: []
+user_id: jessicawells

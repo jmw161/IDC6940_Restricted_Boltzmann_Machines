@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/75711554ef4e446883d76e6ca80027d0/artifacts
+end_time: 1742093867808
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 75711554ef4e446883d76e6ca80027d0
+run_name: ambitious-foal-709
+run_uuid: 75711554ef4e446883d76e6ca80027d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742093826214
+status: 3
+tags: []
+user_id: jessicawells

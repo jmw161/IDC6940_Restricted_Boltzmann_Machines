@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/645c1715776a4b81a48b22f15a3c9a46/artifacts
+end_time: 1742096756695
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 645c1715776a4b81a48b22f15a3c9a46
+run_name: rare-vole-547
+run_uuid: 645c1715776a4b81a48b22f15a3c9a46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742096704285
+status: 3
+tags: []
+user_id: jessicawells

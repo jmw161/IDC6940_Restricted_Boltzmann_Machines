@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/bd469f3154604c7e80b9b0475ae79120/artifacts
+end_time: 1742092958599
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: bd469f3154604c7e80b9b0475ae79120
+run_name: smiling-wren-984
+run_uuid: bd469f3154604c7e80b9b0475ae79120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092945071
+status: 3
+tags: []
+user_id: jessicawells

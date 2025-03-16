@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/496684f0697541a8bf5d5849e8c1549b/artifacts
+end_time: 1742125175146
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 496684f0697541a8bf5d5849e8c1549b
+run_name: big-colt-338
+run_uuid: 496684f0697541a8bf5d5849e8c1549b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125148851
+status: 3
+tags: []
+user_id: jessicawells

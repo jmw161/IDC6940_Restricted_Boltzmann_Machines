@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/e363ea8cda3344f38f956d5a9ebbaa9e/artifacts
+end_time: 1742128890195
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: e363ea8cda3344f38f956d5a9ebbaa9e
+run_name: nebulous-dolphin-932
+run_uuid: e363ea8cda3344f38f956d5a9ebbaa9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742128883674
+status: 3
+tags: []
+user_id: jessicawells

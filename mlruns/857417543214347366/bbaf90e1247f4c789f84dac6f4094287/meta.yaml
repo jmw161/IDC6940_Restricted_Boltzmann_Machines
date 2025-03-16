@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/bbaf90e1247f4c789f84dac6f4094287/artifacts
+end_time: 1742114273485
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: bbaf90e1247f4c789f84dac6f4094287
+run_name: smiling-duck-860
+run_uuid: bbaf90e1247f4c789f84dac6f4094287
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114266946
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/14d0777d008741f1b0bc489c4c264b11/artifacts
+end_time: 1742118575769
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 14d0777d008741f1b0bc489c4c264b11
+run_name: righteous-deer-621
+run_uuid: 14d0777d008741f1b0bc489c4c264b11
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118560320
+status: 3
+tags: []
+user_id: jessicawells

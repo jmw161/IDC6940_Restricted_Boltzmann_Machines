@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/b0b0d9f22fd147ef9052446ed2a214ba/artifacts
+end_time: 1742099155875
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: b0b0d9f22fd147ef9052446ed2a214ba
+run_name: able-flea-353
+run_uuid: b0b0d9f22fd147ef9052446ed2a214ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099098148
+status: 3
+tags: []
+user_id: jessicawells

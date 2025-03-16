@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/98e64463744b4255a769a3752ec922a0/artifacts
+end_time: 1742116470238
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 98e64463744b4255a769a3752ec922a0
+run_name: vaunted-fox-568
+run_uuid: 98e64463744b4255a769a3752ec922a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116457468
+status: 3
+tags: []
+user_id: jessicawells

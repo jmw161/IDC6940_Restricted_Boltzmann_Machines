@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/f8ad31b365dc4fada90b339c11ceb5a0/artifacts
+end_time: 1742124547100
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: f8ad31b365dc4fada90b339c11ceb5a0
+run_name: secretive-colt-367
+run_uuid: f8ad31b365dc4fada90b339c11ceb5a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124514689
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/fc34130e3f5b4c839bf6b3f4538e6014/artifacts
+end_time: 1742122699978
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: fc34130e3f5b4c839bf6b3f4538e6014
+run_name: resilient-ram-406
+run_uuid: fc34130e3f5b4c839bf6b3f4538e6014
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122660443
+status: 3
+tags: []
+user_id: jessicawells

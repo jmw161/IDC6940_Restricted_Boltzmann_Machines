@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/44973116539a4b3e86b786362609ae4f/artifacts
+deleted_time: 1742091577617
+end_time: 1742086801301
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 44973116539a4b3e86b786362609ae4f
+run_name: learned-snake-926
+run_uuid: 44973116539a4b3e86b786362609ae4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086794577
+status: 3
+tags: []
+user_id: jessicawells

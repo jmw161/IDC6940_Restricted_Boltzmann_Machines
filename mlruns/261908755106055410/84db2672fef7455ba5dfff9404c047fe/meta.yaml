@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/84db2672fef7455ba5dfff9404c047fe/artifacts
+end_time: 1742124088792
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 84db2672fef7455ba5dfff9404c047fe
+run_name: beautiful-wolf-775
+run_uuid: 84db2672fef7455ba5dfff9404c047fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124057658
+status: 3
+tags: []
+user_id: jessicawells

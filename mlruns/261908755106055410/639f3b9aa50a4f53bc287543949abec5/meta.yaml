@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/639f3b9aa50a4f53bc287543949abec5/artifacts
+end_time: 1742136108195
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 639f3b9aa50a4f53bc287543949abec5
+run_name: rambunctious-owl-544
+run_uuid: 639f3b9aa50a4f53bc287543949abec5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742136068025
+status: 3
+tags: []
+user_id: jessicawells

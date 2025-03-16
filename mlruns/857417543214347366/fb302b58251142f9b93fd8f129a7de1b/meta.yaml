@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/fb302b58251142f9b93fd8f129a7de1b/artifacts
+end_time: 1742129066837
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: fb302b58251142f9b93fd8f129a7de1b
+run_name: nosy-perch-829
+run_uuid: fb302b58251142f9b93fd8f129a7de1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129060352
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/52bb27dd14104ac79586381ebf6866d9/artifacts
+end_time: 1742122764333
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 52bb27dd14104ac79586381ebf6866d9
+run_name: beautiful-mare-283
+run_uuid: 52bb27dd14104ac79586381ebf6866d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122739166
+status: 3
+tags: []
+user_id: jessicawells

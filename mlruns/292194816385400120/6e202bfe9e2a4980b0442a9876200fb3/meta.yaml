@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/6e202bfe9e2a4980b0442a9876200fb3/artifacts
+end_time: 1742094300689
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 6e202bfe9e2a4980b0442a9876200fb3
+run_name: whimsical-crab-351
+run_uuid: 6e202bfe9e2a4980b0442a9876200fb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094259524
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/ee75a22c4ee448758fc9675b1505f95d/artifacts
+end_time: 1742096868254
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: ee75a22c4ee448758fc9675b1505f95d
+run_name: upset-penguin-882
+run_uuid: ee75a22c4ee448758fc9675b1505f95d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742096788595
+status: 3
+tags: []
+user_id: jessicawells

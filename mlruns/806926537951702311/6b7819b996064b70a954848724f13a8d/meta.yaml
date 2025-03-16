@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/6b7819b996064b70a954848724f13a8d/artifacts
+end_time: 1742133044819
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 6b7819b996064b70a954848724f13a8d
+run_name: bustling-roo-267
+run_uuid: 6b7819b996064b70a954848724f13a8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742132989778
+status: 3
+tags: []
+user_id: jessicawells

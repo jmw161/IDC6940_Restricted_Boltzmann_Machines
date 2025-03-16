@@ -6,5 +6,4 @@
 /.quarto/
 /_site/site_libs/
 fashion-mnist*.csv
-mlruns
 index_cache

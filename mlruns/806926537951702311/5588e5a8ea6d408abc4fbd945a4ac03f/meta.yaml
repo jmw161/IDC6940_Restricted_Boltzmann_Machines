@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/5588e5a8ea6d408abc4fbd945a4ac03f/artifacts
+end_time: 1742107429174
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 5588e5a8ea6d408abc4fbd945a4ac03f
+run_name: spiffy-horse-222
+run_uuid: 5588e5a8ea6d408abc4fbd945a4ac03f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742107389712
+status: 3
+tags: []
+user_id: jessicawells

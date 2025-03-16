@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/138a12db42cf494887e69d52a79f537c/artifacts
+end_time: 1742116312756
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 138a12db42cf494887e69d52a79f537c
+run_name: delicate-crab-572
+run_uuid: 138a12db42cf494887e69d52a79f537c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116295207
+status: 3
+tags: []
+user_id: jessicawells

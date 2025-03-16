@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/a850d71f0450436eb980238f80144b20/artifacts
+end_time: 1742103202766
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: a850d71f0450436eb980238f80144b20
+run_name: invincible-hog-416
+run_uuid: a850d71f0450436eb980238f80144b20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103196202
+status: 3
+tags: []
+user_id: jessicawells

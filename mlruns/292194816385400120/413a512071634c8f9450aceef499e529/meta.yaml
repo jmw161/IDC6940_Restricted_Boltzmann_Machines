@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/413a512071634c8f9450aceef499e529/artifacts
+end_time: 1742094759222
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 413a512071634c8f9450aceef499e529
+run_name: flawless-koi-773
+run_uuid: 413a512071634c8f9450aceef499e529
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094702789
+status: 3
+tags: []
+user_id: jessicawells

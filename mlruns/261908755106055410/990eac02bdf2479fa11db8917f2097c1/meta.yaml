@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/990eac02bdf2479fa11db8917f2097c1/artifacts
+end_time: 1742135439232
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 990eac02bdf2479fa11db8917f2097c1
+run_name: painted-whale-231
+run_uuid: 990eac02bdf2479fa11db8917f2097c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135408660
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/6231ca4807f9433791f3da0b6d7e6021/artifacts
+end_time: 1742129086320
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 6231ca4807f9433791f3da0b6d7e6021
+run_name: dazzling-boar-546
+run_uuid: 6231ca4807f9433791f3da0b6d7e6021
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129079849
+status: 3
+tags: []
+user_id: jessicawells

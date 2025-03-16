@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c80df678637d4b16896f9cad027d4ab2/artifacts
+deleted_time: 1742091577615
+end_time: 1742086835200
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: c80df678637d4b16896f9cad027d4ab2
+run_name: honorable-wren-854
+run_uuid: c80df678637d4b16896f9cad027d4ab2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086828285
+status: 3
+tags: []
+user_id: jessicawells

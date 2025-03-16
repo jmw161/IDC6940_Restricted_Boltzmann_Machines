@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/406ba388936c4922b891e4990255d191/artifacts
+end_time: 1742114483280
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 406ba388936c4922b891e4990255d191
+run_name: smiling-kite-589
+run_uuid: 406ba388936c4922b891e4990255d191
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114476633
+status: 3
+tags: []
+user_id: jessicawells

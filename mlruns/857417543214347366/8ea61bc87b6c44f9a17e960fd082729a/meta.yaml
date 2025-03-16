@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/8ea61bc87b6c44f9a17e960fd082729a/artifacts
+end_time: 1742114368300
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 8ea61bc87b6c44f9a17e960fd082729a
+run_name: fearless-lamb-852
+run_uuid: 8ea61bc87b6c44f9a17e960fd082729a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114361567
+status: 3
+tags: []
+user_id: jessicawells

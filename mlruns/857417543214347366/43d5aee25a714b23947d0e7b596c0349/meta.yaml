@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/43d5aee25a714b23947d0e7b596c0349/artifacts
+deleted_time: 1742091577596
+end_time: 1742088678509
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 43d5aee25a714b23947d0e7b596c0349
+run_name: stately-croc-873
+run_uuid: 43d5aee25a714b23947d0e7b596c0349
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088671203
+status: 3
+tags: []
+user_id: jessicawells

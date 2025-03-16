@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/0621ee8667104c0290018db423e19700/artifacts
+end_time: 1742116170471
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 0621ee8667104c0290018db423e19700
+run_name: useful-lark-680
+run_uuid: 0621ee8667104c0290018db423e19700
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116150688
+status: 3
+tags: []
+user_id: jessicawells

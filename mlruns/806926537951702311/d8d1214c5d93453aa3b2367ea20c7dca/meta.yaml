@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/d8d1214c5d93453aa3b2367ea20c7dca/artifacts
+end_time: 1742122425042
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: d8d1214c5d93453aa3b2367ea20c7dca
+run_name: bouncy-fly-97
+run_uuid: d8d1214c5d93453aa3b2367ea20c7dca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122387061
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/b1947f34106547f49f75859cd933f1a8/artifacts
+end_time: 1742121512879
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: b1947f34106547f49f75859cd933f1a8
+run_name: redolent-frog-727
+run_uuid: b1947f34106547f49f75859cd933f1a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121444333
+status: 3
+tags: []
+user_id: jessicawells

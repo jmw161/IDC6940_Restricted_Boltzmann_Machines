@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/635d5e4f8bd04fbcad88ba5108304720/artifacts
+end_time: 1742106713347
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 635d5e4f8bd04fbcad88ba5108304720
+run_name: ambitious-pig-792
+run_uuid: 635d5e4f8bd04fbcad88ba5108304720
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742106675885
+status: 3
+tags: []
+user_id: jessicawells

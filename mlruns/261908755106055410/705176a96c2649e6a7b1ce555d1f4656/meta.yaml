@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/705176a96c2649e6a7b1ce555d1f4656/artifacts
+end_time: 1742125095647
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 705176a96c2649e6a7b1ce555d1f4656
+run_name: serious-elk-685
+run_uuid: 705176a96c2649e6a7b1ce555d1f4656
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742125057111
+status: 3
+tags: []
+user_id: jessicawells

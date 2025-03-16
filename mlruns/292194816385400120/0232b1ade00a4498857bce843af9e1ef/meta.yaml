@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/0232b1ade00a4498857bce843af9e1ef/artifacts
+end_time: 1742131118577
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 0232b1ade00a4498857bce843af9e1ef
+run_name: agreeable-duck-754
+run_uuid: 0232b1ade00a4498857bce843af9e1ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131085699
+status: 3
+tags: []
+user_id: jessicawells

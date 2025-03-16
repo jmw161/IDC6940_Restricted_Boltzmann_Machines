@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ead01db5464247ffa641bb184a8c1d42/artifacts
+end_time: 1742091741094
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ead01db5464247ffa641bb184a8c1d42
+run_name: rare-goat-455
+run_uuid: ead01db5464247ffa641bb184a8c1d42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742091733596
+status: 3
+tags: []
+user_id: jessicawells

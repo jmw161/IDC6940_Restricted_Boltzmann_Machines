@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/ed826536d808462eaa58a91fefe8f645/artifacts
+end_time: 1742135360125
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: ed826536d808462eaa58a91fefe8f645
+run_name: bustling-moth-575
+run_uuid: ed826536d808462eaa58a91fefe8f645
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135332416
+status: 3
+tags: []
+user_id: jessicawells

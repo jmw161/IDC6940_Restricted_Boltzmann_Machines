@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ad31e33bc9594a5c9ad9804f040cc2c5/artifacts
+end_time: 1742114739837
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ad31e33bc9594a5c9ad9804f040cc2c5
+run_name: capricious-midge-886
+run_uuid: ad31e33bc9594a5c9ad9804f040cc2c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114733313
+status: 3
+tags: []
+user_id: jessicawells

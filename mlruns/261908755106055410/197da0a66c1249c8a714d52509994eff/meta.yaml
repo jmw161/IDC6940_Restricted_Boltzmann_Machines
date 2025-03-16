@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/197da0a66c1249c8a714d52509994eff/artifacts
+end_time: 1742100296928
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 197da0a66c1249c8a714d52509994eff
+run_name: handsome-pig-67
+run_uuid: 197da0a66c1249c8a714d52509994eff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742100239907
+status: 3
+tags: []
+user_id: jessicawells

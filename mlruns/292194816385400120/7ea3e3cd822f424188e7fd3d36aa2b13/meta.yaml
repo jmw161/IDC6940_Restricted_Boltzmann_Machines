@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/7ea3e3cd822f424188e7fd3d36aa2b13/artifacts
+end_time: 1742119619538
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 7ea3e3cd822f424188e7fd3d36aa2b13
+run_name: sincere-stoat-86
+run_uuid: 7ea3e3cd822f424188e7fd3d36aa2b13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119586352
+status: 3
+tags: []
+user_id: jessicawells

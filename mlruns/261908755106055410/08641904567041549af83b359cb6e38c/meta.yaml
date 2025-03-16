@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/08641904567041549af83b359cb6e38c/artifacts
+end_time: 1742109819292
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 08641904567041549af83b359cb6e38c
+run_name: secretive-deer-788
+run_uuid: 08641904567041549af83b359cb6e38c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109771106
+status: 3
+tags: []
+user_id: jessicawells

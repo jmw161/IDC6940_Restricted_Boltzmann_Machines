@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/eec62889ac564d96a35fe124be304169/artifacts
+end_time: 1742104107853
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: eec62889ac564d96a35fe124be304169
+run_name: dazzling-lark-924
+run_uuid: eec62889ac564d96a35fe124be304169
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104062792
+status: 3
+tags: []
+user_id: jessicawells

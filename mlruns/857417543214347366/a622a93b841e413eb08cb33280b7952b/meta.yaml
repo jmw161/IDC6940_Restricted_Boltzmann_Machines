@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/a622a93b841e413eb08cb33280b7952b/artifacts
+end_time: 1742114685824
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: a622a93b841e413eb08cb33280b7952b
+run_name: shivering-hare-6
+run_uuid: a622a93b841e413eb08cb33280b7952b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114679207
+status: 3
+tags: []
+user_id: jessicawells

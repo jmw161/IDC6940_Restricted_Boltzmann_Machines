@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/9e95bdccf26943d8928096efb666e0dd/artifacts
+end_time: 1742124796912
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 9e95bdccf26943d8928096efb666e0dd
+run_name: suave-gull-206
+run_uuid: 9e95bdccf26943d8928096efb666e0dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124759452
+status: 3
+tags: []
+user_id: jessicawells

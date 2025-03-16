@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/bc4090c91fc24302984dd753144b9dc4/artifacts
+end_time: 1742099364354
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: bc4090c91fc24302984dd753144b9dc4
+run_name: sneaky-kite-433
+run_uuid: bc4090c91fc24302984dd753144b9dc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099319491
+status: 3
+tags: []
+user_id: jessicawells

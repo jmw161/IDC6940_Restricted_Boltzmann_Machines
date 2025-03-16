@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/c3be578690b94ef98736475867f56124/artifacts
+end_time: 1742103448960
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: c3be578690b94ef98736475867f56124
+run_name: victorious-kite-111
+run_uuid: c3be578690b94ef98736475867f56124
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103428350
+status: 3
+tags: []
+user_id: jessicawells

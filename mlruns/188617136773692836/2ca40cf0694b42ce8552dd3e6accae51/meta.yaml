@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/2ca40cf0694b42ce8552dd3e6accae51/artifacts
+end_time: 1742103330815
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 2ca40cf0694b42ce8552dd3e6accae51
+run_name: exultant-goose-301
+run_uuid: 2ca40cf0694b42ce8552dd3e6accae51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103313969
+status: 3
+tags: []
+user_id: jessicawells

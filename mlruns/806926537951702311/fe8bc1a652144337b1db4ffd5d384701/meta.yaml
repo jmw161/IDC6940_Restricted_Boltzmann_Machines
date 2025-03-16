@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/fe8bc1a652144337b1db4ffd5d384701/artifacts
+end_time: 1742123353500
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: fe8bc1a652144337b1db4ffd5d384701
+run_name: intrigued-cub-285
+run_uuid: fe8bc1a652144337b1db4ffd5d384701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742123287740
+status: 3
+tags: []
+user_id: jessicawells

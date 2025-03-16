@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/9b4590c47ea446599152042968febdbe/artifacts
+end_time: 1742103847027
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 9b4590c47ea446599152042968febdbe
+run_name: rumbling-eel-391
+run_uuid: 9b4590c47ea446599152042968febdbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103833797
+status: 3
+tags: []
+user_id: jessicawells

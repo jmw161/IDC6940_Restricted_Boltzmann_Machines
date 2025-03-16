@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/876a8b68e2d947afa0e8b4ef957479b7/artifacts
+end_time: 1742104398925
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 876a8b68e2d947afa0e8b4ef957479b7
+run_name: delicate-finch-964
+run_uuid: 876a8b68e2d947afa0e8b4ef957479b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104364432
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/e96ffffff3ce456790e370809107a1c5/artifacts
+end_time: 1742103526068
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: e96ffffff3ce456790e370809107a1c5
+run_name: fortunate-zebra-777
+run_uuid: e96ffffff3ce456790e370809107a1c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103511177
+status: 3
+tags: []
+user_id: jessicawells

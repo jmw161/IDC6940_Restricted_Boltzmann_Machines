@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/f29152d110be4997af7de56e9a49a531/artifacts
+end_time: 1742100459337
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: f29152d110be4997af7de56e9a49a531
+run_name: judicious-cow-930
+run_uuid: f29152d110be4997af7de56e9a49a531
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742100421436
+status: 3
+tags: []
+user_id: jessicawells

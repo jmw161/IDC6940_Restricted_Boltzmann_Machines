@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/d67c6953f4144eb4b5daa90da0ec8126/artifacts
+end_time: 1742118682212
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: d67c6953f4144eb4b5daa90da0ec8126
+run_name: resilient-finch-859
+run_uuid: d67c6953f4144eb4b5daa90da0ec8126
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118661445
+status: 3
+tags: []
+user_id: jessicawells

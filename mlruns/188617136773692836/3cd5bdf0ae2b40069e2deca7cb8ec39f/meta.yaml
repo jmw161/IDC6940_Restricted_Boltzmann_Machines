@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/3cd5bdf0ae2b40069e2deca7cb8ec39f/artifacts
+end_time: 1742103393121
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 3cd5bdf0ae2b40069e2deca7cb8ec39f
+run_name: funny-loon-726
+run_uuid: 3cd5bdf0ae2b40069e2deca7cb8ec39f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103381569
+status: 3
+tags: []
+user_id: jessicawells

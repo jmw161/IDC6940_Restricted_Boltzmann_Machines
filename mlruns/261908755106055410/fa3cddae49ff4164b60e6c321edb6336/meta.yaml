@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/fa3cddae49ff4164b60e6c321edb6336/artifacts
+end_time: 1742099214498
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: fa3cddae49ff4164b60e6c321edb6336
+run_name: intelligent-gnu-722
+run_uuid: fa3cddae49ff4164b60e6c321edb6336
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099181175
+status: 3
+tags: []
+user_id: jessicawells

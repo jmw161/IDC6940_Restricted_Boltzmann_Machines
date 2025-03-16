@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/9eaa324bfd3b413ebfcfe2a728a7f68a/artifacts
+end_time: 1742114509685
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 9eaa324bfd3b413ebfcfe2a728a7f68a
+run_name: bustling-shad-295
+run_uuid: 9eaa324bfd3b413ebfcfe2a728a7f68a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114503046
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/f640b150d4c44b0ab7216fd7bd60c50c/artifacts
+end_time: 1742130650236
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: f640b150d4c44b0ab7216fd7bd60c50c
+run_name: nervous-wolf-757
+run_uuid: f640b150d4c44b0ab7216fd7bd60c50c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130599616
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/fdec8c5873584195b9e50077b1fda3ad/artifacts
+end_time: 1742128975052
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: fdec8c5873584195b9e50077b1fda3ad
+run_name: amazing-tern-731
+run_uuid: fdec8c5873584195b9e50077b1fda3ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742128968500
+status: 3
+tags: []
+user_id: jessicawells

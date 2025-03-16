@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/a32985a283bc478a81a40b4719657f81/artifacts
+end_time: 1742099290027
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: a32985a283bc478a81a40b4719657f81
+run_name: grandiose-snake-708
+run_uuid: a32985a283bc478a81a40b4719657f81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099256267
+status: 3
+tags: []
+user_id: jessicawells

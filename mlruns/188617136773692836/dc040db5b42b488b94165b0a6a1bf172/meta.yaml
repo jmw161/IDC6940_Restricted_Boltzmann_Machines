@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/dc040db5b42b488b94165b0a6a1bf172/artifacts
+end_time: 1742103872602
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: dc040db5b42b488b94165b0a6a1bf172
+run_name: upset-colt-58
+run_uuid: dc040db5b42b488b94165b0a6a1bf172
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103860215
+status: 3
+tags: []
+user_id: jessicawells

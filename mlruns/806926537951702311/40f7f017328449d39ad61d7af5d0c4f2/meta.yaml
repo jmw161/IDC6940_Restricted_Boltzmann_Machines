@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/40f7f017328449d39ad61d7af5d0c4f2/artifacts
+end_time: 1742121931767
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 40f7f017328449d39ad61d7af5d0c4f2
+run_name: worried-asp-695
+run_uuid: 40f7f017328449d39ad61d7af5d0c4f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121899153
+status: 3
+tags: []
+user_id: jessicawells

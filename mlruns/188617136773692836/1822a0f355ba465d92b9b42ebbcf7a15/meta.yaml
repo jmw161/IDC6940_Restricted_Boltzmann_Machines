@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/1822a0f355ba465d92b9b42ebbcf7a15/artifacts
+end_time: 1742092442144
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 1822a0f355ba465d92b9b42ebbcf7a15
+run_name: serious-whale-182
+run_uuid: 1822a0f355ba465d92b9b42ebbcf7a15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092427196
+status: 3
+tags: []
+user_id: jessicawells

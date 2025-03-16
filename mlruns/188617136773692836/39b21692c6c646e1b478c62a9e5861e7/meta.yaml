@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/39b21692c6c646e1b478c62a9e5861e7/artifacts
+end_time: 1742129341296
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 39b21692c6c646e1b478c62a9e5861e7
+run_name: rumbling-chimp-681
+run_uuid: 39b21692c6c646e1b478c62a9e5861e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129324329
+status: 3
+tags: []
+user_id: jessicawells

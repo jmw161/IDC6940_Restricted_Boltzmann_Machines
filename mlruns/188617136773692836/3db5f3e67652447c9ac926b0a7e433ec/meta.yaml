@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/3db5f3e67652447c9ac926b0a7e433ec/artifacts
+end_time: 1742116334617
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 3db5f3e67652447c9ac926b0a7e433ec
+run_name: calm-shad-84
+run_uuid: 3db5f3e67652447c9ac926b0a7e433ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116312760
+status: 3
+tags: []
+user_id: jessicawells

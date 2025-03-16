@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/9651923418314fef91d9a9ca026fbe1a/artifacts
+end_time: 1742118416952
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 9651923418314fef91d9a9ca026fbe1a
+run_name: gentle-perch-38
+run_uuid: 9651923418314fef91d9a9ca026fbe1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118395877
+status: 3
+tags: []
+user_id: jessicawells

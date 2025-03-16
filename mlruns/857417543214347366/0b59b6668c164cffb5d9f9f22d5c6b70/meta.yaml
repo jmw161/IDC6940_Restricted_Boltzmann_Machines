@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/0b59b6668c164cffb5d9f9f22d5c6b70/artifacts
+deleted_time: 1742091577589
+end_time: 1742088793447
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 0b59b6668c164cffb5d9f9f22d5c6b70
+run_name: welcoming-toad-64
+run_uuid: 0b59b6668c164cffb5d9f9f22d5c6b70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088785522
+status: 3
+tags: []
+user_id: jessicawells

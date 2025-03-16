@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/9507fe4002644323acfdf003b93d788f/artifacts
+end_time: 1742117898068
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 9507fe4002644323acfdf003b93d788f
+run_name: bedecked-sponge-600
+run_uuid: 9507fe4002644323acfdf003b93d788f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742117891480
+status: 3
+tags: []
+user_id: jessicawells

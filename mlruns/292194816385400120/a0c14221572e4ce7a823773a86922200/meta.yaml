@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/a0c14221572e4ce7a823773a86922200/artifacts
+end_time: 1742131281712
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: a0c14221572e4ce7a823773a86922200
+run_name: upset-sponge-87
+run_uuid: a0c14221572e4ce7a823773a86922200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742131246436
+status: 3
+tags: []
+user_id: jessicawells

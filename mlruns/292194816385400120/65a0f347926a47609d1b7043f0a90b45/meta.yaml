@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/65a0f347926a47609d1b7043f0a90b45/artifacts
+end_time: 1742119411538
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 65a0f347926a47609d1b7043f0a90b45
+run_name: nosy-jay-140
+run_uuid: 65a0f347926a47609d1b7043f0a90b45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119367458
+status: 3
+tags: []
+user_id: jessicawells

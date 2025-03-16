@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/1b22af2efc9c4cee83796add10464d2b/artifacts
+end_time: 1742091733590
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 1b22af2efc9c4cee83796add10464d2b
+run_name: grandiose-toad-227
+run_uuid: 1b22af2efc9c4cee83796add10464d2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742091726814
+status: 3
+tags: []
+user_id: jessicawells

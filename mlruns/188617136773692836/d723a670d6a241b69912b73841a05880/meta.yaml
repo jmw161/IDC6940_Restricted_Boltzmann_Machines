@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/d723a670d6a241b69912b73841a05880/artifacts
+end_time: 1742129441639
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: d723a670d6a241b69912b73841a05880
+run_name: smiling-moth-562
+run_uuid: d723a670d6a241b69912b73841a05880
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129429204
+status: 3
+tags: []
+user_id: jessicawells

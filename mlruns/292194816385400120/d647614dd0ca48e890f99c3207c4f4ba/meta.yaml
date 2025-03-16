@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/d647614dd0ca48e890f99c3207c4f4ba/artifacts
+end_time: 1742104870522
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: d647614dd0ca48e890f99c3207c4f4ba
+run_name: exultant-shad-208
+run_uuid: d647614dd0ca48e890f99c3207c4f4ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104823860
+status: 3
+tags: []
+user_id: jessicawells

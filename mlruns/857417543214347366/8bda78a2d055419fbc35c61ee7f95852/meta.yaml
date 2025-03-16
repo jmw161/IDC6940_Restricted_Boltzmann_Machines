@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/8bda78a2d055419fbc35c61ee7f95852/artifacts
+end_time: 1742115745173
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 8bda78a2d055419fbc35c61ee7f95852
+run_name: bedecked-rat-755
+run_uuid: 8bda78a2d055419fbc35c61ee7f95852
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115738531
+status: 3
+tags: []
+user_id: jessicawells

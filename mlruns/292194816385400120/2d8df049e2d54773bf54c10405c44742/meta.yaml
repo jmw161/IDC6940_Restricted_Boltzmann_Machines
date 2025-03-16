@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/2d8df049e2d54773bf54c10405c44742/artifacts
+end_time: 1742094612090
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 2d8df049e2d54773bf54c10405c44742
+run_name: redolent-shrike-13
+run_uuid: 2d8df049e2d54773bf54c10405c44742
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094570740
+status: 3
+tags: []
+user_id: jessicawells

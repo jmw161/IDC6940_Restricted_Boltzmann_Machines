@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/82b9cb97dbcf476fbafd8de4b834688f/artifacts
+end_time: 1742114313685
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 82b9cb97dbcf476fbafd8de4b834688f
+run_name: handsome-doe-320
+run_uuid: 82b9cb97dbcf476fbafd8de4b834688f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114307035
+status: 3
+tags: []
+user_id: jessicawells

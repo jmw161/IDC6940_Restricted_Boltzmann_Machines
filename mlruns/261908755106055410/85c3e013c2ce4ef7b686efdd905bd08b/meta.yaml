@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/85c3e013c2ce4ef7b686efdd905bd08b/artifacts
+end_time: 1742099877663
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 85c3e013c2ce4ef7b686efdd905bd08b
+run_name: amusing-mule-370
+run_uuid: 85c3e013c2ce4ef7b686efdd905bd08b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099847580
+status: 3
+tags: []
+user_id: jessicawells

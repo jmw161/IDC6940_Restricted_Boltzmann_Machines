@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/61d68c60f0b64aada77d77efe79636f2/artifacts
+end_time: 1742124281502
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 61d68c60f0b64aada77d77efe79636f2
+run_name: puzzled-pig-306
+run_uuid: 61d68c60f0b64aada77d77efe79636f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124241697
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/d031e15437f74e5a9f5203f6495c5a5c/artifacts
+end_time: 1742135883755
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: d031e15437f74e5a9f5203f6495c5a5c
+run_name: nosy-bear-607
+run_uuid: d031e15437f74e5a9f5203f6495c5a5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135832855
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/a7a012030751489bb08bc8164c6cdb3a/artifacts
+end_time: 1742093087338
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: a7a012030751489bb08bc8164c6cdb3a
+run_name: gifted-moth-996
+run_uuid: a7a012030751489bb08bc8164c6cdb3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742093071742
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/cada5af4e7c542919660fccc06830121/artifacts
+end_time: 1742122573693
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: cada5af4e7c542919660fccc06830121
+run_name: salty-bird-7
+run_uuid: cada5af4e7c542919660fccc06830121
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122554680
+status: 3
+tags: []
+user_id: jessicawells

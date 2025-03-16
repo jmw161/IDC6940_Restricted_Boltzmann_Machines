@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/1c03e9af1fc84d9dba136620b1c96586/artifacts
+end_time: 1742096788573
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 1c03e9af1fc84d9dba136620b1c96586
+run_name: sneaky-croc-232
+run_uuid: 1c03e9af1fc84d9dba136620b1c96586
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742096756730
+status: 3
+tags: []
+user_id: jessicawells

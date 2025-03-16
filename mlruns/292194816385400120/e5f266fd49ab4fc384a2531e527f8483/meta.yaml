@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/e5f266fd49ab4fc384a2531e527f8483/artifacts
+end_time: 1742130379250
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: e5f266fd49ab4fc384a2531e527f8483
+run_name: marvelous-crow-680
+run_uuid: e5f266fd49ab4fc384a2531e527f8483
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130329038
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/92f4e51618744789a7ef1587e6c517b1/artifacts
+end_time: 1742118192554
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 92f4e51618744789a7ef1587e6c517b1
+run_name: rogue-whale-210
+run_uuid: 92f4e51618744789a7ef1587e6c517b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118175340
+status: 3
+tags: []
+user_id: jessicawells

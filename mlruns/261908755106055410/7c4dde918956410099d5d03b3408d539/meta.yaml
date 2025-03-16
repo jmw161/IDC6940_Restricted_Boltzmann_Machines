@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/7c4dde918956410099d5d03b3408d539/artifacts
+end_time: 1742123794258
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 7c4dde918956410099d5d03b3408d539
+run_name: sneaky-robin-528
+run_uuid: 7c4dde918956410099d5d03b3408d539
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742123772485
+status: 3
+tags: []
+user_id: jessicawells

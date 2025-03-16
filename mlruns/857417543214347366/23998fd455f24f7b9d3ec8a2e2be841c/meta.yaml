@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/23998fd455f24f7b9d3ec8a2e2be841c/artifacts
+end_time: 1742115791619
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 23998fd455f24f7b9d3ec8a2e2be841c
+run_name: beautiful-deer-300
+run_uuid: 23998fd455f24f7b9d3ec8a2e2be841c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115785022
+status: 3
+tags: []
+user_id: jessicawells

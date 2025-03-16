@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/42934f356385410880a995a056c5fe8f/artifacts
+end_time: 1742115831281
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 42934f356385410880a995a056c5fe8f
+run_name: wistful-squid-580
+run_uuid: 42934f356385410880a995a056c5fe8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742115824559
+status: 3
+tags: []
+user_id: jessicawells

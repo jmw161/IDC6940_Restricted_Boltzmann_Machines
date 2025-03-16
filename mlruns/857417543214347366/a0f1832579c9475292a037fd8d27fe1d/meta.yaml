@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/a0f1832579c9475292a037fd8d27fe1d/artifacts
+end_time: 1742114632880
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: a0f1832579c9475292a037fd8d27fe1d
+run_name: mercurial-gnat-766
+run_uuid: a0f1832579c9475292a037fd8d27fe1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114626273
+status: 3
+tags: []
+user_id: jessicawells

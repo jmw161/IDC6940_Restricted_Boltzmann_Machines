@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/0e4903b171504061a83726499990d4de/artifacts
+end_time: 1742126860826
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 0e4903b171504061a83726499990d4de
+run_name: selective-fish-187
+run_uuid: 0e4903b171504061a83726499990d4de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126855320
+status: 3
+tags: []
+user_id: jessicawells

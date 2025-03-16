@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/93f25e2c7bc24f888a196268fc107075/artifacts
+deleted_time: 1742091577615
+end_time: 1742086821514
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 93f25e2c7bc24f888a196268fc107075
+run_name: legendary-goose-379
+run_uuid: 93f25e2c7bc24f888a196268fc107075
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742086814813
+status: 3
+tags: []
+user_id: jessicawells

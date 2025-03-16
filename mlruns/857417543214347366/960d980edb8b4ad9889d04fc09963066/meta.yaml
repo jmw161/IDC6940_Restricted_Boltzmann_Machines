@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/960d980edb8b4ad9889d04fc09963066/artifacts
+end_time: 1742129020950
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 960d980edb8b4ad9889d04fc09963066
+run_name: capable-gnu-124
+run_uuid: 960d980edb8b4ad9889d04fc09963066
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129014399
+status: 3
+tags: []
+user_id: jessicawells

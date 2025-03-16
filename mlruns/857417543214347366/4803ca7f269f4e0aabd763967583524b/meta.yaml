@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/4803ca7f269f4e0aabd763967583524b/artifacts
+end_time: 1742126625118
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 4803ca7f269f4e0aabd763967583524b
+run_name: judicious-grouse-690
+run_uuid: 4803ca7f269f4e0aabd763967583524b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126619498
+status: 3
+tags: []
+user_id: jessicawells

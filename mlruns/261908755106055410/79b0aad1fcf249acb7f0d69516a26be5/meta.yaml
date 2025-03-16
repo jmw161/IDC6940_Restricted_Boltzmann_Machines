@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/79b0aad1fcf249acb7f0d69516a26be5/artifacts
+end_time: 1742110044974
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 79b0aad1fcf249acb7f0d69516a26be5
+run_name: sincere-dolphin-642
+run_uuid: 79b0aad1fcf249acb7f0d69516a26be5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742109998474
+status: 3
+tags: []
+user_id: jessicawells

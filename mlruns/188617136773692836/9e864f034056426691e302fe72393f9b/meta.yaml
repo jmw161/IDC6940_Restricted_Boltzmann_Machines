@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/9e864f034056426691e302fe72393f9b/artifacts
+end_time: 1742103884451
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 9e864f034056426691e302fe72393f9b
+run_name: bright-mare-409
+run_uuid: 9e864f034056426691e302fe72393f9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103872606
+status: 3
+tags: []
+user_id: jessicawells

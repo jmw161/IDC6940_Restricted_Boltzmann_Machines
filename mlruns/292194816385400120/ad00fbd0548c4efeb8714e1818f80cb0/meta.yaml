@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/ad00fbd0548c4efeb8714e1818f80cb0/artifacts
+end_time: 1742121136261
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: ad00fbd0548c4efeb8714e1818f80cb0
+run_name: secretive-gull-354
+run_uuid: ad00fbd0548c4efeb8714e1818f80cb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121096033
+status: 3
+tags: []
+user_id: jessicawells

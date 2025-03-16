@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ad6f07c6304e4ca8b3211d786b664290/artifacts
+end_time: 1742128792690
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ad6f07c6304e4ca8b3211d786b664290
+run_name: clean-ox-328
+run_uuid: ad6f07c6304e4ca8b3211d786b664290
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742128786151
+status: 3
+tags: []
+user_id: jessicawells

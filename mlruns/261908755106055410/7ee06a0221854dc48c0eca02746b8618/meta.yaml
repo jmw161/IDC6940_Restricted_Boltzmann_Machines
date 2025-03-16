@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/7ee06a0221854dc48c0eca02746b8618/artifacts
+end_time: 1742124967196
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 7ee06a0221854dc48c0eca02746b8618
+run_name: polite-crane-352
+run_uuid: 7ee06a0221854dc48c0eca02746b8618
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742124936896
+status: 3
+tags: []
+user_id: jessicawells

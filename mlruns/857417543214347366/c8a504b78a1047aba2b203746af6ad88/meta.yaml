@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c8a504b78a1047aba2b203746af6ad88/artifacts
+end_time: 1742126789799
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c8a504b78a1047aba2b203746af6ad88
+run_name: invincible-lamb-487
+run_uuid: c8a504b78a1047aba2b203746af6ad88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126784288
+status: 3
+tags: []
+user_id: jessicawells

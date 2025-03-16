@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/0365f7d4c3e8489b852f69c2637d4092/artifacts
+end_time: 1742121899129
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 0365f7d4c3e8489b852f69c2637d4092
+run_name: invincible-flea-132
+run_uuid: 0365f7d4c3e8489b852f69c2637d4092
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742121863608
+status: 3
+tags: []
+user_id: jessicawells

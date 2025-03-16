@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/df946c1cf6bc4a1db26be19100f9c7d3/artifacts
+end_time: 1742118737442
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: df946c1cf6bc4a1db26be19100f9c7d3
+run_name: orderly-trout-309
+run_uuid: df946c1cf6bc4a1db26be19100f9c7d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118720370
+status: 3
+tags: []
+user_id: jessicawells

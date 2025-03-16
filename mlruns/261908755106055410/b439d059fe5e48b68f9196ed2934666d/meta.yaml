@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/b439d059fe5e48b68f9196ed2934666d/artifacts
+end_time: 1742108810599
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: b439d059fe5e48b68f9196ed2934666d
+run_name: sassy-squirrel-861
+run_uuid: b439d059fe5e48b68f9196ed2934666d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742108773888
+status: 3
+tags: []
+user_id: jessicawells

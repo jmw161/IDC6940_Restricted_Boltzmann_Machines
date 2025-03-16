@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/7dcb518ff74a472090548511699866c8/artifacts
+end_time: 1742116295203
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 7dcb518ff74a472090548511699866c8
+run_name: suave-moth-747
+run_uuid: 7dcb518ff74a472090548511699866c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116280724
+status: 3
+tags: []
+user_id: jessicawells

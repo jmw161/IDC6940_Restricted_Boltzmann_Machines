@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/259f6af502884d859703e542e19feb0b/artifacts
+deleted_time: 1742091577596
+end_time: 1742088686051
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 259f6af502884d859703e542e19feb0b
+run_name: vaunted-kit-285
+run_uuid: 259f6af502884d859703e542e19feb0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088678517
+status: 3
+tags: []
+user_id: jessicawells

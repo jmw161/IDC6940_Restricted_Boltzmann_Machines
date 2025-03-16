@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/0142c2182b5248e4aa9fbef5b4d6d8f4/artifacts
+end_time: 1742118322094
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 0142c2182b5248e4aa9fbef5b4d6d8f4
+run_name: receptive-vole-412
+run_uuid: 0142c2182b5248e4aa9fbef5b4d6d8f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118301931
+status: 3
+tags: []
+user_id: jessicawells

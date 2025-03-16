@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/8d36abefa3d449c9a58edf672c35891f/artifacts
+end_time: 1742104958862
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 8d36abefa3d449c9a58edf672c35891f
+run_name: monumental-kit-682
+run_uuid: 8d36abefa3d449c9a58edf672c35891f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104922378
+status: 3
+tags: []
+user_id: jessicawells

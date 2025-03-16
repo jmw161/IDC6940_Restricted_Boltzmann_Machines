@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/957ae659600f4246bd96d4a8bc841d75/artifacts
+end_time: 1742116557226
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 957ae659600f4246bd96d4a8bc841d75
+run_name: abrasive-boar-735
+run_uuid: 957ae659600f4246bd96d4a8bc841d75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116540633
+status: 3
+tags: []
+user_id: jessicawells

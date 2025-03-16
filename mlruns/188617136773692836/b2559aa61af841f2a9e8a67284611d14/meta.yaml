@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/b2559aa61af841f2a9e8a67284611d14/artifacts
+end_time: 1742129553142
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: b2559aa61af841f2a9e8a67284611d14
+run_name: stylish-goose-418
+run_uuid: b2559aa61af841f2a9e8a67284611d14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129538378
+status: 3
+tags: []
+user_id: jessicawells

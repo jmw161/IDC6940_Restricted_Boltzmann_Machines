@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/3646bbe2520f45a5a2d079d6d1208b18/artifacts
+end_time: 1742098302610
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 3646bbe2520f45a5a2d079d6d1208b18
+run_name: enthused-fly-122
+run_uuid: 3646bbe2520f45a5a2d079d6d1208b18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742098235944
+status: 3
+tags: []
+user_id: jessicawells

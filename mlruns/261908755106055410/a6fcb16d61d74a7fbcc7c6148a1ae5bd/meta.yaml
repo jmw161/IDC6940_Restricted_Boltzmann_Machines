@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/a6fcb16d61d74a7fbcc7c6148a1ae5bd/artifacts
+end_time: 1742135149410
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: a6fcb16d61d74a7fbcc7c6148a1ae5bd
+run_name: dazzling-cub-155
+run_uuid: a6fcb16d61d74a7fbcc7c6148a1ae5bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135112673
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/b3581d5fd9004321b7da1e9935c0425a/artifacts
+end_time: 1742103169477
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: b3581d5fd9004321b7da1e9935c0425a
+run_name: resilient-foal-396
+run_uuid: b3581d5fd9004321b7da1e9935c0425a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103162913
+status: 3
+tags: []
+user_id: jessicawells

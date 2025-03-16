@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/24593b6fc43b4c2eb386f8d89039e74a/artifacts
+end_time: 1742092632040
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 24593b6fc43b4c2eb386f8d89039e74a
+run_name: skittish-swan-243
+run_uuid: 24593b6fc43b4c2eb386f8d89039e74a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092613423
+status: 3
+tags: []
+user_id: jessicawells

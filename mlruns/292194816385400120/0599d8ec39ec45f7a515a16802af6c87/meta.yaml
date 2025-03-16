@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/0599d8ec39ec45f7a515a16802af6c87/artifacts
+end_time: 1742104513951
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 0599d8ec39ec45f7a515a16802af6c87
+run_name: delicate-kit-613
+run_uuid: 0599d8ec39ec45f7a515a16802af6c87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742104482063
+status: 3
+tags: []
+user_id: jessicawells

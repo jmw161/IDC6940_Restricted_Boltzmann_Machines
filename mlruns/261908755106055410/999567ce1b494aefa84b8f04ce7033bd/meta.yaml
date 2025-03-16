@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/999567ce1b494aefa84b8f04ce7033bd/artifacts
+end_time: 1742123971291
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 999567ce1b494aefa84b8f04ce7033bd
+run_name: exultant-lark-662
+run_uuid: 999567ce1b494aefa84b8f04ce7033bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742123926361
+status: 3
+tags: []
+user_id: jessicawells

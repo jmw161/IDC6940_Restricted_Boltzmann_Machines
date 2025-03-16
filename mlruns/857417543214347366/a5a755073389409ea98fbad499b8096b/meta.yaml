@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/a5a755073389409ea98fbad499b8096b/artifacts
+deleted_time: 1742091577582
+end_time: 1742088890620
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: a5a755073389409ea98fbad499b8096b
+run_name: incongruous-shark-64
+run_uuid: a5a755073389409ea98fbad499b8096b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088883254
+status: 3
+tags: []
+user_id: jessicawells

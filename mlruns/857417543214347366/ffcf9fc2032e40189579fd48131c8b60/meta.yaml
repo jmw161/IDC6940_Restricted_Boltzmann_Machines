@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/ffcf9fc2032e40189579fd48131c8b60/artifacts
+end_time: 1742092075363
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: ffcf9fc2032e40189579fd48131c8b60
+run_name: delightful-ape-623
+run_uuid: ffcf9fc2032e40189579fd48131c8b60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742092068025
+status: 3
+tags: []
+user_id: jessicawells

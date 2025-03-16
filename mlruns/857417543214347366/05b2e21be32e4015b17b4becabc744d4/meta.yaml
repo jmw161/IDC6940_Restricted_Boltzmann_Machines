@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/05b2e21be32e4015b17b4becabc744d4/artifacts
+end_time: 1742114333798
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 05b2e21be32e4015b17b4becabc744d4
+run_name: merciful-croc-607
+run_uuid: 05b2e21be32e4015b17b4becabc744d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114327048
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/00d04c5a60fd4776ade1d2ca610f8820/artifacts
+end_time: 1742120587404
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 00d04c5a60fd4776ade1d2ca610f8820
+run_name: efficient-horse-284
+run_uuid: 00d04c5a60fd4776ade1d2ca610f8820
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742120526267
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/eed75057007a44cba3ca9af71b3e4f3d/artifacts
+end_time: 1742094702783
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: eed75057007a44cba3ca9af71b3e4f3d
+run_name: dashing-shrike-7
+run_uuid: eed75057007a44cba3ca9af71b3e4f3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094657395
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/0e1639857bcb456ea2b265e0ba25e11d/artifacts
+end_time: 1742130514168
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 0e1639857bcb456ea2b265e0ba25e11d
+run_name: skittish-newt-689
+run_uuid: 0e1639857bcb456ea2b265e0ba25e11d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742130463065
+status: 3
+tags: []
+user_id: jessicawells

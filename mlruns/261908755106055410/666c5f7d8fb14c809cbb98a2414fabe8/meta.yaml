@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/666c5f7d8fb14c809cbb98a2414fabe8/artifacts
+end_time: 1742123879913
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 666c5f7d8fb14c809cbb98a2414fabe8
+run_name: colorful-shoat-485
+run_uuid: 666c5f7d8fb14c809cbb98a2414fabe8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742123856956
+status: 3
+tags: []
+user_id: jessicawells

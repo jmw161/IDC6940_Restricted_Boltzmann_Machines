@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/60bcaa52f2b0433498b13f4fe5719824/artifacts
+end_time: 1742132373245
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 60bcaa52f2b0433498b13f4fe5719824
+run_name: awesome-skink-901
+run_uuid: 60bcaa52f2b0433498b13f4fe5719824
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742132341603
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/18ab6024b97c4fca95dacdaca3c287ab/artifacts
+end_time: 1742108424470
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 18ab6024b97c4fca95dacdaca3c287ab
+run_name: adorable-stork-450
+run_uuid: 18ab6024b97c4fca95dacdaca3c287ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742108350884
+status: 3
+tags: []
+user_id: jessicawells

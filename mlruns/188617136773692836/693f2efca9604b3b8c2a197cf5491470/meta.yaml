@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/693f2efca9604b3b8c2a197cf5491470/artifacts
+end_time: 1742118816062
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 693f2efca9604b3b8c2a197cf5491470
+run_name: amusing-yak-639
+run_uuid: 693f2efca9604b3b8c2a197cf5491470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118799181
+status: 3
+tags: []
+user_id: jessicawells

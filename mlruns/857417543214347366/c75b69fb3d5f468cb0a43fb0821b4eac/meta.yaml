@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c75b69fb3d5f468cb0a43fb0821b4eac/artifacts
+end_time: 1742126652542
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: c75b69fb3d5f468cb0a43fb0821b4eac
+run_name: thoughtful-mole-575
+run_uuid: c75b69fb3d5f468cb0a43fb0821b4eac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126647113
+status: 3
+tags: []
+user_id: jessicawells

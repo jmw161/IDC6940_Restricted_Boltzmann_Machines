@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/a390498db17b4549ad21e93c2742522f/artifacts
+end_time: 1742103404713
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: a390498db17b4549ad21e93c2742522f
+run_name: silent-slug-511
+run_uuid: a390498db17b4549ad21e93c2742522f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742103393125
+status: 3
+tags: []
+user_id: jessicawells

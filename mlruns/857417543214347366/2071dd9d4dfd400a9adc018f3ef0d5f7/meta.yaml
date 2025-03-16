@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/2071dd9d4dfd400a9adc018f3ef0d5f7/artifacts
+deleted_time: 1742091577594
+end_time: 1742088724863
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: 2071dd9d4dfd400a9adc018f3ef0d5f7
+run_name: burly-koi-42
+run_uuid: 2071dd9d4dfd400a9adc018f3ef0d5f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088716909
+status: 3
+tags: []
+user_id: jessicawells

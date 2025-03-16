@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/428fd27b3768490bb788fae55206adee/artifacts
+end_time: 1742106675846
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 428fd27b3768490bb788fae55206adee
+run_name: abrasive-kite-234
+run_uuid: 428fd27b3768490bb788fae55206adee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742106607926
+status: 3
+tags: []
+user_id: jessicawells

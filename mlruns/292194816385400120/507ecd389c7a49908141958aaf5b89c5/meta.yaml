@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/507ecd389c7a49908141958aaf5b89c5/artifacts
+end_time: 1742120526263
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 507ecd389c7a49908141958aaf5b89c5
+run_name: kindly-ant-570
+run_uuid: 507ecd389c7a49908141958aaf5b89c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742120472498
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/d0426fc18f1a4fdcbce44fbe0a05dd1f/artifacts
+end_time: 1742118923545
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: d0426fc18f1a4fdcbce44fbe0a05dd1f
+run_name: likeable-cow-50
+run_uuid: d0426fc18f1a4fdcbce44fbe0a05dd1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742118903199
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/bfc1cbae206c4f449375fcf8af374d1f/artifacts
+end_time: 1742129266990
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: bfc1cbae206c4f449375fcf8af374d1f
+run_name: polite-crow-117
+run_uuid: bfc1cbae206c4f449375fcf8af374d1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129246555
+status: 3
+tags: []
+user_id: jessicawells

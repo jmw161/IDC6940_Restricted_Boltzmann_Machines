@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/63da0efe6e0143d3b48eb57eae028a41/artifacts
+end_time: 1742108616958
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 63da0efe6e0143d3b48eb57eae028a41
+run_name: brawny-conch-346
+run_uuid: 63da0efe6e0143d3b48eb57eae028a41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742108577600
+status: 3
+tags: []
+user_id: jessicawells

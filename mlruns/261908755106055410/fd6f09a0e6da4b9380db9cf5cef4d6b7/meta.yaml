@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/fd6f09a0e6da4b9380db9cf5cef4d6b7/artifacts
+end_time: 1742134892277
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: fd6f09a0e6da4b9380db9cf5cef4d6b7
+run_name: invincible-bug-597
+run_uuid: fd6f09a0e6da4b9380db9cf5cef4d6b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742134870090
+status: 3
+tags: []
+user_id: jessicawells

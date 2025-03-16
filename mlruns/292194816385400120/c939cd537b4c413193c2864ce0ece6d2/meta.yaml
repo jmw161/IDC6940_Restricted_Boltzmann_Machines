@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/c939cd537b4c413193c2864ce0ece6d2/artifacts
+end_time: 1742119970699
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: c939cd537b4c413193c2864ce0ece6d2
+run_name: puzzled-kite-19
+run_uuid: c939cd537b4c413193c2864ce0ece6d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742119904502
+status: 3
+tags: []
+user_id: jessicawells

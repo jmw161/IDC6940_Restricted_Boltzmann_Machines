@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/bd66000a47184506a7991223728b3d5a/artifacts
+end_time: 1742100161394
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: bd66000a47184506a7991223728b3d5a
+run_name: traveling-whale-292
+run_uuid: bd66000a47184506a7991223728b3d5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742100117705
+status: 3
+tags: []
+user_id: jessicawells

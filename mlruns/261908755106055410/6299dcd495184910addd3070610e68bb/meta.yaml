@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/6299dcd495184910addd3070610e68bb/artifacts
+end_time: 1742135304860
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 6299dcd495184910addd3070610e68bb
+run_name: silent-fish-106
+run_uuid: 6299dcd495184910addd3070610e68bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742135281520
+status: 3
+tags: []
+user_id: jessicawells

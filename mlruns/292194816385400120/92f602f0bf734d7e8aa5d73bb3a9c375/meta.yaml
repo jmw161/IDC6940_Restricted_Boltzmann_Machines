@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/92f602f0bf734d7e8aa5d73bb3a9c375/artifacts
+end_time: 1742105352008
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: 92f602f0bf734d7e8aa5d73bb3a9c375
+run_name: traveling-mink-29
+run_uuid: 92f602f0bf734d7e8aa5d73bb3a9c375
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742105302631
+status: 3
+tags: []
+user_id: jessicawells

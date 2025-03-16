@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/f429c1e00730403bb0a98df63b8839a9/artifacts
+end_time: 1742117950723
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: f429c1e00730403bb0a98df63b8839a9
+run_name: sassy-mole-159
+run_uuid: f429c1e00730403bb0a98df63b8839a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742117944170
+status: 3
+tags: []
+user_id: jessicawells

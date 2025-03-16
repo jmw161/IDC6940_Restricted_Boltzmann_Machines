@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/c7ccea3ff0cc43009d9303c48a47f26c/artifacts
+end_time: 1742094524397
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: c7ccea3ff0cc43009d9303c48a47f26c
+run_name: likeable-trout-697
+run_uuid: c7ccea3ff0cc43009d9303c48a47f26c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742094467317
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/9938aa4d2c8e449d85f06137fcbdcf7c/artifacts
+end_time: 1742098332579
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 9938aa4d2c8e449d85f06137fcbdcf7c
+run_name: learned-sow-532
+run_uuid: 9938aa4d2c8e449d85f06137fcbdcf7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742098302678
+status: 3
+tags: []
+user_id: jessicawells

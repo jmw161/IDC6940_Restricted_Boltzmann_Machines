@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/292194816385400120/e5159fc16d244f6a89cb60065332da5e/artifacts
+end_time: 1742121041350
+entry_point_name: ''
+experiment_id: '292194816385400120'
+lifecycle_stage: active
+run_id: e5159fc16d244f6a89cb60065332da5e
+run_name: casual-colt-221
+run_uuid: e5159fc16d244f6a89cb60065332da5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742120986811
+status: 3
+tags: []
+user_id: jessicawells

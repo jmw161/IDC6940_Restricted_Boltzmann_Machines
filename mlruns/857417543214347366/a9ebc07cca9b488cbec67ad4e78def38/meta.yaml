@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/a9ebc07cca9b488cbec67ad4e78def38/artifacts
+deleted_time: 1742091577569
+end_time: 1742088994224
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: a9ebc07cca9b488cbec67ad4e78def38
+run_name: popular-wolf-600
+run_uuid: a9ebc07cca9b488cbec67ad4e78def38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088986701
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/23ac530ea9e841f8b0146ebbc4815139/artifacts
+end_time: 1742129646555
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 23ac530ea9e841f8b0146ebbc4815139
+run_name: beautiful-yak-196
+run_uuid: 23ac530ea9e841f8b0146ebbc4815139
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742129626249
+status: 3
+tags: []
+user_id: jessicawells

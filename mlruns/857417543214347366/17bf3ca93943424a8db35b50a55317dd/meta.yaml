@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/17bf3ca93943424a8db35b50a55317dd/artifacts
+end_time: 1742126817062
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 17bf3ca93943424a8db35b50a55317dd
+run_name: shivering-tern-972
+run_uuid: 17bf3ca93943424a8db35b50a55317dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126811625
+status: 3
+tags: []
+user_id: jessicawells

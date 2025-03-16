@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/261908755106055410/0b6c4df6141b47349fd346c9ceea25a6/artifacts
+end_time: 1742099319475
+entry_point_name: ''
+experiment_id: '261908755106055410'
+lifecycle_stage: active
+run_id: 0b6c4df6141b47349fd346c9ceea25a6
+run_name: debonair-grub-326
+run_uuid: 0b6c4df6141b47349fd346c9ceea25a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742099290058
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/64e25dfc7a764021999fa28e15951bde/artifacts
+end_time: 1742126669074
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 64e25dfc7a764021999fa28e15951bde
+run_name: beautiful-lynx-258
+run_uuid: 64e25dfc7a764021999fa28e15951bde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742126663643
+status: 3
+tags: []
+user_id: jessicawells

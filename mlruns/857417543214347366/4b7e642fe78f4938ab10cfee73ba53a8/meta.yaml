@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/4b7e642fe78f4938ab10cfee73ba53a8/artifacts
+end_time: 1742114286884
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: active
+run_id: 4b7e642fe78f4938ab10cfee73ba53a8
+run_name: rogue-wren-567
+run_uuid: 4b7e642fe78f4938ab10cfee73ba53a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742114280150
+status: 3
+tags: []
+user_id: jessicawells

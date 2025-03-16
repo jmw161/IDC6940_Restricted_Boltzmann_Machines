@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/806926537951702311/4675b4705ec34608b3ebd3f0743f6143/artifacts
+end_time: 1742122554660
+entry_point_name: ''
+experiment_id: '806926537951702311'
+lifecycle_stage: active
+run_id: 4675b4705ec34608b3ebd3f0743f6143
+run_name: mysterious-skink-88
+run_uuid: 4675b4705ec34608b3ebd3f0743f6143
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742122529606
+status: 3
+tags: []
+user_id: jessicawells

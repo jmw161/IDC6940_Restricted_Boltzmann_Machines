@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366/c2eded573b1a49859e6e436566681eb4/artifacts
+deleted_time: 1742091577573
+end_time: 1742088986691
+entry_point_name: ''
+experiment_id: '857417543214347366'
+lifecycle_stage: deleted
+run_id: c2eded573b1a49859e6e436566681eb4
+run_name: bold-cub-759
+run_uuid: c2eded573b1a49859e6e436566681eb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742088979371
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/188617136773692836/8a57360703f84fb6b6650300b871e3ba/artifacts
+end_time: 1742116210165
+entry_point_name: ''
+experiment_id: '188617136773692836'
+lifecycle_stage: active
+run_id: 8a57360703f84fb6b6650300b871e3ba
+run_name: sincere-bird-346
+run_uuid: 8a57360703f84fb6b6650300b871e3ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742116190563
+status: 3
+tags: []
+user_id: jessicawells
