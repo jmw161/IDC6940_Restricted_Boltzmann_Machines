@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/f6819c8c09ff461d9162d8ba2f7c1205/artifacts
+end_time: 1743173579329
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: f6819c8c09ff461d9162d8ba2f7c1205
+run_name: burly-eel-973
+run_uuid: f6819c8c09ff461d9162d8ba2f7c1205
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173570472
+status: 3
+tags: []
+user_id: jessicawells

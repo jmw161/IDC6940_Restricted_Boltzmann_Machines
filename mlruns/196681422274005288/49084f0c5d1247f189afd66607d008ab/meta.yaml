@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/49084f0c5d1247f189afd66607d008ab/artifacts
+end_time: 1743190665571
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 49084f0c5d1247f189afd66607d008ab
+run_name: enchanting-sheep-623
+run_uuid: 49084f0c5d1247f189afd66607d008ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743190616129
+status: 3
+tags: []
+user_id: jessicawells

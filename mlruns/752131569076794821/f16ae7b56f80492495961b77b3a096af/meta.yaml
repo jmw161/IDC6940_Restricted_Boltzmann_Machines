@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/f16ae7b56f80492495961b77b3a096af/artifacts
+end_time: 1743181972091
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: f16ae7b56f80492495961b77b3a096af
+run_name: popular-snail-943
+run_uuid: f16ae7b56f80492495961b77b3a096af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181938161
+status: 3
+tags: []
+user_id: jessicawells

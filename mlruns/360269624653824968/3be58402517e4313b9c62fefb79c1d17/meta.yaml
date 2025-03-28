@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/3be58402517e4313b9c62fefb79c1d17/artifacts
+end_time: 1743173526056
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 3be58402517e4313b9c62fefb79c1d17
+run_name: unleashed-goat-404
+run_uuid: 3be58402517e4313b9c62fefb79c1d17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173517227
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/5cebc5ac0f214cb1b9f4815390e79a66/artifacts
+end_time: 1743180963831
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 5cebc5ac0f214cb1b9f4815390e79a66
+run_name: victorious-snipe-596
+run_uuid: 5cebc5ac0f214cb1b9f4815390e79a66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743180920910
+status: 3
+tags: []
+user_id: jessicawells

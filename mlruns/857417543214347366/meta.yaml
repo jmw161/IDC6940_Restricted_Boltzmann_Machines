@@ -1,6 +1,7 @@
 artifact_location: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/857417543214347366
 creation_time: 1742086712975
 experiment_id: '857417543214347366'
-last_update_time: 1742086712975
+last_update_time: 1743183647318
 lifecycle_stage: active
-name: pytorch-fmnist-lr-noRBM
+name: old_pytorch-fmnist-lr-noRBM
+tags: {}

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/fc31a312f4b347d280e07e6bb7490ebf/artifacts
+end_time: 1743189500992
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: fc31a312f4b347d280e07e6bb7490ebf
+run_name: awesome-hen-34
+run_uuid: fc31a312f4b347d280e07e6bb7490ebf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743189463170
+status: 3
+tags: []
+user_id: jessicawells

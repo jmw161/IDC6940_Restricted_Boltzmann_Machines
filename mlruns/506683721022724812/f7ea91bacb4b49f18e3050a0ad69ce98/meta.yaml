@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/f7ea91bacb4b49f18e3050a0ad69ce98/artifacts
+end_time: 1743186717651
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: f7ea91bacb4b49f18e3050a0ad69ce98
+run_name: skillful-sheep-525
+run_uuid: f7ea91bacb4b49f18e3050a0ad69ce98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743186703024
+status: 3
+tags: []
+user_id: jessicawells

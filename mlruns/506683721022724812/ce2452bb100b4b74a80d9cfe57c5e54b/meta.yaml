@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/ce2452bb100b4b74a80d9cfe57c5e54b/artifacts
+end_time: 1743173757297
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: ce2452bb100b4b74a80d9cfe57c5e54b
+run_name: sincere-rook-636
+run_uuid: ce2452bb100b4b74a80d9cfe57c5e54b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173743758
+status: 3
+tags: []
+user_id: jessicawells

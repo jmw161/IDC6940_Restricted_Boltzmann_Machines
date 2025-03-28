@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/78e8ee8412174d948c3107e93de0f719/artifacts
+end_time: 1743195318482
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 78e8ee8412174d948c3107e93de0f719
+run_name: abrasive-shoat-511
+run_uuid: 78e8ee8412174d948c3107e93de0f719
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743195287968
+status: 3
+tags: []
+user_id: jessicawells

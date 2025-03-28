@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/b68aa16ac69045a4ab45e6b1a80a5785/artifacts
+end_time: 1743175741622
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: b68aa16ac69045a4ab45e6b1a80a5785
+run_name: fortunate-ant-0
+run_uuid: b68aa16ac69045a4ab45e6b1a80a5785
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743175695630
+status: 3
+tags: []
+user_id: jessicawells

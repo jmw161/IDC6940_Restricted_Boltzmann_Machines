@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/86f48d54d1c0421595287972c106a8d2/artifacts
+end_time: 1743185367989
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 86f48d54d1c0421595287972c106a8d2
+run_name: mercurial-grub-538
+run_uuid: 86f48d54d1c0421595287972c106a8d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185356167
+status: 3
+tags: []
+user_id: jessicawells

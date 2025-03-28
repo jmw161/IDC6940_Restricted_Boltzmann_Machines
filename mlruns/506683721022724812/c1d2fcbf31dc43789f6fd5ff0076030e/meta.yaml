@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/c1d2fcbf31dc43789f6fd5ff0076030e/artifacts
+end_time: 1743174413393
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: c1d2fcbf31dc43789f6fd5ff0076030e
+run_name: sincere-ray-290
+run_uuid: c1d2fcbf31dc43789f6fd5ff0076030e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174396300
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/9461727edba642709a3a85769c068ae6/artifacts
+end_time: 1743193750562
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 9461727edba642709a3a85769c068ae6
+run_name: bald-auk-391
+run_uuid: 9461727edba642709a3a85769c068ae6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193715367
+status: 3
+tags: []
+user_id: jessicawells

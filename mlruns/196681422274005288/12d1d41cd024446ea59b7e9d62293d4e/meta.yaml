@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/12d1d41cd024446ea59b7e9d62293d4e/artifacts
+end_time: 1743176318865
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 12d1d41cd024446ea59b7e9d62293d4e
+run_name: dashing-penguin-894
+run_uuid: 12d1d41cd024446ea59b7e9d62293d4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176278437
+status: 3
+tags: []
+user_id: jessicawells

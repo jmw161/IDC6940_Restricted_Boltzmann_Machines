@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/ebc854cf1bf64b75bedeebe0ef9ef953/artifacts
+end_time: 1743193715335
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: ebc854cf1bf64b75bedeebe0ef9ef953
+run_name: nosy-lark-263
+run_uuid: ebc854cf1bf64b75bedeebe0ef9ef953
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193669370
+status: 3
+tags: []
+user_id: jessicawells

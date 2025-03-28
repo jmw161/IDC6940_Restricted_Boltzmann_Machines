@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/d000ea42aa0a42b4b1041268e725e7c1/artifacts
+end_time: 1743176505657
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: d000ea42aa0a42b4b1041268e725e7c1
+run_name: intrigued-frog-903
+run_uuid: d000ea42aa0a42b4b1041268e725e7c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176452869
+status: 3
+tags: []
+user_id: jessicawells

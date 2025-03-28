@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/6c835470dd8d4241886cafdbbb01b815/artifacts
+end_time: 1743185308985
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 6c835470dd8d4241886cafdbbb01b815
+run_name: calm-owl-827
+run_uuid: 6c835470dd8d4241886cafdbbb01b815
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185302346
+status: 3
+tags: []
+user_id: jessicawells

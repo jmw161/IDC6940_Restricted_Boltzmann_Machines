@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/3a7707bc2d7f44b799cec9cf5697ddd7/artifacts
+end_time: 1743194547534
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 3a7707bc2d7f44b799cec9cf5697ddd7
+run_name: marvelous-hawk-968
+run_uuid: 3a7707bc2d7f44b799cec9cf5697ddd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194525870
+status: 3
+tags: []
+user_id: jessicawells

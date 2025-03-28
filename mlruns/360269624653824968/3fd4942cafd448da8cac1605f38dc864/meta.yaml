@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/3fd4942cafd448da8cac1605f38dc864/artifacts
+end_time: 1743185070810
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 3fd4942cafd448da8cac1605f38dc864
+run_name: industrious-bird-881
+run_uuid: 3fd4942cafd448da8cac1605f38dc864
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185064165
+status: 3
+tags: []
+user_id: jessicawells

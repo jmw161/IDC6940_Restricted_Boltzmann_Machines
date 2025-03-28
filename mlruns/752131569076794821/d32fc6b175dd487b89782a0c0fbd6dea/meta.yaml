@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/d32fc6b175dd487b89782a0c0fbd6dea/artifacts
+end_time: 1743194396010
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: d32fc6b175dd487b89782a0c0fbd6dea
+run_name: victorious-swan-472
+run_uuid: d32fc6b175dd487b89782a0c0fbd6dea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194363700
+status: 3
+tags: []
+user_id: jessicawells

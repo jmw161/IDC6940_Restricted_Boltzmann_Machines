@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/de739b97299d48699e8af09214552ff0/artifacts
+end_time: 1743194221665
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: de739b97299d48699e8af09214552ff0
+run_name: clumsy-gnat-749
+run_uuid: de739b97299d48699e8af09214552ff0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194193767
+status: 3
+tags: []
+user_id: jessicawells

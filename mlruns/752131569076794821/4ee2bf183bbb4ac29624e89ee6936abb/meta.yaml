@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/4ee2bf183bbb4ac29624e89ee6936abb/artifacts
+end_time: 1743195180147
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 4ee2bf183bbb4ac29624e89ee6936abb
+run_name: intrigued-colt-697
+run_uuid: 4ee2bf183bbb4ac29624e89ee6936abb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743195156269
+status: 3
+tags: []
+user_id: jessicawells

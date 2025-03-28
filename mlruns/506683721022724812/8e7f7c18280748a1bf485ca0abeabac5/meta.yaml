@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/8e7f7c18280748a1bf485ca0abeabac5/artifacts
+end_time: 1743174559801
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 8e7f7c18280748a1bf485ca0abeabac5
+run_name: hilarious-croc-574
+run_uuid: 8e7f7c18280748a1bf485ca0abeabac5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174537417
+status: 3
+tags: []
+user_id: jessicawells

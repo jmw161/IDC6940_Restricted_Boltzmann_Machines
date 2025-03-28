@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/bbff058bb44349beb573587a52d93171/artifacts
+end_time: 1743173676928
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: bbff058bb44349beb573587a52d93171
+run_name: angry-shrimp-357
+run_uuid: bbff058bb44349beb573587a52d93171
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173668080
+status: 3
+tags: []
+user_id: jessicawells

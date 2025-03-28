@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/5d4b373ff8d54b87b1e7d22bbf10a11d/artifacts
+end_time: 1743179816324
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 5d4b373ff8d54b87b1e7d22bbf10a11d
+run_name: marvelous-cub-218
+run_uuid: 5d4b373ff8d54b87b1e7d22bbf10a11d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743179765115
+status: 3
+tags: []
+user_id: jessicawells

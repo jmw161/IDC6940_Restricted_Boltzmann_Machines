@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/a80407652e52411983e0335b59544af9/artifacts
+end_time: 1743176793402
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: a80407652e52411983e0335b59544af9
+run_name: rambunctious-hen-42
+run_uuid: a80407652e52411983e0335b59544af9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176751275
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/b97e959e8988426b877abd01e49e21e0/artifacts
+end_time: 1743173481978
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: b97e959e8988426b877abd01e49e21e0
+run_name: magnificent-crow-19
+run_uuid: b97e959e8988426b877abd01e49e21e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173471310
+status: 3
+tags: []
+user_id: jessicawells

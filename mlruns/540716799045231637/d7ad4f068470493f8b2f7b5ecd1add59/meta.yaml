@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/d7ad4f068470493f8b2f7b5ecd1add59/artifacts
+end_time: 1743178327959
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: d7ad4f068470493f8b2f7b5ecd1add59
+run_name: smiling-conch-840
+run_uuid: d7ad4f068470493f8b2f7b5ecd1add59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743178261752
+status: 3
+tags: []
+user_id: jessicawells

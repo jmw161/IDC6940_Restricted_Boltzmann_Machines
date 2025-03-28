@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/8218e1d107714089b9a2d61bd5d109ea/artifacts
+end_time: 1743173453294
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 8218e1d107714089b9a2d61bd5d109ea
+run_name: whimsical-roo-919
+run_uuid: 8218e1d107714089b9a2d61bd5d109ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173445926
+status: 3
+tags: []
+user_id: jessicawells

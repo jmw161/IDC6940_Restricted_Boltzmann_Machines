@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/08aec30158004bc9af0b680112407785/artifacts
+end_time: 1743175695619
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 08aec30158004bc9af0b680112407785
+run_name: resilient-sponge-734
+run_uuid: 08aec30158004bc9af0b680112407785
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743175638978
+status: 3
+tags: []
+user_id: jessicawells

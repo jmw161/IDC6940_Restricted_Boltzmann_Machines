@@ -24,94 +24,275 @@ editor:
 
 ### Background
 
-Restricted Boltzmann Machines (RBM) are a type of neural network that has been around since the 1980s. As a reminder to the reader, machine learning is generally divided into 3 categories: supervised learning (examples: classification tasks, regression), unsupervised learning (examples: clustering, dimensionality reduction, generative modeling), and reinforcement learning (examples: gaming/robotics). RBMs are primarily used for unsupervised learning tasks like dimensionality reduction and feature extraction, which help prepare datasets for machine learning models that may later be trained using supervised learning. They also have other applications which will be discussed further later.
+Restricted Boltzmann Machines (RBM) are a type of neural network that
+has been around since the 1980s. As a reminder to the reader, machine
+learning is generally divided into 3 categories: supervised learning
+(examples: classification tasks, regression), unsupervised learning
+(examples: clustering, dimensionality reduction, generative modeling),
+and reinforcement learning (examples: gaming/robotics). RBMs are
+primarily used for unsupervised learning tasks like dimensionality
+reduction and feature extraction, which help prepare datasets for
+machine learning models that may later be trained using supervised
+learning. They also have other applications which will be discussed
+further later.
 
-Like Hopfield networks, Boltzmann machines are undirected graphical models, but they are different in that they are stochastic and can have hidden units. Both models are energy-based, meaning they learn by minimizing an energy function for each model [@smolensky1986information]. Boltzmann machines use a sigmoid activation function, which allows for the model to be probabilistic.
+Like Hopfield networks, Boltzmann machines are undirected graphical
+models, but they are different in that they are stochastic and can have
+hidden units. Both models are energy-based, meaning they learn by
+minimizing an energy function for each model
+[@smolensky1986information]. Boltzmann machines use a sigmoid activation
+function, which allows for the model to be probabilistic.
 
-In the "Restricted" Boltzmann Machine, there are no interactions between neurons in the visible layer or between neurons in the hidden layer, creating a bipartite graph of neurons. Below is a diagram taken from Goodfellow, et al. [@Goodfellow-et-al-2016] (p. 577) for visualization of the connections.
+In the "Restricted" Boltzmann Machine, there are no interactions between
+neurons in the visible layer or between neurons in the hidden layer,
+creating a bipartite graph of neurons. Below is a diagram taken from
+Goodfellow, et al. [@Goodfellow-et-al-2016] (p. 577) for visualization
+of the connections.
 
 ```{r}
 reticulate::py_config()
 ```
 
+![](markov_net.png){width="60%"} <br>
 
-![](markov_net.png){width=60%}
-<br>
+Goodfellow, et al. discuss the expense in drawing samples for most
+undirected graphical models; however, the RBM allows for block Gibbs
+sampling (p. 578) where the network alternates between sampling all
+hidden units simultaneously (etc. for visible). Derivatives are also
+simplified by the fact that the energy function of the RBM is a linear
+function of it's parameters, which will be seen further in Methods.
 
-Goodfellow, et al. discuss the expense in drawing samples for most undirected graphical models; however, the RBM allows for block Gibbs sampling (p. 578) where the network alternates between sampling all hidden units simultaneously (etc. for visible). Derivatives are also simplified by the fact that the energy function of the RBM is a linear function of it's parameters, which will be seen further in Methods.  
-
-RBMs are trained using a process called Contrastive Divergence (CD) [@hinton2002training] where the weights are updated to minimize the difference between samples from the data and samples from the model. Learning rate, batch size, and number of hidden units are all hyperparameters that can affect the ability of the training to converge successfully and learn the underlying structure of the data.
-
-
+RBMs are trained using a process called Contrastive Divergence (CD)
+[@hinton2002training] where the weights are updated to minimize the
+difference between samples from the data and samples from the model.
+Learning rate, batch size, and number of hidden units are all
+hyperparameters that can affect the ability of the training to converge
+successfully and learn the underlying structure of the data.
 
 ### Applications
 
-RBMs are probably best known for their success in collaborative filtering. The RBM model was used in the Netflix Prize competition to predict user ratings for movies, with the result that it outperformed the Singular Value Decomposition (SVD) method that was state-of-the-art at the time [@salakhutdinov2007restricted]. They have also been trained to recognize handwritten digits, such as the MNIST dataset [@hinton2002training].
+RBMs are probably best known for their success in collaborative
+filtering. The RBM model was used in the Netflix Prize competition to
+predict user ratings for movies, with the result that it outperformed
+the Singular Value Decomposition (SVD) method that was state-of-the-art
+at the time [@salakhutdinov2007restricted]. They have also been trained
+to recognize handwritten digits, such as the MNIST dataset
+[@hinton2002training].
 
-RBMs have been successfully used to distinguish normal and anomalous network traffic. Their potential use in improving network security for companies in the future is promising. There is slow progress in network anomaly detection due to the difficulty of obtaining datasets for training and testing networks. Clients are often reluctant to divulge information that could potentially harm their networks. In a real-life dataset where one host had normal traffic and one was infected by a bot, discriminative RBM (DRBM) was able to successfully distinguish the normal from anomalous traffic. DRBM doesn't rely on knowing the data distribution ahead of time, which is useful, except that it also causes the DRBM to overfit. As a result, when trying to use the same trained RBM on the KDD '99 training dataset performance declined. [@fiore2013network]
+RBMs have been successfully used to distinguish normal and anomalous
+network traffic. Their potential use in improving network security for
+companies in the future is promising. There is slow progress in network
+anomaly detection due to the difficulty of obtaining datasets for
+training and testing networks. Clients are often reluctant to divulge
+information that could potentially harm their networks. In a real-life
+dataset where one host had normal traffic and one was infected by a bot,
+discriminative RBM (DRBM) was able to successfully distinguish the
+normal from anomalous traffic. DRBM doesn't rely on knowing the data
+distribution ahead of time, which is useful, except that it also causes
+the DRBM to overfit. As a result, when trying to use the same trained
+RBM on the KDD '99 training dataset performance declined.
+[@fiore2013network]
 
-RBMs can provide greatly improved classification of brain disorders in MRI images. Generative Adversarial Networks (GANs) use two neural networks: a generator which generates fake data, and a discriminator which tries to distinguish between real and fake data. Loss from the discriminator is backpropagated through the generator so that both part are trained simultaneously. The RBM-GAN uses RBM features from real MRI images as inputs to the generator. Features from the discriminator are then used as inputs to a classifier. [@aslan2023automated]
+RBMs can provide greatly improved classification of brain disorders in
+MRI images. Generative Adversarial Networks (GANs) use two neural
+networks: a generator which generates fake data, and a discriminator
+which tries to distinguish between real and fake data. Loss from the
+discriminator is backpropagated through the generator so that both part
+are trained simultaneously. The RBM-GAN uses RBM features from real MRI
+images as inputs to the generator. Features from the discriminator are
+then used as inputs to a classifier. [@aslan2023automated]
 
-The many-body quantum wavefunction, which describes the quantum state of a system of particles is difficult to compute with classical computers. RBMs have been used to approximate it using variational Monte Carlo methods. [@melko2019restricted]
+The many-body quantum wavefunction, which describes the quantum state of
+a system of particles is difficult to compute with classical computers.
+RBMs have been used to approximate it using variational Monte Carlo
+methods. [@melko2019restricted]
 
-RBMs are notoriously slow to train. The process of computing the activation probability requires the calculation of vector dot products. Lean Constrastive Divergence (LCD) is a method which adds two techniques to speed up the process of training RBMs. The first is bounds-based filtering where upper and lower bounds of the probability select only a range of dot products to perform. Second, the delta product involves only recalculating the changed portions of the vector dot product. [@ning2018lcd]
-
-
+RBMs are notoriously slow to train. The process of computing the
+activation probability requires the calculation of vector dot products.
+Lean Constrastive Divergence (LCD) is a method which adds two techniques
+to speed up the process of training RBMs. The first is bounds-based
+filtering where upper and lower bounds of the probability select only a
+range of dot products to perform. Second, the delta product involves
+only recalculating the changed portions of the vector dot product.
+[@ning2018lcd]
 
 ## Methods
 
-
-Below is the energy function of the RBM. 
+Below is the energy function of the RBM.
 
 $$
 E(v,h) = - \sum_{i} a_i v_i - \sum_{j} b_j h_j - \sum_{i} \sum_{j} v_i w_{i,j} h_j
-$$ {#eq-energy}
-where v<sub>i</sub> and h<sub>j</sub> represent visible and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bias terms of the visible and hidden units; and each w<sub>{i,j}</sub> (weight) element represents the interaction between the visible and hidden units. [@fischer2012introduction]
+$$ {#eq-energy} where v<sub>i</sub> and h<sub>j</sub> represent visible
+and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bias terms of
+the visible and hidden units; and each w<sub>{i,j}</sub> (weight)
+element represents the interaction between the visible and hidden units.
+[@fischer2012introduction]
 
+It is well known neural networks are prone to overfitting and often
+techniques such as early stopping are employed to prevent it. Some
+methods to prevent overfitting in RBMs are weight decay (L2
+regularization), dropout, dropconnect, and weight uncertainty
+[@zhang2018overview]. Dropout is a fairly well known concept in deep
+learning. For example, a dropout value of 0.3 added to a layer means 30%
+of neurons are dropped during training. This prevents the network from
+learning certain features too well. L2 regularization is also a commonly
+employed technique in deep learning. It assigns a penalty to large
+weights to allow for more generalization. Dropconnect is a method where
+a subset of weights within the network are randomly set to zero during
+training. Weight uncertainty is where each weight in the network has
+it's own probability distribution vice a fixed value. This addition
+allows the network to learn more useful features.
 
-It is well known neural networks are prone to overfitting and often techniques such as early stopping are employed to prevent it. Some methods to prevent overfitting in RBMs are weight decay (L2 regularization), dropout, dropconnect, and weight uncertainty [@zhang2018overview]. Dropout is a fairly well known concept in deep learning. For example, a dropout value of 0.3 added to a layer means 30% of neurons are dropped during training. This prevents the network from learning certain features too well. L2 regularization is also a commonly employed technique in deep learning. It assigns a penalty to large weights to allow for more generalization. Dropconnect is a method where a subset of weights within the network are randomly set to zero during training. Weight uncertainty is where each weight in the network has it's own probability distribution vice a fixed value. This addition allows the network to learn more useful features. 
+If the learning rate is too high, training of the model may not
+converge. If it is too low, training may take a long time. To fully
+maximize the training of the model it is helpful to reduce the learning
+rate over time. This is known as learning rate decay.
+[@hinton2010practical]
 
-If the learning rate is too high, training of the model may not converge. If it is too low, training may take a long time. To fully maximize the training of the model it is helpful to reduce the learning rate over time. This is known as learning rate decay. [@hinton2010practical]
+#### Model Categories
 
-##### Logistic Regression
-One technique we explore is standardizing Fashion MNIST features/pixels, then training a RBM (unsupervised learning) to extract hidden features from the visible layer and then feed these features into the Logistic Regression Model (vice feeding the raw pixels). The hidden features from the RBM are standardized again before being used as input features for the logistic regression classifier. Then we use the trained logistic regression model to predict labels for test data, evaluating how well the RBM-derived features perform in a supervised classification task. It is helpful to remind the reader about the methodology behind Logistic Regression.
+We train Logistic Regression (with and without RBM features as input),
+Feed Forward Network (with and without RBM features as input), and
+Convolutional Neural Network. Below is a brief reminder of the basics of
+each model.<br>
+
+For the models incoroporating the RBM, we take the Fashion MNIST
+features/pixels and train the RBM (unsupervised learning) to extract
+hidden features from the visible layer and then feed these features into
+either logistic regression or feed forward network. We then use the
+trained model to predict labels for the test data, evaluating how well
+the RBM-derived features perform in a supervised classification task.
+
+##### 1. Logistic Regression
+
+Mathematically, the concept behind binary logistic regression is the
+logit (the natural logarithm of an odds ratio)[@peng2002introduction].
+However, since we have 10 labels, our classification task falls into
+"Multinomial Logistic Regression."
 
 $$
 P(Y = k | X) = \frac{e^{\beta_{0k} + \beta_k^T X}}{\sum_{l=1}^{K} e^{\beta_{0l} + \beta_l^T X}}
 $$ {#eq-probability-lr}
 
-Mathematically, the concept behind binary logistic regression is the logit (the natural logarithm of an odds ratio)[@peng2002introduction]. However, since we have 10 labels, our classification task falls into "Multinomial Logistic Regression." 
+##### 2. Simple Feed Forward Neural Network
 
+The feed forward network (FNN) is one where information flows in one
+direction from input to output with no loops or feedback. There can be
+zero hidden layers in between (called single FNN) or one or more hidden
+layers (multilayer FNN). <br> [@sazli2006brief]
+![](fnn_diagram.png){width="60%"}<br>
 
+##### 3. Convolutional Neural Network
+
+The convolutional neural network (CNN) is a type of feed forward network
+except that unlike the traditional ANN, CNNs are primarily used for
+pattern recognition with images
+[@oshea2015introductionconvolutionalneuralnetworks]. The CNN has 3
+layers which are stacked to form the full CNN: convolutional, pooling,
+and fully-connected layers. ![](cnn_diagram_mnist.png){width="60%"}<br>
 
 ##### Below is our Process for creating the RBM:
-Step 1: We first initialize the RBM with random weights and biases and set visible units to 784 and hidden units to 256. We also set the number of contrastive divergence steps (k) to 1. </br>
-Step 2: Sample hidden units from visible. The math behind computing the hidden unit activations from the given input can be seen in [@eq-probability-rbm1] [@fischer2012introduction] where the probability is used to sample from the Bernoulli distribution. </br>
-$$
+
+Step 1: We first initialize the RBM with random weights and biases and
+set visible units to 784 and hidden units to 256. We also set the number
+of contrastive divergence steps (k) to 1. </br> Step 2: Sample hidden
+units from visible. The math behind computing the hidden unit
+activations from the given input can be seen in [@eq-probability-rbm1]
+[@fischer2012introduction] where the probability is used to sample from
+the Bernoulli distribution. </br> $$
 p(H_i = 1 | \mathbf{v}) = \sigma \left( \sum_{j=1}^{m} w_{ij} v_j + c_i \right)
 $$ {#eq-probability-rbm1}
-Step 3: Sample visible units from hidden. The math behind computing visible unit activations from the hidden layer can be seen in [@eq-probability-rbm2] [@fischer2012introduction] Visible states are sampled using the Bernoulli distribution. This way we can see how well the RBM learned from the inputs. </br>
+
+where p(.) is the probability of the i<sup>th</sup> hidden state being
+activated (=1) given the visible input vector. σ is the sigmoid
+activation function (below) which maps the weighted sum to a probability
+between 0 and 1. m is the number of visible units. w<sub>ij</sub> is the
+weight connecting visible unit j to hidden unit i. v<sub>j</sub> is the
+value of the j<sup>th</sup> visible unit. and c<sub>i</sub> is the bias
+term for the hidden unit. $$
+\sigma(x) = \frac{1}{1 + e^{-x}}
 $$
+
+Step 3: Sample visible units from hidden. The math behind computing
+visible unit activations from the hidden layer can be seen in
+[@eq-probability-rbm2] [@fischer2012introduction] Visible states are
+sampled using the Bernoulli distribution. This way we can see how well
+the RBM learned from the inputs. </br> $$
 p(V_j = 1 | \mathbf{h}) = \sigma \left( \sum_{i=1}^{n} w_{ij} h_i + b_j \right)
 $$ {#eq-probability-rbm2}
 
-Step 4: K=1 steps of Contrastive Divergence (Feed Forward, Feed Backward) which executes steps 2 and 3. Contrastive Divergence updates the RBM’s weights by minimizing the difference between the original input and the reconstructed input created by the RBM. </br>
-Step 5: Free energy is computed. The free energy F is given by the logarithm of the partition function Z [@oh2020entropy] where the partition function is  <br>
-$$
+where p(.) is the probability of the i<sup>th</sup> visible unit being
+activated (=1) given the hidden vector h. σ is same as above. n is the
+number of hidden units. w<sub>ij</sub> is the weight connecting hidden
+unit i to visible unit j. b<sub>j</sub> is the bias term for the
+j<sup>th</sup> visible unit.\
+Step 4: K=1 steps of Contrastive Divergence (Feed Forward, Feed
+Backward) which executes steps 2 and 3. Contrastive Divergence updates
+the RBM’s weights by minimizing the difference between the original
+input and the reconstructed input created by the RBM. </br> Step 5: Free
+energy is computed. The free energy F is given by the logarithm of the
+partition function Z [@oh2020entropy] where the partition function is
+<br> $$
 Z(\theta) \equiv \sum_{v,h} e^{-E(v,h; \theta)}
-$$ {#eq-partition}
-and the free energy function is <br>
-$$
+$$ {#eq-partition} and the free energy function is <br> $$
 F(\theta) = -\ln Z(\theta)
-$$ {#eq-free-energy}
-where lower free energy means the RBM learned the visible state well.
+$$ {#eq-free-energy} where lower free energy means the RBM learned the
+visible state well.
 
 Step 6: Train the RBM. Model weights updated via gradient descent.<br>
-Step 7: Feature extraction for classification with LR. The hidden layer activations of the RBM are used as features for LR.
+Step 7: Feature extraction for classification with LR. The hidden layer
+activations of the RBM are used as features for Logistic Regression and
+Feed Forward Network.
 
 ##### Hyperparameter Tuning
 
-We use the Tree-structured Parzen Estimator algorithm from Optuna [@akiba2019optuna] to tune the hyperparameters of the RBM and the classifier models, and we use MLFlow [@zaharia2018accelerating] to record and visualize the results of the hyperparameter tuning process. The hyperparameters we tune include the learning rate, batch size, number of hidden units, and number of epochs.
+We use the Tree-structured Parzen Estimator algorithm from Optuna
+[@akiba2019optuna] to tune the hyperparameters of the RBM and the
+classifier models, and we use MLFlow [@zaharia2018accelerating] to
+record and visualize the results of the hyperparameter tuning process.
+The hyperparameters we tune include the learning rate, batch size,
+number of hidden units, and number of epochs.
+
+#### Metrics Used
+
+<b>1. Accuracy</b><br> Accuracy is defined as the number of correct
+classifications divided by the total number of classifications<br> $$
+\text{Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}} 
+$$
+
+<b>2. Macro F1 Score</b><br> Macro F1 score is the unweighted average of
+the individual F1 scores of each class. It takes no regard for class
+imbalance; however, we saw earlier the classes are all balanced in
+Fashion MNIST. The F1 score for each individual class is as follows $$
+\text{F1} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$ where precision for each class is $$
+\text{Precision} = \frac{TP}{TP + FP}
+$$ and recall for each class is $$
+\text{Recall} = \frac{TP}{TP + FN}
+$$ The definitions of these terms for multiclass problems are more
+complicated than binary and are best displayed as examples. <br>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-gmla{border-color:inherit;font-size:16px;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+
+| **Acronymn** | **Example for a trouser image** |
+|-----------------------|----------------------------------------------|
+| TP = True Positives | the image is a trouser and the model predicts a trouser |
+| TN = True Negatives | the image is not a trouser and the model predicts anything but trouser |
+| FP = False Positives | the image is anything but trouser but the model predicts trouser |
+| FN = False Negatives | the image is a trouser and the model predicts another class (like shirt) |
+
+As stated earlier, the individual F1 scores for each class are taken and
+averaged to compute the Macro F1 score in a multiclass problem like
+Fashion MNIST.
 
 <!-- 
 
@@ -147,25 +328,19 @@ $$
 
 ### Data Exploration and Visualization
 
-We use the Fashion MNIST dataset from Zalando Research [@xiao2017/online]. The set includes 70,000 grayscale images of clothing items, 60,000 for training and 10,000 for testing. Each image is 28x28 pixels (784 pixels total). Each pixel has a value associated with it ranging from 0 (white) to 255 (very dark) -- whole numbers only. There are 785 columns in total as one column is dedicated to the label. 
+We use the Fashion MNIST dataset from Zalando Research
+[@xiao2017/online]. The set includes 70,000 grayscale images of clothing
+items, 60,000 for training and 10,000 for testing. Each image is 28x28
+pixels (784 pixels total). Each pixel has a value associated with it
+ranging from 0 (white) to 255 (very dark) -- whole numbers only. There
+are 785 columns in total as one column is dedicated to the label.
 
-![](fmnist.png){width=60%}
-<br>
+![](fmnist.png){width="60%"} <br>
 
 There are 10 labels in total:<br>
 
-0 T-shirt/top<br>
-1 Trouser<br>
-2 Pullover<br>
-3 Dress<br>
-4 Coat<br>
-5 Sandal<br>
-6 Shirt<br>
-7 Sneaker<br>
-8 Bag<br>
-9 Ankle boot<br>
-
-
+0 T-shirt/top<br> 1 Trouser<br> 2 Pullover<br> 3 Dress<br> 4 Coat<br> 5
+Sandal<br> 6 Shirt<br> 7 Sneaker<br> 8 Bag<br> 9 Ankle boot<br>
 
 Below we load the dataset.
 
@@ -197,8 +372,8 @@ test_data = torchvision.datasets.FashionMNIST(
 
 ```
 
+Get the seventh image to show a sample
 
-Get the seventh image to show a sample 
 ```{python}
 # Extract the first image (or choose any index)
 image_tensor, label = train_data[6]  # shape: [1, 28, 28]
@@ -213,7 +388,6 @@ plt.title(f"FashionMNIST Image (Label: {label})")
 plt.axis("off")  # Hide axes
 plt.show()
 ```
-
 
 ```{python}
 train_images = train_data.data.numpy()  # Raw pixel values (0-255)
@@ -231,6 +405,7 @@ df_flat = pd.DataFrame(flattened)
 print(df_flat.head())
 #train_df.info() #datatypes are integers
 ```
+
 There are no missing values in the data.
 
 ```{python}
@@ -247,12 +422,17 @@ unique_labels, counts = np.unique(train_labels, return_counts=True)
 for label, count in zip(unique_labels, counts):
     print(f"Label {label}: {count}")
 ```
+
 ```{python}
 print(f"X shape: {X.shape}")
 ```
 
+<b>t-SNE Visualization</b><br> t-distributed Stochastic Neighbor
+Embedding (t-SNE) is used here to visualize the separation between
+classes in a high-dimensional dataset.<br> Each point represents a
+single fashion item (e.g., T-shirt, Trouser, etc.), and the color
+corresponds to its true label across the 10 categories listed above.
 
-t-SNE Visualization
 ```{python, cache = TRUE}
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
@@ -274,6 +454,13 @@ plt.title("t-SNE Visualization of Fashion MNIST")
 plt.show()
 ```
 
+<b>What the visualization shows:</b> <br> Class 1 (blue / Trousers)
+forms a clearly distinct and tightly packed cluster, indicating that the
+pixel patterns for trousers are less similar to those of other classes.
+In contrast, Classes 4 (Coat), 6 (Shirt), and 2 (Pullover) show
+significant overlap, suggesting that these clothing items are harder to
+distinguish visually and may lead to more confusion during
+classification.
 
 <!-- 
 
@@ -285,8 +472,8 @@ plt.show()
 
 -->
 
-
 ### Modeling and Results
+
 <!--
 -   Explain your data preprocessing and cleaning steps.
 
@@ -297,19 +484,33 @@ plt.show()
 -   **Tell a story about what the data reveals.**
 -->
 
-<b>Our Models</b><br>
-1. Logistic Regression on Fashion MNIST Data<br>
-2. Feed Forward Network on Fashion MNIST Data<br>
-3. Convolutional Neural Network on Fashion MNIST Data<br>
-4. Logistic Regression on RBM Hidden Features (of Fashion MNIST Data)<br>
-5. Feed Forward Network on RBM Hidden Features (of Fashion MNIST Data)<br>
+<b>Our Goal</b><br> We are classifying Fashion MNIST images into one of
+10 categories. To evaluate performance, we’re comparing five different
+models — some trained on raw pixel values and others using features
+extracted by a Restricted Boltzmann Machine (RBM). Our objective is to
+assess whether incorporating RBM into the workflow improves
+classification accuracy compared to using raw image data alone.<br>
 
-<b>Note: Outputs (50 trials) and Code can be collapsed by the reader</b><br>
+<b>Our Models</b><br> 1. Logistic Regression on Fashion MNIST Data<br>
+2. Feed Forward Network on Fashion MNIST Data<br> 3. Convolutional
+Neural Network on Fashion MNIST Data<br> 4. Logistic Regression on RBM
+Hidden Features (of Fashion MNIST Data)<br> 5. Feed Forward Network on
+RBM Hidden Features (of Fashion MNIST Data)<br>
 
+<b>Note: Outputs (50 trials) and Code are below for each model. Both the
+code and output can be toggled by the reader.</b><br> • The first click
+reveals a toggle labeled “Code”.<br> • Clicking “Code” will show the
+output.<br> • Clicking again will switch from output to the actual
+code.<br> • Clicking “Show Code and Output” again will collapse both
+views.<br>
+
+<!-- 
 <details>
   <summary>Click to Show Code and Output</summary>
+-->
 
 <b>Import Libraries and Re-load data for first 3 models</b>
+
 ```{python}
 import torch
 import torch.nn as nn
@@ -331,21 +532,29 @@ transform = transforms.Compose([transforms.ToTensor()])
 train_dataset = datasets.FashionMNIST(root='./data', train=True, transform=transform, download=True)
 test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=transform, download=True)
 ```
+
+```{python}
+#mlflow.end_run()
+#run this in terminal when need to fully clean out expierment after you delete it in the ui
+#rm -rf mlruns/.trash/*
+```
+
+<!-- 
 </details>
+-->
 
 <b>Model 1: Logistic Regression on Fashion MNIST Data</b><br>
+
 <details>
-  <summary>Click to Show Code and Output</summary>
+
+<summary>Click to Show Code and Output</summary>
+
 ```{python}
+from sklearn.metrics import f1_score
+
 CLASSIFIER = "LogisticRegression"  # Change for FNN, LogisticRegression, or CNN
 
-# Set MLflow experiment name
-if CLASSIFIER == "LogisticRegression":
-    experiment = mlflow.set_experiment("pytorch-fmnist-lr-noRBM")
-elif CLASSIFIER == "FNN":
-    experiment = mlflow.set_experiment("pytorch-fmnist-fnn-noRBM")
-elif CLASSIFIER == "CNN":
-    experiment = mlflow.set_experiment("pytorch-fmnist-cnn-noRBM")
+
 
 # Define CNN model
 class FashionCNN(nn.Module):
@@ -399,6 +608,13 @@ class FashionCNN(nn.Module):
 
 # Define Optuna objective function
 def objective(trial):
+      # Set MLflow experiment name
+    if CLASSIFIER == "LogisticRegression":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-noRBM")
+    elif CLASSIFIER == "FNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-noRBM")
+    elif CLASSIFIER == "CNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-cnn-noRBM")
     batch_size = trial.suggest_int("batch_size", 64, 256, step=32)
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
@@ -465,10 +681,14 @@ def objective(trial):
     
         predictions = model.predict(test_features)
         accuracy = accuracy_score(test_labels, predictions) * 100
+        
+        macro_f1 = f1_score(test_labels, predictions, average="macro") #for f1
         print(f"Logistic Regression Test Accuracy: {accuracy:.2f}%")
+        print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
     
         mlflow.log_param("C", C)
         mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) #for f1
         mlflow.end_run()
         return accuracy
 
@@ -494,6 +714,8 @@ def objective(trial):
     # Model Evaluation
     model.eval()
     correct, total = 0, 0
+    all_preds = []   # for f1
+    all_labels = [] 
     with torch.no_grad():
         for images, labels in test_loader:
             images, labels = images.to(device), labels.to(device)
@@ -501,11 +723,16 @@ def objective(trial):
             _, predicted = torch.max(outputs, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
+            all_preds.extend(predicted.cpu().numpy())   #for f1
+            all_labels.extend(labels.cpu().numpy()) #for f1
 
     accuracy = 100 * correct / total
+    macro_f1 = f1_score(all_labels, all_preds, average="macro") #for f1
     print(f"Test Accuracy: {accuracy:.2f}%")
+    print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
 
     mlflow.log_metric("test_accuracy", accuracy)
+    mlflow.log_metric("macro_f1", macro_f1) #for f1
     mlflow.end_run()
     return accuracy
 
@@ -515,26 +742,22 @@ if __name__ == "__main__":
     print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
     print("Best Accuracy:", study.best_value)
 ```
+
 </details>
 
-Test Accuracy of Logistic Regression by C (inverse regularization strength)
-![](lr_norbm.png){width=60%}<br>
-
-
+Test Accuracy of Logistic Regression by C (inverse regularization
+strength) ![](logreg_norbm.png){width="60%"}<br>
 
 <b>Model 2: Feed Forward Network on Fashion MNIST Data</b>
-<details>
-  <summary>Click to Show Code and Output</summary>
-```{python}
-CLASSIFIER = "FNN"  # Change for FNN, LogisticRegression, or CNN
 
-# Set MLflow experiment name
-if CLASSIFIER == "LogisticRegression":
-    experiment = mlflow.set_experiment("pytorch-fmnist-lr-noRBM")
-elif CLASSIFIER == "FNN":
-    experiment = mlflow.set_experiment("pytorch-fmnist-fnn-noRBM")
-elif CLASSIFIER == "CNN":
-    experiment = mlflow.set_experiment("pytorch-fmnist-cnn-noRBM")
+<details>
+
+<summary>Click to Show Code and Output</summary>
+
+```{python}
+from sklearn.metrics import f1_score
+
+CLASSIFIER = "FNN"  # Change for FNN, LogisticRegression, or CNN
 
 # Define CNN model
 class FashionCNN(nn.Module):
@@ -588,6 +811,13 @@ class FashionCNN(nn.Module):
 
 # Define Optuna objective function
 def objective(trial):
+      # Set MLflow experiment name
+    if CLASSIFIER == "LogisticRegression":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-noRBM")
+    elif CLASSIFIER == "FNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-noRBM")
+    elif CLASSIFIER == "CNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-cnn-noRBM")
     batch_size = trial.suggest_int("batch_size", 64, 256, step=32)
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
@@ -654,10 +884,14 @@ def objective(trial):
     
         predictions = model.predict(test_features)
         accuracy = accuracy_score(test_labels, predictions) * 100
+        
+        macro_f1 = f1_score(test_labels, predictions, average="macro") #for f1
         print(f"Logistic Regression Test Accuracy: {accuracy:.2f}%")
+        print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
     
         mlflow.log_param("C", C)
         mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) #for f1
         mlflow.end_run()
         return accuracy
 
@@ -683,6 +917,8 @@ def objective(trial):
     # Model Evaluation
     model.eval()
     correct, total = 0, 0
+    all_preds = []   # for f1
+    all_labels = [] 
     with torch.no_grad():
         for images, labels in test_loader:
             images, labels = images.to(device), labels.to(device)
@@ -690,11 +926,16 @@ def objective(trial):
             _, predicted = torch.max(outputs, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
+            all_preds.extend(predicted.cpu().numpy())   #for f1
+            all_labels.extend(labels.cpu().numpy()) #for f1
 
     accuracy = 100 * correct / total
+    macro_f1 = f1_score(all_labels, all_preds, average="macro") #for f1
     print(f"Test Accuracy: {accuracy:.2f}%")
+    print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
 
     mlflow.log_metric("test_accuracy", accuracy)
+    mlflow.log_metric("macro_f1", macro_f1) #for f1
     mlflow.end_run()
     return accuracy
 
@@ -704,28 +945,24 @@ if __name__ == "__main__":
     print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
     print("Best Accuracy:", study.best_value)
 ```
+
 </details>
 
 Test Accuracy by FNN Hidden Units<br>
-
-![](fnn_norbm.png){width=60%}<br>
-
+![](fnn_norbm.png){width="60%"}<br>
 
 <b>Model 3: Convolutional Neural Network on Fashion MNIST Data</b><br>
-Base code for CNN structure borrowed from [Kaggle](https://www.kaggle.com/code/pankajj/fashion-mnist-with-pytorch-93-accuracy)<br>
+Base code for CNN structure borrowed from
+[Kaggle](https://www.kaggle.com/code/pankajj/fashion-mnist-with-pytorch-93-accuracy)<br>
 
 <details>
-  <summary>Click to Show Code and Output</summary>
-```{python}
-CLASSIFIER = "CNN"  # Change for FNN, LogisticRegression, or CNN
 
-# Set MLflow experiment name
-if CLASSIFIER == "LogisticRegression":
-    experiment = mlflow.set_experiment("pytorch-fmnist-lr-noRBM")
-elif CLASSIFIER == "FNN":
-    experiment = mlflow.set_experiment("pytorch-fmnist-fnn-noRBM")
-elif CLASSIFIER == "CNN":
-    experiment = mlflow.set_experiment("pytorch-fmnist-cnn-noRBM")
+<summary>Click to Show Code and Output</summary>
+
+```{python}
+from sklearn.metrics import f1_score
+
+CLASSIFIER = "CNN"  # Change for FNN, LogisticRegression, or CNN
 
 # Define CNN model
 class FashionCNN(nn.Module):
@@ -779,6 +1016,13 @@ class FashionCNN(nn.Module):
 
 # Define Optuna objective function
 def objective(trial):
+        # Set MLflow experiment name
+    if CLASSIFIER == "LogisticRegression":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-noRBM")
+    elif CLASSIFIER == "FNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-noRBM")
+    elif CLASSIFIER == "CNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-cnn-noRBM")
     batch_size = trial.suggest_int("batch_size", 64, 256, step=32)
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
@@ -845,10 +1089,14 @@ def objective(trial):
     
         predictions = model.predict(test_features)
         accuracy = accuracy_score(test_labels, predictions) * 100
+        
+        macro_f1 = f1_score(test_labels, predictions, average="macro") #for f1
         print(f"Logistic Regression Test Accuracy: {accuracy:.2f}%")
+        print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
     
         mlflow.log_param("C", C)
         mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) #for f1
         mlflow.end_run()
         return accuracy
 
@@ -874,6 +1122,8 @@ def objective(trial):
     # Model Evaluation
     model.eval()
     correct, total = 0, 0
+    all_preds = []   # for f1
+    all_labels = [] 
     with torch.no_grad():
         for images, labels in test_loader:
             images, labels = images.to(device), labels.to(device)
@@ -881,11 +1131,16 @@ def objective(trial):
             _, predicted = torch.max(outputs, 1)
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
+            all_preds.extend(predicted.cpu().numpy())   #for f1
+            all_labels.extend(labels.cpu().numpy()) #for f1
 
     accuracy = 100 * correct / total
+    macro_f1 = f1_score(all_labels, all_preds, average="macro") #for f1
     print(f"Test Accuracy: {accuracy:.2f}%")
+    print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
 
     mlflow.log_metric("test_accuracy", accuracy)
+    mlflow.log_metric("macro_f1", macro_f1) #for f1
     mlflow.end_run()
     return accuracy
 
@@ -895,30 +1150,39 @@ if __name__ == "__main__":
     print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
     print("Best Accuracy:", study.best_value)
 ```
+
 </details>
 
-Test Accuracy Based on the Number of Filters in the First Conv2D Layer<br>
+Test Accuracy Based on the Number of Filters in the First Conv2D Layer<br> 
+![](filters1.png){width="60%"}<br> 
 
-![](filters1.png){width=60%}<br>
+
 Test Accuracy Based on the Number of Filters in the Second Conv2D Layer<br>
-![](filters2.png){width=60%}<br>
-Test Accuracy Based on Kernel Size in the First Conv2D Layer<br>
-![](kernelsize1.png){width=60%}<br>
+![](filters2.png){width="60%"}<br> 
+
+
+Test Accuracy Based on Kernel Size in the First Conv2D Layer<br> 
+![](kernelsize1.png){width="60%"}<br> 
+
+
 Test Accuracy Based on Kernel Size in the Second Conv2D Layer<br>
-![](kernelsize2.png){width=60%}<br>
+![](kernelsize2.png){width="60%"}<br>
 
-
-<b>Model 4: Logistic Regression on RBM Hidden Features (of Fashion MNIST Data)</b><br>
+<b>Model 4: Logistic Regression on RBM Hidden Features (of Fashion MNIST
+Data)</b><br>
 
 <details>
-  <summary>Click to Show Code and Output</summary>
+
+<summary>Click to Show Code and Output</summary>
+
 ```{python}
+from sklearn.metrics import accuracy_score, f1_score
 CLASSIFIER = 'LogisticRegression'
 
 if CLASSIFIER == 'LogisticRegression':
-    experiment = mlflow.set_experiment("pytorch-fmnist-lr-withrbm")
+    experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-withrbm")
 else:
-    experiment = mlflow.set_experiment("pytorch-fmnist-fnn-withrbm")
+    experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-withrbm")
 
 
 class RBM(nn.Module):
@@ -1015,8 +1279,15 @@ def objective(trial):
             rbm_training_failed = True
             break
 
-    if rbm_training_failed:
-        accuracy = 0.0
+        if rbm_training_failed:
+            accuracy = 0.0
+            macro_f1 = 0.0 
+            print("RBM training failed — returning 0.0 for accuracy and macro F1")  # 🔥 for visibility
+            mlflow.log_metric("test_accuracy", accuracy)
+            mlflow.log_metric("macro_f1", macro_f1)
+            mlflow.set_tag("status", "rbm_failed")  # Optional tag
+            mlflow.end_run()
+            return float(accuracy)
     else:
         rbm.eval()  # set in evaluation mode if using any layers that behave differently in training
         features_list = []
@@ -1105,15 +1376,33 @@ def objective(trial):
             test_labels = np.concatenate(labels_list)
             predictions = classifier.predict(test_features)
             accuracy = accuracy_score(test_labels, predictions) * 100
+        
+            macro_f1 = f1_score(test_labels, predictions, average="macro") 
+        
         else:
             accuracy = 100 * correct / total
-
+        
+            all_preds = [] 
+            all_labels = [] 
+            classifier.eval()
+            with torch.no_grad():
+                for images, labels in test_loader:
+                    v = images.view(-1, 784).to(device)
+                    h_prob, _ = rbm.sample_h(v)
+                    outputs = classifier(h_prob)
+                    _, predicted = torch.max(outputs.data, 1)
+                    all_preds.extend(predicted.cpu().numpy()) 
+                    all_labels.extend(labels.numpy()) 
+        
+            macro_f1 = f1_score(all_labels, all_preds, average="macro") 
+        
         print(f"Test Accuracy: {accuracy:.2f}%")
-
-    mlflow.log_metric("test_accuracy", accuracy)
-    mlflow.end_run()
-
-    return accuracy
+        print(f"Macro F1 Score: {macro_f1:.4f}") 
+        
+        mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) 
+        mlflow.end_run()
+        return float(accuracy if accuracy is not None else 0.0)
 
 if __name__ == "__main__":
     study = optuna.create_study(direction="maximize")
@@ -1122,23 +1411,30 @@ if __name__ == "__main__":
     print(study.best_value)
     print(study.best_trial)
 ```
+
 </details>
 
-Test Accuracy of Logistic Regression on RBM Hidden Features by Inverse Regularization Strength<br>
-![](logreg_withrbm_C.png){width=60%}<br>
-Test Accuracy By Number of RBM Hidden Units<br>
-![](logreg_withrbm_hiddenunits.png){width=60%}<br>
+Test Accuracy of Logistic Regression on RBM Hidden Features by Inverse
+Regularization Strength<br> ![](logreg_withrbm_C.png){width="60%"}<br>
 
-<b>Model 5: Feed Forward Network on RBM Hidden Features (of Fashion MNIST Data)</b><br>
+Test Accuracy By Number of RBM Hidden Units<br>
+![](logreg_withrbm_hiddenunits.png){width="60%"}<br>
+
+<b>Model 5: Feed Forward Network on RBM Hidden Features (of Fashion
+MNIST Data)</b><br>
+
 <details>
-  <summary>Click to Show Code and Output</summary>
+
+<summary>Click to Show Code and Output</summary>
+
 ```{python}
+from sklearn.metrics import accuracy_score, f1_score
 CLASSIFIER = 'FNN'
 
 if CLASSIFIER == 'LogisticRegression':
-    experiment = mlflow.set_experiment("pytorch-fmnist-lr-withrbm")
+    experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-withrbm")
 else:
-    experiment = mlflow.set_experiment("pytorch-fmnist-fnn-withrbm")
+    experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-withrbm")
 
 
 class RBM(nn.Module):
@@ -1235,8 +1531,15 @@ def objective(trial):
             rbm_training_failed = True
             break
 
-    if rbm_training_failed:
-        accuracy = 0.0
+        if rbm_training_failed:
+            accuracy = 0.0
+            macro_f1 = 0.0 
+            print("RBM training failed — returning 0.0 for accuracy and macro F1")  # 🔥 for visibility
+            mlflow.log_metric("test_accuracy", accuracy)
+            mlflow.log_metric("macro_f1", macro_f1)
+            mlflow.set_tag("status", "rbm_failed")  # Optional tag
+            mlflow.end_run()
+            return float(accuracy)
     else:
         rbm.eval()  # set in evaluation mode if using any layers that behave differently in training
         features_list = []
@@ -1325,15 +1628,33 @@ def objective(trial):
             test_labels = np.concatenate(labels_list)
             predictions = classifier.predict(test_features)
             accuracy = accuracy_score(test_labels, predictions) * 100
+        
+            macro_f1 = f1_score(test_labels, predictions, average="macro") 
+        
         else:
             accuracy = 100 * correct / total
-
+        
+            all_preds = [] 
+            all_labels = [] 
+            classifier.eval()
+            with torch.no_grad():
+                for images, labels in test_loader:
+                    v = images.view(-1, 784).to(device)
+                    h_prob, _ = rbm.sample_h(v)
+                    outputs = classifier(h_prob)
+                    _, predicted = torch.max(outputs.data, 1)
+                    all_preds.extend(predicted.cpu().numpy()) 
+                    all_labels.extend(labels.numpy()) 
+        
+            macro_f1 = f1_score(all_labels, all_preds, average="macro") 
+        
         print(f"Test Accuracy: {accuracy:.2f}%")
-
-    mlflow.log_metric("test_accuracy", accuracy)
-    mlflow.end_run()
-
-    return accuracy
+        print(f"Macro F1 Score: {macro_f1:.4f}") 
+        
+        mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) 
+        mlflow.end_run()
+        return float(accuracy if accuracy is not None else 0.0)
 
 if __name__ == "__main__":
     study = optuna.create_study(direction="maximize")
@@ -1342,59 +1663,73 @@ if __name__ == "__main__":
     print(study.best_value)
     print(study.best_trial)
 ```
+
 </details>
 
 Test Accuracy by RBM Hidden Units<br>
-![](fnn_withrbm_rbmhiddenunits.png){width=60%}<br>
+![](fnn_withrbm_rbmhiddenunits.png){width="60%"}<br> 
+
 Test Accuracy by FNN Hidden Units<br>
-![](fnn_withrbm_fnnhiddenunits.png){width=60%}<br>
+![](fnn_withrbm_fnnhiddenunits.png){width="60%"}<br>
 
 
-### Conclusion
 
--   Summarize your key findings.
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-lvth{font-size:16px;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
 </style>
 <table class="tg"><thead>
   <tr>
-    <th class="tg-lvth"><span style="font-weight:bold">Model</span></th>
-    <th class="tg-lvth"><span style="font-weight:bold">Optuna Best Trial </span><br><span style="font-weight:bold">MLflow Test Accuracy (%)</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Model</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Optuna Best Trial</span><br><span style="font-weight:bold">MLflow Test Accuracy(%)</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Macro F1 Score</span></th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-baqh">Logistic Regression</td>
-    <td class="tg-0lax">84.64%</td>
+    <td class="tg-c3ow">Logistic Regression</td>
+    <td class="tg-c3ow">84.71</td>
+    <td class="tg-c3ow">0.846</td>
   </tr>
   <tr>
-    <td class="tg-baqh">Feed Forward Network</td>
-    <td class="tg-0lax">88.10%</td>
+    <td class="tg-c3ow">Feed Forward Network</td>
+    <td class="tg-c3ow">88.06</td>
+    <td class="tg-c3ow">0.879</td>
   </tr>
   <tr>
-    <td class="tg-baqh">Convolutional Neural Network</td>
-    <td class="tg-0lax">90.99%</td>
+    <td class="tg-c3ow">Convolutional Neural Network</td>
+    <td class="tg-c3ow">91.29</td>
+    <td class="tg-c3ow">0.913</td>
   </tr>
   <tr>
-    <td class="tg-baqh">Logistic Regression (on RBM Hidden Features)</td>
-    <td class="tg-0lax">86.95%</td>
+    <td class="tg-uzvj"><span style="font-weight:400;font-style:normal">Logistic Regression (on RBM Hidden Features) </span></td>
+    <td class="tg-uzvj"><span style="font-weight:400;font-style:normal">87.14</span></td>
+    <td class="tg-c3ow">0.871</td>
   </tr>
   <tr>
-    <td class="tg-baqh">Feed Forward Network (on RBM Hidden Features)</td>
-    <td class="tg-0lax">86.98%</td>
+    <td class="tg-9wq8">Feed Forward Network <span style="font-weight:400;font-style:normal">(on RBM Hidden Features)</span></td>
+    <td class="tg-9wq8">86.95</td>
+    <td class="tg-c3ow">0.869</td>
   </tr>
-</tbody>
-</table>
+</tbody></table>
 
+
+
+
+
+### Conclusion
+
+-   Summarize your key findings.
+
+CNN clearly outperforms other models. Logistic Regression, which typically performs well for binary classifications tasks, underperforms on Fashion MNIST multiclassification task. Logistic Regression is improved by using a Restricted Boltzmann Machine first to extract the hidden features from the input data prior to classification. Feed Forward Network is not improved by the use of RBM. These findings clearly show the progress in machine and deep learning and how more advanced neural networks on raw pixels can outperform models that use RBM hidden features.
 
 -   Discuss the implications of your results.
 
 ## References
-
-

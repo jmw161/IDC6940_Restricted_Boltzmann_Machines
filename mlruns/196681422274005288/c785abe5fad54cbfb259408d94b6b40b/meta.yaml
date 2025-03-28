@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/c785abe5fad54cbfb259408d94b6b40b/artifacts
+end_time: 1743174862528
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: c785abe5fad54cbfb259408d94b6b40b
+run_name: debonair-crane-894
+run_uuid: c785abe5fad54cbfb259408d94b6b40b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174830670
+status: 3
+tags: []
+user_id: jessicawells

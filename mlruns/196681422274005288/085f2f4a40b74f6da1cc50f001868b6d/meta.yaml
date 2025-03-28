@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/085f2f4a40b74f6da1cc50f001868b6d/artifacts
+end_time: 1743189282734
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 085f2f4a40b74f6da1cc50f001868b6d
+run_name: calm-wolf-622
+run_uuid: 085f2f4a40b74f6da1cc50f001868b6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743189252039
+status: 3
+tags: []
+user_id: jessicawells

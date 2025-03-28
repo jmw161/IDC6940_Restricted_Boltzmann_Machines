@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/91ce14dd57d044d78d32e19e192b0e98/artifacts
+end_time: 1743181938138
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 91ce14dd57d044d78d32e19e192b0e98
+run_name: caring-smelt-643
+run_uuid: 91ce14dd57d044d78d32e19e192b0e98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181900967
+status: 3
+tags: []
+user_id: jessicawells

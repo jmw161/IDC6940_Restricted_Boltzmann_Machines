@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/936bdc6781b5477d8e5bb454dc1d2590/artifacts
+end_time: 1743186495042
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 936bdc6781b5477d8e5bb454dc1d2590
+run_name: intelligent-crow-917
+run_uuid: 936bdc6781b5477d8e5bb454dc1d2590
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743186478596
+status: 3
+tags: []
+user_id: jessicawells

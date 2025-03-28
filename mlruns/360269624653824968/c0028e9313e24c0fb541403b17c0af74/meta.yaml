@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/c0028e9313e24c0fb541403b17c0af74/artifacts
+end_time: 1743185203161
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: c0028e9313e24c0fb541403b17c0af74
+run_name: intrigued-calf-456
+run_uuid: c0028e9313e24c0fb541403b17c0af74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185196573
+status: 3
+tags: []
+user_id: jessicawells

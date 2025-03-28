@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/eae40420336b4078bec14d66ed80d77a/artifacts
+end_time: 1743192298733
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: eae40420336b4078bec14d66ed80d77a
+run_name: tasteful-boar-788
+run_uuid: eae40420336b4078bec14d66ed80d77a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743192236102
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/e30a058494f4450ab3a951b6ef82992a/artifacts
+end_time: 1743192143953
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: e30a058494f4450ab3a951b6ef82992a
+run_name: beautiful-bear-167
+run_uuid: e30a058494f4450ab3a951b6ef82992a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743192080566
+status: 3
+tags: []
+user_id: jessicawells

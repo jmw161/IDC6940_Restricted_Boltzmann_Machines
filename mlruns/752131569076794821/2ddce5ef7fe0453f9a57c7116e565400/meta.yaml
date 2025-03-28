@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/2ddce5ef7fe0453f9a57c7116e565400/artifacts
+end_time: 1743194131040
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 2ddce5ef7fe0453f9a57c7116e565400
+run_name: placid-chimp-398
+run_uuid: 2ddce5ef7fe0453f9a57c7116e565400
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194105008
+status: 3
+tags: []
+user_id: jessicawells

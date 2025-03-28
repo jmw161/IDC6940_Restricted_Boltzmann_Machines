@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/3ee5a401488247cf8b28c92d104eadec/artifacts
+end_time: 1743191007816
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 3ee5a401488247cf8b28c92d104eadec
+run_name: abundant-croc-548
+run_uuid: 3ee5a401488247cf8b28c92d104eadec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743190953047
+status: 3
+tags: []
+user_id: jessicawells

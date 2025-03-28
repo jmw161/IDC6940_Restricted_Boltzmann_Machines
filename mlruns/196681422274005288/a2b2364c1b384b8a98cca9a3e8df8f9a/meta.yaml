@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/a2b2364c1b384b8a98cca9a3e8df8f9a/artifacts
+end_time: 1743190714991
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: a2b2364c1b384b8a98cca9a3e8df8f9a
+run_name: inquisitive-slug-572
+run_uuid: a2b2364c1b384b8a98cca9a3e8df8f9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743190665580
+status: 3
+tags: []
+user_id: jessicawells

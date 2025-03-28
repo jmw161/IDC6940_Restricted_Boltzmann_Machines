@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/caee69bac8524e5190253ce6817b9ffb/artifacts
+end_time: 1743174203709
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: caee69bac8524e5190253ce6817b9ffb
+run_name: casual-sow-441
+run_uuid: caee69bac8524e5190253ce6817b9ffb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174180247
+status: 3
+tags: []
+user_id: jessicawells

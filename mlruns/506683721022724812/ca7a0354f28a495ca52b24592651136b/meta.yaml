@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/ca7a0354f28a495ca52b24592651136b/artifacts
+end_time: 1743186703016
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: ca7a0354f28a495ca52b24592651136b
+run_name: incongruous-fish-183
+run_uuid: ca7a0354f28a495ca52b24592651136b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743186686479
+status: 3
+tags: []
+user_id: jessicawells

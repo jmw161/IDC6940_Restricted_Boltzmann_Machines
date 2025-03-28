@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/e3b638511a49442a9f803da992f94bca/artifacts
+end_time: 1743180490992
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: e3b638511a49442a9f803da992f94bca
+run_name: zealous-donkey-929
+run_uuid: e3b638511a49442a9f803da992f94bca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743180448356
+status: 3
+tags: []
+user_id: jessicawells

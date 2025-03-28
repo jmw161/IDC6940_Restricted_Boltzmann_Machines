@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/521bea66098f47518e87d3f2d0fca27f/artifacts
+end_time: 1743190283709
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 521bea66098f47518e87d3f2d0fca27f
+run_name: valuable-ant-792
+run_uuid: 521bea66098f47518e87d3f2d0fca27f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743190233489
+status: 3
+tags: []
+user_id: jessicawells

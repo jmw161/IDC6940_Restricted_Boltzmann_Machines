@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/9fb61b980c3c4a2c916e56bd6741be85/artifacts
+end_time: 1743176397150
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 9fb61b980c3c4a2c916e56bd6741be85
+run_name: indecisive-lamb-773
+run_uuid: 9fb61b980c3c4a2c916e56bd6741be85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176352616
+status: 3
+tags: []
+user_id: jessicawells

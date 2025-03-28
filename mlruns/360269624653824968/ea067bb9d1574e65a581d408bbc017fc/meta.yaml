@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/ea067bb9d1574e65a581d408bbc017fc/artifacts
+end_time: 1743173373094
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: ea067bb9d1574e65a581d408bbc017fc
+run_name: mysterious-kite-906
+run_uuid: ea067bb9d1574e65a581d408bbc017fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173364248
+status: 3
+tags: []
+user_id: jessicawells

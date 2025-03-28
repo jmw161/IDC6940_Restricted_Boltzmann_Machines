@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/c98201887e644b8e8b198d56d97a15f0/artifacts
+end_time: 1743181344430
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: c98201887e644b8e8b198d56d97a15f0
+run_name: enchanting-ant-198
+run_uuid: c98201887e644b8e8b198d56d97a15f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181310789
+status: 3
+tags: []
+user_id: jessicawells

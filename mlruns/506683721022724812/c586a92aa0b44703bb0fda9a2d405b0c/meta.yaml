@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/c586a92aa0b44703bb0fda9a2d405b0c/artifacts
+end_time: 1743174648035
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: c586a92aa0b44703bb0fda9a2d405b0c
+run_name: adaptable-roo-43
+run_uuid: c586a92aa0b44703bb0fda9a2d405b0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174628469
+status: 3
+tags: []
+user_id: jessicawells

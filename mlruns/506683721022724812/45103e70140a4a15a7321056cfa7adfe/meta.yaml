@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/45103e70140a4a15a7321056cfa7adfe/artifacts
+end_time: 1743174490305
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 45103e70140a4a15a7321056cfa7adfe
+run_name: agreeable-lynx-266
+run_uuid: 45103e70140a4a15a7321056cfa7adfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174463994
+status: 3
+tags: []
+user_id: jessicawells

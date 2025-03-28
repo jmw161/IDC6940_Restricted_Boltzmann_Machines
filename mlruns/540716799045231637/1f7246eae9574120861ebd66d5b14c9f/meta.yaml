@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/1f7246eae9574120861ebd66d5b14c9f/artifacts
+end_time: 1743179765050
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 1f7246eae9574120861ebd66d5b14c9f
+run_name: dapper-hawk-640
+run_uuid: 1f7246eae9574120861ebd66d5b14c9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743179689798
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/9068d227a3814c27beb44bf6193971ca/artifacts
+end_time: 1743180894200
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 9068d227a3814c27beb44bf6193971ca
+run_name: mysterious-hog-355
+run_uuid: 9068d227a3814c27beb44bf6193971ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743180851177
+status: 3
+tags: []
+user_id: jessicawells

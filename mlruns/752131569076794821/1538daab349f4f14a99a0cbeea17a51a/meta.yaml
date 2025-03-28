@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/1538daab349f4f14a99a0cbeea17a51a/artifacts
+end_time: 1743182084142
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 1538daab349f4f14a99a0cbeea17a51a
+run_name: glamorous-carp-402
+run_uuid: 1538daab349f4f14a99a0cbeea17a51a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743182041320
+status: 3
+tags: []
+user_id: jessicawells

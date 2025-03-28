@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/d02aed2bfdef41fcb2868fc96d0e9e66/artifacts
+end_time: 1743186686471
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: d02aed2bfdef41fcb2868fc96d0e9e66
+run_name: bright-crane-624
+run_uuid: d02aed2bfdef41fcb2868fc96d0e9e66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743186671777
+status: 3
+tags: []
+user_id: jessicawells

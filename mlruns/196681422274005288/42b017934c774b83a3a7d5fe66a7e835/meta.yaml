@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/42b017934c774b83a3a7d5fe66a7e835/artifacts
+end_time: 1743175045365
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 42b017934c774b83a3a7d5fe66a7e835
+run_name: redolent-ant-383
+run_uuid: 42b017934c774b83a3a7d5fe66a7e835
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743175013136
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/057bb4a4e11148089ba55f36eba53dee/artifacts
+end_time: 1743195044800
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 057bb4a4e11148089ba55f36eba53dee
+run_name: calm-turtle-821
+run_uuid: 057bb4a4e11148089ba55f36eba53dee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743195017011
+status: 3
+tags: []
+user_id: jessicawells

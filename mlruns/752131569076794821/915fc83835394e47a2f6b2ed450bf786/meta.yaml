@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/915fc83835394e47a2f6b2ed450bf786/artifacts
+end_time: 1743194572029
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 915fc83835394e47a2f6b2ed450bf786
+run_name: carefree-bat-86
+run_uuid: 915fc83835394e47a2f6b2ed450bf786
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194547548
+status: 3
+tags: []
+user_id: jessicawells

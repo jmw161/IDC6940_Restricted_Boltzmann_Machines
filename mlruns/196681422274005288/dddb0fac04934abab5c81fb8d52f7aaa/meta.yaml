@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/dddb0fac04934abab5c81fb8d52f7aaa/artifacts
+end_time: 1743189463161
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: dddb0fac04934abab5c81fb8d52f7aaa
+run_name: judicious-sheep-464
+run_uuid: dddb0fac04934abab5c81fb8d52f7aaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743189427987
+status: 3
+tags: []
+user_id: jessicawells

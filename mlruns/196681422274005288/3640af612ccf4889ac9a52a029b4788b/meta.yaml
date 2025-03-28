@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/3640af612ccf4889ac9a52a029b4788b/artifacts
+end_time: 1743190321632
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 3640af612ccf4889ac9a52a029b4788b
+run_name: gifted-horse-489
+run_uuid: 3640af612ccf4889ac9a52a029b4788b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743190283718
+status: 3
+tags: []
+user_id: jessicawells

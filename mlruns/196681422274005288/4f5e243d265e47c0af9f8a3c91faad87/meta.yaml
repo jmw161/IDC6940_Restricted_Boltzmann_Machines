@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/4f5e243d265e47c0af9f8a3c91faad87/artifacts
+end_time: 1743176352606
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 4f5e243d265e47c0af9f8a3c91faad87
+run_name: secretive-bee-310
+run_uuid: 4f5e243d265e47c0af9f8a3c91faad87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176318875
+status: 3
+tags: []
+user_id: jessicawells

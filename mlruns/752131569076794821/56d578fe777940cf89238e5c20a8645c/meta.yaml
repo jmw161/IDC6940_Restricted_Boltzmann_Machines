@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/56d578fe777940cf89238e5c20a8645c/artifacts
+end_time: 1743182149018
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 56d578fe777940cf89238e5c20a8645c
+run_name: rogue-mare-692
+run_uuid: 56d578fe777940cf89238e5c20a8645c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743182113994
+status: 3
+tags: []
+user_id: jessicawells

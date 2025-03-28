@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/c5dc9edd13db44d9955fd0422a8837ae/artifacts
+end_time: 1743185289123
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: c5dc9edd13db44d9955fd0422a8837ae
+run_name: languid-mare-131
+run_uuid: c5dc9edd13db44d9955fd0422a8837ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185282492
+status: 3
+tags: []
+user_id: jessicawells

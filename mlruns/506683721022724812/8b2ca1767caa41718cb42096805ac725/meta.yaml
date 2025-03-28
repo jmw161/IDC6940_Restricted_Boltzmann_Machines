@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/8b2ca1767caa41718cb42096805ac725/artifacts
+end_time: 1743174513753
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 8b2ca1767caa41718cb42096805ac725
+run_name: righteous-squid-410
+run_uuid: 8b2ca1767caa41718cb42096805ac725
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174490316
+status: 3
+tags: []
+user_id: jessicawells

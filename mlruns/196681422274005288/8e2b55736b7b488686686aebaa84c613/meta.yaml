@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/8e2b55736b7b488686686aebaa84c613/artifacts
+end_time: 1743176601884
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 8e2b55736b7b488686686aebaa84c613
+run_name: skittish-fly-384
+run_uuid: 8e2b55736b7b488686686aebaa84c613
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176553830
+status: 3
+tags: []
+user_id: jessicawells

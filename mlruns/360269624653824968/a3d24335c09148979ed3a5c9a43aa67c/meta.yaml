@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/a3d24335c09148979ed3a5c9a43aa67c/artifacts
+end_time: 1743185170241
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: a3d24335c09148979ed3a5c9a43aa67c
+run_name: abrasive-colt-598
+run_uuid: a3d24335c09148979ed3a5c9a43aa67c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185163723
+status: 3
+tags: []
+user_id: jessicawells

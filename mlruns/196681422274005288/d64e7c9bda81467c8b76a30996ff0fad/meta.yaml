@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/d64e7c9bda81467c8b76a30996ff0fad/artifacts
+end_time: 1743175373091
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: d64e7c9bda81467c8b76a30996ff0fad
+run_name: caring-moth-812
+run_uuid: d64e7c9bda81467c8b76a30996ff0fad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743175334116
+status: 3
+tags: []
+user_id: jessicawells

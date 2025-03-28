@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/48eb9e0754fc4c87ad18616442762e6d/artifacts
+end_time: 1743189187636
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 48eb9e0754fc4c87ad18616442762e6d
+run_name: useful-skunk-796
+run_uuid: 48eb9e0754fc4c87ad18616442762e6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743189157940
+status: 3
+tags: []
+user_id: jessicawells

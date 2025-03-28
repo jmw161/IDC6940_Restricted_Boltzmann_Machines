@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/e9cee30d23b4492bba00d7aa2bea11ff/artifacts
+end_time: 1743173248792
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: e9cee30d23b4492bba00d7aa2bea11ff
+run_name: youthful-rook-640
+run_uuid: e9cee30d23b4492bba00d7aa2bea11ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173241795
+status: 3
+tags: []
+user_id: jessicawells

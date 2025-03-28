@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/06e5cfa0ca4f428f95c92b33151de6bf/artifacts
+end_time: 1743181773768
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 06e5cfa0ca4f428f95c92b33151de6bf
+run_name: skittish-moose-768
+run_uuid: 06e5cfa0ca4f428f95c92b33151de6bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181738863
+status: 3
+tags: []
+user_id: jessicawells

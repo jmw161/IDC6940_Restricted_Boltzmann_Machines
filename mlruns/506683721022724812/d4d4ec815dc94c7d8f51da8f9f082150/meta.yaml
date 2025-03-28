@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/d4d4ec815dc94c7d8f51da8f9f082150/artifacts
+end_time: 1743174005482
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: d4d4ec815dc94c7d8f51da8f9f082150
+run_name: bouncy-seal-301
+run_uuid: d4d4ec815dc94c7d8f51da8f9f082150
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173987974
+status: 3
+tags: []
+user_id: jessicawells

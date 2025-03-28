@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/3caecf601eed4fa68503fc4fe83eebd9/artifacts
+end_time: 1743186732290
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 3caecf601eed4fa68503fc4fe83eebd9
+run_name: sassy-dove-608
+run_uuid: 3caecf601eed4fa68503fc4fe83eebd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743186717659
+status: 3
+tags: []
+user_id: jessicawells

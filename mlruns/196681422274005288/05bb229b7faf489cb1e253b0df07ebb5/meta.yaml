@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/05bb229b7faf489cb1e253b0df07ebb5/artifacts
+end_time: 1743190096772
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 05bb229b7faf489cb1e253b0df07ebb5
+run_name: learned-robin-352
+run_uuid: 05bb229b7faf489cb1e253b0df07ebb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743190056618
+status: 3
+tags: []
+user_id: jessicawells

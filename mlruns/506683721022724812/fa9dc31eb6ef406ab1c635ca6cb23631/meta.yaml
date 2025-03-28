@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/fa9dc31eb6ef406ab1c635ca6cb23631/artifacts
+end_time: 1743188821027
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: fa9dc31eb6ef406ab1c635ca6cb23631
+run_name: defiant-skunk-618
+run_uuid: fa9dc31eb6ef406ab1c635ca6cb23631
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743188800970
+status: 3
+tags: []
+user_id: jessicawells

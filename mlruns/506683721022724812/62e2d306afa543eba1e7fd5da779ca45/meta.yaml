@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/62e2d306afa543eba1e7fd5da779ca45/artifacts
+end_time: 1743174537407
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 62e2d306afa543eba1e7fd5da779ca45
+run_name: agreeable-fish-330
+run_uuid: 62e2d306afa543eba1e7fd5da779ca45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174513764
+status: 3
+tags: []
+user_id: jessicawells

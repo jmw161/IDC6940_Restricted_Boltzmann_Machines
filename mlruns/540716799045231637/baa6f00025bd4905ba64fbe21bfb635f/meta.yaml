@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/baa6f00025bd4905ba64fbe21bfb635f/artifacts
+end_time: 1743177668442
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: baa6f00025bd4905ba64fbe21bfb635f
+run_name: bittersweet-moth-270
+run_uuid: baa6f00025bd4905ba64fbe21bfb635f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743177602570
+status: 3
+tags: []
+user_id: jessicawells

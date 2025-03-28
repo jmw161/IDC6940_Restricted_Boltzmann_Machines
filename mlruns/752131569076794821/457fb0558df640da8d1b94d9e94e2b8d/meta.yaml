@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/457fb0558df640da8d1b94d9e94e2b8d/artifacts
+end_time: 1743181635471
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 457fb0558df640da8d1b94d9e94e2b8d
+run_name: monumental-panda-943
+run_uuid: 457fb0558df640da8d1b94d9e94e2b8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181597086
+status: 3
+tags: []
+user_id: jessicawells

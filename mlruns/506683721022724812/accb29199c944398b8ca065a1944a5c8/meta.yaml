@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/accb29199c944398b8ca065a1944a5c8/artifacts
+end_time: 1743174628460
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: accb29199c944398b8ca065a1944a5c8
+run_name: lyrical-kit-511
+run_uuid: accb29199c944398b8ca065a1944a5c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174604509
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/b820e5df36794224ab533674fb5c9d3a/artifacts
+end_time: 1743173258676
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: b820e5df36794224ab533674fb5c9d3a
+run_name: adventurous-bass-65
+run_uuid: b820e5df36794224ab533674fb5c9d3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173248804
+status: 3
+tags: []
+user_id: jessicawells

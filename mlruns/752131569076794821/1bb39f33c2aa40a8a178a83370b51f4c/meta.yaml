@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/1bb39f33c2aa40a8a178a83370b51f4c/artifacts
+end_time: 1743194608275
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 1bb39f33c2aa40a8a178a83370b51f4c
+run_name: aged-hound-838
+run_uuid: 1bb39f33c2aa40a8a178a83370b51f4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194572045
+status: 3
+tags: []
+user_id: jessicawells

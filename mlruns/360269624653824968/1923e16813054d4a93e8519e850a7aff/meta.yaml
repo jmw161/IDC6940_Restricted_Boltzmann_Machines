@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/1923e16813054d4a93e8519e850a7aff/artifacts
+end_time: 1743185249469
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 1923e16813054d4a93e8519e850a7aff
+run_name: ambitious-ape-334
+run_uuid: 1923e16813054d4a93e8519e850a7aff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185242946
+status: 3
+tags: []
+user_id: jessicawells

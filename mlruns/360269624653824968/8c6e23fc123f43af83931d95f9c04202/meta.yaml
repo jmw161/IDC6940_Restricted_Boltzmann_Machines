@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/8c6e23fc123f43af83931d95f9c04202/artifacts
+end_time: 1743173668060
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 8c6e23fc123f43af83931d95f9c04202
+run_name: intelligent-fowl-760
+run_uuid: 8c6e23fc123f43af83931d95f9c04202
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173659208
+status: 3
+tags: []
+user_id: jessicawells

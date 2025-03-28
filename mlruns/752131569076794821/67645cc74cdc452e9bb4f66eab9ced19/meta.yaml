@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/67645cc74cdc452e9bb4f66eab9ced19/artifacts
+end_time: 1743181310753
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 67645cc74cdc452e9bb4f66eab9ced19
+run_name: bouncy-kite-348
+run_uuid: 67645cc74cdc452e9bb4f66eab9ced19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181275370
+status: 3
+tags: []
+user_id: jessicawells

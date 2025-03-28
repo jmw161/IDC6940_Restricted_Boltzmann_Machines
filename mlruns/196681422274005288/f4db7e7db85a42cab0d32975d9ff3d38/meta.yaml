@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/f4db7e7db85a42cab0d32975d9ff3d38/artifacts
+end_time: 1743176278427
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: f4db7e7db85a42cab0d32975d9ff3d38
+run_name: bemused-shrike-890
+run_uuid: f4db7e7db85a42cab0d32975d9ff3d38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176218881
+status: 3
+tags: []
+user_id: jessicawells

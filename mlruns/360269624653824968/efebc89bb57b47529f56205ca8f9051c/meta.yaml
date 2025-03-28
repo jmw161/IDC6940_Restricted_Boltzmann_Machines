@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/efebc89bb57b47529f56205ca8f9051c/artifacts
+end_time: 1743185130745
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: efebc89bb57b47529f56205ca8f9051c
+run_name: marvelous-horse-580
+run_uuid: efebc89bb57b47529f56205ca8f9051c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185124193
+status: 3
+tags: []
+user_id: jessicawells

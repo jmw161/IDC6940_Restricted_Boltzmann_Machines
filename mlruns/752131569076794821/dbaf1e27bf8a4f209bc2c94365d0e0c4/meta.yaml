@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/dbaf1e27bf8a4f209bc2c94365d0e0c4/artifacts
+end_time: 1743181048834
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: dbaf1e27bf8a4f209bc2c94365d0e0c4
+run_name: nosy-zebra-562
+run_uuid: dbaf1e27bf8a4f209bc2c94365d0e0c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181005953
+status: 3
+tags: []
+user_id: jessicawells

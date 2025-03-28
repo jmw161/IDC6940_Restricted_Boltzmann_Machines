@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/de6ddc070ff34295b052786aa83b7c5d/artifacts
+end_time: 1743174904257
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: de6ddc070ff34295b052786aa83b7c5d
+run_name: fearless-quail-935
+run_uuid: de6ddc070ff34295b052786aa83b7c5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174862535
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/9bbcdeb5c3c44141af48e6a4cd3b6d7c/artifacts
+end_time: 1743189731025
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 9bbcdeb5c3c44141af48e6a4cd3b6d7c
+run_name: bemused-dove-987
+run_uuid: 9bbcdeb5c3c44141af48e6a4cd3b6d7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743189693156
+status: 3
+tags: []
+user_id: jessicawells

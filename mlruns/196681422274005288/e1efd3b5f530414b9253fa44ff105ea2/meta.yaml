@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/e1efd3b5f530414b9253fa44ff105ea2/artifacts
+end_time: 1743189973186
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: e1efd3b5f530414b9253fa44ff105ea2
+run_name: clean-moth-537
+run_uuid: e1efd3b5f530414b9253fa44ff105ea2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743189938076
+status: 3
+tags: []
+user_id: jessicawells

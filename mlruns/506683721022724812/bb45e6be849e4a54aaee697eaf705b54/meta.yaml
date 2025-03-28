@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/bb45e6be849e4a54aaee697eaf705b54/artifacts
+end_time: 1743188840881
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: bb45e6be849e4a54aaee697eaf705b54
+run_name: polite-hog-336
+run_uuid: bb45e6be849e4a54aaee697eaf705b54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743188821036
+status: 3
+tags: []
+user_id: jessicawells

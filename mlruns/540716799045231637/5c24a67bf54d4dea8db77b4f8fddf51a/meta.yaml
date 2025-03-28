@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/5c24a67bf54d4dea8db77b4f8fddf51a/artifacts
+end_time: 1743178106213
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 5c24a67bf54d4dea8db77b4f8fddf51a
+run_name: agreeable-jay-701
+run_uuid: 5c24a67bf54d4dea8db77b4f8fddf51a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743178031106
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/e6604cc101334140972908bc84c9885c/artifacts
+end_time: 1743185196559
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: e6604cc101334140972908bc84c9885c
+run_name: handsome-asp-282
+run_uuid: e6604cc101334140972908bc84c9885c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185190030
+status: 3
+tags: []
+user_id: jessicawells

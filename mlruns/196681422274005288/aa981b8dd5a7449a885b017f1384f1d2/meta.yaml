@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/aa981b8dd5a7449a885b017f1384f1d2/artifacts
+end_time: 1743175132511
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: aa981b8dd5a7449a885b017f1384f1d2
+run_name: colorful-fish-944
+run_uuid: aa981b8dd5a7449a885b017f1384f1d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743175080266
+status: 3
+tags: []
+user_id: jessicawells

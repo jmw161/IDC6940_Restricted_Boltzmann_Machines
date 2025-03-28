@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/b1a7b1de3f21464290f1683c0ddbef24/artifacts
+end_time: 1743186564157
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: b1a7b1de3f21464290f1683c0ddbef24
+run_name: invincible-worm-507
+run_uuid: b1a7b1de3f21464290f1683c0ddbef24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743186543983
+status: 3
+tags: []
+user_id: jessicawells

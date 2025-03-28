@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/ec5c49c41d72428c93acda6a713eed60/artifacts
+end_time: 1743176553819
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: ec5c49c41d72428c93acda6a713eed60
+run_name: enthused-whale-87
+run_uuid: ec5c49c41d72428c93acda6a713eed60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176505667
+status: 3
+tags: []
+user_id: jessicawells

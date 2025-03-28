@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/fc92e1ba18204fe59ba135a3d2ef5b01/artifacts
+end_time: 1743193899943
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: fc92e1ba18204fe59ba135a3d2ef5b01
+run_name: salty-koi-773
+run_uuid: fc92e1ba18204fe59ba135a3d2ef5b01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193881443
+status: 3
+tags: []
+user_id: jessicawells

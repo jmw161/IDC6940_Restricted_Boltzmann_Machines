@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/ca21012b9e75413884173d61ece0dcec/artifacts
+end_time: 1743178031067
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: ca21012b9e75413884173d61ece0dcec
+run_name: caring-mouse-577
+run_uuid: ca21012b9e75413884173d61ece0dcec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743177970032
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/2f1bebc9f79a4fdaa1ce514ee1b75093/artifacts
+end_time: 1743194084714
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 2f1bebc9f79a4fdaa1ce514ee1b75093
+run_name: delicate-wolf-538
+run_uuid: 2f1bebc9f79a4fdaa1ce514ee1b75093
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194037466
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/a57d10e6b527494d8fb4e11bd0315b2d/artifacts
+end_time: 1743194854777
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: a57d10e6b527494d8fb4e11bd0315b2d
+run_name: nimble-doe-264
+run_uuid: a57d10e6b527494d8fb4e11bd0315b2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194832960
+status: 3
+tags: []
+user_id: jessicawells

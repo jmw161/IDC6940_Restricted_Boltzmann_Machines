@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/d8bb7c1a832d43c9950bb11a7e60da2e/artifacts
+end_time: 1743179293442
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: d8bb7c1a832d43c9950bb11a7e60da2e
+run_name: languid-shoat-653
+run_uuid: d8bb7c1a832d43c9950bb11a7e60da2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743179199370
+status: 3
+tags: []
+user_id: jessicawells

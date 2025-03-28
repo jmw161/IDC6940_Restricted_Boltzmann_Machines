@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/456bb6a7856749d79c495132c4791d76/artifacts
+end_time: 1743192554494
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 456bb6a7856749d79c495132c4791d76
+run_name: beautiful-cod-796
+run_uuid: 456bb6a7856749d79c495132c4791d76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743192504560
+status: 3
+tags: []
+user_id: jessicawells

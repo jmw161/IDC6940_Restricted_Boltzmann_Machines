@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/5ea8385fa96c48318279aae985d77ab0/artifacts
+end_time: 1743186373820
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 5ea8385fa96c48318279aae985d77ab0
+run_name: indecisive-wolf-960
+run_uuid: 5ea8385fa96c48318279aae985d77ab0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743186362388
+status: 3
+tags: []
+user_id: jessicawells

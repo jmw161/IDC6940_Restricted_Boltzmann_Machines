@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/f2f27fee17364edcb2329e945587baac/artifacts
+end_time: 1743191575924
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: f2f27fee17364edcb2329e945587baac
+run_name: resilient-lamb-606
+run_uuid: f2f27fee17364edcb2329e945587baac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743191481048
+status: 3
+tags: []
+user_id: jessicawells

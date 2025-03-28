@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/27cef86595c04f72b2278df074c67ee0/artifacts
+end_time: 1743181382842
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 27cef86595c04f72b2278df074c67ee0
+run_name: awesome-goat-948
+run_uuid: 27cef86595c04f72b2278df074c67ee0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181344456
+status: 3
+tags: []
+user_id: jessicawells

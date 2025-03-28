@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/b117e6d25d4049949eda850b83bf9883/artifacts
+end_time: 1743177084695
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: b117e6d25d4049949eda850b83bf9883
+run_name: bold-sloth-88
+run_uuid: b117e6d25d4049949eda850b83bf9883
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743177029832
+status: 3
+tags: []
+user_id: jessicawells

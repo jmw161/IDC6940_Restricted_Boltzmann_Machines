@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/a218ac49e155432fb5be0bf076f0ca47/artifacts
+end_time: 1743193033215
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: a218ac49e155432fb5be0bf076f0ca47
+run_name: funny-ant-647
+run_uuid: a218ac49e155432fb5be0bf076f0ca47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743192976552
+status: 3
+tags: []
+user_id: jessicawells

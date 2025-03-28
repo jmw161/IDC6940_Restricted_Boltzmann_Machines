@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/4331a681f6524022ad4a155d852e5b70/artifacts
+end_time: 1743191739868
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 4331a681f6524022ad4a155d852e5b70
+run_name: monumental-bug-29
+run_uuid: 4331a681f6524022ad4a155d852e5b70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743191677909
+status: 3
+tags: []
+user_id: jessicawells

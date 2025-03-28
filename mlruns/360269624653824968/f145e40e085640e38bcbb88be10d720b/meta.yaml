@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/f145e40e085640e38bcbb88be10d720b/artifacts
+end_time: 1743173381874
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: f145e40e085640e38bcbb88be10d720b
+run_name: omniscient-conch-891
+run_uuid: f145e40e085640e38bcbb88be10d720b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173373107
+status: 3
+tags: []
+user_id: jessicawells

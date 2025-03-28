@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/d79b809345ad4889b274401329b5f3c5/artifacts
+end_time: 1743173743752
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: d79b809345ad4889b274401329b5f3c5
+run_name: capable-grub-192
+run_uuid: d79b809345ad4889b274401329b5f3c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173728542
+status: 3
+tags: []
+user_id: jessicawells

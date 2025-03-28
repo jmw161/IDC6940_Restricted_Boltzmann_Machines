@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/1d57636621ba4e9aae72d431e84fb5c2/artifacts
+end_time: 1743181202667
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 1d57636621ba4e9aae72d431e84fb5c2
+run_name: crawling-wasp-971
+run_uuid: 1d57636621ba4e9aae72d431e84fb5c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181168312
+status: 3
+tags: []
+user_id: jessicawells

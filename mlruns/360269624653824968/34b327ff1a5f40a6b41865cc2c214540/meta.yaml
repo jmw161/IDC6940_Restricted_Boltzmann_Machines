@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/34b327ff1a5f40a6b41865cc2c214540/artifacts
+end_time: 1743185104200
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 34b327ff1a5f40a6b41865cc2c214540
+run_name: rumbling-stoat-215
+run_uuid: 34b327ff1a5f40a6b41865cc2c214540
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185097548
+status: 3
+tags: []
+user_id: jessicawells

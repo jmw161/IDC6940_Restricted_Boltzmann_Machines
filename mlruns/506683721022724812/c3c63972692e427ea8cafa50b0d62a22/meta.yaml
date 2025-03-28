@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/c3c63972692e427ea8cafa50b0d62a22/artifacts
+end_time: 1743173918095
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: c3c63972692e427ea8cafa50b0d62a22
+run_name: awesome-penguin-933
+run_uuid: c3c63972692e427ea8cafa50b0d62a22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173900145
+status: 3
+tags: []
+user_id: jessicawells

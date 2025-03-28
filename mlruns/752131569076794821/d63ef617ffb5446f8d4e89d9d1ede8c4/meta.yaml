@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/d63ef617ffb5446f8d4e89d9d1ede8c4/artifacts
+end_time: 1743195156246
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: d63ef617ffb5446f8d4e89d9d1ede8c4
+run_name: big-sloth-815
+run_uuid: d63ef617ffb5446f8d4e89d9d1ede8c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743195126083
+status: 3
+tags: []
+user_id: jessicawells

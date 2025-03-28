@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/67179f0641284243862c96f4517cee04/artifacts
+end_time: 1743185236316
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 67179f0641284243862c96f4517cee04
+run_name: intrigued-wren-991
+run_uuid: 67179f0641284243862c96f4517cee04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185229650
+status: 3
+tags: []
+user_id: jessicawells

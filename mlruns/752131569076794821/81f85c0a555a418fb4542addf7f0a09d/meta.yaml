@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/81f85c0a555a418fb4542addf7f0a09d/artifacts
+end_time: 1743182331856
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 81f85c0a555a418fb4542addf7f0a09d
+run_name: useful-shark-492
+run_uuid: 81f85c0a555a418fb4542addf7f0a09d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743182301444
+status: 3
+tags: []
+user_id: jessicawells

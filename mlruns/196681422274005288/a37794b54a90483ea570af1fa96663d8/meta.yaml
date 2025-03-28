@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/a37794b54a90483ea570af1fa96663d8/artifacts
+end_time: 1743176703366
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: a37794b54a90483ea570af1fa96663d8
+run_name: gifted-sloth-348
+run_uuid: a37794b54a90483ea570af1fa96663d8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176649930
+status: 3
+tags: []
+user_id: jessicawells

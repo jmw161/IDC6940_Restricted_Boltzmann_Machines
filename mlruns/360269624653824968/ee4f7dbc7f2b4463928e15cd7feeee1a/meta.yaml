@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/ee4f7dbc7f2b4463928e15cd7feeee1a/artifacts
+end_time: 1743173659184
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: ee4f7dbc7f2b4463928e15cd7feeee1a
+run_name: receptive-wasp-680
+run_uuid: ee4f7dbc7f2b4463928e15cd7feeee1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173650376
+status: 3
+tags: []
+user_id: jessicawells

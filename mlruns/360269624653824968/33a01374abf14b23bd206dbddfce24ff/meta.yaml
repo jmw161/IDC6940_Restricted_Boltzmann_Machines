@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/33a01374abf14b23bd206dbddfce24ff/artifacts
+end_time: 1743173552654
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 33a01374abf14b23bd206dbddfce24ff
+run_name: capable-stoat-561
+run_uuid: 33a01374abf14b23bd206dbddfce24ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173543799
+status: 3
+tags: []
+user_id: jessicawells

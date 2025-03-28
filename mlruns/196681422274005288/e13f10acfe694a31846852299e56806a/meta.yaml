@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/e13f10acfe694a31846852299e56806a/artifacts
+end_time: 1743190439963
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: e13f10acfe694a31846852299e56806a
+run_name: redolent-worm-349
+run_uuid: e13f10acfe694a31846852299e56806a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743190412325
+status: 3
+tags: []
+user_id: jessicawells

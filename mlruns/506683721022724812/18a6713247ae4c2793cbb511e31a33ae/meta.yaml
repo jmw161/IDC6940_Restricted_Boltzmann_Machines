@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/18a6713247ae4c2793cbb511e31a33ae/artifacts
+end_time: 1743185344254
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 18a6713247ae4c2793cbb511e31a33ae
+run_name: bemused-panda-963
+run_uuid: 18a6713247ae4c2793cbb511e31a33ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185329510
+status: 3
+tags: []
+user_id: jessicawells

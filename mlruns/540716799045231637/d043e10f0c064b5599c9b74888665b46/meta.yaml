@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/d043e10f0c064b5599c9b74888665b46/artifacts
+end_time: 1743193838096
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: d043e10f0c064b5599c9b74888665b46
+run_name: whimsical-cow-389
+run_uuid: d043e10f0c064b5599c9b74888665b46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193796747
+status: 3
+tags: []
+user_id: jessicawells

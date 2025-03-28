@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/2049baaf2c014ebc85f6b43040a7b270/artifacts
+end_time: 1743173276213
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 2049baaf2c014ebc85f6b43040a7b270
+run_name: gifted-finch-355
+run_uuid: 2049baaf2c014ebc85f6b43040a7b270
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173267496
+status: 3
+tags: []
+user_id: jessicawells

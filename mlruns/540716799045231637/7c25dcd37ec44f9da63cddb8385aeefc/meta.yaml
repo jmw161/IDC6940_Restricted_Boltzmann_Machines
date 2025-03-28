@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/7c25dcd37ec44f9da63cddb8385aeefc/artifacts
+end_time: 1743177029809
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 7c25dcd37ec44f9da63cddb8385aeefc
+run_name: intrigued-snipe-799
+run_uuid: 7c25dcd37ec44f9da63cddb8385aeefc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743176990382
+status: 3
+tags: []
+user_id: jessicawells

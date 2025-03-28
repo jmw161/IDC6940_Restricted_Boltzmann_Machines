@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/e32cddcf44db4e818167aeeb6d87da1d/artifacts
+end_time: 1743193918489
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: e32cddcf44db4e818167aeeb6d87da1d
+run_name: nebulous-roo-22
+run_uuid: e32cddcf44db4e818167aeeb6d87da1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193899949
+status: 3
+tags: []
+user_id: jessicawells

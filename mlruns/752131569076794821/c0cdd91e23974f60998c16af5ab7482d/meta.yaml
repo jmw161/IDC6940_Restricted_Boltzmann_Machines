@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/c0cdd91e23974f60998c16af5ab7482d/artifacts
+end_time: 1743193989552
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: c0cdd91e23974f60998c16af5ab7482d
+run_name: aged-ape-940
+run_uuid: c0cdd91e23974f60998c16af5ab7482d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193954605
+status: 3
+tags: []
+user_id: jessicawells

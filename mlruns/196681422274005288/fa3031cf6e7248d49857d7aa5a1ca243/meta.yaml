@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/fa3031cf6e7248d49857d7aa5a1ca243/artifacts
+end_time: 1743189213634
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: fa3031cf6e7248d49857d7aa5a1ca243
+run_name: colorful-skunk-991
+run_uuid: fa3031cf6e7248d49857d7aa5a1ca243
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743189187645
+status: 3
+tags: []
+user_id: jessicawells

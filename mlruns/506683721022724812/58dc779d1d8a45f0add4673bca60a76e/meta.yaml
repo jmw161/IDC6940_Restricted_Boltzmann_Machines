@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/58dc779d1d8a45f0add4673bca60a76e/artifacts
+end_time: 1743188316765
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 58dc779d1d8a45f0add4673bca60a76e
+run_name: chill-quail-663
+run_uuid: 58dc779d1d8a45f0add4673bca60a76e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743188230849
+status: 3
+tags: []
+user_id: jessicawells

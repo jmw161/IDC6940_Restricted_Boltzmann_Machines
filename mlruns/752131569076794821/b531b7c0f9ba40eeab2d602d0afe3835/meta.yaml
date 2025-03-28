@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/b531b7c0f9ba40eeab2d602d0afe3835/artifacts
+end_time: 1743194935588
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: b531b7c0f9ba40eeab2d602d0afe3835
+run_name: judicious-lark-764
+run_uuid: b531b7c0f9ba40eeab2d602d0afe3835
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743194913421
+status: 3
+tags: []
+user_id: jessicawells

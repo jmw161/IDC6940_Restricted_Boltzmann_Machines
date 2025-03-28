@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/e7f940be6cc946e39a828baa356c3368/artifacts
+end_time: 1743181005923
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: e7f940be6cc946e39a828baa356c3368
+run_name: gregarious-goat-910
+run_uuid: e7f940be6cc946e39a828baa356c3368
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743180963917
+status: 3
+tags: []
+user_id: jessicawells

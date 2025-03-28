@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/d9ccd24d22e04755956ab97ee5a30002/artifacts
+end_time: 1743193460687
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: d9ccd24d22e04755956ab97ee5a30002
+run_name: enchanting-bug-349
+run_uuid: d9ccd24d22e04755956ab97ee5a30002
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193389981
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/f9684543db1b47c28e6d9e205dd2a93e/artifacts
+end_time: 1743173605928
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: f9684543db1b47c28e6d9e205dd2a93e
+run_name: welcoming-ape-403
+run_uuid: f9684543db1b47c28e6d9e205dd2a93e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173597072
+status: 3
+tags: []
+user_id: jessicawells

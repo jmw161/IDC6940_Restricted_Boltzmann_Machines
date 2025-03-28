@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/da2ea05801544c7ab34e7213b321f003/artifacts
+end_time: 1743181475617
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: da2ea05801544c7ab34e7213b321f003
+run_name: likeable-panda-741
+run_uuid: da2ea05801544c7ab34e7213b321f003
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181438865
+status: 3
+tags: []
+user_id: jessicawells

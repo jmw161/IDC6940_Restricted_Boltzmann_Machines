@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/bdbf29c785054126aa3a01ca987fb967/artifacts
+end_time: 1743174083944
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: bdbf29c785054126aa3a01ca987fb967
+run_name: sedate-yak-767
+run_uuid: bdbf29c785054126aa3a01ca987fb967
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174063867
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/df23bd066c0741b9b787c10f55de4869/artifacts
+end_time: 1743188230839
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: df23bd066c0741b9b787c10f55de4869
+run_name: bemused-auk-510
+run_uuid: df23bd066c0741b9b787c10f55de4869
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743187951025
+status: 3
+tags: []
+user_id: jessicawells

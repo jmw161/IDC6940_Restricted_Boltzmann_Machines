@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/a09bc1e7363d4c42a1b64ed1e963fd1e/artifacts
+end_time: 1743193330107
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: a09bc1e7363d4c42a1b64ed1e963fd1e
+run_name: fun-skink-32
+run_uuid: a09bc1e7363d4c42a1b64ed1e963fd1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193274277
+status: 3
+tags: []
+user_id: jessicawells

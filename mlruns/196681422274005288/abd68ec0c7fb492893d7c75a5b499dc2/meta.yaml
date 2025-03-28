@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/abd68ec0c7fb492893d7c75a5b499dc2/artifacts
+end_time: 1743189081296
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: abd68ec0c7fb492893d7c75a5b499dc2
+run_name: defiant-bee-533
+run_uuid: abd68ec0c7fb492893d7c75a5b499dc2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743189047455
+status: 3
+tags: []
+user_id: jessicawells

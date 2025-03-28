@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/8b361a10541641c1bde61cc6a9410046/artifacts
+end_time: 1743185209777
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 8b361a10541641c1bde61cc6a9410046
+run_name: placid-lynx-319
+run_uuid: 8b361a10541641c1bde61cc6a9410046
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185203175
+status: 3
+tags: []
+user_id: jessicawells

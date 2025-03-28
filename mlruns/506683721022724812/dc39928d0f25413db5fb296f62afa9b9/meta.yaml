@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/dc39928d0f25413db5fb296f62afa9b9/artifacts
+end_time: 1743173865441
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: dc39928d0f25413db5fb296f62afa9b9
+run_name: upset-robin-179
+run_uuid: dc39928d0f25413db5fb296f62afa9b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743173840698
+status: 3
+tags: []
+user_id: jessicawells

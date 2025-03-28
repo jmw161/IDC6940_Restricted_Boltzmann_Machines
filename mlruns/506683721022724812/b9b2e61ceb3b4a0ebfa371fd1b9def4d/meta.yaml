@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/b9b2e61ceb3b4a0ebfa371fd1b9def4d/artifacts
+end_time: 1743174295257
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: b9b2e61ceb3b4a0ebfa371fd1b9def4d
+run_name: delicate-carp-124
+run_uuid: b9b2e61ceb3b4a0ebfa371fd1b9def4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174271158
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/8a5fbf015e27406daa29b10a3ca01b8e/artifacts
+end_time: 1743180074861
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 8a5fbf015e27406daa29b10a3ca01b8e
+run_name: caring-hare-904
+run_uuid: 8a5fbf015e27406daa29b10a3ca01b8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743179998346
+status: 3
+tags: []
+user_id: jessicawells

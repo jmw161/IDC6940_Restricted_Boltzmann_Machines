@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/465f143f90bf44ae9ad01cb0abe564f3/artifacts
+end_time: 1743174776956
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 465f143f90bf44ae9ad01cb0abe564f3
+run_name: righteous-cub-819
+run_uuid: 465f143f90bf44ae9ad01cb0abe564f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174749873
+status: 3
+tags: []
+user_id: jessicawells

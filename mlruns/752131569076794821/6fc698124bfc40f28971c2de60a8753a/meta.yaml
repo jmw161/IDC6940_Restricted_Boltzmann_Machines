@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/6fc698124bfc40f28971c2de60a8753a/artifacts
+end_time: 1743181552466
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 6fc698124bfc40f28971c2de60a8753a
+run_name: puzzled-sheep-737
+run_uuid: 6fc698124bfc40f28971c2de60a8753a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743181511344
+status: 3
+tags: []
+user_id: jessicawells

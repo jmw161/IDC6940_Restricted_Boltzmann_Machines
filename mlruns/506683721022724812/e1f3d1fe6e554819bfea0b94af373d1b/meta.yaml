@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/e1f3d1fe6e554819bfea0b94af373d1b/artifacts
+end_time: 1743185407118
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: e1f3d1fe6e554819bfea0b94af373d1b
+run_name: unruly-asp-255
+run_uuid: e1f3d1fe6e554819bfea0b94af373d1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743185393786
+status: 3
+tags: []
+user_id: jessicawells

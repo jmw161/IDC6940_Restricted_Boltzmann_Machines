@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/72e93317444d4de2bd00f5c17cebccde/artifacts
+end_time: 1743193608366
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 72e93317444d4de2bd00f5c17cebccde
+run_name: legendary-hawk-654
+run_uuid: 72e93317444d4de2bd00f5c17cebccde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743193529843
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/e515e4e2ea2740f1a03abb77866bf858/artifacts
+end_time: 1743174749864
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: e515e4e2ea2740f1a03abb77866bf858
+run_name: fun-seal-644
+run_uuid: e515e4e2ea2740f1a03abb77866bf858
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174715931
+status: 3
+tags: []
+user_id: jessicawells

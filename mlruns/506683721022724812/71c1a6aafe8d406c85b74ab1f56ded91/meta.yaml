@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/71c1a6aafe8d406c85b74ab1f56ded91/artifacts
+end_time: 1743174317687
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 71c1a6aafe8d406c85b74ab1f56ded91
+run_name: serious-gnu-350
+run_uuid: 71c1a6aafe8d406c85b74ab1f56ded91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743174295268
+status: 3
+tags: []
+user_id: jessicawells

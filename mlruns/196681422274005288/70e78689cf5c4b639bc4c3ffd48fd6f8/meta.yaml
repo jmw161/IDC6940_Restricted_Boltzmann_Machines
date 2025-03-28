@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/70e78689cf5c4b639bc4c3ffd48fd6f8/artifacts
+end_time: 1743190616117
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 70e78689cf5c4b639bc4c3ffd48fd6f8
+run_name: unruly-panda-494
+run_uuid: 70e78689cf5c4b639bc4c3ffd48fd6f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743190566813
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/4e0a51ff1f804196bf28cac353aac397/artifacts
+end_time: 1743191441418
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 4e0a51ff1f804196bf28cac353aac397
+run_name: aged-hog-854
+run_uuid: 4e0a51ff1f804196bf28cac353aac397
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743191411646
+status: 3
+tags: []
+user_id: jessicawells

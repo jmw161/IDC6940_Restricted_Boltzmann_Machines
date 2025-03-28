@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/b1ea7527e9034f2bac22fea3b5bad5b0/artifacts
+end_time: 1743189000335
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: b1ea7527e9034f2bac22fea3b5bad5b0
+run_name: gentle-wasp-364
+run_uuid: b1ea7527e9034f2bac22fea3b5bad5b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743188949147
+status: 3
+tags: []
+user_id: jessicawells
