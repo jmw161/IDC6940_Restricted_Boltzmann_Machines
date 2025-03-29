@@ -738,7 +738,7 @@ def objective(trial):
 
 if __name__ == "__main__":
     study = optuna.create_study(direction="maximize")
-    study.optimize(objective, n_trials=50)
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
     print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
     print("Best Accuracy:", study.best_value)
 ```
@@ -941,7 +941,7 @@ def objective(trial):
 
 if __name__ == "__main__":
     study = optuna.create_study(direction="maximize")
-    study.optimize(objective, n_trials=50)
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
     print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
     print("Best Accuracy:", study.best_value)
 ```
@@ -1146,7 +1146,7 @@ def objective(trial):
 
 if __name__ == "__main__":
     study = optuna.create_study(direction="maximize")
-    study.optimize(objective, n_trials=50)
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
     print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
     print("Best Accuracy:", study.best_value)
 ```
@@ -1406,7 +1406,7 @@ def objective(trial):
 
 if __name__ == "__main__":
     study = optuna.create_study(direction="maximize")
-    study.optimize(objective, n_trials=50)
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
     print(study.best_params)
     print(study.best_value)
     print(study.best_trial)
@@ -1658,7 +1658,7 @@ def objective(trial):
 
 if __name__ == "__main__":
     study = optuna.create_study(direction="maximize")
-    study.optimize(objective, n_trials=50)
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
     print(study.best_params)
     print(study.best_value)
     print(study.best_trial)
@@ -1731,5 +1731,9 @@ Test Accuracy by FNN Hidden Units<br>
 CNN clearly outperforms other models. Logistic Regression, which typically performs well for binary classifications tasks, underperforms on Fashion MNIST multiclassification task. Logistic Regression is improved by using a Restricted Boltzmann Machine first to extract the hidden features from the input data prior to classification. Feed Forward Network is not improved by the use of RBM. These findings clearly show the progress in machine and deep learning and how more advanced neural networks on raw pixels can outperform models that use RBM hidden features.
 
 -   Discuss the implications of your results.
+
+Restricted Boltzmann Machines are no longer considered state-of-the-art for machine learning tasks. While contrastive divergence made training RBMs easier, supervised training of deep feedforward networks and convolutional neural networks using backpropagation proved to be more effective and began to dominate the field. This was largely the result of overcoming challenges with exploding or vanishing gradients and the introduction of techniques such as batch normalization, dropout, and better weight initialization methods.
+
+However, for the student of machine learning, learning RBMs is still valuable for understanding the foundations of unsupervised learning and energy-based models. Today, Stable Diffusion is a popular type of generative AI model with an energy-based foundation. The mechanics of RBM training, like Gibbs sampling, and the probabilistic nature of the model provide a demonstration of the application of probability theory and concepts like Markov chains and Boltzmann distributions in machine learning.
 
 ## References
