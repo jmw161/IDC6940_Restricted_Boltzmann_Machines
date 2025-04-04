@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/ca5019a9b65b41e0a0b6dc8ec33af70c/artifacts
+end_time: 1743789817245
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: ca5019a9b65b41e0a0b6dc8ec33af70c
+run_name: incongruous-croc-674
+run_uuid: ca5019a9b65b41e0a0b6dc8ec33af70c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743789797575
+status: 3
+tags: []
+user_id: jessicawells

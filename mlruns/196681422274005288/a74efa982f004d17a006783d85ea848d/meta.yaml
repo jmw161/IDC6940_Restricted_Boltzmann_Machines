@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/a74efa982f004d17a006783d85ea848d/artifacts
+end_time: 1743790049013
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: a74efa982f004d17a006783d85ea848d
+run_name: fortunate-midge-231
+run_uuid: a74efa982f004d17a006783d85ea848d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743790012116
+status: 3
+tags: []
+user_id: jessicawells

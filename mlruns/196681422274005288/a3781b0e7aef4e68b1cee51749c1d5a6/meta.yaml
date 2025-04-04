@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/a3781b0e7aef4e68b1cee51749c1d5a6/artifacts
+end_time: 1743789751685
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: a3781b0e7aef4e68b1cee51749c1d5a6
+run_name: secretive-eel-926
+run_uuid: a3781b0e7aef4e68b1cee51749c1d5a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743789705938
+status: 3
+tags: []
+user_id: jessicawells

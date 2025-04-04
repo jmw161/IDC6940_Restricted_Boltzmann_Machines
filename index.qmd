@@ -572,7 +572,7 @@ class FashionCNN(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(2)
         )
-        self.fc1 = None
+        self.fc1 = None #initialize first fully connected layer as none, defined later in fwd
         self.drop = nn.Dropout2d(0.25)
         self.fc2 = nn.Linear(in_features=600, out_features=120)
         self.fc3 = nn.Linear(in_features=120, out_features=10)
@@ -581,7 +581,8 @@ class FashionCNN(nn.Module):
     def forward(self, x):
         out = self.layer1(x)
         out = self.layer2(out)
-        out = out.view(out.size(0), -1)
+        #Flatten tensor dynamically, preserve batch size
+        out = out.view(out.size(0), -1) 
         if self.fc1 is None:
             self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)
         out = self.fc1(out)
@@ -589,21 +590,6 @@ class FashionCNN(nn.Module):
         out = self.fc2(out)
         out = self.fc3(out)
         return out
-
-
-
-        # Dynamically calculate flattened size
-        out = out.view(out.size(0), -1)  # Flatten
-        if self.fc1 is None:
-            self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)  # ✅ Update FC layer dynamically
-
-        out = self.fc1(out)
-        out = self.drop(out)
-        out = self.fc2(out)
-        out = self.fc3(out)
-        return out
-
-
 
 
 # Define Optuna objective function
@@ -632,7 +618,7 @@ def objective(trial):
         mlflow.log_param("learning_rate", learning_rate)
 
         model = nn.Sequential(
-            nn.Linear(784, hidden_size),
+            nn.Linear(784, hidden_size), 
             nn.ReLU(),
             nn.Linear(hidden_size, 10)
         ).to(device)
@@ -748,6 +734,17 @@ if __name__ == "__main__":
 Test Accuracy of Logistic Regression by C (inverse regularization
 strength) ![](logreg_norbm.png){width="60%"}<br>
 
+
+$$
+C = \frac{1}{\lambda} \quad \text{(inverse regularization strength)}
+$$
+
+Lower values of C mean more regularization (higher penalties for larger weight coefficients)
+
+What the plot shows:<br>
+Most optuna trials were lower values of C, so optimization favors stronger regularization. This is further evidenced by the clustering of higher accuracies for lower values of C. A possibly anomaly is seen at C=10 with fairly high accuracy; however, it's still not higher than lower values of C. <br>
+
+
 <b>Model 2: Feed Forward Network on Fashion MNIST Data</b>
 
 <details>
@@ -775,7 +772,7 @@ class FashionCNN(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(2)
         )
-        self.fc1 = None
+        self.fc1 = None #initialize first fully connected layer as none, defined later in fwd
         self.drop = nn.Dropout2d(0.25)
         self.fc2 = nn.Linear(in_features=600, out_features=120)
         self.fc3 = nn.Linear(in_features=120, out_features=10)
@@ -784,6 +781,7 @@ class FashionCNN(nn.Module):
     def forward(self, x):
         out = self.layer1(x)
         out = self.layer2(out)
+        #Flatten tensor dynamically
         out = out.view(out.size(0), -1)
         if self.fc1 is None:
             self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)
@@ -792,20 +790,6 @@ class FashionCNN(nn.Module):
         out = self.fc2(out)
         out = self.fc3(out)
         return out
-
-
-
-        # Dynamically calculate flattened size
-        out = out.view(out.size(0), -1)  # Flatten
-        if self.fc1 is None:
-            self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)  # ✅ Update FC layer dynamically
-
-        out = self.fc1(out)
-        out = self.drop(out)
-        out = self.fc2(out)
-        out = self.fc3(out)
-        return out
-
 
 
 
@@ -951,6 +935,10 @@ if __name__ == "__main__":
 Test Accuracy by FNN Hidden Units<br>
 ![](fnn_norbm.png){width="60%"}<br>
 
+What the plot shows:<br>
+Higher values of hidden units in the feedforward network were sampled more frequently by Optuna, suggesting a preference for more complex models. However, test accuracy appears to level off between 300 and 375 hidden units, suggesting complexity reached its optimal range. Further increases in hidden units would likely not yield higher accuracy.<br>
+
+
 <b>Model 3: Convolutional Neural Network on Fashion MNIST Data</b><br>
 Base code for CNN structure borrowed from
 [Kaggle](https://www.kaggle.com/code/pankajj/fashion-mnist-with-pytorch-93-accuracy)<br>
@@ -980,7 +968,7 @@ class FashionCNN(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(2)
         )
-        self.fc1 = None
+        self.fc1 = None #initialize first fully connected layer as none, defined later in fwd
         self.drop = nn.Dropout2d(0.25)
         self.fc2 = nn.Linear(in_features=600, out_features=120)
         self.fc3 = nn.Linear(in_features=120, out_features=10)
@@ -989,6 +977,7 @@ class FashionCNN(nn.Module):
     def forward(self, x):
         out = self.layer1(x)
         out = self.layer2(out)
+        #Flatten tensor dynamically
         out = out.view(out.size(0), -1)
         if self.fc1 is None:
             self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)
@@ -997,20 +986,6 @@ class FashionCNN(nn.Module):
         out = self.fc2(out)
         out = self.fc3(out)
         return out
-
-
-
-        # Dynamically calculate flattened size
-        out = out.view(out.size(0), -1)  # Flatten
-        if self.fc1 is None:
-            self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)  # ✅ Update FC layer dynamically
-
-        out = self.fc1(out)
-        out = self.drop(out)
-        out = self.fc2(out)
-        out = self.fc3(out)
-        return out
-
 
 
 
@@ -1157,16 +1132,31 @@ Test Accuracy Based on the Number of Filters in the First Conv2D Layer<br>
 ![](filters1.png){width="60%"}<br> 
 
 
+
+What the plot shows:<br>
+Although the highest test accuracy was achieved with 64 filters in the first convolutional 2D layer, the number of filters alone isn't a strong predictor of model performance. Each filter size shows high variance (accuracies are spread out for each value vertically). This, combined with the fact that accuracies are well distributed across the different filter counts, suggests other factors or hyperparameters may play a bigger role in predicting accuracy. <br>
+
 Test Accuracy Based on the Number of Filters in the Second Conv2D Layer<br>
 ![](filters2.png){width="60%"}<br> 
+
+What the plot shows:<br>
+Like the first Conv2D layer, the number of filters doesn't seem to be a extremely strong predictor in accuracy. However, Optuna has sampled more frequently from higher number of filters, even 128 for this second layer, suggesting higher filters performed better. However, like before, there is still high variance in accuracy for each number of filters. <br>
 
 
 Test Accuracy Based on Kernel Size in the First Conv2D Layer<br> 
 ![](kernelsize1.png){width="60%"}<br> 
 
 
+What the plot shows:<br>
+Kernel size of 3 was sampled more frequently by Optuna and yielded higher accuracies than kernel sizes of 4 or 5.<br>
+
 Test Accuracy Based on Kernel Size in the Second Conv2D Layer<br>
 ![](kernelsize2.png){width="60%"}<br>
+
+
+What the plot shows:<br>
+Like with the first convolutional 2D layer, kernel size of 3 is highly favored by Optuna and consistently led to higher test accuracies.<br>
+
 
 <b>Model 4: Logistic Regression on RBM Hidden Features (of Fashion MNIST
 Data)</b><br>
@@ -1282,7 +1272,7 @@ def objective(trial):
         if rbm_training_failed:
             accuracy = 0.0
             macro_f1 = 0.0 
-            print("RBM training failed — returning 0.0 for accuracy and macro F1")  # 🔥 for visibility
+            print("RBM training failed — returning 0.0 for accuracy and macro F1")  
             mlflow.log_metric("test_accuracy", accuracy)
             mlflow.log_metric("macro_f1", macro_f1)
             mlflow.set_tag("status", "rbm_failed")  # Optional tag
@@ -1417,8 +1407,21 @@ if __name__ == "__main__":
 Test Accuracy of Logistic Regression on RBM Hidden Features by Inverse
 Regularization Strength<br> ![](logreg_withrbm_C.png){width="60%"}<br>
 
+
+
+
+What the plot shows:<br>
+When using RBM-extracted hidden features as input to logistic regression, the inverse regularization strength does not appear to be a strong predictor of test accuracy.<br>
+
+
 Test Accuracy By Number of RBM Hidden Units<br>
 ![](logreg_withrbm_hiddenunits.png){width="60%"}<br>
+
+What the plot shows:<br>
+Optuna slightly favors higher number of hidden units in the rbm with a peak at 5340 (and similar peaks 5358, 5341, etc.). However, after 7000 units, accuracy appears to decline suggesting the optimum number of units was reached around that 5300 mark. <br>
+
+
+
 
 <b>Model 5: Feed Forward Network on RBM Hidden Features (of Fashion
 MNIST Data)</b><br>
@@ -1534,7 +1537,7 @@ def objective(trial):
         if rbm_training_failed:
             accuracy = 0.0
             macro_f1 = 0.0 
-            print("RBM training failed — returning 0.0 for accuracy and macro F1")  # 🔥 for visibility
+            print("RBM training failed — returning 0.0 for accuracy and macro F1")  
             mlflow.log_metric("test_accuracy", accuracy)
             mlflow.log_metric("macro_f1", macro_f1)
             mlflow.set_tag("status", "rbm_failed")  # Optional tag
@@ -1669,9 +1672,15 @@ if __name__ == "__main__":
 Test Accuracy by RBM Hidden Units<br>
 ![](fnn_withrbm_rbmhiddenunits.png){width="60%"}<br> 
 
+
+What the plot shows:<br>
+Highest accuracies cluster between 2000 and 4000 hidden units in the RBM with an outlier at 3764 hidden units. This possibly suggests too few hidden units lacks the complexity needed to explain the data; however, too many hidden units is perhaps causing some overfitting--resulting in poor generalization of the FNN classifier that receives the RBM hidden features.<br>
+
 Test Accuracy by FNN Hidden Units<br>
 ![](fnn_withrbm_fnnhiddenunits.png){width="60%"}<br>
 
+What the plot shows:<br>
+Surprisingly, the number of hidden units in the FNN does not show a strong correlation with test accuracy. All hidden units tested seem to result in similar performance. This suggests the FNN is able to learn from the RBM features sufficently, and additional neurons do not significantly improve generalization.<br>
 
 
 

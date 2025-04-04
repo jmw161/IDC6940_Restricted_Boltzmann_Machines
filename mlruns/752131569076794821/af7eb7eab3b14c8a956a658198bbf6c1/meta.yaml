@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/af7eb7eab3b14c8a956a658198bbf6c1/artifacts
+end_time: 1743790106218
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: af7eb7eab3b14c8a956a658198bbf6c1
+run_name: melodic-ant-418
+run_uuid: af7eb7eab3b14c8a956a658198bbf6c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743790079513
+status: 3
+tags: []
+user_id: jessicawells

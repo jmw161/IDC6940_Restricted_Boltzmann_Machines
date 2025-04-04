@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/2767ab4912614681860bc0b7d925814a/artifacts
+end_time: 1743789705531
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 2767ab4912614681860bc0b7d925814a
+run_name: unleashed-mink-463
+run_uuid: 2767ab4912614681860bc0b7d925814a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743789693072
+status: 3
+tags: []
+user_id: jessicawells

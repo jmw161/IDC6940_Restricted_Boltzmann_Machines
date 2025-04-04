@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/0f429dd05f4343d5bd61cc7e7c600547/artifacts
+end_time: 1743789797022
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 0f429dd05f4343d5bd61cc7e7c600547
+run_name: merciful-snake-879
+run_uuid: 0f429dd05f4343d5bd61cc7e7c600547
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743789752207
+status: 3
+tags: []
+user_id: jessicawells

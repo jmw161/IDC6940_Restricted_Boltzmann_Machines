@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/ba6c42b9f07646099f1667d1dd687a3a/artifacts
+end_time: 1743790011720
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: ba6c42b9f07646099f1667d1dd687a3a
+run_name: learned-deer-193
+run_uuid: ba6c42b9f07646099f1667d1dd687a3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743789998133
+status: 3
+tags: []
+user_id: jessicawells
