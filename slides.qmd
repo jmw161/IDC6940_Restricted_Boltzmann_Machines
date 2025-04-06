@@ -2,11 +2,14 @@
 title: "Restricted Boltzmann Machines"
 subtitle: "Theory of RBMs and Applications"
 author: "Jessica Wells and Jason Gerstenberger (Advisor: Dr. Cohen)"
-date: '`r Sys.Date()`'
+date: 'today'
+date-format: long
 format:
   revealjs:
+    theme: simple
     code-overflow: scroll
     scrollable: true
+    smaller: true
 course: Capstone Projects in Data Science
 bibliography: references.bib # file contains bibtex for references
 #always_allow_html: true # this allows to get PDF with HTML features
@@ -21,48 +24,44 @@ editor:
 ---
 
 
-## Introduction
+## Boltzmann Machines
+- Boltzmann Machines are undirected graphical models where nodes are connected with symmetric weights
+- Total input is calculated for a node by $$z_i = b_i + \sum_j s_j w_{ij}$$ where $b_i$ is the bias, $s_j$ is the state of the connected node, and $w_{ij}$ is the weight of the connection
+- Nodes are updated stochastically by sampling from the bernoulli distribution given by $$p(s_i = 1) = \frac{1}{1 + e^{-z_i}}$$ where $s_i$ is the state of the node
 
-### Background
+## Simple Boltzmann Machine Example
+::: {.panel}
+::: {style="text-align: center;"}
+![](boltz_animation.mp4){width="80%"}
+:::
+:::
 
-Restricted Boltzmann Machines (RBM) are a type of neural network that
-has been around since the 1980s. RBMs are
-primarily used for unsupervised learning tasks like dimensionality
-reduction and feature extraction, which help prepare datasets for
-machine learning models that may later be trained using supervised
-learning. 
+## Boltzmann Machine Energy Function
+- The energy of a given state vector $\mathbf{v}$ is given by $$E(\mathbf{v}) = -\sum_i s_i^{\mathbf{v}} b_i - \sum_{i<j} s_i^{\mathbf{v}} s_j^{\mathbf{v}} w_{ij}$$ where $s_i^{\mathbf{v}}$ is the state of the node in the vector $\mathbf{v}$, $b_i$ is the bias, and $w_{ij}$ is the weight of the connection
+- The Boltzmann distribution (or equilibrium or stationary distribution) is given by $$p(\mathbf{v}) = \frac{e^{-E(\mathbf{v})}}{\sum_{\mathbf{u}} e^{-E(\mathbf{u})}}$$ where $\mathbf{u}$ is the set of all possible states
 
-Like Hopfield networks, Boltzmann machines are undirected graphical
-models, but they are different in that they are stochastic and can have
-hidden units. Both models are energy-based, meaning they learn by
-minimizing an energy function for each model
-[@smolensky1986information]. Boltzmann machines use a sigmoid activation
-function, which allows for the model to be probabilistic.
+## Boltzmann Machine Equilibrium Example
+::: {.panel}
+![](boltz_animation_with_pmf.mp4)
+:::
 
-In the "Restricted" Boltzmann Machine, there are no interactions between
-neurons in the visible layer or between neurons in the hidden layer,
-creating a bipartite graph of neurons. Below is a diagram taken from
-Goodfellow, et al. [@Goodfellow-et-al-2016] (p. 577) for visualization
-of the connections.
+## Use of Boltzmann Machines
+- The weights of a Boltzmann machine can be set to represent an optimization problem and then the stochastic update of neurons can be used to search the solution space
+- More commonly, the state vectors represent data for which training is performed to learn the weights
+- The goal of training is to find weights that define a Boltzmann distribution where the training vectors have high probability (low energy)
 
+## Restricted Boltzmann Machines
+- Boltzmann machines can have hidden units, which are not directly observed or specified and allow the model to learn latent features of the data
+- The Restricted Boltzmann Machine (RBM) is a special case where there are no connections between visible units or between hidden units, which allows for efficient training and sampling
 
-![](markov_net.png){width="60%"} <br>
+::: {style="text-align: center;"}
+![](rbmgraph.png){width="65%"}
+:::
 
-## More on Restricted Boltzmann Machines
-
-Goodfellow, et al. discuss the expense in drawing samples for most
-undirected graphical models; however, the RBM allows for block Gibbs
-sampling (p. 578) where the network alternates between sampling all
-hidden units simultaneously (etc. for visible). Derivatives are also
-simplified by the fact that the energy function of the RBM is a linear
-function of it's parameters, which will be seen further in Methods.
-
-RBMs are trained using a process called Contrastive Divergence (CD)
-[@hinton2002training] where the weights are updated to minimize the
-difference between samples from the data and samples from the model.
-Learning rate, batch size, and number of hidden units are all
-hyperparameters that can affect the ability of the training to converge
-successfully and learn the underlying structure of the data.
+## Training RBMs Using Contrastive Divergence
+- Contrastive Divergence (CD) is a method for training RBMs where the weights are updated to minimize the difference between samples from the data and samples from the model
+- Gibbs sampling is used to sample from the model, where the visible units are sampled from the model and then the hidden units are sampled from the visible units
+- The weights are updated using the difference between the data and model samples
 
 ## Applications
 
@@ -384,6 +383,7 @@ single fashion item (e.g., T-shirt, Trouser, etc.), and the color
 corresponds to its true label across the 10 categories listed above.
 
 ```{python, cache = TRUE}
+#| eval: false
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 
@@ -442,6 +442,7 @@ views.<br>
 <b>Import Libraries and Re-load data for first 3 models</b>
 
 ```{python}
+#| eval: false
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -464,6 +465,7 @@ test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=trans
 ```
 
 ```{python}
+#| eval: false
 #mlflow.end_run()
 #run this in terminal when need to fully clean out expierment after you delete it in the ui
 #rm -rf mlruns/.trash/*
@@ -479,6 +481,7 @@ test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=trans
 <summary>Click to Show Code and Output</summary>
 
 ```{python}
+#| eval: false
 from sklearn.metrics import f1_score
 
 CLASSIFIER = "LogisticRegression"  # Change for FNN, LogisticRegression, or CNN
@@ -682,6 +685,7 @@ Most optuna trials were lower values of C, so optimization favors stronger regul
 <summary>Click to Show Code and Output</summary>
 
 ```{python}
+#| eval: false
 from sklearn.metrics import f1_score
 
 CLASSIFIER = "FNN"  # Change for FNN, LogisticRegression, or CNN
@@ -879,6 +883,7 @@ Base code for CNN structure borrowed from
 <summary>Click to Show Code and Output</summary>
 
 ```{python}
+#| eval: false
 from sklearn.metrics import f1_score
 
 CLASSIFIER = "CNN"  # Change for FNN, LogisticRegression, or CNN
@@ -1098,6 +1103,7 @@ Data)</b><br>
 <summary>Click to Show Code and Output</summary>
 
 ```{python}
+#| eval: false
 from sklearn.metrics import accuracy_score, f1_score
 CLASSIFIER = 'LogisticRegression'
 
@@ -1363,6 +1369,7 @@ MNIST Data)</b><br>
 <summary>Click to Show Code and Output</summary>
 
 ```{python}
+#| eval: false
 from sklearn.metrics import accuracy_score, f1_score
 CLASSIFIER = 'FNN'
 
