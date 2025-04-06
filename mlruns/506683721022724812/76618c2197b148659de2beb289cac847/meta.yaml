@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/76618c2197b148659de2beb289cac847/artifacts
+end_time: 1743879248843
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 76618c2197b148659de2beb289cac847
+run_name: judicious-yak-375
+run_uuid: 76618c2197b148659de2beb289cac847
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743879232583
+status: 3
+tags: []
+user_id: jessicawells

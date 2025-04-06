@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/2db76fd2ec2543079e1e85fd87713665/artifacts
+end_time: 1743876860478
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 2db76fd2ec2543079e1e85fd87713665
+run_name: fortunate-mink-721
+run_uuid: 2db76fd2ec2543079e1e85fd87713665
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743876814298
+status: 3
+tags: []
+user_id: jessicawells

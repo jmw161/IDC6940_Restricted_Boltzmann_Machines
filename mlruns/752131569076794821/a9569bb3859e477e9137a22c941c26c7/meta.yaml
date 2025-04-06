@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/a9569bb3859e477e9137a22c941c26c7/artifacts
+end_time: 1743880229913
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: a9569bb3859e477e9137a22c941c26c7
+run_name: legendary-steed-784
+run_uuid: a9569bb3859e477e9137a22c941c26c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743880208775
+status: 3
+tags: []
+user_id: jessicawells

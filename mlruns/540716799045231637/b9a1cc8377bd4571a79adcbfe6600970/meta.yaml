@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/b9a1cc8377bd4571a79adcbfe6600970/artifacts
+end_time: 1743870056597
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: b9a1cc8377bd4571a79adcbfe6600970
+run_name: puzzled-shoat-121
+run_uuid: b9a1cc8377bd4571a79adcbfe6600970
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743870000221
+status: 3
+tags: []
+user_id: jessicawells

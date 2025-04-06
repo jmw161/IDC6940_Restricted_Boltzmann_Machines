@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/375e35c75f034cc8aa8dc34d8587b66e/artifacts
+end_time: 1743899106019
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 375e35c75f034cc8aa8dc34d8587b66e
+run_name: delightful-carp-274
+run_uuid: 375e35c75f034cc8aa8dc34d8587b66e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743899093715
+status: 3
+tags: []
+user_id: jessicawells

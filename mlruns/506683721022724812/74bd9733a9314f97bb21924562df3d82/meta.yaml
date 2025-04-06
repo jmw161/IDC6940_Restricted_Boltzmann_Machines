@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/74bd9733a9314f97bb21924562df3d82/artifacts
+end_time: 1743894319852
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 74bd9733a9314f97bb21924562df3d82
+run_name: adaptable-fly-881
+run_uuid: 74bd9733a9314f97bb21924562df3d82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743894304426
+status: 3
+tags: []
+user_id: jessicawells

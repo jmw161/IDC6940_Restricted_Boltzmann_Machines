@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/a8a2fb27e54341838c4a94b0683dfd84/artifacts
+end_time: 1743898706948
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: a8a2fb27e54341838c4a94b0683dfd84
+run_name: persistent-doe-173
+run_uuid: a8a2fb27e54341838c4a94b0683dfd84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743898686402
+status: 3
+tags: []
+user_id: jessicawells

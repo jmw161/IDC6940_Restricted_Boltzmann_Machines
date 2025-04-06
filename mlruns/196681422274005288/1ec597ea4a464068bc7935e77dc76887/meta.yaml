@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/1ec597ea4a464068bc7935e77dc76887/artifacts
+end_time: 1743898121199
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 1ec597ea4a464068bc7935e77dc76887
+run_name: whimsical-kite-421
+run_uuid: 1ec597ea4a464068bc7935e77dc76887
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743898092761
+status: 3
+tags: []
+user_id: jessicawells

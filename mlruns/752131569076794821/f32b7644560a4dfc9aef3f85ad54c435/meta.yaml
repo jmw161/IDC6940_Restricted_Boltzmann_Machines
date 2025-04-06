@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/f32b7644560a4dfc9aef3f85ad54c435/artifacts
+end_time: 1743869337472
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: f32b7644560a4dfc9aef3f85ad54c435
+run_name: rogue-shoat-299
+run_uuid: f32b7644560a4dfc9aef3f85ad54c435
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743869317373
+status: 3
+tags: []
+user_id: jessicawells

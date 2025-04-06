@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/17858634bfaf4e2cb83fbfff7e02cd5f/artifacts
+end_time: 1743899163839
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 17858634bfaf4e2cb83fbfff7e02cd5f
+run_name: adventurous-crab-767
+run_uuid: 17858634bfaf4e2cb83fbfff7e02cd5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743899135228
+status: 3
+tags: []
+user_id: jessicawells

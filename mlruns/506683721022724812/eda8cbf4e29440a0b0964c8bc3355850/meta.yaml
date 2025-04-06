@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/eda8cbf4e29440a0b0964c8bc3355850/artifacts
+end_time: 1743898607512
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: eda8cbf4e29440a0b0964c8bc3355850
+run_name: able-kite-960
+run_uuid: eda8cbf4e29440a0b0964c8bc3355850
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743898594724
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/5838a63fdf954649bd8105ccd43f7472/artifacts
+end_time: 1743868619506
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 5838a63fdf954649bd8105ccd43f7472
+run_name: upbeat-mouse-236
+run_uuid: 5838a63fdf954649bd8105ccd43f7472
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743868602913
+status: 3
+tags: []
+user_id: jessicawells

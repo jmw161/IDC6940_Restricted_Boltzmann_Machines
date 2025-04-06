@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/da702df318c94c02b3161927dcdeff69/artifacts
+end_time: 1743879373313
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: da702df318c94c02b3161927dcdeff69
+run_name: sassy-newt-786
+run_uuid: da702df318c94c02b3161927dcdeff69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743879289013
+status: 3
+tags: []
+user_id: jessicawells

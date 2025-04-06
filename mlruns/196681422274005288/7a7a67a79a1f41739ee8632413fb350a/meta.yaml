@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/7a7a67a79a1f41739ee8632413fb350a/artifacts
+end_time: 1743876348103
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 7a7a67a79a1f41739ee8632413fb350a
+run_name: powerful-calf-128
+run_uuid: 7a7a67a79a1f41739ee8632413fb350a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743876318177
+status: 3
+tags: []
+user_id: jessicawells

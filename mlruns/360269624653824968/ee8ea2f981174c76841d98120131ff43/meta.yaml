@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/ee8ea2f981174c76841d98120131ff43/artifacts
+end_time: 1743864922851
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: ee8ea2f981174c76841d98120131ff43
+run_name: bold-stork-714
+run_uuid: ee8ea2f981174c76841d98120131ff43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743864916188
+status: 3
+tags: []
+user_id: jessicawells

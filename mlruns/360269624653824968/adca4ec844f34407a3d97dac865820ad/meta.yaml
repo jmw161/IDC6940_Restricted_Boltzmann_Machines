@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/adca4ec844f34407a3d97dac865820ad/artifacts
+end_time: 1743898594672
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: adca4ec844f34407a3d97dac865820ad
+run_name: omniscient-duck-698
+run_uuid: adca4ec844f34407a3d97dac865820ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743898589070
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/cb24d98108ab4b78afa6e10a8d1daedc/artifacts
+end_time: 1743897549730
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: cb24d98108ab4b78afa6e10a8d1daedc
+run_name: bald-sheep-144
+run_uuid: cb24d98108ab4b78afa6e10a8d1daedc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743897534482
+status: 3
+tags: []
+user_id: jessicawells

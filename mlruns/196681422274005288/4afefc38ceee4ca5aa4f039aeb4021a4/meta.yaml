@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/4afefc38ceee4ca5aa4f039aeb4021a4/artifacts
+end_time: 1743892804290
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 4afefc38ceee4ca5aa4f039aeb4021a4
+run_name: able-dolphin-753
+run_uuid: 4afefc38ceee4ca5aa4f039aeb4021a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743892771183
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/2862e760887741d5859a01cfc874ad8c/artifacts
+end_time: 1743873178755
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 2862e760887741d5859a01cfc874ad8c
+run_name: enchanting-hog-788
+run_uuid: 2862e760887741d5859a01cfc874ad8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743873150433
+status: 3
+tags: []
+user_id: jessicawells

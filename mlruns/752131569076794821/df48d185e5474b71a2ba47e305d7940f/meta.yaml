@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/df48d185e5474b71a2ba47e305d7940f/artifacts
+end_time: 1743868738755
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: df48d185e5474b71a2ba47e305d7940f
+run_name: big-croc-745
+run_uuid: df48d185e5474b71a2ba47e305d7940f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743868703842
+status: 3
+tags: []
+user_id: jessicawells

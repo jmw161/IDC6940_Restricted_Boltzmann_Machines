@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/8b6639bb3fb848868b112c793541038a/artifacts
+end_time: 1743869282726
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 8b6639bb3fb848868b112c793541038a
+run_name: gregarious-calf-246
+run_uuid: 8b6639bb3fb848868b112c793541038a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743869249690
+status: 3
+tags: []
+user_id: jessicawells

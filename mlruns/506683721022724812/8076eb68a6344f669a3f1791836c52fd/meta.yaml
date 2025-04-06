@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/8076eb68a6344f669a3f1791836c52fd/artifacts
+end_time: 1743873150414
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 8076eb68a6344f669a3f1791836c52fd
+run_name: burly-rat-949
+run_uuid: 8076eb68a6344f669a3f1791836c52fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743873132897
+status: 3
+tags: []
+user_id: jessicawells

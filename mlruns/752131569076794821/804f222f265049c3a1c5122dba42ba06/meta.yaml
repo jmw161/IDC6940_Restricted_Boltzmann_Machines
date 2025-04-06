@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/804f222f265049c3a1c5122dba42ba06/artifacts
+end_time: 1743876979866
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 804f222f265049c3a1c5122dba42ba06
+run_name: merciful-gull-878
+run_uuid: 804f222f265049c3a1c5122dba42ba06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743876938189
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/1cf23bb26ec84de19987865bb20b2ba9/artifacts
+end_time: 1743894304370
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 1cf23bb26ec84de19987865bb20b2ba9
+run_name: able-gull-229
+run_uuid: 1cf23bb26ec84de19987865bb20b2ba9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743894298853
+status: 3
+tags: []
+user_id: jessicawells

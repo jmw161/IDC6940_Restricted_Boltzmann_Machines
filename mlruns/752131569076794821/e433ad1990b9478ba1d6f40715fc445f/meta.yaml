@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/e433ad1990b9478ba1d6f40715fc445f/artifacts
+end_time: 1743865094392
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: e433ad1990b9478ba1d6f40715fc445f
+run_name: marvelous-hog-748
+run_uuid: e433ad1990b9478ba1d6f40715fc445f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743865069591
+status: 3
+tags: []
+user_id: jessicawells

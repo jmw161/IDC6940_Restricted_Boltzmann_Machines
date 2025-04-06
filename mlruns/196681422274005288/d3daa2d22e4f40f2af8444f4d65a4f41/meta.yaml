@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/d3daa2d22e4f40f2af8444f4d65a4f41/artifacts
+end_time: 1743896959911
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: d3daa2d22e4f40f2af8444f4d65a4f41
+run_name: sedate-donkey-79
+run_uuid: d3daa2d22e4f40f2af8444f4d65a4f41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743896921423
+status: 3
+tags: []
+user_id: jessicawells

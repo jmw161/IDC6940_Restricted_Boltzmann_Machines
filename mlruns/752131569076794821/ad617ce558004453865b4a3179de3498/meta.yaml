@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/ad617ce558004453865b4a3179de3498/artifacts
+end_time: 1743882155962
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: ad617ce558004453865b4a3179de3498
+run_name: blushing-seal-983
+run_uuid: ad617ce558004453865b4a3179de3498
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743882129685
+status: 3
+tags: []
+user_id: jessicawells

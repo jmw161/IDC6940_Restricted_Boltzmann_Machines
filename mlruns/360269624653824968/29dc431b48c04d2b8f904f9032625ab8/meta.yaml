@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/29dc431b48c04d2b8f904f9032625ab8/artifacts
+end_time: 1743892750210
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 29dc431b48c04d2b8f904f9032625ab8
+run_name: magnificent-fox-591
+run_uuid: 29dc431b48c04d2b8f904f9032625ab8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743892744583
+status: 3
+tags: []
+user_id: jessicawells

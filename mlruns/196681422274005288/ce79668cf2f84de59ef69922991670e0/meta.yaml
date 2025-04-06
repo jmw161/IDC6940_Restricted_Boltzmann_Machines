@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/ce79668cf2f84de59ef69922991670e0/artifacts
+end_time: 1743878394924
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: ce79668cf2f84de59ef69922991670e0
+run_name: unique-crane-844
+run_uuid: ce79668cf2f84de59ef69922991670e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743878363135
+status: 3
+tags: []
+user_id: jessicawells

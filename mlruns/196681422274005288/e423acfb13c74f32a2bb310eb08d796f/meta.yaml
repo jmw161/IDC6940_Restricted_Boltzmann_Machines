@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/e423acfb13c74f32a2bb310eb08d796f/artifacts
+end_time: 1743879288961
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: e423acfb13c74f32a2bb310eb08d796f
+run_name: flawless-croc-872
+run_uuid: e423acfb13c74f32a2bb310eb08d796f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743879248962
+status: 3
+tags: []
+user_id: jessicawells

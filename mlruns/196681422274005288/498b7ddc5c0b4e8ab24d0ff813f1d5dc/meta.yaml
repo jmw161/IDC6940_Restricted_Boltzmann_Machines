@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/498b7ddc5c0b4e8ab24d0ff813f1d5dc/artifacts
+end_time: 1743873546460
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 498b7ddc5c0b4e8ab24d0ff813f1d5dc
+run_name: welcoming-snipe-395
+run_uuid: 498b7ddc5c0b4e8ab24d0ff813f1d5dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743873495985
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/185b4d7fe9324631895c3a8d90de6606/artifacts
+end_time: 1743870534609
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 185b4d7fe9324631895c3a8d90de6606
+run_name: valuable-panda-910
+run_uuid: 185b4d7fe9324631895c3a8d90de6606
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743870529099
+status: 3
+tags: []
+user_id: jessicawells

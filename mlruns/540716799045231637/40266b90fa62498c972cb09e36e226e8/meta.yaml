@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/40266b90fa62498c972cb09e36e226e8/artifacts
+end_time: 1743880208650
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 40266b90fa62498c972cb09e36e226e8
+run_name: omniscient-hawk-853
+run_uuid: 40266b90fa62498c972cb09e36e226e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743880146376
+status: 3
+tags: []
+user_id: jessicawells

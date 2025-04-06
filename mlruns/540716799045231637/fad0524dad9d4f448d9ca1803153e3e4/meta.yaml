@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/fad0524dad9d4f448d9ca1803153e3e4/artifacts
+end_time: 1743897631353
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: fad0524dad9d4f448d9ca1803153e3e4
+run_name: persistent-frog-656
+run_uuid: fad0524dad9d4f448d9ca1803153e3e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743897601131
+status: 3
+tags: []
+user_id: jessicawells

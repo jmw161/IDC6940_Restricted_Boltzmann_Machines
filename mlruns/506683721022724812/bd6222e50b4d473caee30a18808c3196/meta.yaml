@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/bd6222e50b4d473caee30a18808c3196/artifacts
+end_time: 1743869972700
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: bd6222e50b4d473caee30a18808c3196
+run_name: valuable-yak-8
+run_uuid: bd6222e50b4d473caee30a18808c3196
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743869957597
+status: 3
+tags: []
+user_id: jessicawells

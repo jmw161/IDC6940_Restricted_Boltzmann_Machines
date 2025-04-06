@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/99d78f62477d4880bcf29d95d53f1f95/artifacts
+end_time: 1743877460441
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 99d78f62477d4880bcf29d95d53f1f95
+run_name: sassy-robin-437
+run_uuid: 99d78f62477d4880bcf29d95d53f1f95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743877448471
+status: 3
+tags: []
+user_id: jessicawells

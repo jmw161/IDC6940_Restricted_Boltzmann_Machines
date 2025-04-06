@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/68841a75fb514685a805a458e6b36d7c/artifacts
+end_time: 1743870614320
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 68841a75fb514685a805a458e6b36d7c
+run_name: clumsy-calf-146
+run_uuid: 68841a75fb514685a805a458e6b36d7c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743870571995
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,15 +1,18 @@
 ---
-title: "Present a great story for data science projects"
-subtitle: "This is a Slide Template"
-author: "Students names (Advisor: Dr. Cohen)"
+title: "Restricted Boltzmann Machines"
+subtitle: "Theory of RBMs and Applications"
+author: "Jessica Wells and Jason Gerstenberger (Advisor: Dr. Cohen)"
 date: '`r Sys.Date()`'
 format:
-  revealjs
+  revealjs:
+    code-overflow: scroll
+    scrollable: true
 course: Capstone Projects in Data Science
 bibliography: references.bib # file contains bibtex for references
 #always_allow_html: true # this allows to get PDF with HTML features
 self-contained: true
 execute: 
+  echo: true
   warning: false
   message: false
 editor: 
@@ -17,101 +20,1661 @@ editor:
     wrap: 72
 ---
 
-::: callout-important
-**Remember:** Your goal is to make your audience understand and care
-about your findings. By crafting a compelling story, you can effectively
-communicate the value of your data science project.
 
-Carefully read this template since it has instructions and tips to
-writing!
+## Introduction
 
-More information about `revealjs`:
-<https://quarto.org/docs/reference/formats/presentations/revealjs.html>
-:::
+### Background
 
-## Introduction  {.smaller}
+Restricted Boltzmann Machines (RBM) are a type of neural network that
+has been around since the 1980s. RBMs are
+primarily used for unsupervised learning tasks like dimensionality
+reduction and feature extraction, which help prepare datasets for
+machine learning models that may later be trained using supervised
+learning. 
 
--   Develop a storyline that captures attention and maintains interest.
+Like Hopfield networks, Boltzmann machines are undirected graphical
+models, but they are different in that they are stochastic and can have
+hidden units. Both models are energy-based, meaning they learn by
+minimizing an energy function for each model
+[@smolensky1986information]. Boltzmann machines use a sigmoid activation
+function, which allows for the model to be probabilistic.
 
--   Your audience is your peers
+In the "Restricted" Boltzmann Machine, there are no interactions between
+neurons in the visible layer or between neurons in the hidden layer,
+creating a bipartite graph of neurons. Below is a diagram taken from
+Goodfellow, et al. [@Goodfellow-et-al-2016] (p. 577) for visualization
+of the connections.
 
--   Clearly state the problem or question you're addressing.
 
--   Introduce why it is relevant needs.
+![](markov_net.png){width="60%"} <br>
 
--   Provide an overview of your approach.
+## More on Restricted Boltzmann Machines
 
-In kernel estimator, weight function is known as kernel function
-[@efr2008]. Cite this paper [@bro2014principal]. The GEE [@wang2014].
-The PCA [@daffertshofer2004pca]\*
+Goodfellow, et al. discuss the expense in drawing samples for most
+undirected graphical models; however, the RBM allows for block Gibbs
+sampling (p. 578) where the network alternates between sampling all
+hidden units simultaneously (etc. for visible). Derivatives are also
+simplified by the fact that the energy function of the RBM is a linear
+function of it's parameters, which will be seen further in Methods.
+
+RBMs are trained using a process called Contrastive Divergence (CD)
+[@hinton2002training] where the weights are updated to minimize the
+difference between samples from the data and samples from the model.
+Learning rate, batch size, and number of hidden units are all
+hyperparameters that can affect the ability of the training to converge
+successfully and learn the underlying structure of the data.
+
+## Applications
+
+RBMs are probably best known for their success in collaborative
+filtering. The RBM model was used in the Netflix Prize competition to
+predict user ratings for movies, with the result that it outperformed
+the Singular Value Decomposition (SVD) method that was state-of-the-art
+at the time [@salakhutdinov2007restricted]. They have also been trained
+to recognize handwritten digits, such as the MNIST dataset
+[@hinton2002training].
+
+RBMs have been successfully used to distinguish normal and anomalous
+network traffic. Their potential use in improving network security for
+companies in the future is promising. There is slow progress in network
+anomaly detection due to the difficulty of obtaining datasets for
+training and testing networks. Clients are often reluctant to divulge
+information that could potentially harm their networks. In a real-life
+dataset where one host had normal traffic and one was infected by a bot,
+discriminative RBM (DRBM) was able to successfully distinguish the
+normal from anomalous traffic. DRBM doesn't rely on knowing the data
+distribution ahead of time, which is useful, except that it also causes
+the DRBM to overfit. As a result, when trying to use the same trained
+RBM on the KDD '99 training dataset performance declined.
+[@fiore2013network]
+
+RBMs can provide greatly improved classification of brain disorders in
+MRI images. Generative Adversarial Networks (GANs) use two neural
+networks: a generator which generates fake data, and a discriminator
+which tries to distinguish between real and fake data. Loss from the
+discriminator is backpropagated through the generator so that both part
+are trained simultaneously. The RBM-GAN uses RBM features from real MRI
+images as inputs to the generator. Features from the discriminator are
+then used as inputs to a classifier. [@aslan2023automated]
+
+The many-body quantum wavefunction, which describes the quantum state of
+a system of particles is difficult to compute with classical computers.
+RBMs have been used to approximate it using variational Monte Carlo
+methods. [@melko2019restricted]
+
+RBMs are notoriously slow to train. The process of computing the
+activation probability requires the calculation of vector dot products.
+Lean Constrastive Divergence (LCD) is a method which adds two techniques
+to speed up the process of training RBMs. The first is bounds-based
+filtering where upper and lower bounds of the probability select only a
+range of dot products to perform. Second, the delta product involves
+only recalculating the changed portions of the vector dot product.
+[@ning2018lcd]
 
 ## Methods
 
--   Detail the models or algorithms used.
+Below is the energy function of the RBM.
 
--   Justify your choices based on the problem and data.
+$$
+E(v,h) = - \sum_{i} a_i v_i - \sum_{j} b_j h_j - \sum_{i} \sum_{j} v_i w_{i,j} h_j
+$$ {#eq-energy} where v<sub>i</sub> and h<sub>j</sub> represent visible
+and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bias terms of
+the visible and hidden units; and each w<sub>{i,j}</sub> (weight)
+element represents the interaction between the visible and hidden units.
+[@fischer2012introduction]
+
+
+## Background on Models for Classification Task
+
+We train Logistic Regression (with and without RBM features as input),
+Feed Forward Network (with and without RBM features as input), and
+Convolutional Neural Network. Below is a brief reminder of the basics of
+each model.<br>
+
+For the models incoroporating the RBM, we take the Fashion MNIST
+features/pixels and train the RBM (unsupervised learning) to extract
+hidden features from the visible layer and then feed these features into
+either logistic regression or feed forward network. We then use the
+trained model to predict labels for the test data, evaluating how well
+the RBM-derived features perform in a supervised classification task.
+
+### 1. Logistic Regression
+
+Mathematically, the concept behind binary logistic regression is the
+logit (the natural logarithm of an odds ratio)[@peng2002introduction].
+However, since we have 10 labels, our classification task falls into
+"Multinomial Logistic Regression."
+
+$$
+P(Y = k | X) = \frac{e^{\beta_{0k} + \beta_k^T X}}{\sum_{l=1}^{K} e^{\beta_{0l} + \beta_l^T X}}
+$$ {#eq-probability-lr}
+
+### 2. Simple Feed Forward Neural Network
+
+The feed forward network (FNN) is one where information flows in one
+direction from input to output with no loops or feedback. There can be
+zero hidden layers in between (called single FNN) or one or more hidden
+layers (multilayer FNN). <br> [@sazli2006brief]
+![](fnn_diagram.png){width="60%"}<br>
+
+### 3. Convolutional Neural Network
+
+The convolutional neural network (CNN) is a type of feed forward network
+except that unlike the traditional ANN, CNNs are primarily used for
+pattern recognition with images
+[@oshea2015introductionconvolutionalneuralnetworks]. The CNN has 3
+layers which are stacked to form the full CNN: convolutional, pooling,
+and fully-connected layers. ![](cnn_diagram_mnist.png){width="60%"}<br>
+
+## Creating the RBM
+
+Below is our Process for creating the RBM:
+
+Step 1: We first initialize the RBM with random weights and biases and
+set visible units to 784 and hidden units to 256. We also set the number
+of contrastive divergence steps (k) to 1. </br> Step 2: Sample hidden
+units from visible. The math behind computing the hidden unit
+activations from the given input can be seen in [@eq-probability-rbm1]
+[@fischer2012introduction] where the probability is used to sample from
+the Bernoulli distribution. </br> $$
+p(H_i = 1 | \mathbf{v}) = \sigma \left( \sum_{j=1}^{m} w_{ij} v_j + c_i \right)
+$$ {#eq-probability-rbm1}
+
+where p(.) is the probability of the i<sup>th</sup> hidden state being
+activated (=1) given the visible input vector. σ is the sigmoid
+activation function (below) which maps the weighted sum to a probability
+between 0 and 1. m is the number of visible units. w<sub>ij</sub> is the
+weight connecting visible unit j to hidden unit i. v<sub>j</sub> is the
+value of the j<sup>th</sup> visible unit. and c<sub>i</sub> is the bias
+term for the hidden unit. $$
+\sigma(x) = \frac{1}{1 + e^{-x}}
+$$
+
+Step 3: Sample visible units from hidden. The math behind computing
+visible unit activations from the hidden layer can be seen in
+[@eq-probability-rbm2] [@fischer2012introduction] Visible states are
+sampled using the Bernoulli distribution. This way we can see how well
+the RBM learned from the inputs. </br> $$
+p(V_j = 1 | \mathbf{h}) = \sigma \left( \sum_{i=1}^{n} w_{ij} h_i + b_j \right)
+$$ {#eq-probability-rbm2}
+
+where p(.) is the probability of the i<sup>th</sup> visible unit being
+activated (=1) given the hidden vector h. σ is same as above. n is the
+number of hidden units. w<sub>ij</sub> is the weight connecting hidden
+unit i to visible unit j. b<sub>j</sub> is the bias term for the
+j<sup>th</sup> visible unit.\
+Step 4: K=1 steps of Contrastive Divergence (Feed Forward, Feed
+Backward) which executes steps 2 and 3. Contrastive Divergence updates
+the RBM’s weights by minimizing the difference between the original
+input and the reconstructed input created by the RBM. </br> Step 5: Free
+energy is computed. The free energy F is given by the logarithm of the
+partition function Z [@oh2020entropy] where the partition function is
+<br> $$
+Z(\theta) \equiv \sum_{v,h} e^{-E(v,h; \theta)}
+$$ {#eq-partition} and the free energy function is <br> $$
+F(\theta) = -\ln Z(\theta)
+$$ {#eq-free-energy} where lower free energy means the RBM learned the
+visible state well.
+
+Step 6: Train the RBM. Model weights updated via gradient descent.<br>
+Step 7: Feature extraction for classification with LR. The hidden layer
+activations of the RBM are used as features for Logistic Regression and
+Feed Forward Network.
+
+## Hyperparameter Tuning
+
+We use the Tree-structured Parzen Estimator algorithm from Optuna
+[@akiba2019optuna] to tune the hyperparameters of the RBM and the
+classifier models, and we use MLFlow [@zaharia2018accelerating] to
+record and visualize the results of the hyperparameter tuning process.
+The hyperparameters we tune include the learning rate, batch size,
+number of hidden units, and number of epochs.
+
+## Metrics Used
+
+<b>1. Accuracy</b><br> Accuracy is defined as the number of correct
+classifications divided by the total number of classifications<br> $$
+\text{Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}} 
+$$
+
+<b>2. Macro F1 Score</b><br> Macro F1 score is the unweighted average of
+the individual F1 scores of each class. It takes no regard for class
+imbalance; however, we saw earlier the classes are all balanced in
+Fashion MNIST. The F1 score for each individual class is as follows $$
+\text{F1} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$ where precision for each class is $$
+\text{Precision} = \frac{TP}{TP + FP}
+$$ and recall for each class is $$
+\text{Recall} = \frac{TP}{TP + FN}
+$$ The definitions of these terms for multiclass problems are more
+complicated than binary and are best displayed as examples. <br>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-gmla{border-color:inherit;font-size:16px;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+
+| **Acronymn** | **Example for a trouser image** |
+|-----------------------|----------------------------------------------|
+| TP = True Positives | the image is a trouser and the model predicts a trouser |
+| TN = True Negatives | the image is not a trouser and the model predicts anything but trouser |
+| FP = False Positives | the image is anything but trouser but the model predicts trouser |
+| FN = False Negatives | the image is a trouser and the model predicts another class (like shirt) |
+
+As stated earlier, the individual F1 scores for each class are taken and
+averaged to compute the Macro F1 score in a multiclass problem like
+Fashion MNIST.
+
+
+## Analysis and Results
+
+### Data Exploration and Visualization
+
+We use the Fashion MNIST dataset from Zalando Research
+[@xiao2017/online]. The set includes 70,000 grayscale images of clothing
+items, 60,000 for training and 10,000 for testing. Each image is 28x28
+pixels (784 pixels total). Each pixel has a value associated with it
+ranging from 0 (white) to 255 (very dark) -- whole numbers only. There
+are 785 columns in total as one column is dedicated to the label.
+
+![](fmnist.png){width="60%"} <br>
+
+There are 10 labels in total:<br>
+
+0 T-shirt/top<br> 1 Trouser<br> 2 Pullover<br> 3 Dress<br> 4 Coat<br> 5
+Sandal<br> 6 Shirt<br> 7 Sneaker<br> 8 Bag<br> 9 Ankle boot<br>
+
+Below we load the dataset.
+
+```{python}
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+import torch
+import torchvision.datasets
+import torchvision.models
+import torchvision.transforms as transforms
+import matplotlib.pyplot as plt
 
 
 
-## Data Exploration and Visualization
+train_data = torchvision.datasets.FashionMNIST(
+    root="./data", 
+    train=True, 
+    download=True, 
+    transform=transforms.ToTensor()  # Converts to tensor but does NOT normalize
+)
 
--   Describe your data sources and collection process.
+test_data = torchvision.datasets.FashionMNIST(
+    root="./data", 
+    train=False, 
+    download=True, 
+    transform=transforms.ToTensor()  
+)
 
--   Present initial findings and insights through visualizations.
-
--   Highlight unexpected patterns or anomalies.
-
-## Data Exploration and Visualization {.smaller}
-
-A study was conducted to determine how...
-
-```{r, warning=FALSE, echo=F, message=FALSE}
-# loading packages 
-library(tidyverse)
-library(knitr)
-library(ggthemes)
-library(ggrepel)
-library(dslabs)
 ```
 
-```{r, warning=FALSE, echo=F}
-# Load Data
-#kable(head(murders))
+Get the seventh image to show a sample
 
-ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total)) 
+```{python}
+# Extract the first image (or choose any index)
+image_tensor, label = train_data[6]  # shape: [1, 28, 28]
 
-  ggplot1 + geom_point(aes(col=region), size = 4) +
-  geom_text_repel(aes(label=abb)) +
-  scale_x_log10() +
-  scale_y_log10() +
-  geom_smooth(formula = "y~x", method=lm,se = F)+
-  xlab("Populations in millions (log10 scale)") + 
-  ylab("Total number of murders (log10 scale)") +
-  ggtitle("US Gun Murders in 2010") +
-  scale_color_discrete(name = "Region")+
-      theme_bw()
-  
+# Convert tensor to NumPy array
+image_array = image_tensor.numpy().squeeze()  
+
+# Plot the image
+plt.figure(figsize=(5,5))
+plt.imshow(image_array, cmap="gray")
+plt.title(f"FashionMNIST Image (Label: {label})")
+plt.axis("off")  # Hide axes
+plt.show()
+```
+
+```{python}
+train_images = train_data.data.numpy()  # Raw pixel values (0-255)
+train_labels = train_data.targets.numpy()
+X = train_images.reshape(-1, 784)  # Flatten 28x28 images into 1D (60000, 784)
 
 ```
+
+```{python}
+#print(train_images[:5])
+flattened = train_images[:5].reshape(5, -1) 
+
+# Create a DataFrame
+df_flat = pd.DataFrame(flattened)
+print(df_flat.head())
+#train_df.info() #datatypes are integers
+```
+
+There are no missing values in the data.
+
+```{python}
+print(np.isnan(train_images).any()) 
+```
+
+<b>There appears to be no class imbalance</b>
+
+```{python}
+
+unique_labels, counts = np.unique(train_labels, return_counts=True)
+
+# Print the counts sorted by label
+for label, count in zip(unique_labels, counts):
+    print(f"Label {label}: {count}")
+```
+
+```{python}
+print(f"X shape: {X.shape}")
+```
+
+## t-SNE Visualization of Classes
+
+<b>t-SNE Visualization</b><br> t-distributed Stochastic Neighbor
+Embedding (t-SNE) is used here to visualize the separation between
+classes in a high-dimensional dataset.<br> Each point represents a
+single fashion item (e.g., T-shirt, Trouser, etc.), and the color
+corresponds to its true label across the 10 categories listed above.
+
+```{python, cache = TRUE}
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+
+# Run t-SNE to reduce dimensionality
+#embeddings = TSNE(n_jobs=2).fit_transform(X)
+
+tsne = TSNE(n_jobs=-1, random_state=42)  # Use -1 to use all available cores
+embeddings = tsne.fit_transform(X) #use scikitlearn instead
+
+
+# Create scatter plot
+figure = plt.figure(figsize=(15,7))
+plt.scatter(embeddings[:, 0], embeddings[:, 1], c=train_labels,
+            cmap=plt.cm.get_cmap("jet", 10), marker='.')
+plt.colorbar(ticks=range(10))
+plt.clim(-0.5, 9.5)
+plt.title("t-SNE Visualization of Fashion MNIST")
+plt.show()
+```
+
+<b>What the visualization shows:</b> <br> Class 1 (blue / Trousers)
+forms a clearly distinct and tightly packed cluster, indicating that the
+pixel patterns for trousers are less similar to those of other classes.
+In contrast, Classes 4 (Coat), 6 (Shirt), and 2 (Pullover) show
+significant overlap, suggesting that these clothing items are harder to
+distinguish visually and may lead to more confusion during
+classification.
+
+
 
 ## Modeling and Results
 
--   Explain your data preprocessing and cleaning steps.
 
--   Present your key findings in a clear and concise manner.
+<b>Our Goal</b><br> We are classifying Fashion MNIST images into one of
+10 categories. To evaluate performance, we’re comparing five different
+models — some trained on raw pixel values and others using features
+extracted by a Restricted Boltzmann Machine (RBM). Our objective is to
+assess whether incorporating RBM into the workflow improves
+classification accuracy compared to using raw image data alone.<br>
 
--   Use visuals to support your claims.
+## Our Models
+1. Logistic Regression on Fashion MNIST Data<br>
+2. Feed Forward Network on Fashion MNIST Data<br> 3. Convolutional
+Neural Network on Fashion MNIST Data<br> 4. Logistic Regression on RBM
+Hidden Features (of Fashion MNIST Data)<br> 5. Feed Forward Network on
+RBM Hidden Features (of Fashion MNIST Data)<br>
 
--   **Tell a story about what the data reveals.**
+<b>Note: Outputs (50 trials) and Code are below for each model. Both the
+code and output can be toggled by the reader.</b><br> • The first click
+reveals a toggle labeled “Code”.<br> • Clicking “Code” will show the
+output.<br> • Clicking again will switch from output to the actual
+code.<br> • Clicking “Show Code and Output” again will collapse both
+views.<br>
 
-```{r}
 
+<b>Import Libraries and Re-load data for first 3 models</b>
+
+```{python}
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torch.nn.functional as F
+from torchvision import datasets, transforms
+import numpy as np
+import mlflow
+import optuna
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+from torch.utils.data import DataLoader
+
+# Set device
+device = torch.device("mps")
+
+# Load Fashion-MNIST dataset again for the first 3 models
+transform = transforms.Compose([transforms.ToTensor()])
+train_dataset = datasets.FashionMNIST(root='./data', train=True, transform=transform, download=True)
+test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=transform, download=True)
 ```
+
+```{python}
+#mlflow.end_run()
+#run this in terminal when need to fully clean out expierment after you delete it in the ui
+#rm -rf mlruns/.trash/*
+```
+
+
+## Model 1
+
+<b>Model 1: Logistic Regression on Fashion MNIST Data</b><br>
+
+<details>
+
+<summary>Click to Show Code and Output</summary>
+
+```{python}
+from sklearn.metrics import f1_score
+
+CLASSIFIER = "LogisticRegression"  # Change for FNN, LogisticRegression, or CNN
+
+
+
+# Define CNN model
+class FashionCNN(nn.Module):
+    def __init__(self, filters1, filters2, kernel1, kernel2):
+        super(FashionCNN, self).__init__()
+        self.layer1 = nn.Sequential(
+            nn.Conv2d(in_channels=1, out_channels=filters1, kernel_size=kernel1, padding=1),
+            nn.BatchNorm2d(filters1),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2)
+        )
+        self.layer2 = nn.Sequential(
+            nn.Conv2d(in_channels=filters1, out_channels=filters2, kernel_size=kernel2),
+            nn.BatchNorm2d(filters2),
+            nn.ReLU(),
+            nn.MaxPool2d(2)
+        )
+        self.fc1 = None #initialize first fully connected layer as none, defined later in fwd
+        self.drop = nn.Dropout2d(0.25)
+        self.fc2 = nn.Linear(in_features=600, out_features=120)
+        self.fc3 = nn.Linear(in_features=120, out_features=10)
+        
+
+    def forward(self, x):
+        out = self.layer1(x)
+        out = self.layer2(out)
+        #Flatten tensor dynamically, preserve batch size
+        out = out.view(out.size(0), -1) 
+        if self.fc1 is None:
+            self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)
+        out = self.fc1(out)
+        out = self.drop(out)
+        out = self.fc2(out)
+        out = self.fc3(out)
+        return out
+
+
+# Define Optuna objective function
+def objective(trial):
+      # Set MLflow experiment name
+    if CLASSIFIER == "LogisticRegression":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-noRBM")
+    elif CLASSIFIER == "FNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-noRBM")
+    elif CLASSIFIER == "CNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-cnn-noRBM")
+    batch_size = trial.suggest_int("batch_size", 64, 256, step=32)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
+    mlflow.start_run(experiment_id=experiment.experiment_id)
+    num_classifier_epochs = trial.suggest_int("num_classifier_epochs", 5, 5) 
+    mlflow.log_param("num_classifier_epochs", num_classifier_epochs)
+
+    if CLASSIFIER == "FNN":
+        hidden_size = trial.suggest_int("fnn_hidden", 192, 384)
+        learning_rate = trial.suggest_float("learning_rate", 0.0001, 0.0025)
+
+        mlflow.log_param("classifier", "FNN")
+        mlflow.log_param("fnn_hidden", hidden_size)
+        mlflow.log_param("learning_rate", learning_rate)
+
+        model = nn.Sequential(
+            nn.Linear(784, hidden_size), 
+            nn.ReLU(),
+            nn.Linear(hidden_size, 10)
+        ).to(device)
+
+
+        optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+    elif CLASSIFIER == "CNN":
+        filters1 = trial.suggest_int("filters1", 16, 64, step=16)
+        filters2 = trial.suggest_int("filters2", 32, 128, step=32)
+        kernel1 = trial.suggest_int("kernel1", 3, 5)
+        kernel2 = trial.suggest_int("kernel2", 3, 5)
+        learning_rate = trial.suggest_float("learning_rate", 0.0001, 0.0025)
+
+        mlflow.log_param("classifier", "CNN")
+        mlflow.log_param("filters1", filters1)
+        mlflow.log_param("filters2", filters2)
+        mlflow.log_param("kernel1", kernel1)
+        mlflow.log_param("kernel2", kernel2)
+        mlflow.log_param("learning_rate", learning_rate)
+
+        model = FashionCNN(filters1, filters2, kernel1, kernel2).to(device)
+        optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+      
+    elif CLASSIFIER == "LogisticRegression":
+        mlflow.log_param("classifier", "LogisticRegression")
+    
+        # Prepare data for Logistic Regression (Flatten 28x28 images to 784 features)
+        train_features = train_dataset.data.view(-1, 784).numpy()
+        train_labels = train_dataset.targets.numpy()
+        test_features = test_dataset.data.view(-1, 784).numpy()
+        test_labels = test_dataset.targets.numpy()
+    
+        # Normalize the pixel values to [0,1] for better convergence
+        train_features = train_features / 255.0
+        test_features = test_features / 255.0
+    
+    
+        C = trial.suggest_float("C", 0.01, 10.0, log=True)  
+        solver = "saga" 
+    
+        model = LogisticRegression(C=C, max_iter=num_classifier_epochs, solver=solver)
+        model.fit(train_features, train_labels)
+    
+    
+        predictions = model.predict(test_features)
+        accuracy = accuracy_score(test_labels, predictions) * 100
+        
+        macro_f1 = f1_score(test_labels, predictions, average="macro") #for f1
+        print(f"Logistic Regression Test Accuracy: {accuracy:.2f}%")
+        print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
+    
+        mlflow.log_param("C", C)
+        mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) #for f1
+        mlflow.end_run()
+        return accuracy
+
+    # Training Loop for FNN and CNN
+    criterion = nn.CrossEntropyLoss()
+
+
+    model.train()
+    for epoch in range(num_classifier_epochs):
+        running_loss = 0.0
+        for images, labels in train_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images) if CLASSIFIER == "CNN" else model(images.view(images.size(0), -1))
+
+            optimizer.zero_grad()
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
+            running_loss += loss.item()
+
+        print(f"{CLASSIFIER} Epoch {epoch+1}: loss = {running_loss / len(train_loader):.4f}")
+
+    # Model Evaluation
+    model.eval()
+    correct, total = 0, 0
+    all_preds = []   # for f1
+    all_labels = [] 
+    with torch.no_grad():
+        for images, labels in test_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images) if CLASSIFIER == "CNN" else model(images.view(images.size(0), -1))
+            _, predicted = torch.max(outputs, 1)
+            total += labels.size(0)
+            correct += (predicted == labels).sum().item()
+            all_preds.extend(predicted.cpu().numpy())   #for f1
+            all_labels.extend(labels.cpu().numpy()) #for f1
+
+    accuracy = 100 * correct / total
+    macro_f1 = f1_score(all_labels, all_preds, average="macro") #for f1
+    print(f"Test Accuracy: {accuracy:.2f}%")
+    print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
+
+    mlflow.log_metric("test_accuracy", accuracy)
+    mlflow.log_metric("macro_f1", macro_f1) #for f1
+    mlflow.end_run()
+    return accuracy
+
+if __name__ == "__main__":
+    study = optuna.create_study(direction="maximize")
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
+    print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
+    print("Best Accuracy:", study.best_value)
+```
+
+</details>
+
+Test Accuracy of Logistic Regression by C (inverse regularization
+strength) ![](logreg_norbm.png){width="60%"}<br>
+
+
+$$
+C = \frac{1}{\lambda} \quad \text{(inverse regularization strength)}
+$$
+
+Lower values of C mean more regularization (higher penalties for larger weight coefficients)
+
+What the plot shows:<br>
+Most optuna trials were lower values of C, so optimization favors stronger regularization. This is further evidenced by the clustering of higher accuracies for lower values of C. A possibly anomaly is seen at C=10 with fairly high accuracy; however, it's still not higher than lower values of C. <br>
+
+## Model 2
+
+<b>Model 2: Feed Forward Network on Fashion MNIST Data</b>
+
+<details>
+
+<summary>Click to Show Code and Output</summary>
+
+```{python}
+from sklearn.metrics import f1_score
+
+CLASSIFIER = "FNN"  # Change for FNN, LogisticRegression, or CNN
+
+# Define CNN model
+class FashionCNN(nn.Module):
+    def __init__(self, filters1, filters2, kernel1, kernel2):
+        super(FashionCNN, self).__init__()
+        self.layer1 = nn.Sequential(
+            nn.Conv2d(in_channels=1, out_channels=filters1, kernel_size=kernel1, padding=1),
+            nn.BatchNorm2d(filters1),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2)
+        )
+        self.layer2 = nn.Sequential(
+            nn.Conv2d(in_channels=filters1, out_channels=filters2, kernel_size=kernel2),
+            nn.BatchNorm2d(filters2),
+            nn.ReLU(),
+            nn.MaxPool2d(2)
+        )
+        self.fc1 = None #initialize first fully connected layer as none, defined later in fwd
+        self.drop = nn.Dropout2d(0.25)
+        self.fc2 = nn.Linear(in_features=600, out_features=120)
+        self.fc3 = nn.Linear(in_features=120, out_features=10)
+        
+
+    def forward(self, x):
+        out = self.layer1(x)
+        out = self.layer2(out)
+        #Flatten tensor dynamically
+        out = out.view(out.size(0), -1)
+        if self.fc1 is None:
+            self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)
+        out = self.fc1(out)
+        out = self.drop(out)
+        out = self.fc2(out)
+        out = self.fc3(out)
+        return out
+
+
+
+# Define Optuna objective function
+def objective(trial):
+      # Set MLflow experiment name
+    if CLASSIFIER == "LogisticRegression":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-noRBM")
+    elif CLASSIFIER == "FNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-noRBM")
+    elif CLASSIFIER == "CNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-cnn-noRBM")
+    batch_size = trial.suggest_int("batch_size", 64, 256, step=32)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
+    mlflow.start_run(experiment_id=experiment.experiment_id)
+    num_classifier_epochs = trial.suggest_int("num_classifier_epochs", 5, 5) 
+    mlflow.log_param("num_classifier_epochs", num_classifier_epochs)
+
+    if CLASSIFIER == "FNN":
+        hidden_size = trial.suggest_int("fnn_hidden", 192, 384)
+        learning_rate = trial.suggest_float("learning_rate", 0.0001, 0.0025)
+
+        mlflow.log_param("classifier", "FNN")
+        mlflow.log_param("fnn_hidden", hidden_size)
+        mlflow.log_param("learning_rate", learning_rate)
+
+        model = nn.Sequential(
+            nn.Linear(784, hidden_size),
+            nn.ReLU(),
+            nn.Linear(hidden_size, 10)
+        ).to(device)
+
+
+        optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+    elif CLASSIFIER == "CNN":
+        filters1 = trial.suggest_int("filters1", 16, 64, step=16)
+        filters2 = trial.suggest_int("filters2", 32, 128, step=32)
+        kernel1 = trial.suggest_int("kernel1", 3, 5)
+        kernel2 = trial.suggest_int("kernel2", 3, 5)
+        learning_rate = trial.suggest_float("learning_rate", 0.0001, 0.0025)
+
+        mlflow.log_param("classifier", "CNN")
+        mlflow.log_param("filters1", filters1)
+        mlflow.log_param("filters2", filters2)
+        mlflow.log_param("kernel1", kernel1)
+        mlflow.log_param("kernel2", kernel2)
+        mlflow.log_param("learning_rate", learning_rate)
+
+        model = FashionCNN(filters1, filters2, kernel1, kernel2).to(device)
+        optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+      
+    elif CLASSIFIER == "LogisticRegression":
+        mlflow.log_param("classifier", "LogisticRegression")
+    
+        # Prepare data for Logistic Regression (Flatten 28x28 images to 784 features)
+        train_features = train_dataset.data.view(-1, 784).numpy()
+        train_labels = train_dataset.targets.numpy()
+        test_features = test_dataset.data.view(-1, 784).numpy()
+        test_labels = test_dataset.targets.numpy()
+    
+        # Normalize the pixel values to [0,1] for better convergence
+        train_features = train_features / 255.0
+        test_features = test_features / 255.0
+    
+    
+        C = trial.suggest_float("C", 0.01, 10.0, log=True)  
+        solver = "saga" 
+    
+        model = LogisticRegression(C=C, max_iter=num_classifier_epochs, solver=solver)
+        model.fit(train_features, train_labels)
+    
+    
+        predictions = model.predict(test_features)
+        accuracy = accuracy_score(test_labels, predictions) * 100
+        
+        macro_f1 = f1_score(test_labels, predictions, average="macro") #for f1
+        print(f"Logistic Regression Test Accuracy: {accuracy:.2f}%")
+        print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
+    
+        mlflow.log_param("C", C)
+        mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) #for f1
+        mlflow.end_run()
+        return accuracy
+
+    # Training Loop for FNN and CNN
+    criterion = nn.CrossEntropyLoss()
+
+
+    model.train()
+    for epoch in range(num_classifier_epochs):
+        running_loss = 0.0
+        for images, labels in train_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images) if CLASSIFIER == "CNN" else model(images.view(images.size(0), -1))
+
+            optimizer.zero_grad()
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
+            running_loss += loss.item()
+
+        print(f"{CLASSIFIER} Epoch {epoch+1}: loss = {running_loss / len(train_loader):.4f}")
+
+    # Model Evaluation
+    model.eval()
+    correct, total = 0, 0
+    all_preds = []   # for f1
+    all_labels = [] 
+    with torch.no_grad():
+        for images, labels in test_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images) if CLASSIFIER == "CNN" else model(images.view(images.size(0), -1))
+            _, predicted = torch.max(outputs, 1)
+            total += labels.size(0)
+            correct += (predicted == labels).sum().item()
+            all_preds.extend(predicted.cpu().numpy())   #for f1
+            all_labels.extend(labels.cpu().numpy()) #for f1
+
+    accuracy = 100 * correct / total
+    macro_f1 = f1_score(all_labels, all_preds, average="macro") #for f1
+    print(f"Test Accuracy: {accuracy:.2f}%")
+    print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
+
+    mlflow.log_metric("test_accuracy", accuracy)
+    mlflow.log_metric("macro_f1", macro_f1) #for f1
+    mlflow.end_run()
+    return accuracy
+
+if __name__ == "__main__":
+    study = optuna.create_study(direction="maximize")
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
+    print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
+    print("Best Accuracy:", study.best_value)
+```
+
+</details>
+
+Test Accuracy by FNN Hidden Units<br>
+![](fnn_norbm.png){width="60%"}<br>
+
+What the plot shows:<br>
+Higher values of hidden units in the feedforward network were sampled more frequently by Optuna, suggesting a preference for more complex models. However, test accuracy appears to level off between 300 and 375 hidden units, suggesting complexity reached its optimal range. Further increases in hidden units would likely not yield higher accuracy.<br>
+
+## Model 3
+
+<b>Model 3: Convolutional Neural Network on Fashion MNIST Data</b><br>
+Base code for CNN structure borrowed from
+[Kaggle](https://www.kaggle.com/code/pankajj/fashion-mnist-with-pytorch-93-accuracy)<br>
+
+<details>
+
+<summary>Click to Show Code and Output</summary>
+
+```{python}
+from sklearn.metrics import f1_score
+
+CLASSIFIER = "CNN"  # Change for FNN, LogisticRegression, or CNN
+
+# Define CNN model
+class FashionCNN(nn.Module):
+    def __init__(self, filters1, filters2, kernel1, kernel2):
+        super(FashionCNN, self).__init__()
+        self.layer1 = nn.Sequential(
+            nn.Conv2d(in_channels=1, out_channels=filters1, kernel_size=kernel1, padding=1),
+            nn.BatchNorm2d(filters1),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2)
+        )
+        self.layer2 = nn.Sequential(
+            nn.Conv2d(in_channels=filters1, out_channels=filters2, kernel_size=kernel2),
+            nn.BatchNorm2d(filters2),
+            nn.ReLU(),
+            nn.MaxPool2d(2)
+        )
+        self.fc1 = None #initialize first fully connected layer as none, defined later in fwd
+        self.drop = nn.Dropout2d(0.25)
+        self.fc2 = nn.Linear(in_features=600, out_features=120)
+        self.fc3 = nn.Linear(in_features=120, out_features=10)
+        
+
+    def forward(self, x):
+        out = self.layer1(x)
+        out = self.layer2(out)
+        #Flatten tensor dynamically
+        out = out.view(out.size(0), -1)
+        if self.fc1 is None:
+            self.fc1 = nn.Linear(out.shape[1], 600).to(x.device)
+        out = self.fc1(out)
+        out = self.drop(out)
+        out = self.fc2(out)
+        out = self.fc3(out)
+        return out
+
+
+
+# Define Optuna objective function
+def objective(trial):
+        # Set MLflow experiment name
+    if CLASSIFIER == "LogisticRegression":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-noRBM")
+    elif CLASSIFIER == "FNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-noRBM")
+    elif CLASSIFIER == "CNN":
+        experiment = mlflow.set_experiment("new-pytorch-fmnist-cnn-noRBM")
+    batch_size = trial.suggest_int("batch_size", 64, 256, step=32)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
+    mlflow.start_run(experiment_id=experiment.experiment_id)
+    num_classifier_epochs = trial.suggest_int("num_classifier_epochs", 5, 5) 
+    mlflow.log_param("num_classifier_epochs", num_classifier_epochs)
+
+    if CLASSIFIER == "FNN":
+        hidden_size = trial.suggest_int("fnn_hidden", 192, 384)
+        learning_rate = trial.suggest_float("learning_rate", 0.0001, 0.0025)
+
+        mlflow.log_param("classifier", "FNN")
+        mlflow.log_param("fnn_hidden", hidden_size)
+        mlflow.log_param("learning_rate", learning_rate)
+
+        model = nn.Sequential(
+            nn.Linear(784, hidden_size),
+            nn.ReLU(),
+            nn.Linear(hidden_size, 10)
+        ).to(device)
+
+
+        optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+    elif CLASSIFIER == "CNN":
+        filters1 = trial.suggest_int("filters1", 16, 64, step=16)
+        filters2 = trial.suggest_int("filters2", 32, 128, step=32)
+        kernel1 = trial.suggest_int("kernel1", 3, 5)
+        kernel2 = trial.suggest_int("kernel2", 3, 5)
+        learning_rate = trial.suggest_float("learning_rate", 0.0001, 0.0025)
+
+        mlflow.log_param("classifier", "CNN")
+        mlflow.log_param("filters1", filters1)
+        mlflow.log_param("filters2", filters2)
+        mlflow.log_param("kernel1", kernel1)
+        mlflow.log_param("kernel2", kernel2)
+        mlflow.log_param("learning_rate", learning_rate)
+
+        model = FashionCNN(filters1, filters2, kernel1, kernel2).to(device)
+        optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+
+      
+    elif CLASSIFIER == "LogisticRegression":
+        mlflow.log_param("classifier", "LogisticRegression")
+    
+        # Prepare data for Logistic Regression (Flatten 28x28 images to 784 features)
+        train_features = train_dataset.data.view(-1, 784).numpy()
+        train_labels = train_dataset.targets.numpy()
+        test_features = test_dataset.data.view(-1, 784).numpy()
+        test_labels = test_dataset.targets.numpy()
+    
+        # Normalize the pixel values to [0,1] for better convergence
+        train_features = train_features / 255.0
+        test_features = test_features / 255.0
+    
+    
+        C = trial.suggest_float("C", 0.01, 10.0, log=True)  
+        solver = "saga" 
+    
+        model = LogisticRegression(C=C, max_iter=num_classifier_epochs, solver=solver)
+        model.fit(train_features, train_labels)
+    
+    
+        predictions = model.predict(test_features)
+        accuracy = accuracy_score(test_labels, predictions) * 100
+        
+        macro_f1 = f1_score(test_labels, predictions, average="macro") #for f1
+        print(f"Logistic Regression Test Accuracy: {accuracy:.2f}%")
+        print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
+    
+        mlflow.log_param("C", C)
+        mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) #for f1
+        mlflow.end_run()
+        return accuracy
+
+    # Training Loop for FNN and CNN
+    criterion = nn.CrossEntropyLoss()
+
+
+    model.train()
+    for epoch in range(num_classifier_epochs):
+        running_loss = 0.0
+        for images, labels in train_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images) if CLASSIFIER == "CNN" else model(images.view(images.size(0), -1))
+
+            optimizer.zero_grad()
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
+            running_loss += loss.item()
+
+        print(f"{CLASSIFIER} Epoch {epoch+1}: loss = {running_loss / len(train_loader):.4f}")
+
+    # Model Evaluation
+    model.eval()
+    correct, total = 0, 0
+    all_preds = []   # for f1
+    all_labels = [] 
+    with torch.no_grad():
+        for images, labels in test_loader:
+            images, labels = images.to(device), labels.to(device)
+            outputs = model(images) if CLASSIFIER == "CNN" else model(images.view(images.size(0), -1))
+            _, predicted = torch.max(outputs, 1)
+            total += labels.size(0)
+            correct += (predicted == labels).sum().item()
+            all_preds.extend(predicted.cpu().numpy())   #for f1
+            all_labels.extend(labels.cpu().numpy()) #for f1
+
+    accuracy = 100 * correct / total
+    macro_f1 = f1_score(all_labels, all_preds, average="macro") #for f1
+    print(f"Test Accuracy: {accuracy:.2f}%")
+    print(f"Macro F1 Score: {macro_f1:.4f}") #for f1
+
+    mlflow.log_metric("test_accuracy", accuracy)
+    mlflow.log_metric("macro_f1", macro_f1) #for f1
+    mlflow.end_run()
+    return accuracy
+
+if __name__ == "__main__":
+    study = optuna.create_study(direction="maximize")
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
+    print(f"Best Parameters for {CLASSIFIER}:", study.best_params)
+    print("Best Accuracy:", study.best_value)
+```
+
+</details>
+
+Test Accuracy Based on the Number of Filters in the First Conv2D Layer<br> 
+![](filters1.png){width="60%"}<br> 
+
+
+
+What the plot shows:<br>
+Although the highest test accuracy was achieved with 64 filters in the first convolutional 2D layer, the number of filters alone isn't a strong predictor of model performance. Each filter size shows high variance (accuracies are spread out for each value vertically). This, combined with the fact that accuracies are well distributed across the different filter counts, suggests other factors or hyperparameters may play a bigger role in predicting accuracy. <br>
+
+Test Accuracy Based on the Number of Filters in the Second Conv2D Layer<br>
+![](filters2.png){width="60%"}<br> 
+
+What the plot shows:<br>
+Like the first Conv2D layer, the number of filters doesn't seem to be a extremely strong predictor in accuracy. However, Optuna has sampled more frequently from higher number of filters, even 128 for this second layer, suggesting higher filters performed better. However, like before, there is still high variance in accuracy for each number of filters. <br>
+
+
+Test Accuracy Based on Kernel Size in the First Conv2D Layer<br> 
+![](kernelsize1.png){width="60%"}<br> 
+
+
+What the plot shows:<br>
+Kernel size of 3 was sampled more frequently by Optuna and yielded higher accuracies than kernel sizes of 4 or 5.<br>
+
+Test Accuracy Based on Kernel Size in the Second Conv2D Layer<br>
+![](kernelsize2.png){width="60%"}<br>
+
+
+What the plot shows:<br>
+Like with the first convolutional 2D layer, kernel size of 3 is highly favored by Optuna and consistently led to higher test accuracies.<br>
+
+## Model 4
+
+<b>Model 4: Logistic Regression on RBM Hidden Features (of Fashion MNIST
+Data)</b><br>
+
+<details>
+
+<summary>Click to Show Code and Output</summary>
+
+```{python}
+from sklearn.metrics import accuracy_score, f1_score
+CLASSIFIER = 'LogisticRegression'
+
+if CLASSIFIER == 'LogisticRegression':
+    experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-withrbm")
+else:
+    experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-withrbm")
+
+
+class RBM(nn.Module):
+    def __init__(self, n_visible=784, n_hidden=256, k=1):
+        super(RBM, self).__init__()
+        self.n_visible = n_visible
+        self.n_hidden = n_hidden
+        # Initialize weights and biases
+        self.W = nn.Parameter(torch.randn(n_hidden, n_visible) * 0.1)
+        self.v_bias = nn.Parameter(torch.zeros(n_visible))
+        self.h_bias = nn.Parameter(torch.zeros(n_hidden))
+        self.k = k  # CD-k steps
+
+    def sample_h(self, v):
+        # Given visible v, sample hidden h
+        p_h = torch.sigmoid(F.linear(v, self.W, self.h_bias))  # p(h=1|v)
+        h_sample = torch.bernoulli(p_h)                        # sample Bernoulli
+        return p_h, h_sample
+
+    def sample_v(self, h):
+        # Given hidden h, sample visible v
+        p_v = torch.sigmoid(F.linear(h, self.W.t(), self.v_bias))  # p(v=1|h)
+        v_sample = torch.bernoulli(p_v)
+        return p_v, v_sample
+
+    def forward(self, v):
+        # Perform k steps of contrastive divergence starting from v
+        v_k = v.clone()
+        for _ in range(self.k):
+            _, h_k = self.sample_h(v_k)    # sample hidden from current visible
+            _, v_k = self.sample_v(h_k)    # sample visible from hidden
+        return v_k  # k-step reconstructed visible
+
+    def free_energy(self, v):
+        # Compute the visible bias term for each sample in the batch
+        vbias_term = (v * self.v_bias).sum(dim=1)  # shape: [batch_size]
+        # Compute the activation of the hidden units
+        wx_b = F.linear(v, self.W, self.h_bias)     # shape: [batch_size, n_hidden]
+        # Compute the hidden term
+        hidden_term = torch.sum(torch.log1p(torch.exp(wx_b)), dim=1)  # shape: [batch_size]
+        # Return the mean free energy over the batch
+        return - (vbias_term + hidden_term).mean()
+    
+transform = transforms.Compose([transforms.ToTensor()])
+train_dataset = datasets.FashionMNIST(root='./data', train=True, transform=transform, download=True)
+test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=transform, download=True)
+
+def objective(trial):
+    num_rbm_epochs = trial.suggest_int("num_rbm_epochs", 5, 5)# 24, 33)
+    batch_size = trial.suggest_int("batch_size", 192, 1024)
+    rbm_lr = trial.suggest_float("rbm_lr", 0.05, 0.1)
+    rbm_hidden = trial.suggest_int("rbm_hidden", 384, 8192)
+
+    mlflow.start_run(experiment_id=experiment.experiment_id)
+    if CLASSIFIER != 'LogisticRegression':
+        fnn_hidden = trial.suggest_int("fnn_hidden", 192, 384)
+        fnn_lr = trial.suggest_float("fnn_lr", 0.0001, 0.0025)
+        mlflow.log_param("fnn_hidden", fnn_hidden)
+        mlflow.log_param("fnn_lr", fnn_lr)
+
+    num_classifier_epochs = trial.suggest_int("num_classifier_epochs", 5, 5)# 40, 60)
+
+    mlflow.log_param("num_rbm_epochs", num_rbm_epochs)
+    mlflow.log_param("batch_size", batch_size)
+    mlflow.log_param("rbm_lr", rbm_lr)
+    mlflow.log_param("rbm_hidden", rbm_hidden)
+    mlflow.log_param("num_classifier_epochs", num_classifier_epochs)
+
+    # Instantiate RBM and optimizer
+    device = torch.device("mps")
+    rbm = RBM(n_visible=784, n_hidden=rbm_hidden, k=1).to(device)
+    optimizer = torch.optim.SGD(rbm.parameters(), lr=rbm_lr)
+
+    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
+    rbm_training_failed = False
+    # Training loop (assuming train_loader yields batches of images and labels)
+    for epoch in range(num_rbm_epochs):
+        total_loss = 0.0
+        for images, _ in train_loader:
+            # Flatten images and binarize
+            v0 = images.view(-1, 784).to(rbm.W.device)      # shape [batch_size, 784]
+            v0 = torch.bernoulli(v0)                        # sample binary input
+            vk = rbm(v0)                                    # k-step CD reconstruction
+            # Compute contrastive divergence loss (free energy difference)
+            loss = rbm.free_energy(v0) - rbm.free_energy(vk)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+            total_loss += loss.item()
+        print(f"Epoch {epoch+1}: avg free-energy loss = {total_loss/len(train_loader):.4f}")
+        if np.isnan(total_loss):
+            rbm_training_failed = True
+            break
+
+        if rbm_training_failed:
+            accuracy = 0.0
+            macro_f1 = 0.0 
+            print("RBM training failed — returning 0.0 for accuracy and macro F1")  
+            mlflow.log_metric("test_accuracy", accuracy)
+            mlflow.log_metric("macro_f1", macro_f1)
+            mlflow.set_tag("status", "rbm_failed")  # Optional tag
+            mlflow.end_run()
+            return float(accuracy)
+    else:
+        rbm.eval()  # set in evaluation mode if using any layers that behave differently in training
+        features_list = []
+        labels_list = []
+        for images, labels in train_loader:
+            v = images.view(-1, 784).to(rbm.W.device)
+            v = v  # (optionally binarize or use raw normalized pixels)
+            h_prob, h_sample = rbm.sample_h(v)  # get hidden activations
+            features_list.append(h_prob.cpu().detach().numpy())
+            labels_list.append(labels.numpy())
+        train_features = np.concatenate(features_list)  # shape: [N_train, n_hidden]
+        train_labels = np.concatenate(labels_list)
+
+        # Convert pre-extracted training features and labels to tensors and create a DataLoader
+        train_features_tensor = torch.tensor(train_features, dtype=torch.float32)
+        train_labels_tensor = torch.tensor(train_labels, dtype=torch.long)
+        train_feature_dataset = torch.utils.data.TensorDataset(train_features_tensor, train_labels_tensor)
+        train_feature_loader = torch.utils.data.DataLoader(train_feature_dataset, batch_size=batch_size, shuffle=True)
+
+            
+        if CLASSIFIER == 'LogisticRegression':
+            # add optuna tuning same as log reg without RBM features...
+            lr_C = trial.suggest_float("lr_C", 0.01, 10.0, log=True)  
+            mlflow.log_param("lr_C", lr_C)  # Log the chosen C value
+
+
+            classifier = LogisticRegression(max_iter=num_classifier_epochs, C=lr_C, solver="saga") 
+            classifier.fit(train_features, train_labels)            
+            
+        else:
+            classifier = nn.Sequential(
+                nn.Linear(rbm.n_hidden, fnn_hidden),
+                nn.ReLU(),
+                nn.Linear(fnn_hidden, 10)
+            )
+
+            # Move classifier to the same device as the RBM
+            classifier = classifier.to(device)
+            criterion = nn.CrossEntropyLoss()
+            classifier_optimizer = torch.optim.Adam(classifier.parameters(), lr=fnn_lr)
+
+            classifier.train()
+            for epoch in range(num_classifier_epochs):
+                running_loss = 0.0
+                for features, labels in train_feature_loader:
+                    features = features.to(device)
+                    labels = labels.to(device)
+                    
+                    # Forward pass through classifier
+                    outputs = classifier(features)
+                    loss = criterion(outputs, labels)
+                    
+                    # Backpropagation and optimization
+                    classifier_optimizer.zero_grad()
+                    loss.backward()
+                    classifier_optimizer.step()
+                    
+                    running_loss += loss.item()
+                avg_loss = running_loss / len(train_feature_loader)
+                print(f"Classifier Epoch {epoch+1}: loss = {avg_loss:.4f}")
+
+        # Evaluate the classifier on test data.
+        # Here we extract features from the RBM for each test image.
+        if CLASSIFIER != 'LogisticRegression':
+            classifier.eval()
+            correct = 0
+            total = 0
+        features_list = []
+        labels_list = []
+        with torch.no_grad():
+            for images, labels in test_loader:
+                v = images.view(-1, 784).to(device)
+                # Extract hidden activations; you can use either h_prob or h_sample.
+                h_prob, _ = rbm.sample_h(v)
+                if CLASSIFIER == 'LogisticRegression':
+                    features_list.append(h_prob.cpu().detach().numpy())
+                    labels_list.append(labels.numpy())
+                else:
+                    outputs = classifier(h_prob)
+                    _, predicted = torch.max(outputs.data, 1)
+                    total += labels.size(0)
+                    correct += (predicted.cpu() == labels).sum().item()
+
+        if CLASSIFIER == 'LogisticRegression':
+            test_features = np.concatenate(features_list)
+            test_labels = np.concatenate(labels_list)
+            predictions = classifier.predict(test_features)
+            accuracy = accuracy_score(test_labels, predictions) * 100
+        
+            macro_f1 = f1_score(test_labels, predictions, average="macro") 
+        
+        else:
+            accuracy = 100 * correct / total
+        
+            all_preds = [] 
+            all_labels = [] 
+            classifier.eval()
+            with torch.no_grad():
+                for images, labels in test_loader:
+                    v = images.view(-1, 784).to(device)
+                    h_prob, _ = rbm.sample_h(v)
+                    outputs = classifier(h_prob)
+                    _, predicted = torch.max(outputs.data, 1)
+                    all_preds.extend(predicted.cpu().numpy()) 
+                    all_labels.extend(labels.numpy()) 
+        
+            macro_f1 = f1_score(all_labels, all_preds, average="macro") 
+        
+        print(f"Test Accuracy: {accuracy:.2f}%")
+        print(f"Macro F1 Score: {macro_f1:.4f}") 
+        
+        mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) 
+        mlflow.end_run()
+        return float(accuracy if accuracy is not None else 0.0)
+
+if __name__ == "__main__":
+    study = optuna.create_study(direction="maximize")
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
+    print(study.best_params)
+    print(study.best_value)
+    print(study.best_trial)
+```
+
+</details>
+
+Test Accuracy of Logistic Regression on RBM Hidden Features by Inverse
+Regularization Strength<br> ![](logreg_withrbm_C.png){width="60%"}<br>
+
+
+
+
+What the plot shows:<br>
+When using RBM-extracted hidden features as input to logistic regression, the inverse regularization strength does not appear to be a strong predictor of test accuracy.<br>
+
+
+Test Accuracy By Number of RBM Hidden Units<br>
+![](logreg_withrbm_hiddenunits.png){width="60%"}<br>
+
+What the plot shows:<br>
+Optuna slightly favors higher number of hidden units in the rbm with a peak at 5340 (and similar peaks 5358, 5341, etc.). However, after 7000 units, accuracy appears to decline suggesting the optimum number of units was reached around that 5300 mark. <br>
+
+## Model 5
+
+
+<b>Model 5: Feed Forward Network on RBM Hidden Features (of Fashion
+MNIST Data)</b><br>
+
+<details>
+
+<summary>Click to Show Code and Output</summary>
+
+```{python}
+from sklearn.metrics import accuracy_score, f1_score
+CLASSIFIER = 'FNN'
+
+if CLASSIFIER == 'LogisticRegression':
+    experiment = mlflow.set_experiment("new-pytorch-fmnist-lr-withrbm")
+else:
+    experiment = mlflow.set_experiment("new-pytorch-fmnist-fnn-withrbm")
+
+
+class RBM(nn.Module):
+    def __init__(self, n_visible=784, n_hidden=256, k=1):
+        super(RBM, self).__init__()
+        self.n_visible = n_visible
+        self.n_hidden = n_hidden
+        # Initialize weights and biases
+        self.W = nn.Parameter(torch.randn(n_hidden, n_visible) * 0.1)
+        self.v_bias = nn.Parameter(torch.zeros(n_visible))
+        self.h_bias = nn.Parameter(torch.zeros(n_hidden))
+        self.k = k  # CD-k steps
+
+    def sample_h(self, v):
+        # Given visible v, sample hidden h
+        p_h = torch.sigmoid(F.linear(v, self.W, self.h_bias))  # p(h=1|v)
+        h_sample = torch.bernoulli(p_h)                        # sample Bernoulli
+        return p_h, h_sample
+
+    def sample_v(self, h):
+        # Given hidden h, sample visible v
+        p_v = torch.sigmoid(F.linear(h, self.W.t(), self.v_bias))  # p(v=1|h)
+        v_sample = torch.bernoulli(p_v)
+        return p_v, v_sample
+
+    def forward(self, v):
+        # Perform k steps of contrastive divergence starting from v
+        v_k = v.clone()
+        for _ in range(self.k):
+            _, h_k = self.sample_h(v_k)    # sample hidden from current visible
+            _, v_k = self.sample_v(h_k)    # sample visible from hidden
+        return v_k  # k-step reconstructed visible
+
+    def free_energy(self, v):
+        # Compute the visible bias term for each sample in the batch
+        vbias_term = (v * self.v_bias).sum(dim=1)  # shape: [batch_size]
+        # Compute the activation of the hidden units
+        wx_b = F.linear(v, self.W, self.h_bias)     # shape: [batch_size, n_hidden]
+        # Compute the hidden term
+        hidden_term = torch.sum(torch.log1p(torch.exp(wx_b)), dim=1)  # shape: [batch_size]
+        # Return the mean free energy over the batch
+        return - (vbias_term + hidden_term).mean()
+    
+transform = transforms.Compose([transforms.ToTensor()])
+train_dataset = datasets.FashionMNIST(root='./data', train=True, transform=transform, download=True)
+test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=transform, download=True)
+
+def objective(trial):
+    num_rbm_epochs = trial.suggest_int("num_rbm_epochs", 5, 5)# 24, 33)
+    batch_size = trial.suggest_int("batch_size", 192, 1024)
+    rbm_lr = trial.suggest_float("rbm_lr", 0.05, 0.1)
+    rbm_hidden = trial.suggest_int("rbm_hidden", 384, 8192)
+
+    mlflow.start_run(experiment_id=experiment.experiment_id)
+    if CLASSIFIER != 'LogisticRegression':
+        fnn_hidden = trial.suggest_int("fnn_hidden", 192, 384)
+        fnn_lr = trial.suggest_float("fnn_lr", 0.0001, 0.0025)
+        mlflow.log_param("fnn_hidden", fnn_hidden)
+        mlflow.log_param("fnn_lr", fnn_lr)
+
+    num_classifier_epochs = trial.suggest_int("num_classifier_epochs", 5, 5)# 40, 60)
+
+    mlflow.log_param("num_rbm_epochs", num_rbm_epochs)
+    mlflow.log_param("batch_size", batch_size)
+    mlflow.log_param("rbm_lr", rbm_lr)
+    mlflow.log_param("rbm_hidden", rbm_hidden)
+    mlflow.log_param("num_classifier_epochs", num_classifier_epochs)
+
+    # Instantiate RBM and optimizer
+    device = torch.device("mps")
+    rbm = RBM(n_visible=784, n_hidden=rbm_hidden, k=1).to(device)
+    optimizer = torch.optim.SGD(rbm.parameters(), lr=rbm_lr)
+
+    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
+    rbm_training_failed = False
+    # Training loop (assuming train_loader yields batches of images and labels)
+    for epoch in range(num_rbm_epochs):
+        total_loss = 0.0
+        for images, _ in train_loader:
+            # Flatten images and binarize
+            v0 = images.view(-1, 784).to(rbm.W.device)      # shape [batch_size, 784]
+            v0 = torch.bernoulli(v0)                        # sample binary input
+            vk = rbm(v0)                                    # k-step CD reconstruction
+            # Compute contrastive divergence loss (free energy difference)
+            loss = rbm.free_energy(v0) - rbm.free_energy(vk)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+            total_loss += loss.item()
+        print(f"Epoch {epoch+1}: avg free-energy loss = {total_loss/len(train_loader):.4f}")
+        if np.isnan(total_loss):
+            rbm_training_failed = True
+            break
+
+        if rbm_training_failed:
+            accuracy = 0.0
+            macro_f1 = 0.0 
+            print("RBM training failed — returning 0.0 for accuracy and macro F1")  
+            mlflow.log_metric("test_accuracy", accuracy)
+            mlflow.log_metric("macro_f1", macro_f1)
+            mlflow.set_tag("status", "rbm_failed")  # Optional tag
+            mlflow.end_run()
+            return float(accuracy)
+    else:
+        rbm.eval()  # set in evaluation mode if using any layers that behave differently in training
+        features_list = []
+        labels_list = []
+        for images, labels in train_loader:
+            v = images.view(-1, 784).to(rbm.W.device)
+            v = v  # (optionally binarize or use raw normalized pixels)
+            h_prob, h_sample = rbm.sample_h(v)  # get hidden activations
+            features_list.append(h_prob.cpu().detach().numpy())
+            labels_list.append(labels.numpy())
+        train_features = np.concatenate(features_list)  # shape: [N_train, n_hidden]
+        train_labels = np.concatenate(labels_list)
+
+        # Convert pre-extracted training features and labels to tensors and create a DataLoader
+        train_features_tensor = torch.tensor(train_features, dtype=torch.float32)
+        train_labels_tensor = torch.tensor(train_labels, dtype=torch.long)
+        train_feature_dataset = torch.utils.data.TensorDataset(train_features_tensor, train_labels_tensor)
+        train_feature_loader = torch.utils.data.DataLoader(train_feature_dataset, batch_size=batch_size, shuffle=True)
+
+            
+        if CLASSIFIER == 'LogisticRegression':
+            # add optuna tuning same as log reg without RBM features...
+            lr_C = trial.suggest_float("lr_C", 0.01, 10.0, log=True)  
+            mlflow.log_param("lr_C", lr_C)  # Log the chosen C value
+
+
+            classifier = LogisticRegression(max_iter=num_classifier_epochs, C=lr_C, solver="saga") 
+            classifier.fit(train_features, train_labels)            
+            
+        else:
+            classifier = nn.Sequential(
+                nn.Linear(rbm.n_hidden, fnn_hidden),
+                nn.ReLU(),
+                nn.Linear(fnn_hidden, 10)
+            )
+
+            # Move classifier to the same device as the RBM
+            classifier = classifier.to(device)
+            criterion = nn.CrossEntropyLoss()
+            classifier_optimizer = torch.optim.Adam(classifier.parameters(), lr=fnn_lr)
+
+            classifier.train()
+            for epoch in range(num_classifier_epochs):
+                running_loss = 0.0
+                for features, labels in train_feature_loader:
+                    features = features.to(device)
+                    labels = labels.to(device)
+                    
+                    # Forward pass through classifier
+                    outputs = classifier(features)
+                    loss = criterion(outputs, labels)
+                    
+                    # Backpropagation and optimization
+                    classifier_optimizer.zero_grad()
+                    loss.backward()
+                    classifier_optimizer.step()
+                    
+                    running_loss += loss.item()
+                avg_loss = running_loss / len(train_feature_loader)
+                print(f"Classifier Epoch {epoch+1}: loss = {avg_loss:.4f}")
+
+        # Evaluate the classifier on test data.
+        # Here we extract features from the RBM for each test image.
+        if CLASSIFIER != 'LogisticRegression':
+            classifier.eval()
+            correct = 0
+            total = 0
+        features_list = []
+        labels_list = []
+        with torch.no_grad():
+            for images, labels in test_loader:
+                v = images.view(-1, 784).to(device)
+                # Extract hidden activations; you can use either h_prob or h_sample.
+                h_prob, _ = rbm.sample_h(v)
+                if CLASSIFIER == 'LogisticRegression':
+                    features_list.append(h_prob.cpu().detach().numpy())
+                    labels_list.append(labels.numpy())
+                else:
+                    outputs = classifier(h_prob)
+                    _, predicted = torch.max(outputs.data, 1)
+                    total += labels.size(0)
+                    correct += (predicted.cpu() == labels).sum().item()
+
+        if CLASSIFIER == 'LogisticRegression':
+            test_features = np.concatenate(features_list)
+            test_labels = np.concatenate(labels_list)
+            predictions = classifier.predict(test_features)
+            accuracy = accuracy_score(test_labels, predictions) * 100
+        
+            macro_f1 = f1_score(test_labels, predictions, average="macro") 
+        
+        else:
+            accuracy = 100 * correct / total
+        
+            all_preds = [] 
+            all_labels = [] 
+            classifier.eval()
+            with torch.no_grad():
+                for images, labels in test_loader:
+                    v = images.view(-1, 784).to(device)
+                    h_prob, _ = rbm.sample_h(v)
+                    outputs = classifier(h_prob)
+                    _, predicted = torch.max(outputs.data, 1)
+                    all_preds.extend(predicted.cpu().numpy()) 
+                    all_labels.extend(labels.numpy()) 
+        
+            macro_f1 = f1_score(all_labels, all_preds, average="macro") 
+        
+        print(f"Test Accuracy: {accuracy:.2f}%")
+        print(f"Macro F1 Score: {macro_f1:.4f}") 
+        
+        mlflow.log_metric("test_accuracy", accuracy)
+        mlflow.log_metric("macro_f1", macro_f1) 
+        mlflow.end_run()
+        return float(accuracy if accuracy is not None else 0.0)
+
+if __name__ == "__main__":
+    study = optuna.create_study(direction="maximize")
+    study.optimize(objective, n_trials=1) # n_trials set to 1 for quick rendering
+    print(study.best_params)
+    print(study.best_value)
+    print(study.best_trial)
+```
+
+</details>
+
+Test Accuracy by RBM Hidden Units<br>
+![](fnn_withrbm_rbmhiddenunits.png){width="60%"}<br> 
+
+
+What the plot shows:<br>
+Highest accuracies cluster between 2000 and 4000 hidden units in the RBM with an outlier at 3764 hidden units. This possibly suggests too few hidden units lacks the complexity needed to explain the data; however, too many hidden units is perhaps causing some overfitting--resulting in poor generalization of the FNN classifier that receives the RBM hidden features.<br>
+
+Test Accuracy by FNN Hidden Units<br>
+![](fnn_withrbm_fnnhiddenunits.png){width="60%"}<br>
+
+What the plot shows:<br>
+Surprisingly, the number of hidden units in the FNN does not show a strong correlation with test accuracy. All hidden units tested seem to result in similar performance. This suggests the FNN is able to learn from the RBM features sufficently, and additional neurons do not significantly improve generalization.<br>
+
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky"><span style="font-weight:bold">Model</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Optuna Best Trial</span><br><span style="font-weight:bold">MLflow Test Accuracy(%)</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Macro F1 Score</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">Logistic Regression</td>
+    <td class="tg-c3ow">84.71</td>
+    <td class="tg-c3ow">0.846</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Feed Forward Network</td>
+    <td class="tg-c3ow">88.06</td>
+    <td class="tg-c3ow">0.879</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Convolutional Neural Network</td>
+    <td class="tg-c3ow">91.29</td>
+    <td class="tg-c3ow">0.913</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj"><span style="font-weight:400;font-style:normal">Logistic Regression (on RBM Hidden Features) </span></td>
+    <td class="tg-uzvj"><span style="font-weight:400;font-style:normal">87.14</span></td>
+    <td class="tg-c3ow">0.871</td>
+  </tr>
+  <tr>
+    <td class="tg-9wq8">Feed Forward Network <span style="font-weight:400;font-style:normal">(on RBM Hidden Features)</span></td>
+    <td class="tg-9wq8">86.95</td>
+    <td class="tg-c3ow">0.869</td>
+  </tr>
+</tbody></table>
+
+
+
+
 
 ## Conclusion
 
 -   Summarize your key findings.
 
+CNN clearly outperforms other models. Logistic Regression, which typically performs well for binary classifications tasks, underperforms on Fashion MNIST multiclassification task. Logistic Regression is improved by using a Restricted Boltzmann Machine first to extract the hidden features from the input data prior to classification. Feed Forward Network is not improved by the use of RBM. These findings clearly show the progress in machine and deep learning and how more advanced neural networks on raw pixels can outperform models that use RBM hidden features.
+
 -   Discuss the implications of your results.
+
+Restricted Boltzmann Machines are no longer considered state-of-the-art for machine learning tasks. While contrastive divergence made training RBMs easier, supervised training of deep feedforward networks and convolutional neural networks using backpropagation proved to be more effective and began to dominate the field. This was largely the result of overcoming challenges with exploding or vanishing gradients and the introduction of techniques such as batch normalization, dropout, and better weight initialization methods.
+
+However, for the student of machine learning, learning RBMs is still valuable for understanding the foundations of unsupervised learning and energy-based models. Today, Stable Diffusion is a popular type of generative AI model with an energy-based foundation. The mechanics of RBM training, like Gibbs sampling, and the probabilistic nature of the model provide a demonstration of the application of probability theory and concepts like Markov chains and Boltzmann distributions in machine learning.
 
 ## References

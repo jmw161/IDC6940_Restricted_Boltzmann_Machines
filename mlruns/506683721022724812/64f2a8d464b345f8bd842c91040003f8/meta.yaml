@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/64f2a8d464b345f8bd842c91040003f8/artifacts
+end_time: 1743882039166
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 64f2a8d464b345f8bd842c91040003f8
+run_name: magnificent-wren-438
+run_uuid: 64f2a8d464b345f8bd842c91040003f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743882026246
+status: 3
+tags: []
+user_id: jessicawells

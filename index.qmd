@@ -49,9 +49,6 @@ creating a bipartite graph of neurons. Below is a diagram taken from
 Goodfellow, et al. [@Goodfellow-et-al-2016] (p. 577) for visualization
 of the connections.
 
-```{r}
-reticulate::py_config()
-```
 
 ![](markov_net.png){width="60%"} <br>
 

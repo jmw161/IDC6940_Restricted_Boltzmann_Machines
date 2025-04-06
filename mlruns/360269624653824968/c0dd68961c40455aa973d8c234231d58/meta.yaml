@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/c0dd68961c40455aa973d8c234231d58/artifacts
+end_time: 1743880092588
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: c0dd68961c40455aa973d8c234231d58
+run_name: upbeat-gnu-577
+run_uuid: c0dd68961c40455aa973d8c234231d58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743880086970
+status: 3
+tags: []
+user_id: jessicawells

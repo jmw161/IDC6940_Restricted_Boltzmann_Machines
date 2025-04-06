@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/0e33b1b083604dbdb0ca56a7b6828e3a/artifacts
+end_time: 1743882067502
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 0e33b1b083604dbdb0ca56a7b6828e3a
+run_name: incongruous-deer-369
+run_uuid: 0e33b1b083604dbdb0ca56a7b6828e3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743882039286
+status: 3
+tags: []
+user_id: jessicawells

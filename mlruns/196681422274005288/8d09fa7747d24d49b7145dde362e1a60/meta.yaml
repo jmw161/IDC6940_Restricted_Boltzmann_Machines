@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/8d09fa7747d24d49b7145dde362e1a60/artifacts
+end_time: 1743870571958
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 8d09fa7747d24d49b7145dde362e1a60
+run_name: fun-mare-635
+run_uuid: 8d09fa7747d24d49b7145dde362e1a60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743870547702
+status: 3
+tags: []
+user_id: jessicawells

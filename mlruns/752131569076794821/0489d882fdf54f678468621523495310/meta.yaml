@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/0489d882fdf54f678468621523495310/artifacts
+end_time: 1743873237493
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 0489d882fdf54f678468621523495310
+run_name: valuable-chimp-596
+run_uuid: 0489d882fdf54f678468621523495310
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743873211614
+status: 3
+tags: []
+user_id: jessicawells
