@@ -383,7 +383,6 @@ single fashion item (e.g., T-shirt, Trouser, etc.), and the color
 corresponds to its true label across the 10 categories listed above.
 
 ```{python, cache = TRUE}
-#| eval: false
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 
