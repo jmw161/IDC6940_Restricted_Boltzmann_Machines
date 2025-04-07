@@ -32,7 +32,8 @@ editor:
 ## Simple Boltzmann Machine Example
 ::: {.panel}
 ::: {style="text-align: center;"}
-![](boltz_animation.mp4){width="80%"}
+![](boltz_animation.mp4){width="70%"}  
+Units are updated stochastically based on the total input to the node
 :::
 :::
 
@@ -42,7 +43,10 @@ editor:
 
 ## Boltzmann Machine Equilibrium Example
 ::: {.panel}
-![](boltz_animation_with_pmf.mp4)
+::: {style="text-align: center;"}
+![](boltz_animation_with_pmf.mp4)  
+Convergence to a distribution where the states with lower energy are more likely
+:::
 :::
 
 ## Use of Boltzmann Machines
@@ -65,50 +69,24 @@ editor:
 
 ## Applications
 
-RBMs are probably best known for their success in collaborative
-filtering. The RBM model was used in the Netflix Prize competition to
-predict user ratings for movies, with the result that it outperformed
+- Collaborative Filtering: The RBM model was used in the Netflix Prize competition to predict user ratings for movies, outperforming
 the Singular Value Decomposition (SVD) method that was state-of-the-art
-at the time [@salakhutdinov2007restricted]. They have also been trained
-to recognize handwritten digits, such as the MNIST dataset
-[@hinton2002training].
+at the time [@salakhutdinov2007restricted]
 
-RBMs have been successfully used to distinguish normal and anomalous
-network traffic. Their potential use in improving network security for
-companies in the future is promising. There is slow progress in network
-anomaly detection due to the difficulty of obtaining datasets for
-training and testing networks. Clients are often reluctant to divulge
-information that could potentially harm their networks. In a real-life
+- Image Recognition: They have been trained
+to recognize handwritten digits, such as the MNIST dataset
+[@hinton2002training]
+
+- Network Traffic Anomaly Detection: In a real-life
 dataset where one host had normal traffic and one was infected by a bot,
 discriminative RBM (DRBM) was able to successfully distinguish the
-normal from anomalous traffic. DRBM doesn't rely on knowing the data
-distribution ahead of time, which is useful, except that it also causes
-the DRBM to overfit. As a result, when trying to use the same trained
-RBM on the KDD '99 training dataset performance declined.
-[@fiore2013network]
+normal from anomalous traffic [@fiore2013network]
 
-RBMs can provide greatly improved classification of brain disorders in
-MRI images. Generative Adversarial Networks (GANs) use two neural
-networks: a generator which generates fake data, and a discriminator
-which tries to distinguish between real and fake data. Loss from the
-discriminator is backpropagated through the generator so that both part
-are trained simultaneously. The RBM-GAN uses RBM features from real MRI
+- Brain Disorders: The RBM-GAN uses RBM features from real MRI
 images as inputs to the generator. Features from the discriminator are
-then used as inputs to a classifier. [@aslan2023automated]
+then used as inputs to a classifier [@aslan2023automated]
 
-The many-body quantum wavefunction, which describes the quantum state of
-a system of particles is difficult to compute with classical computers.
-RBMs have been used to approximate it using variational Monte Carlo
-methods. [@melko2019restricted]
-
-RBMs are notoriously slow to train. The process of computing the
-activation probability requires the calculation of vector dot products.
-Lean Constrastive Divergence (LCD) is a method which adds two techniques
-to speed up the process of training RBMs. The first is bounds-based
-filtering where upper and lower bounds of the probability select only a
-range of dot products to perform. Second, the delta product involves
-only recalculating the changed portions of the vector dot product.
-[@ning2018lcd]
+- Quantum Computing: RBMs have been used to approximate the many-body quantum wavefunction, which describes the quantum state of a system of particles using variational Monte Carlo methods. [@melko2019restricted]
 
 ## Methods
 
@@ -127,8 +105,7 @@ element represents the interaction between the visible and hidden units.
 
 We train Logistic Regression (with and without RBM features as input),
 Feed Forward Network (with and without RBM features as input), and
-Convolutional Neural Network. Below is a brief reminder of the basics of
-each model.<br>
+Convolutional Neural Network.
 
 For the models incoroporating the RBM, we take the Fashion MNIST
 features/pixels and train the RBM (unsupervised learning) to extract
@@ -383,6 +360,7 @@ single fashion item (e.g., T-shirt, Trouser, etc.), and the color
 corresponds to its true label across the 10 categories listed above.
 
 ```{python, cache = TRUE}
+#| eval: false
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 
@@ -402,6 +380,10 @@ plt.clim(-0.5, 9.5)
 plt.title("t-SNE Visualization of Fashion MNIST")
 plt.show()
 ```
+
+::: {style="text-align: center;"}
+![](tsne.png)
+:::
 
 <b>What the visualization shows:</b> <br> Class 1 (blue / Trousers)
 forms a clearly distinct and tightly packed cluster, indicating that the
@@ -1673,14 +1655,8 @@ Surprisingly, the number of hidden units in the FNN does not show a strong corre
 
 ## Conclusion
 
--   Summarize your key findings.
+-  CNN clearly outperforms other models. Logistic Regression, which typically performs well for binary classifications tasks, underperforms on Fashion MNIST multiclassification task, but is improved by using an RBM first to extract the hidden features from the input data prior to classification. Feed Forward Network is not improved by the use of RBM. These findings show how more advanced neural networks on raw pixels can outperform models that use RBM hidden features.
 
-CNN clearly outperforms other models. Logistic Regression, which typically performs well for binary classifications tasks, underperforms on Fashion MNIST multiclassification task. Logistic Regression is improved by using a Restricted Boltzmann Machine first to extract the hidden features from the input data prior to classification. Feed Forward Network is not improved by the use of RBM. These findings clearly show the progress in machine and deep learning and how more advanced neural networks on raw pixels can outperform models that use RBM hidden features.
-
--   Discuss the implications of your results.
-
-Restricted Boltzmann Machines are no longer considered state-of-the-art for machine learning tasks. While contrastive divergence made training RBMs easier, supervised training of deep feedforward networks and convolutional neural networks using backpropagation proved to be more effective and began to dominate the field. This was largely the result of overcoming challenges with exploding or vanishing gradients and the introduction of techniques such as batch normalization, dropout, and better weight initialization methods.
-
-However, for the student of machine learning, learning RBMs is still valuable for understanding the foundations of unsupervised learning and energy-based models. Today, Stable Diffusion is a popular type of generative AI model with an energy-based foundation. The mechanics of RBM training, like Gibbs sampling, and the probabilistic nature of the model provide a demonstration of the application of probability theory and concepts like Markov chains and Boltzmann distributions in machine learning.
+-  RBMs are no longer considered state-of-the-art for machine learning tasks. While contrastive divergence made training RBMs easier, supervised training of deep feedforward networks and convolutional neural networks using backpropagation proved to be more effective and began to dominate the field. However, learning RBMs is still valuable for understanding the foundations of unsupervised learning and energy-based models. The mechanics of RBM training, like Gibbs sampling, and the probabilistic nature of the model provide a demonstration of the application of probability theory and concepts like Markov chains and Boltzmann distributions in machine learning.
 
 ## References
