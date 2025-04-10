@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/5918e06a30e54bd88b680c9b62a79512/artifacts
+end_time: 1744296891197
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 5918e06a30e54bd88b680c9b62a79512
+run_name: gregarious-bug-155
+run_uuid: 5918e06a30e54bd88b680c9b62a79512
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744296849687
+status: 3
+tags: []
+user_id: jessicawells

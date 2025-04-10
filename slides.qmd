@@ -496,7 +496,9 @@ code.<br> • Clicking “Show Code and Output” again will collapse both
 views.<br>
 
 <b>Import Libraries and Re-load data for first 3 models</b>
+<details>
 
+<summary>Click to Show Code and Output</summary>
 ```{python}
 #| eval: false
 import torch
@@ -519,14 +521,18 @@ transform = transforms.Compose([transforms.ToTensor()])
 train_dataset = datasets.FashionMNIST(root='./data', train=True, transform=transform, download=True)
 test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=transform, download=True)
 ```
+</details>
 
+<details>
+
+<summary>Click to Show Code and Output</summary>
 ```{python}
 #| eval: false
 #mlflow.end_run()
 #run this in terminal when need to fully clean out expierment after you delete it in the ui
 #rm -rf mlruns/.trash/*
 ```
-
+</details>
 ## Model 1
 
 <b>Model 1: Logistic Regression on Fashion MNIST Data</b><br>

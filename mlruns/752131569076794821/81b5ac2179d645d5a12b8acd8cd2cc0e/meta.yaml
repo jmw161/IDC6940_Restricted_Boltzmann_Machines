@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/81b5ac2179d645d5a12b8acd8cd2cc0e/artifacts
+end_time: 1744297812937
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 81b5ac2179d645d5a12b8acd8cd2cc0e
+run_name: flawless-goat-854
+run_uuid: 81b5ac2179d645d5a12b8acd8cd2cc0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744297775637
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/2a67c4b94cf34b459a7273f4179ef70e/artifacts
+end_time: 1744296054224
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 2a67c4b94cf34b459a7273f4179ef70e
+run_name: gifted-goat-879
+run_uuid: 2a67c4b94cf34b459a7273f4179ef70e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744296041502
+status: 3
+tags: []
+user_id: jessicawells

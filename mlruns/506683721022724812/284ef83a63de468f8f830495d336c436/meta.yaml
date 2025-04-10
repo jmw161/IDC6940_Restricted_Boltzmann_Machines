@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/284ef83a63de468f8f830495d336c436/artifacts
+end_time: 1744296416351
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 284ef83a63de468f8f830495d336c436
+run_name: sedate-lamb-853
+run_uuid: 284ef83a63de468f8f830495d336c436
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744296400905
+status: 3
+tags: []
+user_id: jessicawells

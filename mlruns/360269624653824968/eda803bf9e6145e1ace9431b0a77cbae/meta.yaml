@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/eda803bf9e6145e1ace9431b0a77cbae/artifacts
+end_time: 1744296400845
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: eda803bf9e6145e1ace9431b0a77cbae
+run_name: efficient-carp-422
+run_uuid: eda803bf9e6145e1ace9431b0a77cbae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744296395242
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/29e5d139d2924104866dbd85b3c74690/artifacts
+end_time: 1744297010866
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 29e5d139d2924104866dbd85b3c74690
+run_name: gentle-ram-32
+run_uuid: 29e5d139d2924104866dbd85b3c74690
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744296972997
+status: 3
+tags: []
+user_id: jessicawells

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/6663856250844c96922ed482dd3f1d4c/artifacts
+end_time: 1744296041408
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: 6663856250844c96922ed482dd3f1d4c
+run_name: upbeat-roo-940
+run_uuid: 6663856250844c96922ed482dd3f1d4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744296035756
+status: 3
+tags: []
+user_id: jessicawells

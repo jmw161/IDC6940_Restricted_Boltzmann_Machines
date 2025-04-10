@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/15338610225e48a0bb7f8eb8d2c3f6e1/artifacts
+end_time: 1744296488025
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 15338610225e48a0bb7f8eb8d2c3f6e1
+run_name: defiant-kite-339
+run_uuid: 15338610225e48a0bb7f8eb8d2c3f6e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744296467533
+status: 3
+tags: []
+user_id: jessicawells

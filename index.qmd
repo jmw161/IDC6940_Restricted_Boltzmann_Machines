@@ -457,7 +457,10 @@ classes in a high-dimensional dataset.<br> Each point represents a
 single fashion item (e.g., T-shirt, Trouser, etc.), and the color
 corresponds to its true label across the 10 categories listed above.
 
-```{python, cache = TRUE}
+```{python}
+#cache = TRUE ^^
+
+
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 
@@ -469,7 +472,7 @@ embeddings = tsne.fit_transform(X) #use scikitlearn instead
 
 
 # Create scatter plot
-figure = plt.figure(figsize=(15,7))
+figure = plt.figure(figsize=(10,5))
 plt.scatter(embeddings[:, 0], embeddings[:, 1], c=train_labels,
             cmap=plt.cm.get_cmap("jet", 10), marker='.')
 plt.colorbar(ticks=range(10))
