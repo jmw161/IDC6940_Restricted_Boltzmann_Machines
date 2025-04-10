@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/44483a3853ce40968c3cc29fd9c37709/artifacts
+end_time: 1744291861571
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 44483a3853ce40968c3cc29fd9c37709
+run_name: painted-mole-244
+run_uuid: 44483a3853ce40968c3cc29fd9c37709
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744291813699
+status: 3
+tags: []
+user_id: jessicawells

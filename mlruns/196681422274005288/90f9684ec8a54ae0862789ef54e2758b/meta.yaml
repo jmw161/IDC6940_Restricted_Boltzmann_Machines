@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/90f9684ec8a54ae0862789ef54e2758b/artifacts
+end_time: 1744291158574
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 90f9684ec8a54ae0862789ef54e2758b
+run_name: luxuriant-panda-925
+run_uuid: 90f9684ec8a54ae0862789ef54e2758b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744291108147
+status: 3
+tags: []
+user_id: jessicawells

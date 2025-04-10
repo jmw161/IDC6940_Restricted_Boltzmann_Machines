@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/360269624653824968/d7d9e0612ee440eda971d7b900f4a108/artifacts
+end_time: 1744291797696
+entry_point_name: ''
+experiment_id: '360269624653824968'
+lifecycle_stage: active
+run_id: d7d9e0612ee440eda971d7b900f4a108
+run_name: thundering-horse-107
+run_uuid: d7d9e0612ee440eda971d7b900f4a108
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744291792049
+status: 3
+tags: []
+user_id: jessicawells

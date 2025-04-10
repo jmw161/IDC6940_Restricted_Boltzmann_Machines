@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/56df09238c9341f983b60975eebb27b7/artifacts
+end_time: 1744292494718
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 56df09238c9341f983b60975eebb27b7
+run_name: grandiose-fly-66
+run_uuid: 56df09238c9341f983b60975eebb27b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744292473359
+status: 3
+tags: []
+user_id: jessicawells

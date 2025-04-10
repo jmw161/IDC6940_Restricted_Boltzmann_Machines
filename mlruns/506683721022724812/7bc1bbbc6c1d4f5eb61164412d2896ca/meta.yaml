@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/506683721022724812/7bc1bbbc6c1d4f5eb61164412d2896ca/artifacts
+end_time: 1744292957821
+entry_point_name: ''
+experiment_id: '506683721022724812'
+lifecycle_stage: active
+run_id: 7bc1bbbc6c1d4f5eb61164412d2896ca
+run_name: receptive-lynx-713
+run_uuid: 7bc1bbbc6c1d4f5eb61164412d2896ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744292944899
+status: 3
+tags: []
+user_id: jessicawells

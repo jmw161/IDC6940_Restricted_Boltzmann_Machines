@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/196681422274005288/9c974141dd204f30a8e3558d57c85c26/artifacts
+end_time: 1744293778490
+entry_point_name: ''
+experiment_id: '196681422274005288'
+lifecycle_stage: active
+run_id: 9c974141dd204f30a8e3558d57c85c26
+run_name: lyrical-turtle-297
+run_uuid: 9c974141dd204f30a8e3558d57c85c26
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744293736235
+status: 3
+tags: []
+user_id: jessicawells

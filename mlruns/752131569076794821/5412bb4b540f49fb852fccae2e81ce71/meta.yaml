@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/5412bb4b540f49fb852fccae2e81ce71/artifacts
+end_time: 1744291246878
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 5412bb4b540f49fb852fccae2e81ce71
+run_name: rebellious-fish-223
+run_uuid: 5412bb4b540f49fb852fccae2e81ce71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744291221635
+status: 3
+tags: []
+user_id: jessicawells

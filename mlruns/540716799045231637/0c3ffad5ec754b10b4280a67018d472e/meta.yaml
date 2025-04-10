@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/540716799045231637/0c3ffad5ec754b10b4280a67018d472e/artifacts
+end_time: 1744293860367
+entry_point_name: ''
+experiment_id: '540716799045231637'
+lifecycle_stage: active
+run_id: 0c3ffad5ec754b10b4280a67018d472e
+run_name: masked-snail-558
+run_uuid: 0c3ffad5ec754b10b4280a67018d472e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744293778532
+status: 3
+tags: []
+user_id: jessicawells

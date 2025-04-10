@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jessicawells/New_IDC6940_JW_RBMs/mlruns/752131569076794821/85eb724a5c5a48d28bcc016bee65f2a9/artifacts
+end_time: 1744291990960
+entry_point_name: ''
+experiment_id: '752131569076794821'
+lifecycle_stage: active
+run_id: 85eb724a5c5a48d28bcc016bee65f2a9
+run_name: peaceful-ape-14
+run_uuid: 85eb724a5c5a48d28bcc016bee65f2a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744291957117
+status: 3
+tags: []
+user_id: jessicawells

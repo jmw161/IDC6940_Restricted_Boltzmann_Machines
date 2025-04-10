@@ -23,70 +23,107 @@ editor:
     wrap: 72
 ---
 
-
 ## Boltzmann Machines
-- Boltzmann Machines are undirected graphical models where nodes are connected with symmetric weights
-- Total input is calculated for a node by $$z_i = b_i + \sum_j s_j w_{ij}$$ where $b_i$ is the bias, $s_j$ is the state of the connected node, and $w_{ij}$ is the weight of the connection
-- Nodes are updated stochastically by sampling from the bernoulli distribution given by $$p(s_i = 1) = \frac{1}{1 + e^{-z_i}}$$ where $s_i$ is the state of the node
+
+-   Boltzmann Machines are undirected graphical models where nodes are
+    connected with symmetric weights
+-   Total input is calculated for a node by
+    $$z_i = b_i + \sum_j s_j w_{ij}$$ where $b_i$ is the bias, $s_j$ is
+    the state of the connected node, and $w_{ij}$ is the weight of the
+    connection
+-   Nodes are updated stochastically by sampling from the bernoulli
+    distribution given by $$p(s_i = 1) = \frac{1}{1 + e^{-z_i}}$$ where
+    $s_i$ is the state of the node
 
 ## Simple Boltzmann Machine Example
-::: {.panel}
+
+:::: panel
 ::: {style="text-align: center;"}
-![](boltz_animation.mp4){width="70%"}  
+![](boltz_animation.mp4){width="70%"}\
 Units are updated stochastically based on the total input to the node
 :::
-:::
+::::
 
 ## Boltzmann Machine Energy Function
-- The energy of a given state vector $\mathbf{v}$ is given by $$E(\mathbf{v}) = -\sum_i s_i^{\mathbf{v}} b_i - \sum_{i<j} s_i^{\mathbf{v}} s_j^{\mathbf{v}} w_{ij}$$ where $s_i^{\mathbf{v}}$ is the state of the node in the vector $\mathbf{v}$, $b_i$ is the bias, and $w_{ij}$ is the weight of the connection
-- The Boltzmann distribution (or equilibrium or stationary distribution) is given by $$p(\mathbf{v}) = \frac{e^{-E(\mathbf{v})}}{\sum_{\mathbf{u}} e^{-E(\mathbf{u})}}$$ where $\mathbf{u}$ is the set of all possible states
+
+-   The energy of a given state vector $\mathbf{v}$ is given by
+    $$E(\mathbf{v}) = -\sum_i s_i^{\mathbf{v}} b_i - \sum_{i<j} s_i^{\mathbf{v}} s_j^{\mathbf{v}} w_{ij}$$
+    where $s_i^{\mathbf{v}}$ is the state of the node in the vector
+    $\mathbf{v}$, $b_i$ is the bias, and $w_{ij}$ is the weight of the
+    connection
+-   The Boltzmann distribution (or equilibrium or stationary
+    distribution) is given by
+    $$p(\mathbf{v}) = \frac{e^{-E(\mathbf{v})}}{\sum_{\mathbf{u}} e^{-E(\mathbf{u})}}$$
+    where $\mathbf{u}$ is the set of all possible states
 
 ## Boltzmann Machine Equilibrium Example
-::: {.panel}
+
+:::: panel
 ::: {style="text-align: center;"}
-![](boltz_animation_with_pmf.mp4)  
-Convergence to a distribution where the states with lower energy are more likely
+![](boltz_animation_with_pmf.mp4)\
+Convergence to a distribution where the states with lower energy are
+more likely
 :::
-:::
+::::
 
 ## Use of Boltzmann Machines
-- The weights of a Boltzmann machine can be set to represent an optimization problem and then the stochastic update of neurons can be used to search the solution space
-- More commonly, the state vectors represent data for which training is performed to learn the weights
-- The goal of training is to find weights that define a Boltzmann distribution where the training vectors have high probability (low energy)
+
+-   The weights of a Boltzmann machine can be set to represent an
+    optimization problem and then the stochastic update of neurons can
+    be used to search the solution space
+-   More commonly, the state vectors represent data for which training
+    is performed to learn the weights
+-   The goal of training is to find weights that define a Boltzmann
+    distribution where the training vectors have high probability (low
+    energy)
 
 ## Restricted Boltzmann Machines
-- Boltzmann machines can have hidden units, which are not directly observed or specified and allow the model to learn latent features of the data
-- The Restricted Boltzmann Machine (RBM) is a special case where there are no connections between visible units or between hidden units, which allows for efficient training and sampling
+
+-   Boltzmann machines can have hidden units, which are not directly
+    observed or specified and allow the model to learn latent features
+    of the data
+-   The Restricted Boltzmann Machine (RBM) is a special case where there
+    are no connections between visible units or between hidden units,
+    which allows for efficient training and sampling
 
 ::: {style="text-align: center;"}
 ![](rbmgraph.png){width="65%"}
 :::
-
+<p>(Figure 1)</p>
 ## Training RBMs Using Contrastive Divergence
-- Contrastive Divergence (CD) is a method for training RBMs where the weights are updated to minimize the difference between samples from the data and samples from the model
-- Gibbs sampling is used to sample from the model, where the visible units are sampled from the model and then the hidden units are sampled from the visible units
-- The weights are updated using the difference between the data and model samples
+
+-   Contrastive Divergence (CD) is a method for training RBMs where the
+    weights are updated to minimize the difference between samples from
+    the data and samples from the model
+-   Gibbs sampling is used to sample from the model, where the visible
+    units are sampled from the model and then the hidden units are
+    sampled from the visible units
+-   The weights are updated using the difference between the data and
+    model samples
 
 ## Applications
 
-- Collaborative Filtering: The RBM model was used in the Netflix Prize competition to predict user ratings for movies, outperforming
-the Singular Value Decomposition (SVD) method that was state-of-the-art
-at the time [@salakhutdinov2007restricted]
+-   Collaborative Filtering: The RBM model was used in the Netflix Prize
+    competition to predict user ratings for movies, outperforming the
+    Singular Value Decomposition (SVD) method that was state-of-the-art
+    at the time [@salakhutdinov2007restricted]
 
-- Image Recognition: They have been trained
-to recognize handwritten digits, such as the MNIST dataset
-[@hinton2002training]
+-   Image Recognition: They have been trained to recognize handwritten
+    digits, such as the MNIST dataset [@hinton2002training]
 
-- Network Traffic Anomaly Detection: In a real-life
-dataset where one host had normal traffic and one was infected by a bot,
-discriminative RBM (DRBM) was able to successfully distinguish the
-normal from anomalous traffic [@fiore2013network]
+-   Network Traffic Anomaly Detection: In a real-life dataset where one
+    host had normal traffic and one was infected by a bot,
+    discriminative RBM (DRBM) was able to successfully distinguish the
+    normal from anomalous traffic [@fiore2013network]
 
-- Brain Disorders: The RBM-GAN uses RBM features from real MRI
-images as inputs to the generator. Features from the discriminator are
-then used as inputs to a classifier [@aslan2023automated]
+-   Brain Disorders: The RBM-GAN uses RBM features from real MRI images
+    as inputs to the generator. Features from the discriminator are then
+    used as inputs to a classifier [@aslan2023automated]
 
-- Quantum Computing: RBMs have been used to approximate the many-body quantum wavefunction, which describes the quantum state of a system of particles using variational Monte Carlo methods. [@melko2019restricted]
+-   Quantum Computing: RBMs have been used to approximate the many-body
+    quantum wavefunction, which describes the quantum state of a system
+    of particles using variational Monte Carlo methods.
+    [@melko2019restricted]
 
 ## Methods
 
@@ -99,7 +136,6 @@ and hidden units; a<sub>i</sub> and b<sub>j</sub> are the bias terms of
 the visible and hidden units; and each w<sub>{i,j}</sub> (weight)
 element represents the interaction between the visible and hidden units.
 [@fischer2012introduction]
-
 
 ## Background on Models for Classification Task
 
@@ -132,7 +168,7 @@ direction from input to output with no loops or feedback. There can be
 zero hidden layers in between (called single FNN) or one or more hidden
 layers (multilayer FNN). <br> [@sazli2006brief]
 ![](fnn_diagram.png){width="60%"}<br>
-
+<p>(Figure 2)</p>
 ### 3. Convolutional Neural Network
 
 The convolutional neural network (CNN) is a type of feed forward network
@@ -141,7 +177,7 @@ pattern recognition with images
 [@oshea2015introductionconvolutionalneuralnetworks]. The CNN has 3
 layers which are stacked to form the full CNN: convolutional, pooling,
 and fully-connected layers. ![](cnn_diagram_mnist.png){width="60%"}<br>
-
+<p>(Figure 3)</p>
 ## Creating the RBM
 
 Below is our Process for creating the RBM:
@@ -164,7 +200,7 @@ weight connecting visible unit j to hidden unit i. v<sub>j</sub> is the
 value of the j<sup>th</sup> visible unit. and c<sub>i</sub> is the bias
 term for the hidden unit. $$
 \sigma(x) = \frac{1}{1 + e^{-x}}
-$$
+$$ {#eq-sigma}
 
 Step 3: Sample visible units from hidden. The math behind computing
 visible unit activations from the hidden layer can be seen in
@@ -211,18 +247,24 @@ number of hidden units, and number of epochs.
 <b>1. Accuracy</b><br> Accuracy is defined as the number of correct
 classifications divided by the total number of classifications<br> $$
 \text{Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}} 
-$$
+$${#eq-acc}
 
 <b>2. Macro F1 Score</b><br> Macro F1 score is the unweighted average of
 the individual F1 scores of each class. It takes no regard for class
 imbalance; however, we saw earlier the classes are all balanced in
-Fashion MNIST. The F1 score for each individual class is as follows $$
+Fashion MNIST. The F1 score for each individual class is as follows 
+$$
 \text{F1} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
-$$ where precision for each class is $$
+$$ {#eq-F1-indiv}
+where precision for each class is <br>
+$$
 \text{Precision} = \frac{TP}{TP + FP}
-$$ and recall for each class is $$
+$$ {#eq-Precision-indiv}
+and recall for each class is <br>
+$$
 \text{Recall} = \frac{TP}{TP + FN}
-$$ The definitions of these terms for multiclass problems are more
+$$ {#eq-Recall-indivi}
+The definitions of these terms for multiclass problems are more
 complicated than binary and are best displayed as examples. <br>
 
 <style type="text/css">
@@ -236,12 +278,22 @@ complicated than binary and are best displayed as examples. <br>
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 
-| **Acronymn** | **Example for a trouser image** |
-|-----------------------|----------------------------------------------|
-| TP = True Positives | the image is a trouser and the model predicts a trouser |
-| TN = True Negatives | the image is not a trouser and the model predicts anything but trouser |
-| FP = False Positives | the image is anything but trouser but the model predicts trouser |
-| FN = False Negatives | the image is a trouser and the model predicts another class (like shirt) |
++---------------------+---------------------------------------------+
+| **Acronymn**        | **Example for a trouser image**             |
++=====================+=============================================+
+| TP = True Positives | the image is a trouser and the model        |
+|                     | predicts a trouser                          |
++---------------------+---------------------------------------------+
+| TN = True Negatives | the image is not a trouser and the model    |
+|                     | predicts anything but trouser               |
++---------------------+---------------------------------------------+
+| FP = False          | the image is anything but trouser but the   |
+| Positives           | model predicts trouser                      |
++---------------------+---------------------------------------------+
+| FN = False          | the image is a trouser and the model        |
+| Negatives           | predicts another class (like shirt)         |
++---------------------+---------------------------------------------+
+<p>(Table 1)</p>
 
 As stated earlier, the individual F1 scores for each class are taken and
 averaged to compute the Macro F1 score in a multiclass problem like
@@ -261,13 +313,17 @@ are 785 columns in total as one column is dedicated to the label.
 
 ![](fmnist.png){width="60%"} <br>
 
-There are 10 labels in total:<br>
+<p>(Figure 4)</p>
+
+<b>There are 10 labels in total:</b><br>
 
 0 T-shirt/top<br> 1 Trouser<br> 2 Pullover<br> 3 Dress<br> 4 Coat<br> 5
 Sandal<br> 6 Shirt<br> 7 Sneaker<br> 8 Bag<br> 9 Ankle boot<br>
 
 Below we load the dataset.
+<details>
 
+<summary>Click to Show Code and Output</summary>
 ```{python}
 import pandas as pd
 import numpy as np
@@ -295,9 +351,11 @@ test_data = torchvision.datasets.FashionMNIST(
 )
 
 ```
+</details>
+<b>Get the seventh image to show a sample</b>
+<details>
 
-Get the seventh image to show a sample
-
+<summary>Click to Show Code and Output</summary>
 ```{python}
 # Extract the first image (or choose any index)
 image_tensor, label = train_data[6]  # shape: [1, 28, 28]
@@ -312,14 +370,23 @@ plt.title(f"FashionMNIST Image (Label: {label})")
 plt.axis("off")  # Hide axes
 plt.show()
 ```
+</details>
+<p>(Figure 5)</p>
 
+<details>
+
+<summary>Click to Show Code and Output</summary>
 ```{python}
 train_images = train_data.data.numpy()  # Raw pixel values (0-255)
 train_labels = train_data.targets.numpy()
 X = train_images.reshape(-1, 784)  # Flatten 28x28 images into 1D (60000, 784)
 
 ```
+</details>
+<b>Display head of the data</b><br>
+<details>
 
+<summary>Click to Show Code and Output</summary>
 ```{python}
 #print(train_images[:5])
 flattened = train_images[:5].reshape(5, -1) 
@@ -329,15 +396,19 @@ df_flat = pd.DataFrame(flattened)
 print(df_flat.head())
 #train_df.info() #datatypes are integers
 ```
+</details>
+<b>There are no missing values in the data.</b>
+<details>
 
-There are no missing values in the data.
-
+<summary>Click to Show Code and Output</summary>
 ```{python}
 print(np.isnan(train_images).any()) 
 ```
-
+</details>
 <b>There appears to be no class imbalance</b>
+<details>
 
+<summary>Click to Show Code and Output</summary>
 ```{python}
 
 unique_labels, counts = np.unique(train_labels, return_counts=True)
@@ -346,11 +417,14 @@ unique_labels, counts = np.unique(train_labels, return_counts=True)
 for label, count in zip(unique_labels, counts):
     print(f"Label {label}: {count}")
 ```
+</details>
+<details>
 
+<summary>Click to Show Code and Output</summary>
 ```{python}
 print(f"X shape: {X.shape}")
 ```
-
+</details>
 ## t-SNE Visualization of Classes
 
 <b>t-SNE Visualization</b><br> t-distributed Stochastic Neighbor
@@ -358,7 +432,9 @@ Embedding (t-SNE) is used here to visualize the separation between
 classes in a high-dimensional dataset.<br> Each point represents a
 single fashion item (e.g., T-shirt, Trouser, etc.), and the color
 corresponds to its true label across the 10 categories listed above.
+<details>
 
+<summary>Click to Show Code and Output</summary>
 ```{python, cache = TRUE}
 #| eval: false
 from sklearn.manifold import TSNE
@@ -380,10 +456,12 @@ plt.clim(-0.5, 9.5)
 plt.title("t-SNE Visualization of Fashion MNIST")
 plt.show()
 ```
-
+</details>
 ::: {style="text-align: center;"}
 ![](tsne.png)
 :::
+
+<p>(Figure 6)</p>
 
 <b>What the visualization shows:</b> <br> Class 1 (blue / Trousers)
 forms a clearly distinct and tightly packed cluster, indicating that the
@@ -393,10 +471,7 @@ significant overlap, suggesting that these clothing items are harder to
 distinguish visually and may lead to more confusion during
 classification.
 
-
-
 ## Modeling and Results
-
 
 <b>Our Goal</b><br> We are classifying Fashion MNIST images into one of
 10 categories. To evaluate performance, we’re comparing five different
@@ -406,11 +481,12 @@ assess whether incorporating RBM into the workflow improves
 classification accuracy compared to using raw image data alone.<br>
 
 ## Our Models
-1. Logistic Regression on Fashion MNIST Data<br>
-2. Feed Forward Network on Fashion MNIST Data<br> 3. Convolutional
-Neural Network on Fashion MNIST Data<br> 4. Logistic Regression on RBM
-Hidden Features (of Fashion MNIST Data)<br> 5. Feed Forward Network on
-RBM Hidden Features (of Fashion MNIST Data)<br>
+
+1.  Logistic Regression on Fashion MNIST Data<br>
+2.  Feed Forward Network on Fashion MNIST Data<br> 3. Convolutional
+    Neural Network on Fashion MNIST Data<br> 4. Logistic Regression on
+    RBM Hidden Features (of Fashion MNIST Data)<br> 5. Feed Forward
+    Network on RBM Hidden Features (of Fashion MNIST Data)<br>
 
 <b>Note: Outputs (50 trials) and Code are below for each model. Both the
 code and output can be toggled by the reader.</b><br> • The first click
@@ -418,7 +494,6 @@ reveals a toggle labeled “Code”.<br> • Clicking “Code” will show the
 output.<br> • Clicking again will switch from output to the actual
 code.<br> • Clicking “Show Code and Output” again will collapse both
 views.<br>
-
 
 <b>Import Libraries and Re-load data for first 3 models</b>
 
@@ -451,7 +526,6 @@ test_dataset = datasets.FashionMNIST(root='./data', train=False, transform=trans
 #run this in terminal when need to fully clean out expierment after you delete it in the ui
 #rm -rf mlruns/.trash/*
 ```
-
 
 ## Model 1
 
@@ -646,16 +720,20 @@ if __name__ == "__main__":
 
 Test Accuracy of Logistic Regression by C (inverse regularization
 strength) ![](logreg_norbm.png){width="60%"}<br>
-
+<p>(Figure 7)</p><br>
 
 $$
 C = \frac{1}{\lambda} \quad \text{(inverse regularization strength)}
 $$
 
-Lower values of C mean more regularization (higher penalties for larger weight coefficients)
+Lower values of C mean more regularization (higher penalties for larger
+weight coefficients)
 
-What the plot shows:<br>
-Most optuna trials were lower values of C, so optimization favors stronger regularization. This is further evidenced by the clustering of higher accuracies for lower values of C. A possibly anomaly is seen at C=10 with fairly high accuracy; however, it's still not higher than lower values of C. <br>
+What the plot shows:<br> Most optuna trials were lower values of C, so
+optimization favors stronger regularization. This is further evidenced
+by the clustering of higher accuracies for lower values of C. A possibly
+anomaly is seen at C=10 with fairly high accuracy; however, it's still
+not higher than lower values of C. <br>
 
 ## Model 2
 
@@ -849,9 +927,14 @@ if __name__ == "__main__":
 
 Test Accuracy by FNN Hidden Units<br>
 ![](fnn_norbm.png){width="60%"}<br>
+<p>(Figure 8)</p><br>
 
-What the plot shows:<br>
-Higher values of hidden units in the feedforward network were sampled more frequently by Optuna, suggesting a preference for more complex models. However, test accuracy appears to level off between 300 and 375 hidden units, suggesting complexity reached its optimal range. Further increases in hidden units would likely not yield higher accuracy.<br>
+What the plot shows:<br> Higher values of hidden units in the
+feedforward network were sampled more frequently by Optuna, suggesting a
+preference for more complex models. However, test accuracy appears to
+level off between 300 and 375 hidden units, suggesting complexity
+reached its optimal range. Further increases in hidden units would
+likely not yield higher accuracy.<br>
 
 ## Model 3
 
@@ -1045,34 +1128,43 @@ if __name__ == "__main__":
 
 </details>
 
-Test Accuracy Based on the Number of Filters in the First Conv2D Layer<br> 
-![](filters1.png){width="60%"}<br> 
+Test Accuracy Based on the Number of Filters in the First Conv2D
+Layer<br> ![](filters1.png){width="60%"}<br>
+<p>(Figure 9)</p><br>
 
+What the plot shows:<br> Although the highest test accuracy was achieved
+with 64 filters in the first convolutional 2D layer, the number of
+filters alone isn't a strong predictor of model performance. Each filter
+size shows high variance (accuracies are spread out for each value
+vertically). This, combined with the fact that accuracies are well
+distributed across the different filter counts, suggests other factors
+or hyperparameters may play a bigger role in predicting accuracy. <br>
 
+Test Accuracy Based on the Number of Filters in the Second Conv2D
+Layer<br> ![](filters2.png){width="60%"}<br>
+<p>(Figure 10)</p><br>
 
-What the plot shows:<br>
-Although the highest test accuracy was achieved with 64 filters in the first convolutional 2D layer, the number of filters alone isn't a strong predictor of model performance. Each filter size shows high variance (accuracies are spread out for each value vertically). This, combined with the fact that accuracies are well distributed across the different filter counts, suggests other factors or hyperparameters may play a bigger role in predicting accuracy. <br>
+What the plot shows:<br> Like the first Conv2D layer, the number of
+filters doesn't seem to be a extremely strong predictor in accuracy.
+However, Optuna has sampled more frequently from higher number of
+filters, even 128 for this second layer, suggesting higher filters
+performed better. However, like before, there is still high variance in
+accuracy for each number of filters. <br>
 
-Test Accuracy Based on the Number of Filters in the Second Conv2D Layer<br>
-![](filters2.png){width="60%"}<br> 
+Test Accuracy Based on Kernel Size in the First Conv2D Layer<br>
+![](kernelsize1.png){width="60%"}<br>
+<p>(Figure 11)</p><br>
 
-What the plot shows:<br>
-Like the first Conv2D layer, the number of filters doesn't seem to be a extremely strong predictor in accuracy. However, Optuna has sampled more frequently from higher number of filters, even 128 for this second layer, suggesting higher filters performed better. However, like before, there is still high variance in accuracy for each number of filters. <br>
-
-
-Test Accuracy Based on Kernel Size in the First Conv2D Layer<br> 
-![](kernelsize1.png){width="60%"}<br> 
-
-
-What the plot shows:<br>
-Kernel size of 3 was sampled more frequently by Optuna and yielded higher accuracies than kernel sizes of 4 or 5.<br>
+What the plot shows:<br> Kernel size of 3 was sampled more frequently by
+Optuna and yielded higher accuracies than kernel sizes of 4 or 5.<br>
 
 Test Accuracy Based on Kernel Size in the Second Conv2D Layer<br>
 ![](kernelsize2.png){width="60%"}<br>
+<p>(Figure 12)</p><br>
 
-
-What the plot shows:<br>
-Like with the first convolutional 2D layer, kernel size of 3 is highly favored by Optuna and consistently led to higher test accuracies.<br>
+What the plot shows:<br> Like with the first convolutional 2D layer,
+kernel size of 3 is highly favored by Optuna and consistently led to
+higher test accuracies.<br>
 
 ## Model 4
 
@@ -1325,22 +1417,22 @@ if __name__ == "__main__":
 
 Test Accuracy of Logistic Regression on RBM Hidden Features by Inverse
 Regularization Strength<br> ![](logreg_withrbm_C.png){width="60%"}<br>
+<p>(Figure 13)</p><br>
 
-
-
-
-What the plot shows:<br>
-When using RBM-extracted hidden features as input to logistic regression, the inverse regularization strength does not appear to be a strong predictor of test accuracy.<br>
-
+What the plot shows:<br> When using RBM-extracted hidden features as
+input to logistic regression, the inverse regularization strength does
+not appear to be a strong predictor of test accuracy.<br>
 
 Test Accuracy By Number of RBM Hidden Units<br>
 ![](logreg_withrbm_hiddenunits.png){width="60%"}<br>
+<p>(Figure 14)</p><br>
 
-What the plot shows:<br>
-Optuna slightly favors higher number of hidden units in the rbm with a peak at 5340 (and similar peaks 5358, 5341, etc.). However, after 7000 units, accuracy appears to decline suggesting the optimum number of units was reached around that 5300 mark. <br>
+What the plot shows:<br> Optuna slightly favors higher number of hidden
+units in the rbm with a peak at 5340 (and similar peaks 5358, 5341,
+etc.). However, after 7000 units, accuracy appears to decline suggesting
+the optimum number of units was reached around that 5300 mark. <br>
 
 ## Model 5
-
 
 <b>Model 5: Feed Forward Network on RBM Hidden Features (of Fashion
 MNIST Data)</b><br>
@@ -1590,19 +1682,25 @@ if __name__ == "__main__":
 </details>
 
 Test Accuracy by RBM Hidden Units<br>
-![](fnn_withrbm_rbmhiddenunits.png){width="60%"}<br> 
+![](fnn_withrbm_rbmhiddenunits.png){width="60%"}<br>
+<p>(Figure 15)</p><br>
 
-
-What the plot shows:<br>
-Highest accuracies cluster between 2000 and 4000 hidden units in the RBM with an outlier at 3764 hidden units. This possibly suggests too few hidden units lacks the complexity needed to explain the data; however, too many hidden units is perhaps causing some overfitting--resulting in poor generalization of the FNN classifier that receives the RBM hidden features.<br>
+What the plot shows:<br> Highest accuracies cluster between 2000 and
+4000 hidden units in the RBM with an outlier at 3764 hidden units. This
+possibly suggests too few hidden units lacks the complexity needed to
+explain the data; however, too many hidden units is perhaps causing some
+overfitting--resulting in poor generalization of the FNN classifier that
+receives the RBM hidden features.<br>
 
 Test Accuracy by FNN Hidden Units<br>
 ![](fnn_withrbm_fnnhiddenunits.png){width="60%"}<br>
+<p>(Figure 16)</p><br>
 
-What the plot shows:<br>
-Surprisingly, the number of hidden units in the FNN does not show a strong correlation with test accuracy. All hidden units tested seem to result in similar performance. This suggests the FNN is able to learn from the RBM features sufficently, and additional neurons do not significantly improve generalization.<br>
-
-
+What the plot shows:<br> Surprisingly, the number of hidden units in the
+FNN does not show a strong correlation with test accuracy. All hidden
+units tested seem to result in similar performance. This suggests the
+FNN is able to learn from the RBM features sufficently, and additional
+neurons do not significantly improve generalization.<br>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -1615,48 +1713,49 @@ Surprisingly, the number of hidden units in the FNN does not show a strong corre
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
 </style>
-<table class="tg"><thead>
-  <tr>
-    <th class="tg-0pky"><span style="font-weight:bold">Model</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Optuna Best Trial</span><br><span style="font-weight:bold">MLflow Test Accuracy(%)</span></th>
-    <th class="tg-0pky"><span style="font-weight:bold">Macro F1 Score</span></th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td class="tg-c3ow">Logistic Regression</td>
-    <td class="tg-c3ow">84.71</td>
-    <td class="tg-c3ow">0.846</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">Feed Forward Network</td>
-    <td class="tg-c3ow">88.06</td>
-    <td class="tg-c3ow">0.879</td>
-  </tr>
-  <tr>
-    <td class="tg-c3ow">Convolutional Neural Network</td>
-    <td class="tg-c3ow">91.29</td>
-    <td class="tg-c3ow">0.913</td>
-  </tr>
-  <tr>
-    <td class="tg-uzvj"><span style="font-weight:400;font-style:normal">Logistic Regression (on RBM Hidden Features) </span></td>
-    <td class="tg-uzvj"><span style="font-weight:400;font-style:normal">87.14</span></td>
-    <td class="tg-c3ow">0.871</td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8">Feed Forward Network <span style="font-weight:400;font-style:normal">(on RBM Hidden Features)</span></td>
-    <td class="tg-9wq8">86.95</td>
-    <td class="tg-c3ow">0.869</td>
-  </tr>
-</tbody></table>
 
-
-
-
-
++----------------------+----------------------+-------------------+
+| **Model**            | **Optuna Best        | **Macro F1        |
+|                      | Trial**\             | Score**           |
+|                      | **MLflow Test        |                   |
+|                      | Accuracy(%)**        |                   |
++======================+======================+===================+
+| Logistic Regression  | 84.71                | 0.846             |
++----------------------+----------------------+-------------------+
+| Feed Forward Network | 88.06                | 0.879             |
++----------------------+----------------------+-------------------+
+| Convolutional Neural | 91.29                | 0.913             |
+| Network              |                      |                   |
++----------------------+----------------------+-------------------+
+| Logistic Regression  | 87.14                | 0.871             |
+| (on RBM Hidden       |                      |                   |
+| Features)            |                      |                   |
++----------------------+----------------------+-------------------+
+| Feed Forward Network | 86.95                | 0.869             |
+| (on RBM Hidden       |                      |                   |
+| Features)            |                      |                   |
++----------------------+----------------------+-------------------+
+<p>(Table 2)</p>
 ## Conclusion
 
--  CNN clearly outperforms other models. Logistic Regression, which typically performs well for binary classifications tasks, underperforms on Fashion MNIST multiclassification task, but is improved by using an RBM first to extract the hidden features from the input data prior to classification. Feed Forward Network is not improved by the use of RBM. These findings show how more advanced neural networks on raw pixels can outperform models that use RBM hidden features.
+-   CNN clearly outperforms other models. Logistic Regression, which
+    typically performs well for binary classifications tasks,
+    underperforms on Fashion MNIST multiclassification task, but is
+    improved by using an RBM first to extract the hidden features from
+    the input data prior to classification. Feed Forward Network is not
+    improved by the use of RBM. These findings show how more advanced
+    neural networks on raw pixels can outperform models that use RBM
+    hidden features.
 
--  RBMs are no longer considered state-of-the-art for machine learning tasks. While contrastive divergence made training RBMs easier, supervised training of deep feedforward networks and convolutional neural networks using backpropagation proved to be more effective and began to dominate the field. However, learning RBMs is still valuable for understanding the foundations of unsupervised learning and energy-based models. The mechanics of RBM training, like Gibbs sampling, and the probabilistic nature of the model provide a demonstration of the application of probability theory and concepts like Markov chains and Boltzmann distributions in machine learning.
+-   RBMs are no longer considered state-of-the-art for machine learning
+    tasks. While contrastive divergence made training RBMs easier,
+    supervised training of deep feedforward networks and convolutional
+    neural networks using backpropagation proved to be more effective
+    and began to dominate the field. However, learning RBMs is still
+    valuable for understanding the foundations of unsupervised learning
+    and energy-based models. The mechanics of RBM training, like Gibbs
+    sampling, and the probabilistic nature of the model provide a
+    demonstration of the application of probability theory and concepts
+    like Markov chains and Boltzmann distributions in machine learning.
 
 ## References
