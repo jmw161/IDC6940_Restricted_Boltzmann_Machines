@@ -724,6 +724,12 @@ if __name__ == "__main__":
 
 </details>
 
+
+Best Optuna Trial: overjoyed-moose-462, accuracy 84.71%<br>
+![](lr_norbm_params.png){width="60%"} <br>
+
+
+
 Test Accuracy of Logistic Regression by C (inverse regularization
 strength) ![](logreg_norbm.png){width="60%"}<br>
 <p>(Figure 7)</p><br>
@@ -930,7 +936,8 @@ if __name__ == "__main__":
 ```
 
 </details>
-
+Best Optuna Trial: smiling-ape-201, accuracy 88.06%<br>
+![](fnn_norbm_params.png){width="60%"} <br>
 Test Accuracy by FNN Hidden Units<br>
 ![](fnn_norbm.png){width="60%"}<br>
 <p>(Figure 8)</p><br>
@@ -1133,6 +1140,9 @@ if __name__ == "__main__":
 ```
 
 </details>
+
+Best Optuna Trial: popular-moose-855, accuracy 91.29%<br>
+![](cnn_params.png){width="60%"} <br>
 
 Test Accuracy Based on the Number of Filters in the First Conv2D
 Layer<br> ![](filters1.png){width="60%"}<br>
@@ -1421,6 +1431,9 @@ if __name__ == "__main__":
 
 </details>
 
+Best Optuna Trial: caring-hare-904, accuracy 87.14%<br>
+![](lr_wrbm_params.png){width="60%"} <br>
+
 Test Accuracy of Logistic Regression on RBM Hidden Features by Inverse
 Regularization Strength<br> ![](logreg_withrbm_C.png){width="60%"}<br>
 <p>(Figure 13)</p><br>
@@ -1683,9 +1696,15 @@ if __name__ == "__main__":
     print(study.best_params)
     print(study.best_value)
     print(study.best_trial)
+    
+#![](Picture1.png){width="60%"}
+
 ```
 
 </details>
+
+Best Optuna Trial: valuable-chimp-596, accuracy 86.98%<br>
+![](fnn_wrbm_params.png){width="60%"} <br>
 
 Test Accuracy by RBM Hidden Units<br>
 ![](fnn_withrbm_rbmhiddenunits.png){width="60%"}<br>
@@ -1708,6 +1727,9 @@ units tested seem to result in similar performance. This suggests the
 FNN is able to learn from the RBM features sufficently, and additional
 neurons do not significantly improve generalization.<br>
 
+
+
+## Final Results
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -1737,7 +1759,7 @@ neurons do not significantly improve generalization.<br>
 | (on RBM Hidden       |                      |                   |
 | Features)            |                      |                   |
 +----------------------+----------------------+-------------------+
-| Feed Forward Network | 86.95                | 0.869             |
+| Feed Forward Network | 86.98                | 0.868             |
 | (on RBM Hidden       |                      |                   |
 | Features)            |                      |                   |
 +----------------------+----------------------+-------------------+
