@@ -481,12 +481,21 @@ assess whether incorporating RBM into the workflow improves
 classification accuracy compared to using raw image data alone.<br>
 
 ## Our Models
-
+<!--
 1. Logistic Regression on Fashion MNIST Data<br>
 2. Feed Forward Network on Fashion MNIST Data<br> 
 3. Convolutional Neural Network on Fashion MNIST Data<br> 
 4. Logistic Regression on RBM Hidden Features (of Fashion MNIST Data)<br> 
 5. Feed Forward Network on RBM Hidden Features (of Fashion MNIST Data)<br>
+-->
+
+<ol>
+  <li>Logistic Regression on Fashion MNIST Data</li>
+  <li>Feed Forward Network on Fashion MNIST Data</li>
+  <li>Convolutional Neural Network on Fashion MNIST Data</li>
+  <li>Logistic Regression on RBM Hidden Features (of Fashion MNIST Data)</li>
+  <li>Feed Forward Network on RBM Hidden Features (of Fashion MNIST Data)</li>
+</ol>
 
 <b>Note: Outputs (50 trials) and Code are below for each model. Both the
 code and output can be toggled by the reader.</b><br> • The first click
